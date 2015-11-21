@@ -1,8 +1,8 @@
-## ALZZAWARE
+# ALZZAWARE
 
 ALZZAWARE is the first Korean Linux Distribution based on Slackware 3.1.0 in September 1996. This distribution was distributed by "Program World" which was a computer magzine in Korea. ALZZAWARE was made by "ALZZA TEAM". 
 
-## CONTENTS
+# CONTENTS
 
 Linux Kernel 2.0.0
 Slackware 3.1.0 + alpha
@@ -11,7 +11,7 @@ Hangul Networking
 Postgres 95
 JDK, etc.
 
-## ALZZA TEAM
+# ALZZA TEAM
 
 ManYong Lee
 HyungMok Yoo
