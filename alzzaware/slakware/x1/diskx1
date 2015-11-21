@@ -1,0 +1,45 @@
+CONTENTS: fnt100_1 fvwmicns x312ubin xlock       
+fnt100_1: 100-dpi screen fonts, part one.
+fnt100_1:
+fnt100_1: These fonts are compressed to reduce disk usage.
+fnt100_1:
+fnt100_1:
+fnt100_1:
+fnt100_1:
+fnt100_1:
+fnt100_1:
+fnt100_1:
+fnt100_1:
+fvwmicns: Color icons from xpm3icons.tar.Z, found in the /pub/X11/contrib
+fvwmicns: directory of sunsite.unc.edu. These icons work great with fvwm.
+fvwmicns:
+fvwmicns: These icons go in the /usr/X11R6/include/X11/pixmaps directory. See
+fvwmicns: the man page for fvwm for more information on how to use these icons.
+fvwmicns:
+fvwmicns:
+fvwmicns:
+fvwmicns:
+fvwmicns:
+fvwmicns:
+x312ubin: Rstartd daemon.
+x312ubin:
+x312ubin: This package includes rstartd, which you'll need to run if you plan
+x312ubin: to use the rstart client.
+x312ubin:
+x312ubin:
+x312ubin:
+x312ubin:
+x312ubin:
+x312ubin:
+x312ubin:
+xlock:    xlockmore-3.9
+xlock:
+xlock:    Patrick J. Naughton's xlock screensaver/locker for X, with many
+xlock:    more modes added by David A. Bagley. The 'Bob' mode (previously
+xlock:    'image') has also been included especially for Slackware.
+xlock:
+xlock:
+xlock:
+xlock:
+xlock:
+xlock:

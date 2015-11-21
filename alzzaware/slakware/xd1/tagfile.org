@@ -1,0 +1,5 @@
+xd_lkit1: OPT
+xd_lkit2: OPT
+xd_lkit3: OPT
+x312pex: OPT
+x312slib: OPT

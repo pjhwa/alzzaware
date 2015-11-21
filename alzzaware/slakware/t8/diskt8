@@ -1,0 +1,34 @@
+CONTENTS: ntm-ltx1 ntm-plft ntm-turk       
+ntm-ltx1: ntm-ltx1 1.2
+ntm-ltx1:
+ntm-ltx1: This package contains the basic LaTeX2e macros.
+ntm-ltx1:
+ntm-ltx1:
+ntm-ltx1:
+ntm-ltx1:
+ntm-ltx1:
+ntm-ltx1:
+ntm-ltx1:
+ntm-ltx1:
+ntm-plft: ntm-plft 1.1
+ntm-plft:
+ntm-plft: This package contains plftex, a TeX format based on the plain TeX
+ntm-plft: format using the NFSS font scheme.
+ntm-plft:
+ntm-plft:
+ntm-plft:
+ntm-plft:
+ntm-plft:
+ntm-plft:
+ntm-plft:
+ntm-turk: ntm-turk 1.1
+ntm-turk:
+ntm-turk: This is a format file based on the plain format to typeset Turkish
+ntm-turk: texts.
+ntm-turk:
+ntm-turk:
+ntm-turk:
+ntm-turk:
+ntm-turk:
+ntm-turk:
+ntm-turk:

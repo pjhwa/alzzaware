@@ -1,0 +1,159 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING BINARY PACKAGES FROM SERIES T (TeX)" \
+       --checklist "Use this menu to select the BINARY packages you \
+wish to install for series T (The NTeX distribution). Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to toggle packages \
+on or off. RECOMMENDED and REQUIRED packages have been preselected. REQUIRED \
+packages have also been marked with a [*]. \
+Press ENTER when you are \
+done." 21 70 9 \
+"ntb-mf" "MetaFont 2.71 *" "on" \
+"ntb-tex" "TeX 3.1415 *" "on" \
+"ntb-b2d" "Bib2dvi" "off" \
+"ntb-dps" "dvips - DVI to Postscript driver" "on" \
+"ntb-gsfp" "gsftopk - convert gs to pk fonts" "on" \
+"ntb-indx" "makeindex, glotex and idxtex" "on" \
+"ntb-utl1" "dvicopy,dvitype,pooltype,tangle,texi2dvi,weave" "on" \
+"ntb-utl2" "gftodvi,gftopk,gftype,mft,pktogf,pktype *" "on" \
+"ntb-xdvi" "Display DVI files under X" "on" \
+"ntb-bibt" "BiBTeX: maintain bibliographies" "on" \
+"ntb-dlj" "dvi2xx drivers for HP Laserjet printers" "on" \
+"ntb-utl3" "pltotf, tftopl, vftovp and vptovf" "on" \
+"ntb-djc" "dvi driver for HP Deskjet 500,500c and 550c." "off" \
+"ntb-traf" "transform .fig files to other formats" "on" \
+"ntb-xfig" "an interactive drawing tool for X" "on" \
+"ntb-html" "translates HTML files to LaTeX" "off" \
+"ntb-kpat" "kpathsea library used to compile TeX" "off" \
+"gentle" "An introduction to TeX" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in ntb-mf ntb-tex ntb-b2d ntb-dps ntb-gsfp ntb-indx ntb-utl1 ntb-utl2 ntb-xdvi ntb-bibt ntb-dlj ntb-utl3 ntb-djc ntb-traf ntb-xfig ntb-html ntb-kpat gentle ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs
+dialog --title "SELECTING MACRO PACKAGES FOR SERIES T (TeX)" \
+       --checklist "Use this menu to select the packages containing \
+MACROS that you wish to install from series T. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to toggle packages \
+on or off. RECOMMENDED and REQUIRED packages have been preselected. REQUIRED \
+packages have also been marked with a [*]. \
+Press ENTER when you are \
+done." 21 70 9 \
+"ntm-deva" "Used to print Devanagari script" "off" \
+"ntm-germ" "Stylefiles for German typsetting" "off" \
+"ntm-plft" "TeX format using the NFSS font scheme" "off" \
+"ntm-tami" "Fonts and macros for typesetting Tmail" "off" \
+"ntm-viet" "Some Vietnamese TeX files" "off" \
+"ntm-ltx1" "Basic LaTeX2e macros *" "on" \
+"ntm-tex" "Plain TeX format *" "on" \
+"ntm-amst" "Macros for AMSTeX (math typesetting)" "on" \
+"ntm-etex" "Extended version of TeX format" "on" \
+"ntm-ltx3" "Style and LaTeX2e document class files" "on" \
+"ntm-ltx4" "Hyphenation tables used with LaTeX2e and babel" "on" \
+"ntm-hier" "HieroTeX (typeset hieroglyphs)" "off" \
+"ntm-ltx2" "Additional macros for LaTeX2e" "on" \
+"ntm-turk" "Format file  to typeset Turkish texts" "off" \
+"ntm-arab" "ArabTeX macros and fonts for Arabian texts" "off" \
+"ntm-gree" "Macros and fonts to typeset Greek texts" "off" \
+"ntm-hebr" "Macros and fonts to typeset Hebrew texts" "off" \
+"ntm-pict" "PicTeX macros" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+for PACKAGE in ntm-deva ntm-germ ntm-plft ntm-tami ntm-viet ntm-ltx1 ntm-tex ntm-amst ntm-etex ntm-ltx3 ntm-ltx4 ntm-hier ntm-ltx2 ntm-turk ntm-arab ntm-gree ntm-hebr ntm-pict ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs
+dialog --title "SELECTING FONT PACKAGES FOR SERIES T (TeX)" \
+       --checklist "Use this menu to select the packages containing \
+FONTS that you wish to install from series T. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to toggle packages \
+on or off. REQUIRED and RECOMMENDED packages are preselected. REQUIRED packages \
+have also been marked with a [*]. \
+Press ENTER when you are \
+done." 21 70 9 \
+"ntf-ams" "AMS fonts for amstex/amslatex" "on" \
+"ntf-astr" "Astronomical/astrological symbols" "off" \
+"ntf-bard" "Celtic Bard Runes font" "off" \
+"ntf-bbm" "Computer Modern Blackboard fonts" "off" \
+"ntf-bl" "Blackletter font" "off" \
+"ntf-call" "Calligra font" "off" \
+"ntf-cher" "Cherokee font + style file" "off" \
+"ntf-cmas" "Computer Modern Astronomical fonts" "off" \
+"ntf-cmb" "Additional Computer Modern fonts" "off" \
+"ntf-cmca" "Computer Modern Cyrillic Alt fonts" "off" \
+"ntf-cmcy" "Computer Modern Cyrillic fonts" "off" \
+"ntf-cml" "Computer Modern fonts used by LaTeX *" "on" \
+"ntf-cmoe" "Computer Modern Old English font" "off" \
+"ntf-cmpc" "Computer Modern Pica font" "off" \
+"ntf-cms" "Basic fonts for TeX *" "on" \
+"ntf-cmts" "Some cmttss fonts" "off" \
+"ntf-cmu" "Additional Computer Modern fonts" "on" \
+"ntf-conc" "Concrete Mathematics fonts" "off" \
+"ntf-cypr" "Cypriote fonts" "off" \
+"ntf-dc" "European scalable fonts" "on" \
+"ntf-ding" "Dingbat font" "off" \
+"ntf-duer" "Duerer font" "off" \
+"ntf-elvi" "Elvish font" "off" \
+"ntf-engw" "Font based on Tolkien's Tengwar" "off" \
+"ntf-fc" "scalable fonts for the African continent" "off" \
+"ntf-futh" "Futhark font" "off" \
+"ntf-geor" "Georgian font with TeX macros" "off" \
+"ntf-go" "font for typesetting Go game boards" "off" \
+"ntf-goth" "A package of gothic fonts" "off" \
+"ntf-hand" "A set of hand symbols" "off" \
+"ntf-hge" "An Old English font" "off" \
+"ntf-kart" "The Karta font" "off" \
+"ntf-klin" "Font containing Klingon symbols" "off" \
+"ntf-la" "The LA font, a script font" "off" \
+"ntf-logi" "A  font of logical symbols" "off" \
+"ntf-logo" "logos for TeX, Metafont, etc" "off" \
+"ntf-ocm" "Computer Modern Outlined fonts" "off" \
+"ntf-ocra" "The OCR-A font" "off" \
+"ntf-ogha" "The Ogham font" "off" \
+"ntf-okud" "Font for the Klingon language" "off" \
+"ntf-osma" "An Osmanian font" "off" \
+"ntf-pand" "Pandora fonts" "off" \
+"ntf-phon" "Phonetic symbols font" "off" \
+"ntf-ps" "Some Postscript Type1 fonts" "off" \
+"ntf-punk" "Punk font" "off" \
+"ntf-recy" "Recycle symbol font" "off" \
+"ntf-rsfs" "Formal Symbol Math fonts" "off" \
+"ntf-rune" "A Rune font" "off" \
+"ntf-stma" "St. Mary's Road Symbol font" "off" \
+"ntf-teng" "A font based on Tolkien's Tengwar" "off" \
+"ntf-thai" "Thai font and some macros for it" "off" \
+"ntf-twca" "A calligraphic script font" "off" \
+"ntf-ugar" "Ugaritic script (a cuneiform alphabet)" "off" \
+"ntf-wasy" "Symbols for math, physics and other fields" "off" \
+"ntf-wsui" "International Phonetic Alphabet font" "off" \
+"ntf-xcmr" "Computer Modern Roman Crossedout" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+for PACKAGE in ntf-cml ntf-cms ntf-astr ntf-bard ntf-call ntf-cher ntf-cmas ntf-cmb ntf-cmoe ntf-cmpc ntf-cmts ntf-conc ntf-cypr ntf-ding ntf-duer ntf-elvi ntf-engw ntf-futh ntf-geor ntf-go ntf-goth ntf-hand ntf-hge ntf-kart ntf-klin ntf-la ntf-logi ntf-logo ntf-ocm ntf-ocra ntf-ogha ntf-okud ntf-osma ntf-punk ntf-recy ntf-rsfs ntf-rune ntf-stma ntf-teng ntf-thai ntf-twca ntf-wasy ntf-wsui ntf-cmu ntf-pand ntf-ams ntf-bl ntf-dc ntf-phon ntf-xcmr ntf-ps ntf-ugar ntf-bbm ntf-cmca ntf-cmcy ntf-fc ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

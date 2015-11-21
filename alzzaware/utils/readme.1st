@@ -1,0 +1,133 @@
+                                 IMPORTANT!!! 
+      PLEASE READ THIS DOCUMENT WORD BY WORD, SINCE EVERYTHING WRITTEN
+    HERE IS IMPORTANT TO YOUR DATA'S SAFETY. ESPECIALLY, PARTS QUOTED IN
+                    TRIPLE ASTERISKS ***>ARE CRITICAL<***.
+
+DISCLAIMER: 
+This program is freeware. You may freely copy it and distribute it,as long as 
+it remains unchanged and it is distributed with its original documents files. 
+The author is not responsible for any damage caused by the use of this 
+program. Using this program is completely at your own responsibility.
+
+First things first: Before you run this program
+===============================================
+
+Partition Resizer is the safe and easy way to repartition your hard disk,
+without erasing its contents. But, since it is playing with your valuable
+data, you should strictly follow the instructions given, in order to avoid
+any harm to your data.
+
+The program has been tested in several machines, and with many different drive
+types, and it has proven to be safe (it has been sucessfully tested on IDE,
+EIDE and SCSI (Adaptec controller) disks, but I don't see why it wouldn't 
+run on any other disk). Since it uses the standard bios routines to access 
+the disk, it is completely safe and compatible with every 8086 or better DOS 
+running system. ***>It should run on every hard disk, with up to 1024 
+cylinders, 256 heads, 63 sectors/track and 512 bytes/sector (this is 
+8.4GB maximum)<***. It also has a reset protection system, which allows it to 
+restore it's work even if the machine's power supply goes off! This is really 
+important, since the resizing process can take almost an hour in some cases, 
+and of course, not everybody has a UPS on his machine... 
+
+In order to run this program you must do the following, to ensure data 
+protection:
+
+1. Copy this program, along with the DOC files on a bootable DOS floppy disk.
+This floppy should contain the following files:
+
+Boot System files (whatever your DOS version is)
+FDISK.EXE
+FORMAT.EXE
+SYS.COM
+PRESIZER.EXE
+PRESIZER.DOC
+README.1ST
+TROUBLE.DOC
+MORE.COM or any ascii file viewer
+DELTREE.EXE (if DOS version >= 6.00)
+CHKDSK.EXE 
+a Disk Editor if possible
+your disk's device driver program, if it has one, and in this case a proper
+config.sys file.
+
+You should also leave enough space (20-30K) for the log file and the resque
+file that will be created by the program.
+
+***>The program MUST NOT be run from the partition which is being resized or
+moved, nor from a compressed or any other device driven drive who's data 
+resides in the working partition. This means that you shouldn't invoke the
+program from the DOS prompt while being in that partition (even if Partition
+Resizer is in the path), neither you should have Partition Resizer installed
+in that partition. In case you resize or move your system's boot partition, 
+you MUST run it from a bootable floppy disk. If you are not resizing or moving 
+your boot partition, then you may as well run this program from a hard disk, 
+but NEVER from the partition which is being resized or moved. Running 
+Partition Resizer from the partition which is currently being resized or moved 
+WILL cause harm to your data. Make sure that the disk which you run Partition 
+Resizer from, is NOT write-protected. This is because Partition Resizer uses 
+the disk to write some information, and it will not proceed if the disk is 
+write protected<***.
+
+2. Check the partition you want to move or resize with a disk diagnostics 
+program, like Norton's Disk Doctor or PC Tools DiskFix (chkdsk should do
+fine, too).***>Proceed ONLY if the partition has no errors. It would be a good
+idea to test the partition's surface for defective sectors. YOU SHOULD NOT
+USE PARTITION RESIZER ON DAMAGED DISKS. Partition Resizer checks for defects
+the whole area that will be read or written, and it will refuse to continue
+if it finds any bad sectors<***. 
+
+3. Defrag the partition. This is not absolutely necessary, but will save you
+much time, and it will allow you to free more space from the partition.
+If you decide to do it, you will have to fully optimize the drive, so that
+all data is moved at the beginning of the partition. Make sure that all files
+(including unmovable - hidden, read-only and system) are moved. This can
+be done by changing the files' attributes, optimizing, and putting them back
+again. See number 4 for more details.
+
+4. ***>There are some files that will be damaged if moved. Such files are 
+IO.SYS, 386SPART.PAR etc<***. IO.SYS is always at the beginning of the 
+partition, so you don't have to move it during the optimization. But, 
+386SPART.PAR will be damaged if moved, not only during the optimization 
+process, but also during the resizing or moving process. So you will have to 
+delete it, and make a new one after you finish with resizing or moving. 
+STACVOL.* files can be freely moved or optimized, so you won't have to worry 
+about those. If you have doubts about your system files, read the TROUBLE.DOC 
+for more information.
+
+5. To use Partition Resizer, it is recommended that you boot with a clean
+configuration. If you use a DOS version older than 6.00, you should rename
+config.sys and autoexec.bat in order to skip them during boot time. If you
+use DOS version 6.00 or later (that is for MS DOS) you may press F5 at the
+"Starting MS-DOS..." message to bypass config.sys and autoexec.bat. If you 
+boot from a floppy, you should not put any autoexec.bat or config.sys files
+in the disk. 
+***>If you disk needs a special driver to operate with DOS, then you MUST load
+this driver in your config.sys<***. This can be done by using F8 to confirm 
+loading each device line.
+***>You must also disable ALL boot sector virus protectors, including BIOS's
+virus checking option and virus protection boards<***. This is vital since 
+Partition Resizer writes information at the MBR, which causes these programs
+to give a false alarm, and sometimes prevent Partition Resizer from writting
+that information.
+***>IMPORTANT: If you're use a bios alarm program, you MUST disable it before 
+running Partition Resizer<***.
+
+After you have done all the above, you may run and use Partition Resizer.
+
+6. ***>After running Partition Resizer, you MUST rerun mirror or any other 
+program you're using that keeps track of your partition information<***. This 
+will renew the data files of the program. This should also be done with 
+any partition saving program you're using, since any old partition 
+information will be invalid after running Partition Resizer.
+
+If you have any questions or doubts, you may find the answers in the rest 
+documents.
+
+You should now read PRESIZER.DOC, to get more vital info on Partition 
+Resizer.
+
+You'll also have to read INCOMPAT.DOC, to get information concerning 
+incompatibility with other software.
+
+In case you face any difficulties during the resizing process, refer 
+immediately to TROUBLE.DOC.

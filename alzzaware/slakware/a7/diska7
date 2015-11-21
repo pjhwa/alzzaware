@@ -1,0 +1,34 @@
+CONTENTS: scsi tar tcsh       
+scsi:     Linux kernel version 2.0.0, with SCSI support.
+scsi:
+scsi:     A Linux kernel for computers with SCSI and/or IDE.  You MUST install a
+scsi:     kernel image in order for your system to boot. This kernel supports
+scsi:     IDE and SCSI hard drives and CD-ROM drives.  Other drivers (such as
+scsi:     for CD-ROM drives on proprietary interfaces, or ethernet cards) may
+scsi:     be loaded as modules.  See /etc/rc.d/rc.modules for examples.
+scsi:
+scsi:
+scsi:
+scsi:
+tar:      GNU tar 1.11.8
+tar:
+tar:      Tape ARchiver - adds and extracts files and directories to/from tape
+tar:      or archive files. This version of tar also supports archive 
+tar:      compression using GNU zip.
+tar:
+tar:
+tar:
+tar:
+tar:
+tar:
+tcsh:     tcsh 6.06
+tcsh:
+tcsh:     tcsh is an enhanced but completely compatible version of the Berkeley
+tcsh:     UNIX C shell, csh(1). It is a command language interpreter usable both
+tcsh:     as an interactive login shell and a shell script command processor. It
+tcsh:     includes a command-line editor, programmable word completion, spelling
+tcsh:     correction, a history mechanism, job control, and a C-like syntax.
+tcsh:
+tcsh:
+tcsh:
+tcsh:

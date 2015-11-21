@@ -1,0 +1,23 @@
+CONTENTS: bsdgames doomwad2       
+bsdgames: Curtis Olson and Andy Tefft's port of the BSD games collection. (1.3)
+bsdgames: 
+bsdgames: This package puts these games into /usr/games:
+bsdgames:   arithmetic atc backgammon battlestar bcd bog caesar canfield
+bsdgames:   cfscores cribbage factor fish fortune hangman hunt mille monop
+bsdgames:   morse number paranoia pom ppt primes rain robots sail snake
+bsdgames:   snscore teachgammon trek wargames worm worms wump
+bsdgames:
+bsdgames: Adds a call to 'fortune' to /etc/profile and /etc/csh.login, so that
+bsdgames: users will get a fortune message when they log in.
+bsdgames:
+doomwad2: Part two of the wadfile for DOOM.
+doomwad2:
+doomwad2: This is the second of two parts of the game data file needed to run
+doomwad2: Linux SVGAlib or X doom.
+doomwad2:
+doomwad2:
+doomwad2:
+doomwad2:
+doomwad2:
+doomwad2:
+doomwad2:

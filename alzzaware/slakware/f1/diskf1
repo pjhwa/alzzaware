@@ -1,0 +1,12 @@
+CONTENTS: manyfaqs  
+manyfaqs: A collection of frequently asked questions/answers on many subjects.
+manyfaqs:
+manyfaqs: Some of the FAQs included in this package: 
+manyfaqs: comp.lang FAQs for Fortran, GCC, G++, TCL, Objective-C, Lisp,
+manyfaqs: Scheme, and Perl; PostScript FAQ; Linux FAQ; comp.windows.x X FAQ
+manyfaqs: and many other FAQs relating to X. 
+manyfaqs:
+manyfaqs: These FAQs will be installed under /usr/doc/faq. 
+manyfaqs:
+manyfaqs:
+manyfaqs:

@@ -1,0 +1,23 @@
+CONTENTS: perl1 tools       
+perl1:    Larry Wall's interpreted systems language, part one. (v. 5.003)
+perl1:
+perl1:    ELF dynamic loading is supported in this version.
+perl1:
+perl1:
+perl1:
+perl1:
+perl1:
+perl1:
+perl1:
+perl1:
+tools:    tools 2.17
+tools:
+tools:    Eric Youngdale's collection of tools that are used to generate DLL
+tools:    jumptable libraries.
+tools:
+tools:
+tools:
+tools:
+tools:
+tools:
+tools:

@@ -1,0 +1,99 @@
+NOTE: This list was created on Tue Jul 9 1996.
+Some files may have been added or deleted since that date.
+Contact dj@delorie.com (DJ Delorie) for additional information.
+
+NOTE: Type B is Binary; Type A is ASCII
+
+Directory djgpp/v2/
+ Filename   Type Length   Date   Description
+==============================================
+README.1ST    A   10336  960225  DJGPP V2 ReadMe
+COPYING.DJ    A    1620  960204  DJGPP V2 Copyright Notice
+DJDEV200.ZIP  B 1121916  960222  DJGPP V2 Development Kit and Runtime
+DJLSR200.ZIP  B 1214480  960222  DJGPP V2 Base Library Sources
+DJTST200.ZIP  B  331643  960222  DJGPP V2 Test Programs
+DJCRX200.ZIP  B  327190  960222  DJGPP V2 Cross-to-DOS Compiler Kit
+FAQ201B.ZIP   B  343682  960709  DJGPP V2 Frequently Asked Questions
+FAQ201S.ZIP   B  130135  960709  DJGPP V2 FAQ source
+
+Directory djgpp/v2apps/
+ Filename   Type Length   Date   Description
+==============================================
+RHIDEB.ZIP    B  491151  960605  Integrated Development Environment for V2
+RHIDES.ZIP    B  328315  960605  Sources for RHIDE
+
+Directory djgpp/v2gnu/
+ Filename   Type Length   Date   Description
+==============================================
+COPYING       A    1620  960204  GNU Copyright Notice
+COPYING.LIB   A    1620  960204  GNU Library Copyright Notice
+BNU252B.ZIP   B 1257436  960204  GNU Binutils 2.5.2 for DJGPP V2
+BNU252S.ZIP   B 2615074  960204  GNU binutils 2.5.2 sources
+BSN124B.ZIP   B  121815  960204  GNU bison 1.24 for DJGPP V2
+BSN124S.ZIP   B  241696  960204  GNU bison 1.24 sources
+DIF271B.ZIP   B  271679  960204  GNU diff 2.7.1 for DJGPP V2
+DIF271S.ZIP   B  324482  960204  GNU diff 2.7.1 sources
+FIND41B.ZIP   B   87823  960222  GNU findutils 4.1 for DJGPP V2
+FIND41S.ZIP   B  356965  960204  GNU findutils 4.1 sources
+FLX252B.ZIP   B  111840  960204  GNU Flex 2.5.2 for DJGPP V2
+FLX252S.ZIP   B  344644  960204  GNU Flex 2.5.2 sources
+GCC272B.ZIP   B 1070665  960222  GNU GCC 2.7.2 for DJGPP V2
+GCC272S.ZIP   B 4598622  960222  GNU GCC 2.7.2 sources
+GDB412B.ZIP   B  454984  960204  GNU Debugger 4.12 for DJGPP V2
+GDB412S.ZIP   B 2961628  960204  GNU Debugger 4.12 sources
+GPP272B.ZIP   B  664541  960204  GNU G++ 2.7.2 for DJGPP V2 (no libs)
+GREP20B.ZIP   B   57751  960204  GNU grep 2.0 for DJGPP V2
+GREP20S.ZIP   B  197308  960204  GNU grep 2.0 sources
+GZP124B.ZIP   B   68851  960204  GNU gzip 1.2.4 sources
+GZP124S.ZIP   B  251313  960204  GNU gzip 1.2.4 sources
+LGP271B.ZIP   B  633570  960222  GNU libg++ 2.7.1 for DJGPP V2
+LGP271S.ZIP   B  958828  960204  GNU libg++ 2.7.1 sources
+MAK373B.ZIP   B  196928  960204  GNU Make 3.73 for DJGPP V2
+MAK373S.ZIP   B  623407  960204  GNU Make 3.73 sources
+OBC272B.ZIP   B  580984  960204  GNU ObjC 2.7.2 for DJGPP V2
+PAT21B.ZIP    B   64988  960222  GNU patch 2.1 for DJGPP V2
+PAT21S.ZIP    B   86338  960204  GNU patch 2.1 sources
+SED118B.ZIP   B   38903  960204  GNU sed 1.18 for DJGPP V2
+SED118S.ZIP   B  107591  960204  GNU sed 1.18 sources
+TXI360B.ZIP   B  551288  960204  GNU texinfo 3.6 for DJGPP V2
+TXI360S.ZIP   B  898861  960204  GNU texinfo 3.6 sources
+GPC112B.ZIP   B  685430  960506  GNU Pascal 1.1.2 binaries for DJGPP V2
+GPC112S.ZIP   B 8621302  960506  GNU Pascal 1.1.2 sources
+GPT112B.ZIP   B  698287  960506  GNU Pascal with Turbo Pascal Extensions
+
+Directory djgpp/v2misc/
+ Filename   Type Length   Date   Description
+==============================================
+CSDPMI2B.ZIP  B   47806  960626  CS's DPMI Providor Binaries
+CSDPMI2S.ZIP  B   71775  960626  CS's DPMI Providor Sources
+INFNG100.ZIP  B   29774  960427  Convert INFO to Norton Guides
+MLEFP103.ZIP  B   52282  960528  ML's Executable File Packer
+WMEMU2B.ZIP   B   63779  960204  WM's 387 emulator binaries
+WMEMU2S.ZIP   B   99323  960204  WM's 387 emulator sources
+
+Directory djgpp/v2tk/
+ Filename   Type Length   Date   Description
+==============================================
+ALLEG21.TXT   Z     666  960622  Allegro 2.1 brief description
+ALLEG21.ZIP   B  570896  960622  Allegro 2.1 source - game library
+BCC2GRX.ZIP   B  350791  960204  Borland GUI to GRX interface
+BCSERIO.ZIP   B   10854  960708  Bill Currie's Serial Comms Package
+GRX20.ZIP     B  652069  960204  GRX 2.0 Graphics Library
+JKTHPACK.ZIP  B  139116  960701  JK's DOS Thread Package
+JPDEMO32.ZIP  B  159333  960708  JPTUI Demo
+JPDOC32B.ZIP  B   92726  960708  JPTUI Documentation
+JPTUI.TXT     B     655  960708  JPTUI Description
+JPTUIE32.ZIP  B  231866  960708  Text User Interface - English
+JPTUIF32.ZIP  B  232051  960708  Text User Interface - French
+JPTUIG32.ZIP  B  231988  960708  Text User Interface - German
+LIBKB090.ZIP  B  113139  960426  Example keyboard handler
+MKKBD3.ZIP    B    5319  960514  Keyboard Handler Examples
+MTTWS121.ZIP  B  478686  960708  Malcom Taylor's Windowing System
+PDC22.ZIP     B  319588  960211  PDCurses 2.2
+SW21.TXT      A    2892  960427  SWORD Windowing system, Installation info
+SW21_DJ2.ZIP  B 1391622  960427  SWORD Windowing system, Binaries for DJGPP V2
+SW21_DOC.ZIP  B  164279  960427  SWORD Windowing system, documentations
+SW21_P1.ZIP   B  931770  960427  SWORD Windowing system, Part 1
+SW21_P2.ZIP   B  856394  960427  SWORD Windowing system, Part 2
+TVISIONB.ZIP  B  230571  960605  TurboVision libraries and headers
+TVISIONS.ZIP  B  227695  960605  TurboVision Sources

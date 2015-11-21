@@ -1,0 +1,23 @@
+CONTENTS: libcinfo objcaout       
+libcinfo: C library documentation
+libcinfo:
+libcinfo: Info files for the GNU C library and GDBM library.
+libcinfo:
+libcinfo:
+libcinfo:
+libcinfo:
+libcinfo:
+libcinfo:
+libcinfo:
+libcinfo:
+objcaout: The GNU Objective-C compiler and support files for the a.out format.
+objcaout:
+objcaout: Compiled with 486 optimizations, but works fine with 386.
+objcaout:
+objcaout: NOTE: Be sure to install at least the following packages besides this
+objcaout: one, or you won't be able to compile:  gcc272, binutils, gccaout,
+objcaout: libaout, and linuxinc.
+objcaout:
+objcaout:
+objcaout:
+objcaout:

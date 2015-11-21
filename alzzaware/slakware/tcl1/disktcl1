@@ -1,0 +1,23 @@
+CONTENTS: tcl tk 
+tcl:      The Tcl script language, version 7.5
+tcl:  
+tcl:      Tcl, developed by Dr. John Ousterhout, is a simple to use text-based
+tcl:      script language with many built-in features which make it especially
+tcl:      nice for writing interactive scripts.
+tcl:  
+tcl:  
+tcl:  
+tcl:  
+tcl:  
+tcl:  
+tk:       The Tk toolkit for Tcl, version 4.1
+tk:
+tk:       Tk is an extension to Tcl that allows you to quickly and easily build
+tk:       X11 applications that have the look and feel of Motif apps.
+tk:
+tk:
+tk:
+tk:
+tk:
+tk:
+tk:

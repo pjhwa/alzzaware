@@ -1,0 +1,10 @@
+1213		- Directory containing the boot images
+1357            - Boot images with 1.3.57 kernels - EXPERIMENTAL!
+custom          - Directory containing boot disks of a more custom nature
+                  (You will find 2940 images here, please see the README.NOW)
+liveram.img     - ramdisk to use with live filesystem
+mkfloppies.pl	- Perl script that can be used under linux to make boot images
+ramdisk1.img	- ramdisk number 1
+ramdisk2.img	- ramdisk number 2
+savesetup.pl	- script to save your current linux setup to the boot floppy
+                  (Executed from `mkfloppies.pl` automatically)

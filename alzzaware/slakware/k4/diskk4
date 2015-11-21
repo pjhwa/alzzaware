@@ -1,0 +1,12 @@
+CONTENTS: lx200_4       
+lx200_4:  Linux kernel source version 2.0.0, part four.
+lx200_4:
+lx200_4:  Source code for Linus Torvalds' Linux kernel.
+lx200_4:
+lx200_4:  IMPORTANT!  This is a really big kernel, so it's been split into 6
+lx200_4:  files.  You'll need all six of them if you want to compile the
+lx200_4:  Linux kernel.
+lx200_4:
+lx200_4:
+lx200_4:
+lx200_4:

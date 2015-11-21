@@ -1,0 +1,93 @@
+Sun Aug 27 17:56:34 CDT 1995
+
+Q: There are so many bootdisks! Which one should I use?
+
+A: Here's a little table to help you decide. In each box, the best choice
+   will be at the top of the list. Other disks you might try if the recommended
+   choice doesn't work are preceded by a (*). If you can't install directly from
+   your CD-ROM, you might consider copying the disk directories onto your hard
+   drive on a DOS or HPFS partition and installing from there.
+
+   -- Pat
+
+
+----------------\          Target hard drive type:
+Slackware        \   
+source on:        \  IDE              SCSI                       MFM
+-------------------+----------------+--------------------------+--------------
+ Hard Drive        | bare.i         | Use a SCSI controller    | xt.i
+                   |                | bootdisk from the list   |
+                   |                | below.                   |
+-------------------+----------------+--------------------------+--------------
+ SCSI CD-ROM       | Use a SCSI     | Use a SCSI controller    |
+                   | controller     | bootdisk from the list   |
+                   | bootdisk from  | below.                   |
+                   | the list below.|                          |
+-------------------+----------------+--------------------------+--------------
+ IDE/ATAPI CD-ROM  | bare.i         | Use a SCSI controller    |
+                   |                | bootdisk from the list   |
+                   |                | below.                   |
+-------------------+----------------+--------------------------+--------------
+ Aztech, Orchid,   | aztech.i       | aztech.s                 |
+ Okano, Wearnes,   |                |                          |
+ Conrad, CyCDROM   |                |                          |
+ non-IDE CD-ROM    |                |                          |
+-------------------+----------------+--------------------------+--------------
+ Sony CDU31a,      | cdu31a.i       | cdu31a.s                 |
+ Sony CDU33a CD-ROM|                |                          |
+-------------------+----------------+--------------------------+--------------
+ Sony CDU531,      | cdu535.i       | cdu535.s                 |
+ Sony CDU535 CD-ROM|                |                          |
+-------------------+----------------+--------------------------+--------------
+ Philips/LMS cm206 | cm206.i        | cm206.s                  |
+ CD-ROM            |                |                          |
+-------------------+----------------+--------------------------+--------------
+ Goldstar R420     | goldstar.i     | goldstar.s               |
+ CD-ROM            |                |                          |
+-------------------+----------------+--------------------------+--------------
+ Mitsumi non-IDE   | mcdx.i         | mcdx.s                   |
+ CD-ROM            | mcd.i          | mcd.i                    |
+-------------------+----------------+--------------------------+--------------
+ Optics Storage    | optics.i       | optics.s                 |
+ 8000 AT CD-ROM    |                |                          |
+ ("Dolphin")       |                |                          |
+-------------------+----------------+--------------------------+--------------
+ Sanyo CDR-H94A    | sanyo.i        | sanyo.s                  |
+ CD-ROM            |                |                          |
+-------------------+----------------+--------------------------+--------------
+ Matsushita,       | sbpcd.i        | sbpcd.s                  |
+ Kotobuki,         |                |                          |
+ Panasonic,        |                |                          |
+ CreativeLabs      |                |                          |
+ (Sound Blaster),  |                |                          |
+ Longshine and     |                |                          |
+ Teac non-IDE      |                |                          |
+ CD-ROM            |                |                          |
+-------------------+----------------+--------------------------+--------------
+ NFS               | net            | scsinet                  |
+-------------------+----------------+--------------------------+--------------
+ Tape              | bare (for      | Use a SCSI controller    | xt.i (for
+                   | floppy tape)   | bootdisk from the        | floppy tape)
+                   |                | list below.              |
+                   | For SCSI tape, |                          |
+                   | use one of the |                          |
+                   | SCSI bootdisks |                          |
+                   | listed below.  |                          |
+                   |                |                          |
+-------------------+----------------+---------------------------------------
+
+ SCSI controller bootdisks:  7000fast.s, advansys.s, aha152x.s, aha1542.s,
+                             aha1740.s, aha2x4x.s, am53c974.s, buslogic.s,
+                             dtc3280.s, eata_dma.s, eata_isa.s, eata_pio.s,
+                             fdomain.s, in2000.s, iomega.s, n53c406a.s, 
+                             n_5380.s, n_53c7xx.s, pas16.s, qlog_fas.s, 
+                             qlog_isp.s, seagate.s, trantor.s, ultrastr.s,
+                             ustor14f.s
+
+ If you have no idea which SCSI controller your machine has, you can also
+ try the generic SCSI bootdisk "scsi.s".  You can determine what controller
+ type you have by watching the boot messages.  Then, you should make the
+ bootdisk that matches your controller and use that to install.  (Since the
+ scsi.s kernel is loaded with SCSI drivers, it consumes quite a bit of memory
+ that the disks designed for a single SCSI controller do not)
+

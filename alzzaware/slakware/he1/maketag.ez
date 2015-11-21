@@ -1,0 +1,32 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING HE Hanemacs 2.1 (GNU HANEMACS)" \
+       --checklist " \
+Emacs 는 리차드 스톨만씨가 만드신 세상에서 가장 강력한 \
+에디터입니다. \
+Hanemacs은 김강희님께서 GNU Emacs를 한글화하신 것입니다. \
+에디터의 새로운 세계를 경험하시기 바랍니다. " 20 70 6 \
+"emacbin"       "Hanemacs 2.1 Binaries" "on" \
+"emacetc"       "Hanemacs 2.1 etc  file (1/2)" "on" \
+"emacetc2"      "Hanemacs 2.1 etc2 file (2/2)" "on" \
+"emacinfo"      "Hanemacs 2.1 Info file"  "on" \
+"emaclibe"      "Hanemacs 2.1 libexec file" "on" \
+"emaclisp"      "Hanemacs 2.1 mode file" "on" \
+"emacman"	"Hanemacs 2.1 Doc file" "on" \
+"sitelisp"	"Hanemacs 2.1 setup file" "on" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in emacbin emacetc emacetc2 emacinfo \
+emaclibe emaclisp emacman sitelisp ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

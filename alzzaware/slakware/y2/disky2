@@ -1,0 +1,56 @@
+CONTENTS: abuse2 doom sastroid tetris lizards
+abuse2:   Abuse 1.10 (part two)
+abuse2:
+abuse2:   This is the second part of the ABUSE video game.
+abuse2:
+abuse2:
+abuse2:
+abuse2:
+abuse2:
+abuse2:
+abuse2:
+abuse2:
+doom:     Doom 1.8 for Linux
+doom:
+doom:     ID Software's DOOM 3-D multi-player shoot-em-up game.  Two versions 
+doom:     are provided -- "sdoom" works on the standard Linux console, and
+doom:     "xdoom" works under X.
+doom:
+doom:
+doom:
+doom:
+doom:
+doom:
+sastroid: Sasteroids 1.3
+sastroid:
+sastroid: Sasteroids is an asteroids-like game, the whole point to shoot
+sastroid: asteroids and an occasional enemy space ship.  Ok, so its not DOOM,
+sastroid: but it can be amusing, and does use a few DOOM-like brown colors.
+sastroid: This started out as a direct port of xasteroids to run under svgalib
+sastroid: (a wonderful super-vga graphics library by Harm Hanemaayer)
+sastroid:
+sastroid: Sasteroids was derived from Phil Goetz's Xasteroids by Brad Pitzel.
+sastroid:
+sastroid:
+tetris:   Tetris for terminals.
+tetris:
+tetris:
+tetris:
+tetris:
+tetris:
+tetris:
+tetris:
+tetris:
+tetris:
+tetris:
+lizards:  Lizards -- a video game for Linux.
+lizards:
+lizards:  Lizards is a clone of R*pt*n from the old BBC Micro and B**ld*rd*sh
+lizards:  from the C64/spectrum. It's a run-around-collect-em-up type game, 
+lizards:  running under Linux using the most excellent SVGAlib and Brad Pitzel's
+lizards:  excellent soundIt library.  Lizards was contributed by John M Dow.
+lizards:
+lizards:
+lizards:
+lizards:
+lizards:

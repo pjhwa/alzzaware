@@ -1,0 +1,72 @@
+0000; None; None; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0001; None; None; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0002; None; None; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0003; None; SMC, Western Digital; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0004; None; SMC, Western Digital; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0005; None; SMC, Western Digital; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0006; None; 3c501, 3c503, 3c509, 3c579; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0007; None; 3c501, 3c503, 3c509, 3c579; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0008; None; 3c501, 3c503, 3c509, 3c579; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0009; None; AMD LANCE and PCnet (AT1500 and NE2100); Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0010; None; AMD LANCE and PCnet (AT1500 and NE2100); Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0011; None; AMD LANCE and PCnet (AT1500 and NE2100); Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0012; None; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0013; None; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0014; None; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0015; None; Other; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0016; None; Other; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0017; None; Other; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0018; Adaptec, Buslogic; None; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0019; Adaptec, Buslogic; None; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0020; Adaptec, Buslogic; None; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0021; Adaptec, Buslogic; SMC, Western Digital; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0022; Adaptec, Buslogic; SMC, Western Digital; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0023; Adaptec, Buslogic; SMC, Western Digital; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0024; Adaptec, Buslogic; 3c501, 3c503, 3c509, 3c579; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0025; Adaptec, Buslogic; 3c501, 3c503, 3c509, 3c579; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0026; Adaptec, Buslogic; 3c501, 3c503, 3c509, 3c579; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0027; Adaptec, Buslogic; AMD LANCE and PCnet (AT1500 and NE2100); Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0028; Adaptec, Buslogic; AMD LANCE and PCnet (AT1500 and NE2100); Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0029; Adaptec, Buslogic; AMD LANCE and PCnet (AT1500 and NE2100); Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0030; Adaptec, Buslogic; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0031; Adaptec, Buslogic; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0032; Adaptec, Buslogic; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0033; Adaptec, Buslogic; Other; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0034; Adaptec, Buslogic; Other; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0035; Adaptec, Buslogic; Other; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0036; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; None; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0037; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; None; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0038; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; None; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0039; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; SMC, Western Digital; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0040; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; SMC, Western Digital; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0041; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; SMC, Western Digital; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0042; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; 3c501, 3c503, 3c509, 3c579; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0043; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; 3c501, 3c503, 3c509, 3c579; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0044; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; 3c501, 3c503, 3c509, 3c579; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0045; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; AMD LANCE and PCnet (AT1500 and NE2100); Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0046; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; AMD LANCE and PCnet (AT1500 and NE2100); Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0047; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; AMD LANCE and PCnet (AT1500 and NE2100); Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0048; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0049; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0050; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0051; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; Other; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0052; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; Other; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0053; EATA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx; Other; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0054; Other; None; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0055; Other; None; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0056; Other; None; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0057; Other; SMC, Western Digital; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0058; Other; SMC, Western Digital; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0059; Other; SMC, Western Digital; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0060; Other; 3c501, 3c503, 3c509, 3c579; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0061; Other; 3c501, 3c503, 3c509, 3c579; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0062; Other; 3c501, 3c503, 3c509, 3c579; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0063; Other; AMD LANCE and PCnet (AT1500 and NE2100); Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0064; Other; AMD LANCE and PCnet (AT1500 and NE2100); Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0065; Other; AMD LANCE and PCnet (AT1500 and NE2100); Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0066; Other; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0067; Other; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0068; Other; NE2000, Cabletron E21xx, DEPCA, EtherWorks 3; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo
+0069; Other; Other; Mitsumi, Sony CDU31A/CDU33A/CDU535, IDE, SCSI
+0070; Other; Other; Matsushita/Panasonic, SoundBlaster, Aztech/Orchid/Okano/Wearnes
+0071; Other; Other; Goldstar, TEAC, Phillips/LMS, Dolphin, Sanyo

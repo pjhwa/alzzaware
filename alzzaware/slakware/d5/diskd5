@@ -1,0 +1,34 @@
+CONTENTS: gdb gxx272 p2c       
+gdb:      The GNU debugger. (v. 4.15.1)
+gdb:
+gdb:      You can use GDB to debug programs written in C, C++, and Modula-2. 
+gdb:      GDB now includes partial support for GNU Fortran 77.
+gdb:
+gdb:
+gdb:
+gdb:
+gdb:
+gdb:
+gdb:
+gxx272:   The GNU C++ compiler and support files for ELF (v. 2.7.2)       
+gxx272:
+gxx272:   Compiled with 486 optimizations, but works fine with 386.
+gxx272:
+gxx272:   NOTE: Be sure to install at least the following packages besides this
+gxx272:   one, or you won't be able to compile: gcc272, binutils, libc, and
+gxx272:   linuxinc.
+gxx272:
+gxx272:
+gxx272:
+gxx272:
+p2c:      A Pascal to C translator. (v. 1.19)
+p2c:
+p2c:
+p2c:
+p2c:
+p2c:
+p2c:
+p2c:
+p2c:
+p2c:
+p2c:

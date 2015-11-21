@@ -1,0 +1,34 @@
+CONTENTS: gcc272 gccaout strace       
+gcc272:   The GNU C compiler and support files for ELF (v. 2.7.2)       
+gcc272:
+gcc272:   Compiled with 486 optimizations, but works fine with 386.
+gcc272:
+gcc272:   NOTE: Be sure to install at least the following packages besides this
+gcc272:   one, or you won't be able to compile:  binutils, include, libc, and
+gcc272:   linuxinc.
+gcc272:
+gcc272:
+gcc272:
+gcc272:
+gccaout:  The GNU C compiler and support files for the a.out format.
+gccaout:
+gccaout:  Compiled with 486 optimizations, but works fine with 386.
+gccaout:
+gccaout:  NOTE: Be sure to install at least the following packages besides this
+gccaout:  one, or you won't be able to compile:  gcc272, binutils, libaout,
+gccaout:  and linuxinc.
+gccaout:
+gccaout:
+gccaout:
+gccaout:
+strace:   strace 3.0 - traces system calls and signals.
+strace:
+strace:   Strace allows you to trace the execution of a command.  It runs the
+strace:   specified command until it exits, intercepting signals and system
+strace:   calls and dumping the information to the standard output.
+strace:
+strace:
+strace:
+strace:
+strace:
+strace:

@@ -1,0 +1,34 @@
+CONTENTS: x312ma8 x312mono x312p9k       
+x312ma8:  An accelerated server for cards using Mach8 chips.
+x312ma8:
+x312ma8:  Installing this package will create a link in /usr/X11R6/bin from
+x312ma8:  XF86_Mach8 to X, setting this server as the default.
+x312ma8:
+x312ma8:
+x312ma8:
+x312ma8:
+x312ma8:
+x312ma8:
+x312ma8:
+x312mono: A Monochrome server.
+x312mono:
+x312mono: Installing this package will create a link in /usr/X11R6/bin from
+x312mono: XF86_Mono to X, setting this server as the default.
+x312mono:
+x312mono:
+x312mono:
+x312mono:
+x312mono:
+x312mono:
+x312mono:
+x312p9k:  An accelerated server for cards using the P9000 chipset.
+x312p9k:
+x312p9k:  Some of the cards this server will work with are the Diamond Viper
+x312p9k:  VLB, Diamond Viper PCI, Orchid P9000 (and some other clones, such as
+x312p9k:  the STAR 2000).  Viper Pro and other P9100 and P9130 cards are NOT
+x312p9k:  supported yet.  Installing this package will create a link in
+x312p9k:  /usr/X11R6/bin from XF86_P9000 to X, setting this server as the
+x312p9k:  default.
+x312p9k:
+x312p9k:
+x312p9k:

@@ -1,0 +1,23 @@
+CONTENTS: han ksh
+han:
+han:                       HAN ( Hangul on Linux Console )
+han:
+han:
+han:                          Ver. 0.99.4e-H1.0 (9/27)
+han:
+han:                          Authors : 노남석, 오성규
+han:
+han:
+han:
+han:
+ksh:      PD-ksh 5.2.3 ( Korn Shell )
+ksh:
+ksh:   PD-ksh is a mostly complete AT&T ksh look-alike (see NOTES file for 
+ksh:  a list of things not supported).  Work is currently underway to make 
+ksh:  it fully compatible with both POSIX and AT&T ksh (when the two don't 
+ksh:  conflict).
+ksh:
+ksh:
+ksh:
+ksh:
+ksh:

@@ -1,0 +1,48 @@
+#!/bin/sh
+add() {
+  for package in $* ; do
+    echo "$package: ADD" >> /tmp/SeTnewtag
+  done
+}
+skip() {
+  for package in $* ; do
+    echo "$package: SKP" >> /tmp/SeTnewtag
+  done
+}
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING SOFTWARE FROM SERIES XV (xview3.2p1-X11R6)" \
+       --checklist "Please select the software you wish to install \
+from series XV. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the items you wish to install. Recommended items have \
+already been selected for you, but you may unselect them if you wish. \
+Press ENTER when you are \
+done." 14 70 3 \
+"openlook" "OpenLook window manager and ELF libs for X" "on" \
+"develop" "Libraries and include files for XV programming" "off" \
+"workman" "An audio CD player for XView" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+if fgrep \"openlook\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+ add xvol32 xv32_so xvmenus
+else
+ skip xvol32 xv32_so xvmenus
+fi
+if fgrep \"develop\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+ add xv32_a xv32exmp xvinc32 sspkg
+else
+ skip xv32_a xv32exmp xvinc32 sspkg
+fi
+for PACKAGE in workman ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

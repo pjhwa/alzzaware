@@ -1,0 +1,45 @@
+CONTENTS: rplay setmixer amiga midiopl
+rplay:
+rplay:                           rplay 3.2.0beta
+rplay:
+rplay:     a flexible network audio system that allows sounds to be played
+rplay:     to and from local and remote Unix systems
+rplay:
+rplay:
+rplay:
+rplay:
+rplay:
+rplay:
+setmixer:
+setmixer:                          setmixer
+setmixer:
+setmixer:      매우 간단한 믹서 프로그램 하지만 아주 유용한 믹서!
+setmixer:      rc.local 에 넣어서 쓰십시요.
+setmixer:
+setmixer:
+setmixer:      Thanks to Michal Jaegermann.
+setmixer:      michal@ellpspace.math.ualberta.ca
+setmixer:      michal@gortel.phys.ualberta.ca
+setmixer:
+amiga:
+amiga:                          Amiga 음악 화일 연주기
+amiga:
+amiga:
+amiga:                mod, s3m 등의 화일 형식을 연주합니다.
+amiga:
+amiga:
+amiga:
+amiga:
+amiga:
+amiga:
+midiopl:
+midiopl:                          Playmidi 2.3
+midiopl:
+midiopl:        support : text, svga, X-window
+midiopl:
+midiopl:        Compiled for cheap soundcards like sb pro, sb16, ...
+midiopl:        Use OPL-2/4 FM module
+midiopl:
+midiopl:
+midiopl:
+midiopl:

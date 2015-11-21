@@ -1,0 +1,2 @@
+#!/bin/sh
+mv arena-beta-2b-src.tar.gz arena2bs.tgz

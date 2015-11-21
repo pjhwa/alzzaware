@@ -1,0 +1,12 @@
+CONTENTS: xd_lkit2    
+xd_lkit2: XFree86 3.1.2 server linkkit, part two.
+xd_lkit2: 
+xd_lkit2: If you want or need to rebuild an XFree86 3.1.2 server you need this
+xd_lkit2: package in addition to the base configuration and the programmers kit.
+xd_lkit2: It is not needed for other X program development.
+xd_lkit2:
+xd_lkit2: When rebuilding all the servers (including PEX) you will typically
+xd_lkit2: need an additional 10MB of disk space.  If you are building just a
+xd_lkit2: single server you will need 2MB (2.5MB with PEX) of space.
+xd_lkit2: 
+xd_lkit2: 

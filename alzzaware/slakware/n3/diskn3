@@ -1,0 +1,56 @@
+CONTENTS: nn-spool pine ppp smailcfg tin       
+nn-spool: nn-6.4.18 compiled to use a local news spool.
+nn-spool:
+nn-spool: nn is an easy to use menu driven newsreader by Kim F. Storm.
+nn-spool:
+nn-spool: This version looks for the news articles in /var/spool/news, and
+nn-spool: has been set up to work with Cnews, INN, or another news transport
+nn-spool: system of your choice.
+nn-spool:
+nn-spool:
+nn-spool:
+nn-spool:
+pine:     Pine version 3.93
+pine:
+pine:     A menu driven user mail program. Originally based on Elm (Pine Is
+pine:     No-longer Elm), but with many additional features that make it
+pine:     easier to use.
+pine:
+pine:
+pine:
+pine:
+pine:
+pine:
+ppp:      PPP for Linux, version 2.2.0f
+ppp:
+ppp:      PPP for Linux -- Michael Callahan's ppp.c kernel driver and the pppd
+ppp:      daemon (ported by Al Longyear).  PPP support is included in most of
+ppp:      the precompiled kernels in Slackware.
+ppp:
+ppp:
+ppp:
+ppp:
+ppp:
+ppp:
+smailcfg: Configuration files for sendmail.
+smailcfg:
+smailcfg: These files are used to create sendmail.cf configuration files. The
+smailcfg: m4 macro processor (on the D series of disks) is also required in
+smailcfg: order to make use of these files. 
+smailcfg:
+smailcfg: These files and the documentation in /usr/src/sendmail should make it
+smailcfg: possible to support virtually any mail configuration. NOTE: you
+smailcfg: probably won't need this package if you're planning to use one of the
+smailcfg: sendmail.cf samples included in the sendmail package.
+smailcfg:
+tin:      The 'tin' news reader. (1.2pl2 Hangul support )
+tin:
+tin:      Tin is a full-screen easy to use Netnews reader. It can read news
+tin:      locally (i.e. /usr/spool/news) or remotely (rtin or tin -r option)
+tin:      via a NNTP (Network News Transport Protocol) server.  It will
+tin:      automatically utilize nov (news overview) style index files if
+tin:      available locally or via the nntp xover command. Tin was written by
+tin:      Iain Lea.
+tin:
+tin:
+tin:

@@ -1,0 +1,303 @@
+This is the README.1ST file for DJGPP Version 2.00
+
+DJGPP v2.0 is a free environment for developing 32-bit protected mode
+software in C/C++ under MS-DOS.
+
+Status and other information (online docs, FAQ, mail archives) are
+made available through the djgpp web pages at http://www.delorie.com/.
+Discussion of DJGPP and questions about its usage or features are
+through the djgpp news group (post to comp.os.msdos.djgpp) and djgpp
+mailing list (send your messages to <djgpp@delorie.com>, subscribe
+through <listserv@delorie.com>).  Look on the web page for information
+on the latest versions of various DJGPP packages.
+
+Version information is in manifest/*.ver within each zip.  Contents
+are in manifest/*.mft in each zip.
+
+A different, more complete (and longer) tutorial on how to get started
+with DJGPP was written by An <avly@remus.rutgers.edu> and is available
+by anonymous ftp from x2ftp.oulu.fi in the
+/pub/msdos/programming/djgpp2 directory, filename djtut-bm.zip.  You
+can also read it on-line by pointing your Web browser to this URL:
+
+	http://remus.rutgers.edu/~avly/djgpp.html
+
+
+
+THE DISTRIBUTION
+****************
+
+The 'b' zips include the binaries and on-line documentation.  At the
+time of writing this file, the various packages are:
+
+FAQ      A short file which points you to other documents you should
+           read (including the full FAQ list).
+
+v2/
+unzip386 A free program to unzip the archive (like PKUNZIP) 
+djdev200 DJGPP V2 Development Kit and Runtime
+djlsr200 DJGPP V2 Base Library Sources
+djtst200 DJGPP V2 Test Programs
+djcrx200 DJGPP V2 For Building a Cross-to-DOS Compiler
+faq200b  The full FAQ list in various formats (Info, ASCII, HTML...)
+faq200s  The Texinfo sources of the FAQ and tools to generate all the
+          different formats of the FAQ
+
+v2gnu/
+bnu252b  GNU binutils 2.5.2 for DJGPP V2
+bnu252s  GNU binutils 2.5.2 sources
+bsn124b  GNU bison 1.24 for DJGPP V2
+bsn124s  GNU bison 1.24 sources
+dif271b  GNU diffutils 2.7.1 for DJGPP V2
+dif271s  GNU diffutils 2.7.1 sources
+find41b  GNU findutils 4.1 for DJGPP V2
+find41s  GNU findutils 4.1 sources
+flx252b  GNU Flex 2.5.2 for DJGPP V2
+flx252s  GNU Flex 2.5.2 sources
+gcc272b  GNU GCC 2.7.2 for DJGPP V2
+gcc272s  GNU GCC 2.7.2 sources
+gdb412b  GNU Debugger 4.12 for DJGPP V2
+gdb412s  GNU Debugger 4.12 sources
+gpp272b  GNU G++ 2.7.2 for DJGPP V2 (no libs)
+grep20b  GNU grep 2.0 for DJGPP V2
+grep20s  GNU grep 2.0 sources
+gzp124b  GNU gzip 1.2.4 for DJGPP V2
+gzp124s  GNU gzip 1.2.4 sources
+lgp271b  GNU libg++ 2.7.1 for DJGPP V2
+lgp271s  GNU libg++ 2.7.1 sources
+mak373b  GNU Make 3.73 for DJGPP V2
+mak373s  GNU Make 3.73 sources
+obc272b  GNU ObjC 2.7.2 for DJGPP V2
+pat21b   GNU patch 2.1 for DJGPP V2
+pat21s   GNU patch 2.1 sources
+sed118b  GNU sed 1.18 for DJGPP V2
+sed118s  GNU sed 1.18 sources
+txi360b  GNU texinfo 3.6 for DJGPP V2
+txi360s  GNU texinfo 3.6 sources
+
+v2tk/
+bcc2grx  Borland GUI to GRX interface for DJGPP V2
+grx20    GRX 2.0 Graphics Library for DJGPP V2
+pdc22    Public-domain Curses library
+
+v2misc/
+csdpmi1b CWSDPMI, Charles Sandmann's free DPMI server binaries and docs
+csdpmi1s CWSDPMI sources
+csdpmi1p Parameter-tuning program for CWSDPMI
+wmemu2b  WM's 387 emulator binaries for DJGPP V2
+wmemu2s  WM's 387 emulator sources for DJGPP V2
+
+
+
+GETTING STARTED
+***************
+
+The info below is the minimum new users should know to get them up and
+running with DJGPP.  Please read the DJGPP documentation and the FAQ
+list for further details.  New users are encouraged to read the FAQ
+list in its entirety.
+
+
+
+What to download
+----------------
+
+In general, download the binary distributions only; most of the people
+don't need the source distributions.
+
+To build C programs, you'll need djdev200.zip, gcc272b.zip, and
+bnu252b.zip.  For C++, also get gpp272b.zip and lgp271b.zip.  To read
+the online manuals, get txi360b.zip and run "info".  If you don't have
+a DPMI server installed, you'll need csdpmi1b.zip.  (Windows, QDPMI,
+386Max, NWDOS, OS/2, Win/NT and Linux DOSEmu all provide DPMI
+services, so you don't need CWSDPMI in those environments.)  For more
+details, download either faq200b.zip and read Chapter 4 of the FAQ.
+
+
+Installation
+------------
+
+1. Create a directory for DJGPP, say C:\DJGPP.  If you have version
+   1.x installed, it's best to delete the contents of its `bin/'
+   subdirectory or move it to another directory (not on your PATH),
+   and delete everything else from that installation.  (Some of the
+   problems reported by users of DJGPP v2 were caused by inadvertently
+   mixing it with old v1.x programs.)  The only program from v1.x that
+   you should keep is `go32.exe'.
+
+2. Unzip the zip files from that directory, preserving the directory
+   structure.  For example:
+
+	pkunzip -d gcc272b
+  or
+	unzip386 gcc272b
+
+3. After unzipping all the zip files in, set the DJGPP environment
+   variable to point to the file DJGPP.ENV in the main DJGPP
+   installation directory and add its BIN subdirectory to your PATH.
+   Assuming your DJGPP installation is rooted at C:\DJGPP, put these
+   two lines into your autoexec.bat file:
+
+	set DJGPP=C:\DJGPP\DJGPP.ENV
+	set PATH=C:\DJGPP\BIN;%PATH%
+
+4. Run the go32-v2.exe program without arguments:
+
+	go32-v2
+
+   It should report how much DPMI memory and swap space can DJGPP use
+   on you system, like this:
+
+	DPMI memory available: 8020 Kb
+	DPMI swap space available: 240 Kb
+
+   (The actual numbers will vary according to amount of RAM installed
+   on your system, the available disk space and the DPMI server.)  If
+   go32-v2 reports less than 4 MBytes of DPMI memory, read section 3.8
+   of the FAQ.  (If you have more than that, but want to get the
+   optimal performance from your system, read that section anyway.)
+
+
+Compilation
+-----------
+
+GCC is a command-line compiler, which you invoke from DOS command
+line.  To compile and link a single-file C program, use a command like
+this:
+
+	gcc myfile.c -o myfile.exe -lm
+
+The -lm links in the lib/libm.a library (trig math) if needed.  (Link
+order is significant, so always put `-lm' at the end of the command
+line.)
+
+To compile a C or C++ source file into an object file, use this
+command line:
+
+	gcc -c -Wall myfile.c  (for C source)
+  or
+	gcc -c -Wall myfile.cc (for C++ source)
+
+This produces the object file myfile.o.  The `-Wall' switch turns on
+many useful warning messages which is especially beneficial for new
+users of GCC.  (Other C++ extensions, like .cpp, are also supported,
+see section 8.4 of the FAQ for details.)
+
+To link several C object files into an executable program, use a
+command line such as this:
+
+	gcc -o myprog.exe mymain.o mysub1.o mysub2.o -lm
+
+This produces `myprog.exe' which can be run from the DOS prompt.
+
+To link a C++ program, use gxx instead of gcc, like this:
+
+	gxx -o myprog.exe mymain.o mysub1.o mysub2.o -lm
+
+This will automatically search the C++ libraries, so you won't need to
+mention them on the command line.
+
+You can also combine the compilation and link steps, like this:
+
+	gcc -Wall -o myprog.exe mymain.c mysub1.c mysub2.c -lm
+
+Further info about the plethora of GCC switches can be found in the
+GCC on-line documentation.  To begin reading it, install the Texinfo
+package (txi360b.zip, see the ``On-line docs'' section below) and type
+this:
+
+	info gcc invoking
+
+
+
+Development environment (aka IDE)
+---------------------------------
+
+DJGPP doesn't come with an integrated development environment of its
+own.  (That might change, if you decide to sit down and write such a
+program, then donate it to DJGPP.)  You are free to choose any editor,
+that can launch DOS programs and catch their output, to act as an
+IDE.  Many people who work with DJGPP use a DOS port of GNU Emacs
+(it's available on SimTel mirrors) which can be compiled with DJGPP.
+Emacs is a very powerful editor (for example, it has a built-in Info
+reader, so you can read DJGPP documentation without leaving the
+editor), but many other free editors can serve as an IDE.  The only
+task that these editors (including Emacs) cannot do is to run a
+debugger in a full-screen session.
+
+
+
+Debugging
+---------
+
+To debug a program, you must first compile its source files with `-g'
+switch:
+
+	gcc -c -Wall -g mymain.c
+	gcc -c -Wall -g mysub1.c
+	gcc -c -Wall -g mysub2.c
+
+and then link with `-g', but give the linker the name of the output
+file with no .exe extension:
+
+	gcc -g -o myprog mymain.o mysub1.o mysub2.o -lm
+
+(note the `-o myprog' as opposed to `-o myprog.exe').  This will
+produce the COFF output named `myprog' as well as the DOS executable
+`myprog.exe'; debuggers need the COFF binary.
+
+Then run your program under the debugger:
+
+	fsdb myprog
+or
+	gdb myprog
+
+(You will have to get gdb412b.zip if you want to debug with GDB.)
+FSDB has its help screen; press F1 to read it.  GDB comes with Info
+docs (see below) which can be read with info.exe.
+
+
+
+On-line docs
+------------
+
+Most of the on-line documentation is organized in a special hypertext
+format used by the GNU project.  Each package brings its docs which
+are files with .iNN extension and are unzipped into the info/
+subdirectory of your main DJGPP installation directory.  To browse
+these docs, get and unzip the file txi360b.zip, then run info.exe.  If
+you don't know how to use Info, press `?'.
+
+
+
+Compatibility with V1.x
+-----------------------
+
+Existing binaries compiled under DJGPP V1.x can be used for
+applications for which there is no v2.0 version.  V1 programs cannot
+run V2 programs (but v2 programs *can* run v1 programs), so don't try,
+say, using v1.x Make to run v2.0 compiler.
+
+
+
+
+--- COPYRIGHT ---
+
+DJGPP V2 is Copyright (C) 1995 by DJ Delorie.  Some parts of libc.a
+are Copyright (C) Regents of the University of California at Berkeley.
+
+GNU software (gcc, make, libg++, etc) is Copyright by the Free
+Software Foundation.
+
+DJGPP V2's copyright allows it to be used to produce commercial
+applications.  However, if you include code or libraries that are not
+part of djgpp (like gnu's libg++) then you must comply with their
+copyrights.  See Chapter 19 of the FAQ for more details.
+
+
+Enjoy!
+
+
+DJ Delorie
+dj@delorie.com
+http://www.delorie.com/

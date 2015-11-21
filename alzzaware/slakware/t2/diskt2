@@ -1,0 +1,276 @@
+CONTENTS: ntb-b2d ntb-djc ntb-dps ntb-gsfp ntb-html ntf-dc ntf-fc ntf-goth ntf-ocm ntf-ocra ntf-osma ntf-pand ntf-phon ntf-punk ntf-recy ntf-rsfs ntf-rune ntf-stma ntf-teng ntf-thai ntf-twca ntf-ugar ntf-wasy ntf-wsui ntf-xcmr       
+ntf-dc:   ntf-dc 1.1
+ntf-dc:
+ntf-dc:   The DC fonts, a package of European scalable fonts.
+ntf-dc:
+ntf-dc:
+ntf-dc:
+ntf-dc:
+ntf-dc:
+ntf-dc:
+ntf-dc:
+ntf-dc:
+ntf-fc:   ntf-fc 1.1
+ntf-fc:
+ntf-fc:   The FC fonts, scalable fonts for the African continent.
+ntf-fc:
+ntf-fc:
+ntf-fc:
+ntf-fc:
+ntf-fc:
+ntf-fc:
+ntf-fc:
+ntf-fc:
+ntf-goth: ntf-goth 1.1
+ntf-goth:
+ntf-goth: A package of Gothic fonts.
+ntf-goth:
+ntf-goth:
+ntf-goth:
+ntf-goth:
+ntf-goth:
+ntf-goth:
+ntf-goth:
+ntf-goth:
+ntf-ocm:  ntf-ocm 1.1
+ntf-ocm:
+ntf-ocm:  The Computer Modern Outlined fonts.
+ntf-ocm:
+ntf-ocm:
+ntf-ocm:
+ntf-ocm:
+ntf-ocm:
+ntf-ocm:
+ntf-ocm:
+ntf-ocm:
+ntf-ocra: ntf-ocra 1.1
+ntf-ocra:
+ntf-ocra: The OCR-A font.
+ntf-ocra:
+ntf-ocra:
+ntf-ocra:
+ntf-ocra:
+ntf-ocra:
+ntf-ocra:
+ntf-ocra:
+ntf-ocra:
+ntf-osma: ntf-osma 1.1
+ntf-osma:
+ntf-osma: An Osmanian font.
+ntf-osma:
+ntf-osma:
+ntf-osma:
+ntf-osma:
+ntf-osma:
+ntf-osma:
+ntf-osma:
+ntf-osma:
+ntf-pand: ntf-pand 1.1
+ntf-pand:
+ntf-pand: The Pandora fonts.
+ntf-pand:
+ntf-pand:
+ntf-pand:
+ntf-pand:
+ntf-pand:
+ntf-pand:
+ntf-pand:
+ntf-pand:
+ntf-phon: ntf-phon 1.1
+ntf-phon:
+ntf-phon: A font containing a set of phonetic symbols.
+ntf-phon:
+ntf-phon:
+ntf-phon:
+ntf-phon:
+ntf-phon:
+ntf-phon:
+ntf-phon:
+ntf-phon:
+ntf-punk: ntf-punk 1.1
+ntf-punk:
+ntf-punk: The Punk font.
+ntf-punk:
+ntf-punk:
+ntf-punk:
+ntf-punk:
+ntf-punk:
+ntf-punk:
+ntf-punk:
+ntf-punk:
+ntf-recy: ntf-recy 1.1
+ntf-recy:
+ntf-recy: A font containing a recycle symbol.
+ntf-recy:
+ntf-recy:
+ntf-recy:
+ntf-recy:
+ntf-recy:
+ntf-recy:
+ntf-recy:
+ntf-recy:
+ntf-rsfs: ntf-rsfs 1.1
+ntf-rsfs:
+ntf-rsfs: The RSFS fonts - Formal Symbol Math fonts.
+ntf-rsfs:
+ntf-rsfs:
+ntf-rsfs:
+ntf-rsfs:
+ntf-rsfs:
+ntf-rsfs:
+ntf-rsfs:
+ntf-rsfs:
+ntf-rune: ntf-rune 1.1
+ntf-rune:
+ntf-rune: A Rune font.
+ntf-rune:
+ntf-rune:
+ntf-rune:
+ntf-rune:
+ntf-rune:
+ntf-rune:
+ntf-rune:
+ntf-rune:
+ntf-stma: ntf-stma 1.1
+ntf-stma:
+ntf-stma: St. Mary's Road Symbol font.
+ntf-stma:
+ntf-stma:
+ntf-stma:
+ntf-stma:
+ntf-stma:
+ntf-stma:
+ntf-stma:
+ntf-stma:
+ntf-teng: ntf-teng 1.1
+ntf-teng:
+ntf-teng: A Tengwar font based on Tolkien's Tengwar.
+ntf-teng:
+ntf-teng:
+ntf-teng:
+ntf-teng:
+ntf-teng:
+ntf-teng:
+ntf-teng:
+ntf-teng:
+ntf-thai: ntf-thai 1.2
+ntf-thai:
+ntf-thai: A Thai font and some macros for it.
+ntf-thai:
+ntf-thai:
+ntf-thai:
+ntf-thai:
+ntf-thai:
+ntf-thai:
+ntf-thai:
+ntf-thai:
+ntf-twca: ntf-twca 1.1
+ntf-twca:
+ntf-twca: The twcal font, a calligraphic script font.
+ntf-twca:
+ntf-twca:
+ntf-twca:
+ntf-twca:
+ntf-twca:
+ntf-twca:
+ntf-twca:
+ntf-twca:
+ntf-ugar: ntf-ugar 1.0
+ntf-ugar:
+ntf-ugar: The Ugaritic script is a cuneiform alphabet (as opposed to the
+ntf-ugar: syllabic cuneiform of Akkadian or Hittite), as found on tablets
+ntf-ugar: dated from the Late Bronze Age (c 1400 - 1200 BC) in Northern Syria
+ntf-ugar: and Palestine, notably in the archives at Ugarit.
+ntf-ugar:
+ntf-ugar:
+ntf-ugar:
+ntf-ugar:
+ntf-ugar:
+ntf-wasy: ntf-wasy 1.1
+ntf-wasy:
+ntf-wasy: The WASY font containing additional symbols for math, physics and
+ntf-wasy: other fields.
+ntf-wasy:
+ntf-wasy:
+ntf-wasy:
+ntf-wasy:
+ntf-wasy:
+ntf-wasy:
+ntf-wasy:
+ntf-wsui: ntf-wsui 1.1
+ntf-wsui:
+ntf-wsui: The WSU IPA fonts providing a set of symbols for the International
+ntf-wsui: Phonetic Alphabet.
+ntf-wsui:
+ntf-wsui:
+ntf-wsui:
+ntf-wsui:
+ntf-wsui:
+ntf-wsui:
+ntf-wsui:
+ntf-xcmr: ntf-xcmr 1.1
+ntf-xcmr:
+ntf-xcmr: A Computer Modern Roman Crossedout font.
+ntf-xcmr:
+ntf-xcmr:
+ntf-xcmr:
+ntf-xcmr:
+ntf-xcmr:
+ntf-xcmr:
+ntf-xcmr:
+ntf-xcmr:
+ntb-b2d:  ntb-b2d 1.0
+ntb-b2d:
+ntb-b2d:  Bib2dvi converts a BibTeX .bib file into a LaTeX formatted .dvi file.
+ntb-b2d:  You'll find the files for bib2dvi in /usr/lib/texmf/tools/bib2dvi.
+ntb-b2d:
+ntb-b2d:
+ntb-b2d:
+ntb-b2d:
+ntb-b2d:
+ntb-b2d:
+ntb-b2d:
+ntb-djc:  ntb-djc 0.1
+ntb-djc:
+ntb-djc:  These are the binaries for the dvi driver for the HP Deskjet 500, 
+ntb-djc:  500c and 550c. They do not use the kpathsea library, and expect the
+ntb-djc:  pk files for the Deskjet in the directory /usr/lib/texmf/fonts/pk and
+ntb-djc:  the tfm files in /usr/lib/texmf/fonts/tfm. Therefore, if you want to
+ntb-djc:  use these drivers you have to copy the pk and tfm files in these 
+ntb-djc:  directories or make symbolic links from these directories to the pk 
+ntb-djc:  and tfm files.
+ntb-djc:
+ntb-djc:
+ntb-dps:  ntb-dps 1.2
+ntb-dps:
+ntb-dps:  These are the binaries for the dvips driver, a program that translates
+ntb-dps:  .dvi files into postscript files. This package also contains some 
+ntb-dps:  metric files for postscript fonts. You can configure divps with the 
+ntb-dps:  file /usr/lib/texmf/dvips/config.ps for your own printer. Dvips can 
+ntb-dps:  also help you to print files on a printer for which no dvi driver is
+ntb-dps:  provided. Translate the dvi file to a postscript file and print it
+ntb-dps:  with ghostscript. (Ghostscript is not included in the T series.) The
+ntb-dps:  current version of dvipsk (the 'k' indicates that the sources use the
+ntb-dps:  kpathsea library) is 5.58a.
+ntb-gsfp: ntb-gsfp 1.0
+ntb-gsfp:
+ntb-gsfp: The binaries for gsftopk. A program to convert ghostscript fonts (gsf)
+ntb-gsfp: to pk fonts. If you are producing documents with PS fonts and want to
+ntb-gsfp: display the fonts with xdvi, this program can do it for you. It is
+ntb-gsfp: called by MakeTeXPK.
+ntb-gsfp:
+ntb-gsfp:
+ntb-gsfp:
+ntb-gsfp:
+ntb-gsfp:
+ntb-html: ntb-html 1.1
+ntb-html:
+ntb-html: This package contains html2latex, a program which can translate HTML
+ntb-html: files (mainly used in the WorldWideWeb) to LaTeX files. Some
+ntb-html: documentation files for HTML are also included in this package (see
+ntb-html: /usr/lib/texmf/html).
+ntb-html:
+ntb-html:
+ntb-html:
+ntb-html:
+ntb-html:

@@ -1,0 +1,61 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECING HLaTeX 0.92e" \
+       --checklist "Use this menu to select the BINARY packages you \
+wish to install for series T (The NTeX distribution). Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to toggle packages \
+on or off. RECOMMENDED and REQUIRED packages have been preselected. REQUIRED \
+packages have also been marked with a [*]. \
+Press ENTER when you are \
+done." 21 70 9 \
+"texbin"	"TeX Binary file"		"on" \
+"texdoc"	"TeX Doc file"		"on" \
+"texdvips"	"TeX dvips file"	"on" \
+"texfont"	"TeX font"		"on" \
+"texinfo"	"TeX info file (1/2)"	"on" \
+"texinfo2"	"TeX info file (2/2)"	"on" \
+"texmisc"	"TeX Misc file"		"on" \
+"setup"		"TeX Setup file"	"on" \
+"bibtex"	"bibtex basic file"	"on" \
+"dviljk"	"dvi Lajer" "on" \
+"dvips"		"dvips binary"	"on" \
+"gsftopkk"	"gsf --> pkk converson file"	"on" \
+"hyphen"	"hyphenTeX file"	"on" \
+"kpathsea"	"kpathsea file"		"on" \
+"kpsetool"	"kpsetool file"		"on" \
+"latex"		"LaTeX file"		"on" \
+"makeindx"	"make index file"	"on" \
+"plain"		"plain TeX file"	"on" \
+"script"	"스크립트 file"		"on" \
+"tmpfont"	"임시 font"		"on" \
+"web2c"		"web2c TeX"		"on" \
+"xdvik"		"xdvi (X viewer)"	"on" \
+"xtexshel"	"X TeX Editor"	"on" \
+"fontmaps"	"TeX fontmap file"	"on" \
+"metafont"	"TeX Meta font"		"on" \
+"adobfont"	"TeX Adobe font"	"on" \
+"amsfont"	"TeX ams font"		"on" \
+"bitfont"	"TeX bitstream font"	"on" \
+"gothfont"	"TeX Gothic font"		"on" \
+"hgulfont"	"HLaTeX Hangul font"	"on" \
+"hjafont"	"HLaTeX Hanja font"	"on" \
+"pubfont"	"TeX public font"	"on" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in texbin texdoc texdvips texfont texinfo texinfo2 texmisc \
+setup bibtex dviljk dvips gsftopkk hyphen kpathsea kpsetool latex makeindx plain \
+script tmpfont web2c xdvik xtexshel fontmaps metafont adobfont amsfont \
+bitfont gothfont hgulfont hjafont pubfont \
+; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

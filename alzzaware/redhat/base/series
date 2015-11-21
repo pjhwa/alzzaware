@@ -1,0 +1,1283 @@
+1
+
+1 Applications
+% 15740437
+@ apps
+bc
+ghostscript
+ghostscript-fonts
+giftrans
+gnuplot
+inews
+ispell
+jed
+joe
+libgr-progs
+linuxdoc-sgml
+lynx
+mb
+mc
+netpbm
+slrn
+slsc
+taper
+tin
+trn
+typhoon
+units
+vlock
+words
+end
+
+1 Base
+% 26634903
+@ base
+MAKEDEV
+SysVinit
+adduser
+at
+bash
+bdflush
+color-ls
+cpio
+crontabs
+db
+gdbm
+dev
+dialog
+diffutils
+e2fsprogs
+ed
+etcskel
+file
+fileutils
+findutils
+gawk
+getty_ps
+gpm
+grep
+groff
+gzip
+hdparm
+indexhtml
+initscripts
+kbd
+kernel-modules
+ld.so
+less
+libc
+libg++
+libtermcap
+lilo
+liloconfig
+mailcap
+mailx
+man
+modules
+mt-st
+ncompress
+ncurses
+net-tools
+npasswd
+pcmcia-cs
+perl
+procinfo
+procmail
+procps
+psmisc
+readline
+redhat-release
+rootfiles
+rpm
+sed
+sendmail
+setup
+sh-utils
+slang
+stat
+svgalib
+sysklogd
+tar
+tcsh
+termcap
+texinfo-info
+textutils
+time
+tset-jv
+util-linux
+vim
+vixie-cron
+which
+zoneinfo
+end
+
+0 DOS Compatibility
+% 2064178
+@ dosstuff
+mkdosfs-ygg
+dosemu
+lha
+mtools
+zip
+umsdos_progs
+unzip
+unarj
+end
+
+1 Development
+% 26971012
+@ devel
+ElectricFence
+bin86
+binutils
+bison
+byacc
+cproto
+cvs
+db-devel
+flex
+gcc
+gcc-c++
+gdb
+gencat
+kernel-source
+libc-devel
+libc-include
+libg++-devel
+make
+man-pages
+patch
+pmake
+rcs
+strace
+texinfo
+end
+
+0 Development Libraries
+% 7210528
+@ devellib
+bind-lib
+blt-devel
+cmu-snmp-devel
+e2fsprogs-devel
+gdbm-devel
+gpm-devel
+libc-profile
+libc-static
+libelf
+libgr-devel
+libtermcap-devel
+ncurses-devel
+readline-devel
+rpm-devel
+slang-devel
+svgalib-devel
+zlib-devel
+end
+
+1 Documentation
+% 6997527
+@ docs
+howto
+faq
+ldp
+end
+
+0 Emacs
+% 14355544
+@ emacs
+emacs-nox
+emacs
+end
+
+1 Games
+% 17220330
+@ games
+abuse
+bsd-games
+colour-yahtzee
+doom
+fortune-mod
+gnuchess
+koules
+trojka
+vga_cardgames
+vga_gamespack
+vga_tetris
+zapem
+end
+
+0 Mail
+% 7044077
+@ mail
+elm
+exmh
+faces
+faces-xface
+metamail
+mh
+pine
+popclient
+sharutils
+xmailbox
+end
+
+1 Multimedia Programs
+% 1354368
+@ mmedia
+aumix
+cdp
+maplay
+multimedia
+playmidi
+sox
+tracker
+xanim
+xmplay
+end
+
+0 Network Admin
+% 1665018
+@ netadmin
+cmu-snmp
+cmu-snmp-utils
+ipfwadm
+pidentd
+statnet
+tcpdump
+yp-clients
+end
+
+0 Networking
+% 2191205
+@ net
+NetKit-A
+NetKit-B
+bind-utils
+dip
+fwhois
+ncftp
+nfs-server-clients
+ppp
+rdate
+rdist
+sliplogin
+tcp_wrappers
+wu-ftpd
+end
+
+0 Networking Servers
+% 5077507
+@ netserv
+amd
+anonftp
+apache
+bind
+bootpc
+gn
+imap
+inn
+intimed
+nfs-server
+samba
+ypserv
+end
+
+0 Other Programming Languages
+% 7727101
+@ langs
+autoconf
+f2c
+f2c-libs
+fort77
+gcc-objc
+m4
+mawk
+perl4
+p2c
+p2c-basic
+p2c-devel
+umb-scheme
+xlispstat
+end
+
+0 Other Shells
+% 1136286
+@ shells
+ash
+pdksh
+csh
+zsh
+end
+
+1 Printing
+% 274844
+@ printing
+nenscript
+mpage
+lpr
+printtool
+tunelp
+end
+
+0 Serial Communications
+% 2423529
+@ comm
+lrzsz
+efax
+minicom
+statserial
+uucp
+end
+
+0 Tcl-Tk Extensions
+% 6099273
+@ tcl
+blt
+expect
+tclx
+tix
+end
+
+0 TeX
+% 26305209
+@ tex
+bm2font
+tetex
+tetex-dvips
+tetex-latex
+tetex-xdvi
+tetex-dvilj
+tetex-afm
+end
+
+1 X Applications
+% 18033234
+@ xapps
+ImageMagick
+gcal
+ghostview
+groff-gxditview
+ical
+jed-xjed
+mxp
+moonclock
+rxvt
+seyon
+transfig
+x3270
+xdaliclock
+xfig
+xgopher
+xlockmore
+xmorph
+xosview
+xpaint
+xscreensaver
+xsysinfo
+xterm-color
+xv
+end
+
+1 X Development
+% 8112890
+@ xdevel
+Xaw3d-devel
+ImageMagick-devel
+XFree86-devel
+faces-devel
+xpm-devel
+xxgdb
+end
+
+1 X Games
+% 14215135
+@ xgames
+acm
+cxhextris
+flying
+paradise
+spider
+xbill
+xbl
+xboard
+xboing
+xchomp
+xdemineur
+xearth
+xevil
+xfishtank
+xgalaga
+xgammon
+xjewel
+xlander
+xloadimage
+xpat2
+xpilot
+xpuzzles
+xsnow
+xtetris
+xtrojka
+end
+
+1 X Windows
+% 48528338
+@ x
+X11R6-contrib
+XFree86
+XFree86-fonts
+Xaw3d
+Xconfigurator
+arena
+control-panel
+fstool
+fvwm
+glint
+helptool
+libgr
+modemtool
+netcfg
+nls
+python
+pythonlib
+timetool
+tcl
+tk
+tksysv
+usercfg
+xfm
+xpm
+zlib
+end
+
+0 XView
+% 5138507
+@ xview
+xview
+xview-devel
+end
+
+0 a.out compatitibility
+% 3941517
+@ aout
+aout-libs
+end
+
+0 Other
+@ other
+% 41863733
+adjtimex
+dump
+eject
+emacs-el
+expect-demos
+ext2ed
+git
+howto-dvi
+howto-html
+howto-ps
+howto-sgml
+iBCS
+indent
+ircii
+ircii-help
+kterm
+libc-debug
+logrotate
+lout
+lout-doc
+macutils
+mkisofs
+npasswd-dicts
+nvi
+open
+pmirror
+screen
+sendmail-cf
+sendmail-doc
+spice
+swatch
+symlinks
+tetex-xtexsh
+xwpe
+xwpick
+zgv
+end
+
+&descriptions
+ncurses curses terminal control library
+xtrojka falling blocks game similar to xjewels or tetris
+net-tools Basic Network Tools
+moonclock traditional oclock with moon phase hacks
+inews Inews program (used for posting by inn and trn)
+XFree86-8514 XFree86 8514 server
+ipfwadm IP firewall admin tool
+bdflush System Cache flusher
+fort77 driver for f2c
+emacs GNU Emacs
+xfm X File Manager
+ext2ed ext2 filesystem editor for hackers *only*
+ghostscript-fonts fonts for GhostScript
+howto Various HOWTOs from the Linux Documentation Project
+XFree86-Mach32 XFree86 Mach32 server
+xpuzzles various geometry puzzles including Rubik's Cube
+slang shared library for C like extension language
+dump dump/restore backup system
+xscreensaver X screen savers
+e2fsprogs Tools for the second extended (ext2) filesystem 
+zapem Space invaders like game
+tetex-dvips dvi to postscript convertor
+make GNU Make
+glint Graphical Linux INstallation Tool
+slrn small NNTP newsreader
+ghostview X11 PostScript viewer (needs ghostscript)
+cxhextris color X11 version of hextris 
+db-devel development libraries and header files for Berkelet database library
+sendmail-cf sendmail configuration files and m4 macros
+git GIT - GNU Interactive Tools
+xmailbox X based Mail notification tool
+xboing Breakout style video game
+rcs RCS - version control system
+tracker plays Amiga MOD sound files via /dev/dsp
+tset-jv change terminal settings
+libc-static Libraries for static linking
+pcmcia-cs PCMCIA card services
+kbd Linux keymap utilities
+slang-devel static library and header files for slang C like language
+spice SPICE circuit simulator
+XFree86-AGX XFree86 AGX server
+zsh Enhanced bourne shell
+slsc spreadsheet based on sc, but with many enhancements
+vga_tetris svgalib based tetris games
+ncompress a fast compress utility
+ncftp ftp client with a nice interface
+util-linux Rik Faith's utility collection for Linux (util-linux)
+tetex-xtexsh X11 shell for TeX work
+groff-gxditview GNU groff X previewer
+tcpdump dumps packets that are sent or received over a network interface
+xmorph morphing program with an X interface
+XFree86-fonts X11R6 fonts - only need on server side
+kernel-source Linux kernel sources
+m4 GNU Macro Processor
+maplay Plays MPEG 2 audio files in 16 bit stereo
+emacs-el .el source files -- not necessary to run Emacs
+Xaw3d X athena widgets in 3d
+arena A WWW HTML-3 browser
+zoneinfo Time zone utilities and data
+lynx tty WWW browser
+libc-include include files for libc and related libraries
+emacs-nox emacs-nox -- no X libraries required
+printtool Printer Configuration Tool
+nls NLS files used by Motif, Netscape, etc
+lpr Printing daemon and client
+words English dictionary for /usr/dict
+sendmail-doc sendmail documentation
+typhoon library and utilities for relational databases
+tcsh Enhanced c-shell
+jed editor with multiple, keybindings, a c-like extension language, colors, and many other features
+bind-utils DNS utils - host, dig, dnsquery, nslookup
+bind BIND - DNS name server
+csh BSD c-shell
+fvwm Feeble (Fine?) Virtual Window Manager
+unarj decompressor for .arj format archives
+X11R6-contrib Programs for X11 from the contrib tapes
+gpm-devel development libraries and headers for writing mouse driven programs
+linuxdoc-sgml text formatting system used by the Linux Documentation Project
+imap provides support for IMAP and POP network mail protocols
+tar GNU Tape Archiver (tar)
+pidentd Internet Daemon: Authorization, User Identification
+ispell GNU ispell - interactive spelling checker
+gnuplot plotting package
+binutils GNU Binary Utility Development Utilities
+ImageMagick-devel static libraries and header files for ImageMagick development
+mb MetalBase relational database
+mc Midnight Commander visual shell
+findutils GNU Find Utilities (find, xargs, and locate)
+koules well down SVGAlib game
+tksysv X/Tk based SYSV Runlevel Editor
+mh MH mail handling system (with POP support)
+cdp full screen text mode program for playing audio CD's
+libc-devel Additional libraries required to compile
+XFree86-Mach64 XFree86 Mach64 server
+XFree86-S3 XFree86 S3 server
+screen Screen - Manages multiple sessions on one tty
+python Very high level scripting language with X interface
+xwpe X Windows Programming Environment
+bin86 Real mode 80x86 compiler and linker
+Xconfigurator X configuration utility
+dosemu DOS emulator
+pmake Berkeley's Parallel Make
+sliplogin Login program for SLIP
+p2c-basic BASIC interpretor
+trn Threaded News Reader
+textutils GNU Text Utilities
+pythonlib library of python code used by various Red Hat programs
+libc libc and related libraries
+xbill Kill the bill -- this one's very popular at Red Hat
+man manual page reader
+sed GNU Stream Editor
+faces-devel Face saver library and header
+autoconf GNU autoconf - source configuration tools
+ncurses-devel development libraries for ncurses
+xboard X11 interface for gnuchess 
+howto-dvi dvi versions of the HOWTOs
+tcl Tool Command Language version 7.4, with shared libraries
+kterm Kterm (Kanji Terminal Emulator)
+lout Lout text formatting system
+vixie-cron Vixie cron daemon
+libgr-progs utility programs
+xevil a fast-action explicitly violent game for X
+jed-xjed X binary of JED 
+sendmail sendmail mail transport agent
+zlib-devel header files and libraries for zlib development
+xpat2 X Patience - various solitaire card games
+dialog tty dialog boxes
+howto-html html versions of the HOWTOs
+units Units conversion program.
+adjtimex Kernel clock management
+rootfiles root dot files
+netcfg Network Configiration Tool
+zgv console viewer for many graphics formats
+e2fsprogs-devel e2fs static libs and headers
+man-pages System manual pages from the Linux Documentation Project
+pdksh Public Domain Korn Shell
+XFree86-VGA16 XFree86 VGA16 server
+mailx /bin/mail
+f2c f2c program and static libraries
+NetKit-A Various network programs (part 1)
+texinfo texinfo formatter and info reader
+giftrans converts and manipulates GIFs
+NetKit-B Various network programs (part 2)
+xdaliclock Marc's favorite clock
+xsnow for those who want christmas 12 months a year
+npasswd npasswd - passwd and friends
+ldp LDP and HOWTO Package
+howto-ps Postscript versions of the HOWTOs
+faces Face saver database tools
+helptool Simple Help File Searching Tool
+pmirror pmirror, a perl script for mirroring an FTP site
+cvs Concurrent Versioning System
+indexhtml Red Hat html index page
+XFree86-Mono XFree86 Mono server
+doom DOOM for Linux Consoles & X-Windows
+xjewel Game like Sega's columns
+ImageMagick image display, conversion, and maniplulation under X
+libgr Graphics libs, fbm, jpeg, pbm, pgm, png, pnm, ppm, rle, tiff
+xdemineur minesweeper game
+groff GNU groff text formatting package
+texinfo-info text based standalone info reader
+faq Linux FAQ Package
+dev /dev entries
+aumix curses based audio mixer
+kernel-modules loadable kernel modules
+wu-ftpd Washington University FTP daemon
+svgalib library for full screen [S]VGA graphics
+vga_gamespack othello, minesweeper, and connect-4 for the linux console
+ypserv NIS/YP server
+getty_ps getty and uugetty
+abuse Abuse - A really cool X/SVGA Game
+f2c-libs shared libs for running dynamically linked fortran programs
+bsd-games miscellaneous BSD games package
+zip creates .zip files
+at at job spooler
+fstool File System Configuration Tool
+statserial displays status of the serial lines in a terminal
+bash GNU Bourne Again Shell (bash)
+byacc public domain yacc parser generator
+gpm general purpose mouse support for Linux
+bc GNU bc
+nfs-server-clients client apps for use with remote NFS servers
+time GNU time Utilities
+XFree86-W32 XFree86 W32 server
+tetex-xdvi X11 previewer
+amd NFS automount daemon
+xosview X11 util for viewing system resources
+nenscript converts plain ascii to PostScript
+mailcap Red Hat Mailcap package
+gcal extended calendar with highlighting, holidays, etc
+gcc-objc Objective C support for gcc
+bm2font converts bitmaps to LaTeX fonts
+playmidi Play midi files on FM, GUS and MIDI devices
+tcp_wrappers Security wrapper for tcp daemons - maximum setting
+bison GNU parser generator
+taper Backup system
+xanim Viewer for various animated graphic formats, include quicktime and flic
+control-panel Red Hat Control Panel
+blt-devel Development libraries and header files for the BLT widgets
+metrox accelerated X11R6 server from MetroLink
+macutils utilities for manipulating Macintosh file formats
+apache http server daemon to provide WWW services
+efax sends and receives faxes over class 1 or class 2 modems
+XFree86 XFree86 Window System servers and basic programs
+etcskel skelton user dot files
+libgr-devel headers and static libraries for building with the libraries
+popclient POP - retrieve mail from a mailserver using Post Office Protocol
+ircii Popular Unix Irc client
+xfishtank turns your X root into an aquarium
+libg++-devel Header files and libraries for C++ development
+setup Simple setup files
+logrotate log rotator
+exmh EXMH mail program
+perl Practical Extraction and Report Language
+which Finds which executable would be run based on your PATH
+xtetris X11 version of tetris
+lha creates and expand lharc format archives
+anonftp enables anonymous ftp access
+symlinks symbolic link sanity checker
+xmplay X MPEG viewer
+initscripts inittab and /etc/rc.d scripts
+uucp GNU uucp
+gnuchess Computer chess program
+ld.so Linux dynamic loader
+readline-devel file for developing programs that use the readline library
+bind-lib DNS revolver library and headers
+blt More widgets for the tk widget set
+libtermcap library for accessing the termcap database
+p2c shared library for programs build with p2c Pascal to C convertor
+svgalib-devel development libraries and include files for [S]VGA graphics
+inn InterNetNews news transport system
+ircii-help Help Files and Documentation for ircii
+rdist file distributor - maintain files on multiple machines
+umb-scheme Scheme interpreter from U of Massachusetts at Boston
+db BSD database library for C
+expect tcl extension that allows easy interaction between programs and scripts
+minicom TTY mode communications package ala Telix
+xlispstat xlist by David Betz with statistics extensions
+gcc GNU C Compiler
+xfig X11 drawing tool
+usercfg User and Group Configuration Tool
+ppp ppp daemon package for linux
+rdate Remote clock reader (and local setter)
+sysklogd Linux system and kernel logger
+fortune-mod fortune cookie program with bug fixes 
+xview XView library and openwindows interface for X11
+rxvt rxvt - terminal emulator in an X window
+xgalaga Galaga clone
+xpm X11 Pixmap Library
+gdbm-devel development libraries and header files for gdbm
+colour-yahtzee colour tty yahtzee
+xxgdb X interface to the gdb debugger
+MAKEDEV Script to make and update /dev entries
+dip dip modem dialer
+tk Tk toolkit for Tcl, version 4.0, with shared libraries
+procinfo /proc filesystem information
+p2c-devel programs and header for Pascal to C translator
+samba SMB client and server
+redhat-release Red Hat Linux release file
+spider X11 implementation of Spider card game
+adduser User creation program
+ed GNU Line Editor
+gawk GNU gawk text processor
+multimedia A CD player and audio mixer for X11
+nfs-server NFS server daemons
+tin tin News Reader
+rpm-devel Header files and libraries for programs that manipulate rpm packages
+xearth Displays a lit globe
+timetool Time and Date Configuration Tool
+gdb symbolic debugger for C and other languages
+expect-demos A set of demo programs from Expect
+grep GNU grep Utilities
+libc-debug libc with debugging information
+xchomp PacMan type game for X
+aout-libs Compability libraries for old a.out applications
+cmu-snmp CMU SNMP agent
+xpm-devel Development libraries and header files for X Pixmap library
+gencat gencat message catalog program (from NetBSD)
+tix many metawidgets (such as notepads) for tk
+faces-xface Utilities to handle X-Face headers
+cproto C Prototype Utility
+gdbm GNU database library for C
+ghostscript PostScript interpreter and renderer
+tclx extensions to tcl and tk for POSIX systems
+xgopher X based gopher client
+iBCS iBCS module
+xsysinfo display bar graphs of system load
+XFree86-devel X11R6 static libraries, headers and programming man pages
+netpbm loads of image conversion and manipulation tools (hpcd support is missing due to a very restrictive redistribution clause)
+XFree86-SVGA XFree86 SVGA server
+xbl 3d Tetris game
+SysVinit Sys V init
+trojka falling blocks game similar to xjewels or tetris for curses
+color-ls color ls - patched from GNU fileutils
+nvi New Berkeley Vi Editor (Experimental)
+flex GNU fast lexical analyzer generator
+psmisc More ps type tools for /proc filesystem
+tetex-dvilj dvi to laserjet convertor
+fileutils GNU File Utilities
+zlib library for compression and decompression
+howto-sgml sgml source versions of the HOWTOs
+mxp X11 Mandelbrot set generator and explorer
+mt-st tape controller (mt)
+tetex-latex LaTeX macro package
+unzip unpacks .zip files such as those made by pkzip under DOS
+tunelp configures kernel parallel port driver
+modules Module utilities
+xterm-color Ansi Color xterm
+mtools programs to access DOS disks w/o mounting them
+joe easy to use editor
+sharutils GNU shar utils - shar, unshar, uuencode, uudecode
+file file(1) command
+indent GNU C indenting program
+vga_cardgames klondike, oh hell, solitaire, and spider for linux console
+liloconfig Text based lilo configuration tools
+yp-clients NIS (YP) clients
+flying pool, snooker, air hockey, and other table games
+mpage places multiple pages of text onto a single postscript page
+intimed time server for clock synchornization
+metamail Collection of MIME handling utilities
+swatch System log watcher and alarm
+tetex TeX typesetting system and MetaFont font formatter
+diffutils GNU diff Utilities
+mkdosfs-ygg Creates a DOS FAT filesystem on a device
+XFree86-Xvfb XFree86 Xvfb server
+pine MIME compliant mail reader w/ news support as well
+seyon X communications program for modems
+cmu-snmp-utils CMU SNMP utilities
+mawk Mike's New/Posix AWK Interpreter
+fwhois finger-style whois 
+modemtool configuration tool for /dev/modem
+gcc-c++ C++ support for gcc
+gn gopher server
+xwpick efficient X screen grabber
+sh-utils GNU sh Utilities
+mkisofs Creates a ISO9660 filesystem image
+transfig Converts .fig files (such as those from xfig) to other formats
+vlock locks one or more virtual consoles
+strace prints system call strace of a running process
+npasswd-dicts auxilliary npasswd dictionaries
+x3270 X based 3270 emulator
+umsdos_progs Utilities for doing UMSDOS FS operations
+XFree86-Mach8 XFree86 Mach8 server
+perl4 Practical Extraction and Report Language (old version)
+lout-doc Full lout documentation
+termcap termcap file
+ElectricFence Electric Fence C memory debugging library
+cmu-snmp-devel CMU SNMP development libs and headers
+xlander moon landing simulation
+rpm Red Hat's Packaging System
+patch GNU patch Utilities
+acm X based flight combat
+libg++ GNU g++ library
+xlockmore X terminal locking program with many screensavers
+less text file browser -- less is more
+xgammon one or two player backgammon game
+libc-profile libc with profiling support
+ical Calender application made with Tcl7.4/Tk4.0
+ash Small bourne shell from Berkeley
+crontabs root crontab file
+libtermcap-devel development libraries and header files for termcap library
+xpilot arcade style flying game
+statnet monitors network traffic in a terminal
+readline library for reading lines from a terminal
+Xaw3d-devel Files for developing programs that use Xaw3d
+lrzsz lzrz - sz, rz, and friends
+bootpc bootpc, a client to get networking info from bootpd
+paradise Enhanced Netrek client with sound and color
+eject ejects ejectable media and controls auto ejection
+tetex-afm afm (Adobe Font Metrics) fonts and utilities
+cpio GNU cpio archiving program (used by rpm)
+vim VIsual editor iMproved
+libelf ELF object file access library
+XFree86-P9000 XFree86 P9000 server
+xv X based image viewer for darned near all images
+lilo Boot loader for Linux and other operating systems
+xview-devel Header files and static libraries for XView development
+open Tools for creating and switching between virtual consoles
+xpaint paint program for X
+procps Process monitoring utilities
+procmail procmail mail delivery agent
+gzip GNU gzip file compression
+sox general purpose sound file conversion tool
+xloadimage X based image viewer
+hdparm utiltity for setting (E)IDE performance parameters
+stat file information reporter
+elm ELM mail user agent
+
+&sizes
+ncurses 2190329
+xtrojka 105122
+net-tools 154693
+moonclock 57850
+inews 40170
+XFree86-8514 2076491
+ipfwadm 43238
+bdflush 9674
+fort77 6802
+emacs 12907748
+xfm 805824
+ext2ed 302307
+ghostscript-fonts 3338831
+howto 1579071
+XFree86-Mach32 2207151
+xpuzzles 531232
+slang 155448
+dump 138442
+xscreensaver 1132803
+e2fsprogs 646262
+zapem 133728
+tetex-dvips 573324
+make 237063
+glint 88041
+slrn 221563
+ghostview 199204
+cxhextris 33668
+db-devel 145934
+sendmail-cf 510352
+git 494853
+xmailbox 79989
+xboing 1001130
+rcs 547012
+tracker 54012
+tset-jv 26287
+libc-static 1207254
+pcmcia-cs 349994
+kbd 1114773
+slang-devel 426039
+spice 447526
+XFree86-AGX 2250047
+zsh 507508
+slsc 102243
+vga_tetris 64716
+ncompress 21238
+ncftp 113926
+util-linux 678838
+tetex-xtexsh 1328029
+groff-gxditview 124130
+tcpdump 175063
+xmorph 127785
+XFree86-fonts 4819013
+kernel-source 9520776
+m4 120202
+maplay 67830
+emacs-el 11279396
+Xaw3d 325444
+arena 386560
+zoneinfo 313002
+lynx 575353
+libc-include 842178
+emacs-nox 1447796
+printtool 25316
+nls 4126
+lpr 165819
+words 424287
+sendmail-doc 1149608
+typhoon 322273
+tcsh 442961
+jed 1010779
+bind-utils 267985
+bind 247404
+csh 171905
+fvwm 626544
+unarj 15300
+X11R6-contrib 1044758
+gpm-devel 23499
+linuxdoc-sgml 606375
+imap 658709
+tar 191352
+pidentd 102339
+ispell 2561773
+gnuplot 496033
+binutils 2542951
+ImageMagick-devel 693544
+mb 429762
+mc 667177
+findutils 129191
+koules 625483
+tksysv 28906
+mh 3246960
+cdp 39022
+libc-devel 32251
+XFree86-Mach64 2281935
+XFree86-S3 2454415
+screen 343866
+python 3224941
+xwpe 1618180
+bin86 72708
+Xconfigurator 65493
+dosemu 976624
+pmake 120679
+sliplogin 31804
+p2c-basic 59902
+trn 445125
+textutils 328679
+pythonlib 48805
+libc 716911
+xbill 226709
+man 86828
+sed 67661
+faces-devel 24371
+autoconf 258434
+ncurses-devel 1418349
+xboard 384302
+howto-dvi 1291328
+tcl 1118540
+kterm 217386
+lout 3334735
+vixie-cron 54630
+libgr-progs 87289
+xevil 834919
+jed-xjed 139520
+sendmail 362349
+zlib-devel 117862
+xpat2 510584
+dialog 50928
+howto-html 958687
+units 28880
+adjtimex 23469
+rootfiles 3265
+netcfg 44138
+zgv 131992
+e2fsprogs-devel 152053
+man-pages 1384118
+pdksh 358647
+XFree86-VGA16 1281106
+mailx 91263
+f2c 1131557
+NetKit-A 186821
+texinfo 425740
+giftrans 20275
+NetKit-B 751224
+xdaliclock 90631
+xsnow 29499
+npasswd 30310
+ldp 4826258
+howto-ps 2575264
+faces 156380
+helptool 10394
+pmirror 37360
+cvs 691907
+indexhtml 5391
+XFree86-Mono 1359459
+doom 4912690
+xjewel 50998
+ImageMagick 6019384
+libgr 704457
+xdemineur 28968
+groff 2893948
+texinfo-info 121575
+faq 592198
+dev 51
+aumix 8632
+kernel-modules 571470
+wu-ftpd 181545
+svgalib 261377
+vga_gamespack 55016
+ypserv 81925
+getty_ps 121073
+abuse 6348174
+f2c-libs 96543
+bsd-games 1365580
+zip 140730
+at 34952
+fstool 37718
+statserial 8199
+bash 486557
+byacc 59119
+gpm 154736
+bc 127120
+nfs-server-clients 8890
+time 16136
+XFree86-W32 2095243
+tetex-xdvi 218481
+amd 214645
+xosview 63903
+nenscript 24744
+mailcap 28218
+gcal 838003
+gcc-objc 1367991
+bm2font 537690
+playmidi 218573
+tcp_wrappers 238820
+bison 154756
+taper 245944
+xanim 466253
+control-panel 178716
+blt-devel 312953
+metrox 9768719
+macutils 229740
+apache 256496
+efax 150989
+XFree86 31512917
+etcskel 2713
+libgr-devel 873161
+popclient 24006
+ircii 545969
+xfishtank 398480
+libg++-devel 4742658
+setup 10780
+logrotate 6721
+exmh 1223511
+perl 5643543
+which 3284
+xtetris 86664
+lha 66131
+anonftp 996019
+symlinks 8003
+xmplay 206882
+initscripts 24697
+uucp 1996711
+gnuchess 1449556
+ld.so 281006
+readline-devel 181721
+bind-lib 62518
+blt 768961
+libtermcap 11391
+p2c 14388
+svgalib-devel 346037
+inn 1226557
+ircii-help 371923
+rdist 126528
+umb-scheme 149704
+db 62112
+expect 1090508
+minicom 196449
+xlispstat 2534317
+gcc 2305480
+xfig 703950
+usercfg 84456
+ppp 201497
+rdate 4364
+sysklogd 101107
+fortune-mod 2120052
+xview 1916582
+rxvt 63610
+xgalaga 373695
+xpm 55164
+gdbm-devel 72441
+colour-yahtzee 18648
+xxgdb 138610
+MAKEDEV 23613
+dip 70114
+tk 3231853
+procinfo 23309
+p2c-devel 518878
+samba 987181
+redhat-release 24
+spider 103505
+adduser 3894
+ed 106115
+gawk 364625
+multimedia 179676
+nfs-server 111536
+tin 548698
+rpm-devel 104349
+xearth 215233
+timetool 10864
+gdb 1040565
+expect-demos 133699
+grep 186715
+libc-debug 5259078
+xchomp 39192
+aout-libs 3941517
+cmu-snmp 655973
+xpm-devel 152417
+gencat 12888
+tix 1688571
+faces-xface 22088
+cproto 110062
+gdbm 24732
+ghostscript 1349197
+tclx 2551233
+xgopher 340508
+iBCS 186949
+xsysinfo 72296
+XFree86-devel 6431601
+netpbm 1106374
+XFree86-SVGA 2554614
+xbl 181045
+SysVinit 105489
+trojka 15219
+color-ls 60776
+nvi 1856481
+flex 257909
+psmisc 34446
+tetex-dvilj 361846
+fileutils 288330
+zlib 67613
+howto-sgml 875558
+mxp 121782
+mt-st 11977
+tetex-latex 6522676
+unzip 256951
+tunelp 10343
+modules 93616
+xterm-color 235761
+mtools 563656
+joe 975414
+sharutils 219117
+file 125256
+indent 82756
+vga_cardgames 111468
+liloconfig 19135
+yp-clients 53657
+flying 229880
+mpage 48622
+intimed 3072
+metamail 338650
+swatch 26652
+tetex 17758510
+diffutils 151409
+mkdosfs-ygg 19079
+XFree86-Xvfb 2123582
+pine 1190423
+seyon 273994
+cmu-snmp-utils 621208
+mawk 150263
+fwhois 7687
+modemtool 3053
+gcc-c++ 1537801
+gn 163469
+xwpick 47680
+sh-utils 297498
+mkisofs 46312
+transfig 189661
+vlock 9502
+strace 100821
+npasswd-dicts 1981828
+x3270 487543
+umsdos_progs 25707
+XFree86-Mach8 2087223
+perl4 1318120
+lout-doc 3999862
+termcap 434729
+ElectricFence 26933
+cmu-snmp-devel 141957
+xlander 25697
+rpm 552513
+patch 58703
+acm 3600445
+libg++ 2262846
+xlockmore 337946
+less 121023
+xgammon 3407611
+libc-profile 1210980
+ical 1259613
+ash 98226
+crontabs 1713
+libtermcap-devel 11859
+xpilot 1154950
+statnet 13540
+readline 191047
+Xaw3d-devel 672347
+lrzsz 71181
+bootpc 130494
+paradise 422104
+eject 10608
+tetex-afm 332682
+cpio 60645
+vim 464609
+libelf 547496
+XFree86-P9000 2263415
+xv 4617430
+lilo 1006189
+xview-devel 3221925
+open 11134
+xpaint 535927
+procps 115494
+procmail 181624
+gzip 231064
+sox 113488
+xloadimage 239503
+hdparm 30664
+stat 6801
+elm 542953

@@ -1,0 +1,397 @@
+CONTENTS: gentle ntf-ams ntf-astr ntf-bard ntf-bbm ntf-bl ntf-call ntf-cher ntf-cmas ntf-cmb ntf-cmca ntf-cmcy ntf-cml ntf-cmoe ntf-cmpc ntf-cms ntf-cmts ntf-cmu ntf-conc ntf-cypr ntf-ding ntf-duer ntf-elvi ntf-engw ntf-futh ntf-geor ntf-go ntf-hand ntf-hge ntf-kart ntf-klin ntf-la ntf-logi ntf-logo ntf-ogha ntf-okud       
+gentle:   A Gentle Introduction to TeX
+gentle:
+gentle:   This is a manual for TeX, written by Michael Doob.
+gentle:
+gentle:   Look for it in /usr/doc/TeX.
+gentle:
+gentle:
+gentle:
+gentle:
+gentle:
+gentle:
+ntf-ams:  ntf-ams 1.2
+ntf-ams:
+ntf-ams:  This package contains the ams fonts. If you are using amstex or 
+ntf-ams:  amslatex you should install them. The fonts could also be used without
+ntf-ams:  amstex.
+ntf-ams:
+ntf-ams:
+ntf-ams:
+ntf-ams:
+ntf-ams:
+ntf-ams:
+ntf-astr: ntf-astr 1.1
+ntf-astr:
+ntf-astr: This package contains fonts for astronomical and astrological symbols.
+ntf-astr: It also provides a style file to use the fonts.
+ntf-astr:
+ntf-astr:
+ntf-astr:
+ntf-astr:
+ntf-astr:
+ntf-astr:
+ntf-astr:
+ntf-bard: ntf-bard 1.1
+ntf-bard:
+ntf-bard: This package contains the bard font. It is based on the Celtic Bard
+ntf-bard: Runes and is nice to produce scrolls for role playing games.
+ntf-bard:
+ntf-bard:
+ntf-bard:
+ntf-bard:
+ntf-bard:
+ntf-bard:
+ntf-bard:
+ntf-bbm:  ntf-bbm 1.2
+ntf-bbm:
+ntf-bbm:  The Computer Modern Blackboard fonts.
+ntf-bbm:
+ntf-bbm:
+ntf-bbm:
+ntf-bbm:
+ntf-bbm:
+ntf-bbm:
+ntf-bbm:
+ntf-bbm:
+ntf-bl:   ntf-bl 1.1
+ntf-bl:
+ntf-bl:   The Blackletter font.
+ntf-bl:
+ntf-bl:
+ntf-bl:
+ntf-bl:
+ntf-bl:
+ntf-bl:
+ntf-bl:
+ntf-bl:
+ntf-call: ntf-call 1.2
+ntf-call:
+ntf-call: The Calligra font.
+ntf-call:
+ntf-call:
+ntf-call:
+ntf-call:
+ntf-call:
+ntf-call:
+ntf-call:
+ntf-call:
+ntf-cher: ntf-cher 1.2
+ntf-cher:
+ntf-cher: The Cherokee font. It comes along with a style file for latex.
+ntf-cher:
+ntf-cher:
+ntf-cher:
+ntf-cher:
+ntf-cher:
+ntf-cher:
+ntf-cher:
+ntf-cher:
+ntf-cmas: ntf-cmas 1.1
+ntf-cmas:
+ntf-cmas: This package contains the Computer Modern Astronomical fonts. It 
+ntf-cmas: comes along with a macro package for TeX.
+ntf-cmas:
+ntf-cmas:
+ntf-cmas:
+ntf-cmas:
+ntf-cmas:
+ntf-cmas:
+ntf-cmas:
+ntf-cmb:  ntf-cmb 1.2
+ntf-cmb:
+ntf-cmb:  This package contains some additional Computer Modern fonts.
+ntf-cmb:
+ntf-cmb:
+ntf-cmb:
+ntf-cmb:
+ntf-cmb:
+ntf-cmb:
+ntf-cmb:
+ntf-cmb:
+ntf-cmca: ntf-cmca 1.2
+ntf-cmca:
+ntf-cmca: This package contains the Computer Modern Cyrillic Alt fonts.
+ntf-cmca:
+ntf-cmca:
+ntf-cmca:
+ntf-cmca:
+ntf-cmca:
+ntf-cmca:
+ntf-cmca:
+ntf-cmca:
+ntf-cmcy: ntf-cmcy 1.2
+ntf-cmcy:
+ntf-cmcy: This package contains the Computer Modern Cyrillic fonts.
+ntf-cmcy:
+ntf-cmcy:
+ntf-cmcy:
+ntf-cmcy:
+ntf-cmcy:
+ntf-cmcy:
+ntf-cmcy:
+ntf-cmcy:
+ntf-cml:  ntf-cml 1.2
+ntf-cml:
+ntf-cml:  This package contains some Computer Modern fonts mainly used by LaTeX.
+ntf-cml:
+ntf-cml:
+ntf-cml:
+ntf-cml:
+ntf-cml:
+ntf-cml:
+ntf-cml:
+ntf-cml:
+ntf-cmoe: ntf-cmoe 1.1
+ntf-cmoe:
+ntf-cmoe: A Computer Modern font for Old English letters.
+ntf-cmoe:
+ntf-cmoe:
+ntf-cmoe:
+ntf-cmoe:
+ntf-cmoe:
+ntf-cmoe:
+ntf-cmoe:
+ntf-cmoe:
+ntf-cmpc: ntf-cmpc 1.1
+ntf-cmpc:
+ntf-cmpc: A Computer Modern Pica font.
+ntf-cmpc:
+ntf-cmpc:
+ntf-cmpc:
+ntf-cmpc:
+ntf-cmpc:
+ntf-cmpc:
+ntf-cmpc:
+ntf-cmpc:
+ntf-cms:  ntf-cms 1.2
+ntf-cms:
+ntf-cms:  The Sauter Computer Modern fonts. These are the basic fonts for TeX 
+ntf-cms:  in the NTeX distribution.
+ntf-cms:
+ntf-cms:
+ntf-cms:
+ntf-cms:
+ntf-cms:
+ntf-cms:
+ntf-cms:
+ntf-cmts: ntf-cmts 1.1
+ntf-cmts:
+ntf-cmts: Some cmttss fonts.
+ntf-cmts:
+ntf-cmts:
+ntf-cmts:
+ntf-cmts:
+ntf-cmts:
+ntf-cmts:
+ntf-cmts:
+ntf-cmts:
+ntf-cmu:  ntf-cmu 1.1
+ntf-cmu:
+ntf-cmu:  Some additional Computer Modern fonts. Some were used in the MetaFont
+ntf-cmu:  Book and the TeX Book.
+ntf-cmu:
+ntf-cmu:
+ntf-cmu:
+ntf-cmu:
+ntf-cmu:
+ntf-cmu:
+ntf-cmu:
+ntf-conc: ntf-conc 1.1
+ntf-conc:
+ntf-conc: The Concrete Mathematics fonts and a TeX macro package to use them.
+ntf-conc:
+ntf-conc:
+ntf-conc:
+ntf-conc:
+ntf-conc:
+ntf-conc:
+ntf-conc:
+ntf-conc:
+ntf-cypr: ntf-cypr 1.2
+ntf-cypr:
+ntf-cypr: The Cypriote fonts with a LaTeX style file to use them.
+ntf-cypr:
+ntf-cypr:
+ntf-cypr:
+ntf-cypr:
+ntf-cypr:
+ntf-cypr:
+ntf-cypr:
+ntf-cypr:
+ntf-ding: ntf-ding 1.1
+ntf-ding:
+ntf-ding: The Dingbat font.
+ntf-ding:
+ntf-ding:
+ntf-ding:
+ntf-ding:
+ntf-ding:
+ntf-ding:
+ntf-ding:
+ntf-ding:
+ntf-duer: ntf-duer 1.1
+ntf-duer:
+ntf-duer: The Duerer font.
+ntf-duer:
+ntf-duer:
+ntf-duer:
+ntf-duer:
+ntf-duer:
+ntf-duer:
+ntf-duer:
+ntf-duer:
+ntf-elvi: ntf-elvi 1.1
+ntf-elvi:
+ntf-elvi: The Elvish font.
+ntf-elvi:
+ntf-elvi:
+ntf-elvi:
+ntf-elvi:
+ntf-elvi:
+ntf-elvi:
+ntf-elvi:
+ntf-elvi:
+ntf-engw: ntf-engw 1.2
+ntf-engw:
+ntf-engw: The Engwar font, a font based on Tolkien's Tengwar.
+ntf-engw:
+ntf-engw:
+ntf-engw:
+ntf-engw:
+ntf-engw:
+ntf-engw:
+ntf-engw:
+ntf-engw:
+ntf-futh: ntf-futh 1.1
+ntf-futh:
+ntf-futh: The Futhark font.
+ntf-futh:
+ntf-futh:
+ntf-futh:
+ntf-futh:
+ntf-futh:
+ntf-futh:
+ntf-futh:
+ntf-futh:
+ntf-geor: ntf-geor 1.1
+ntf-geor:
+ntf-geor: A Georgian font with TeX macros.
+ntf-geor:
+ntf-geor:
+ntf-geor:
+ntf-geor:
+ntf-geor:
+ntf-geor:
+ntf-geor:
+ntf-geor:
+ntf-go:   ntf-go 1.1
+ntf-go:
+ntf-go:   A font and macros for typesetting boards of the Go game.
+ntf-go:
+ntf-go:
+ntf-go:
+ntf-go:
+ntf-go:
+ntf-go:
+ntf-go:
+ntf-go:
+ntf-hand: ntf-hand 1.1
+ntf-hand:
+ntf-hand: The hands font, a set of hand symbols.
+ntf-hand:
+ntf-hand:
+ntf-hand:
+ntf-hand:
+ntf-hand:
+ntf-hand:
+ntf-hand:
+ntf-hand:
+ntf-hge:  ntf-hge 1.1
+ntf-hge:
+ntf-hge:  An Old English font derived from the Hershey font.
+ntf-hge:
+ntf-hge:
+ntf-hge:
+ntf-hge:
+ntf-hge:
+ntf-hge:
+ntf-hge:
+ntf-hge:
+ntf-kart: ntf-kart 1.2
+ntf-kart:
+ntf-kart: The Karta font.
+ntf-kart:
+ntf-kart:
+ntf-kart:
+ntf-kart:
+ntf-kart:
+ntf-kart:
+ntf-kart:
+ntf-kart:
+ntf-klin: ntf-klin 1.2
+ntf-klin:
+ntf-klin: The Klinz font, a font containing upper and lower Klingon symbols.
+ntf-klin:
+ntf-klin:
+ntf-klin:
+ntf-klin:
+ntf-klin:
+ntf-klin:
+ntf-klin:
+ntf-klin:
+ntf-la:   ntf-la 1.2
+ntf-la:
+ntf-la:   The LA font, a script font.
+ntf-la:
+ntf-la:
+ntf-la:
+ntf-la:
+ntf-la:
+ntf-la:
+ntf-la:
+ntf-la:
+ntf-logi: ntf-logi 1.2
+ntf-logi:
+ntf-logi: The Logic font, a font for logical symbols.
+ntf-logi:
+ntf-logi:
+ntf-logi:
+ntf-logi:
+ntf-logi:
+ntf-logi:
+ntf-logi:
+ntf-logi:
+ntf-logo: ntf-logo 1.1
+ntf-logo:
+ntf-logo: A font containing the logos for TeX, Metafont, etc.
+ntf-logo:
+ntf-logo:
+ntf-logo:
+ntf-logo:
+ntf-logo:
+ntf-logo:
+ntf-logo:
+ntf-logo:
+ntf-ogha: ntf-ogha 1.1
+ntf-ogha:
+ntf-ogha: The Ogham font.
+ntf-ogha:
+ntf-ogha:
+ntf-ogha:
+ntf-ogha:
+ntf-ogha:
+ntf-ogha:
+ntf-ogha:
+ntf-ogha:
+ntf-okud: ntf-okud 1.1
+ntf-okud:
+ntf-okud: The Okuda font, a font for the Klingon language.
+ntf-okud:
+ntf-okud:
+ntf-okud:
+ntf-okud:
+ntf-okud:
+ntf-okud:
+ntf-okud:
+ntf-okud:

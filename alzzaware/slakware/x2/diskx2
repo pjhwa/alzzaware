@@ -1,0 +1,34 @@
+CONTENTS: fnt100_2 fntbig3 x312ctrb       
+fnt100_2: 100-dpi screen fonts, part two.
+fnt100_2:
+fnt100_2: These fonts are compressed to reduce disk usage.
+fnt100_2:
+fnt100_2:
+fnt100_2:
+fnt100_2:
+fnt100_2:
+fnt100_2:
+fnt100_2:
+fnt100_2:
+fntbig3:  Large fonts, part three.
+fntbig3:
+fntbig3:  These fonts are compressed to reduce disk usage.
+fntbig3:
+fntbig3:  Fonts included: jiskan24.pcf.Z k14.pcf.Z
+fntbig3:
+fntbig3:
+fntbig3:
+fntbig3:
+fntbig3:
+fntbig3:
+x312ctrb: Selected contributed programs for X11R6:
+x312ctrb:
+x312ctrb: This package installs the following optional programs in 
+x312ctrb: /usr/X11R6/bin:  ico listres showfont viewres xbiff xcalc xditview
+x312ctrb: xedit xev xeyes xfontsel xgc xload xman xmessage
+x312ctrb:
+x312ctrb:
+x312ctrb:
+x312ctrb:
+x312ctrb:
+x312ctrb:

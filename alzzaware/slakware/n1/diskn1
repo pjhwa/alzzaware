@@ -1,0 +1,78 @@
+CONTENTS: bind cnews dip elm mailx metamail procmail       
+bind:     BIND-4.9.3-BETA26
+bind:
+bind:     The named daemon and support utilities such as dig, dnsquery, host,
+bind:     nslookup, nsquery, and nstest.  Documentation on setting up a name
+bind:     server can be found in /usr/doc/bind-4.9.3-BETA26.
+bind:
+bind:
+bind:
+bind:
+bind:
+bind:
+cnews:    20 Feb 1993 Performance Release of C News
+cnews:
+cnews:    Controls the spooling and transmission of Usenet news. 
+cnews:    Cnews is typically used with UUCP - for NNTP connections INN might
+cnews:    be a better choice.
+cnews:
+cnews:
+cnews:
+cnews:
+cnews:
+cnews:
+dip:      DIP - dialup IP connection handler 3.3.7o
+dip:
+dip:      Uri Blumenthal's version of Fred N. van Kempen's DIP utility. DIP 
+dip:      handles the connections needed for dialup IP links, like SLIP or
+dip:      CSLIP. It can handle both incoming and outgoing connections, using
+dip:      password security for incoming connections.  
+dip:
+dip:
+dip:
+dip:
+dip:
+elm:      Menu-driven user mail program. (v. 2.4pl25)
+elm:
+elm:      Elm is an interactive screen-oriented mailer program originally
+elm:      written by Dave Taylor, and continued by the Elm Development Group. 
+elm:
+elm:
+elm:
+elm:
+elm:
+elm:
+elm:
+mailx:    BSD mailx 5.5.
+mailx:
+mailx:    Mail is a intelligent mail processing system, which has a command
+mailx:    syntax reminiscent of ed with lines replaced by messages. It's small;
+mailx:    it's the standard; it's a good thing to install if you're going to use
+mailx:    mail.
+mailx:
+mailx:
+mailx:
+mailx:
+mailx:
+metamail: metamail-2.7
+metamail:
+metamail: Metamail is an implementation of MIME, the Multipurpose Internet
+metamail: Mail Extensions, a proposed standard for multimedia mail on the 
+metamail: Internet.  Metamail implements MIME, and also implements extensibility
+metamail: and configuration via the "mailcap" mechanism described in an 
+metamail: informational RFC that is a companion to the MIME document.
+metamail:
+metamail:
+metamail:
+metamail:
+procmail: The procmail mail processing program. (v3.10 1994/10/31)
+procmail:
+procmail: Can be used to create mail-servers, mailing lists, sort your incoming
+procmail: mail into separate folders/files (real convenient when subscribing to
+procmail: one or more mailing lists or for prioritising your mail), preprocess
+procmail: your mail, start any programs upon mail arrival (e.g. to generate
+procmail: different chimes on your workstation for different types of mail) or
+procmail: selectively forward certain incoming mail automatically to someone.
+procmail:
+procmail: The author of procmail is Stephen R. van den Berg.
+procmail:

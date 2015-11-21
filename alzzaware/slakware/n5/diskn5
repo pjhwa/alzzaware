@@ -1,0 +1,12 @@
+CONTENTS: tcpip       
+tcpip:    TCP/IP networking programs and support files.
+tcpip:
+tcpip:    This is an updated set of utilities for Linux. Some of these were
+tcpip:    written from scratch and some were ported from various sources
+tcpip:    including NetBSD. The code was written and ported by Florian  
+tcpip:    La Roche, Alan Cox, Fred N. van Kempen, Donald J. Becker, Rick 
+tcpip:    Sladkey, Mark Shand, Orest Zborowski, Johannes Stille, Linus Torvalds,
+tcpip:    and others.
+tcpip:
+tcpip:
+tcpip:

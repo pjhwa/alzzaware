@@ -1,0 +1,7 @@
+ghostscript-4.0.tar.gz			gs40.tgz
+ghostscript-4.0gnu.tar.gz		gs40gnu.tgz
+ghostscript-4.0jpeg.tar.gz		gs40jpeg.tgz
+ghostscript-4.0libpng.tar.gz		gs40png.tgz
+ghostscript-4.0zlib.tar.gz		gs40zlib.tgz
+ghostscript-fonts-other-4.0.tar.gz	gs40fn2.tgz
+ghostscript-fonts-std-4.0.tar.gz	gs40fn1.tgz

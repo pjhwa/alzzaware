@@ -1,0 +1,248 @@
+
+
+This is the LaTeX2e style package hlatex2e.zip Version 1.2 (20-Aug-1994)
+
+========================================================================
+
+
+
+It contains the following files:
+
+
+
+    hlatex2e.txt    This file
+
+    hangul.kty      A LateX2e style file to enable Korean fonts
+
+    ukarm.fd
+
+    ukbrm.fd
+
+    ukasf.fd
+
+    ukbsf.fd
+
+    ukatt.fd
+
+    ukbtt.fd        font definition files for Korean fonts
+
+    test.ks         a test file
+
+    htex\htex.c     htex Ver 0.91a source code
+
+    htex\table.h    header file included in htex.c
+
+    htex\htex.exe   htex Ver 0.91a DOS / OS/2 executable
+
+    htex\emx.exe    VCPI DOS extender Ver 0.8h for htex.exe
+
+    htex\emx.dll    DLL-library for use with OS/2
+
+    htex\rsx.exe    DPMI DOS extender Ver 4 beta for htex.exe
+
+
+
+
+
+This is freely distributable under the GNU Public License.
+
+
+
+
+
+Installation
+
+------------
+
+
+
+Convert hangul.kty (and test.ks) with htex into hangul.sty (test.tex) and
+
+move hangul.sty and all .fd files into a directory which are found by TeX
+
+(see below also).
+
+
+
+emx.exe (if you are in a VCPI environment) or rsx.exe (in a DPMI environment)
+
+should be in the path; alternatively you can set the EMX and RSX environment
+
+variables equal the path AND the name of emx.exe/rsx.exe .
+
+emx.dll (for OS/2) must be in the libpath.
+
+
+
+
+
+Use
+
+---
+
+
+
+Use hangul.sty as a package, e.g.
+
+
+
+    \documentclass{article}
+
+    \usepackage{hangul}         .
+
+
+
+A new environment \begin{hangul} ... \end{hangul} is defined, wherein
+
+six fonts are available:
+
+
+
+      explicit      font                implicit
+
+      switch        name                switch
+
+     ------------------------------------------------------
+
+        \mj         MyoungJo            \rmfamily
+
+        \mjb        MyoungJo Bold       \rmfamily\bfseries
+
+        \gt         Gothic              \sffamily
+
+        \gs         BootGulssi          \rmfamily\itshape
+
+        \gr         Graphic             \ttfamily
+
+        \dr         Dinaru              \sffamily\bfseries
+
+
+
+Additionally the font switch \bmf is provided, which selects sans serif bold
+
+(and dinaru).
+
+
+
+This table says that Hangul fonts obey the New Font Selection Scheme too!
+
+E.g, to get a bold sans serif Hangul font, it's enough to say
+
+
+
+    \sffamily\bfseries      .
+
+
+
+To override the scheme, you can explicitly select a Hangul font with \mj etc.
+
+
+
+
+
+To activate hangul names for \tableofcontents etc., say
+
+
+
+    \captionshangul
+
+
+
+inside the hangul environment.
+
+Attention: this feature is still experimental.
+
+
+
+
+
+You can find a complete hangul font library and all metric files in the
+
+lj_han.zip package (it should be at the same place where you has found this
+
+package).
+
+
+
+
+
+To convert a file with Hangul KS encoding to TeX ASCII encoding (defined
+
+in hangul.sty), use htex:
+
+
+
+    htex [-a] input_file [output_file]     .
+
+
+
+The program maps the KS codes into TeX macros. To insure working in
+
+verbatim environments, some characters become active:
+
+
+
+    128 - 142 ASCII or
+
+    14 - 30 ASCII (except 26 and 27 ASCII) if the -a switch is set.
+
+
+
+I implemented this switch to avoid conflicts with languages using extended
+
+ASCII characters of many code pages on the PC.
+
+You must say
+
+
+
+    \usepackage[altencoding]{hangul}
+
+
+
+in your document to activate the alternative encoding.
+
+
+
+
+
+Attention! If the input file has characters in the range 161 <= ch <= 200
+
+which are NOT Hangul KS encoded (e.g. Chinese GB encoded), you should
+
+move all KS text in a separate file, convert it and insert the text again
+
+in the original file.
+
+
+
+If you use emTeX, you must create the LaTeX2e .fmt-file with the -r and -i
+
+switches on (alas, -r disables TeX Code Pages, but if you use Chinese or
+
+Japanese too, you can't use Code Pages either).
+
+
+
+
+
+
+
+Author
+
+------
+
+
+
+Werner Lemberg (A7621GAC@awiuni11.bitnet)
+
+
+
+Please report any errors or suggestions to this email-address.
+
+
+
+N.B.: This package was produced for a friend of mine -- I can't speak any
+
+      Korean :-)
+

@@ -1,0 +1,34 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING PACKAGES FROM SERIES XV (xview3.2p1-X11R6)" \
+       --checklist "Please select the packages you wish to install \
+from series XV. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the packages you wish to install. Recommended packages have \
+already been selected for you, but you may unselect them if you wish. \
+Press ENTER when you are \
+done." 19 70 8 \
+"xvol32" "Binaries for xview3.2p1-X11R6" "on" \
+"xv32_so" "Shared libraries for xview3.2p1-X11R6" "on" \
+"xv32_a" "Static libraries for xview3.2p1-X11R6" "off" \
+"xv32exmp" "Sample programs for Xview" "off" \
+"xvinc32" "Include files for Xview programming" "on" \
+"xvmenus" "Menus for the OpenLook Window Manager" "on" \
+"sspkg" "SlingShot extensions and examples for XView" "off" \
+"workman" "An audio CD player for XView" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in xv32_a xv32exmp xvinc32 xvmenus xvol32 xv32_so \
+sspkg workman ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

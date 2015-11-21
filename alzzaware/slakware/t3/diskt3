@@ -1,0 +1,34 @@
+CONTENTS: ntb-indx ntf-ps ntm-deva       
+ntf-ps:   ntf-ps 1.2
+ntf-ps:
+ntf-ps:   Some loadable Postscript Type1 fonts: Charter, Courier, URWAntiquaT,
+ntf-ps:   URWGroteskT, Nimbus, Utopia, MSYM10 and the .afm, .tfm, .vf and .fd
+ntf-ps:   files for the standard adobe postscript fonts.
+ntf-ps:
+ntf-ps:
+ntf-ps:
+ntf-ps:
+ntf-ps:
+ntf-ps:
+ntb-indx: ntb-indx 1.1
+ntb-indx:
+ntb-indx: This package contains the binaries for the programs makeindex, glotex
+ntb-indx: and idxtex to create indexes in TeX/LaTeX files and some macros for
+ntb-indx: using these programs.
+ntb-indx:
+ntb-indx:
+ntb-indx:
+ntb-indx:
+ntb-indx:
+ntb-indx:
+ntm-deva: ntm-deva 1.1
+ntm-deva:
+ntm-deva: This package contains software for the printing of the devanagari
+ntm-deva: script with TeX. The devanagari script is used for a number of
+ntm-deva: languages from Northern and Central India, such as Hindi and Marathi.
+ntm-deva: It is also the script used for writing and printing Sanskrit.
+ntm-deva:
+ntm-deva:
+ntm-deva:
+ntm-deva:
+ntm-deva:

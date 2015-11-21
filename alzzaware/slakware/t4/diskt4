@@ -1,0 +1,78 @@
+CONTENTS: ntb-bibt ntb-dlj ntb-kpat ntb-tex ntb-traf ntb-utl1 ntb-xdvi       
+ntb-bibt: ntb-bibt 1.1
+ntb-bibt:
+ntb-bibt: This package contains the binaries for BiBTeX, a program to maintain
+ntb-bibt: bibliographies under tex and use them in your TeX and LaTeX documents.
+ntb-bibt: It also contains some example databases for bibtex.
+ntb-bibt:
+ntb-bibt:
+ntb-bibt:
+ntb-bibt:
+ntb-bibt:
+ntb-bibt:
+ntb-dlj:  ntb-dlj 1.2
+ntb-dlj:
+ntb-dlj:  This are the binaries for the dvi2xx drivers based on the kpathsea
+ntb-dlj:  library. It contains the drivers dvi2lj, dvi2lj2, dvi2lj2p, dvi2lj4
+ntb-dlj:  and dviibm3812 for the HP Laserjet series and compatible laser 
+ntb-dlj:  printers. The current version is 2.1.
+ntb-dlj:
+ntb-dlj:
+ntb-dlj:
+ntb-dlj:
+ntb-dlj:
+ntb-kpat: ntb-kpat 1.1
+ntb-kpat:
+ntb-kpat: This is the binary version of the kpathsea library which was used to
+ntb-kpat: compile web2c, dvips, xdvi and dvi2xx. You do not need this library 
+ntb-kpat: for any program included in NTeX. You should just install it if you
+ntb-kpat: want to use it in your own programs. In this case you should also
+ntb-kpat: install the sources for kpathsea. The current version is 2.1.
+ntb-kpat:
+ntb-kpat:
+ntb-kpat:
+ntb-kpat:
+ntb-tex:  ntb-tex 1.2
+ntb-tex:
+ntb-tex:  This package contains the binaries for the TeX program and the 
+ntb-tex:  MakeTeX* scripts. MakeTeXTFM tries to create a tfm file, MakeTeXMF
+ntb-tex:  tries to create a mf file and MakeTeXPK tries to create a pk file.
+ntb-tex:  Note that the MakeTeXPK script can also uncompress pk fonts that are
+ntb-tex:  compressed with gzip. However, the uncompressed fonts are not
+ntb-tex:  compressed again, but it can help to save disk space, especially if
+ntb-tex:  you have installed fonts that you do not need all the time. The 
+ntb-tex:  current version of TeX is 3.1415 (C version 6.1).
+ntb-tex:
+ntb-traf: ntb-traf 1.1
+ntb-traf:
+ntb-traf: This package contains the binaries to transform .fig files (created by
+ntb-traf: xfig) to some other formats like epsf and LaTeX. If you have installed
+ntb-traf: xfig you should also install this package if you want to use xfig to
+ntb-traf: create other files than .fig files, which can then be included in your
+ntb-traf: LaTeX documents.
+ntb-traf:
+ntb-traf:
+ntb-traf:
+ntb-traf:
+ntb-utl1: ntb-utl1 1.1
+ntb-utl1:
+ntb-utl1: This package contains the binaries for the TeX utilities dvicopy,
+ntb-utl1: dvitype, pooltype, tangle, texi2dvi and weave.
+ntb-utl1:
+ntb-utl1:
+ntb-utl1:
+ntb-utl1:
+ntb-utl1:
+ntb-utl1:
+ntb-utl1:
+ntb-xdvi: ntb-xdvi 1.2
+ntb-xdvi:
+ntb-xdvi: These are the binaries for xdvi, a program to display dvi files under
+ntb-xdvi: X. It can also display epsf files which are included in dvi files. 
+ntb-xdvi: (You'll need ghostscript for this) The current version of xdvik is 
+ntb-xdvi: 1.8b. The epsf file handling has been patched so that xdvi can also
+ntb-xdvi: display scaled epsf files without problems.  
+ntb-xdvi:
+ntb-xdvi:
+ntb-xdvi:
+ntb-xdvi:

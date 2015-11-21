@@ -1,0 +1,89 @@
+CONTENTS: emacbin emacetc emacetc2 emacinfo emaclibe emaclisp emacman sitelisp
+emacbin:
+emacbin:                          GNU Hanemacs 19.30
+emacbin:
+emacbin:     실행화일
+emacbin:
+emacbin:    하니맥을 만들어주신 김 강 희 (khkim@archi.snu.ac.kr)님께 
+emacbin:    감사드립니다.
+emacbin:
+emacbin:
+emacbin:
+emacbin:
+emacetc:
+emacetc:                         GNU Hanemacs 19.30
+emacetc:
+emacetc:   etc 화일 - 첫번째
+emacetc:
+emacetc:
+emacetc:
+emacetc:
+emacetc:
+emacetc:
+emacetc:
+emacetc2:
+emacetc2:                        GNU Hanemacs 19.30
+emacetc2:
+emacetc2:
+emacetc2:   etc 화일 - 두번째
+emacetc2:
+emacetc2:
+emacetc2:
+emacetc2:
+emacetc2:
+emacetc2:
+emacinfo:
+emacinfo:                        GNU Hanemacs 19.30
+emacinfo:
+emacinfo:   info 화일
+emacinfo:
+emacinfo:
+emacinfo:
+emacinfo:
+emacinfo:
+emacinfo:
+emacinfo:
+emaclibe:
+emaclibe:                        GNU Hanemacs 19.30
+emaclibe:
+emaclibe:   libexec 화일
+emaclibe:
+emaclibe:
+emaclibe:
+emaclibe:
+emaclibe:
+emaclibe:
+emaclibe:
+emaclisp:
+emaclisp:                        GNU Hanemacs 19.30
+emaclisp:
+emaclisp:   각종 모드 화일
+emaclisp:
+emaclisp:
+emaclisp:
+emaclisp:
+emaclisp:
+emaclisp:
+emaclisp:
+emacman:
+emacman:                        GNU Hanemacs 19.30
+emacman:
+emacman:   문서 화일
+emacman:
+emacman:
+emacman:
+emacman:
+emacman:
+emacman:
+emacman:
+sitelisp:
+sitelisp:                        GNU Hanemacs 19.30
+sitelisp:
+sitelisp:    초기 설정 화일
+sitelisp:
+sitelisp:
+sitelisp:
+sitelisp:
+sitelisp:
+sitelisp:
+sitelisp:

@@ -1,0 +1,57 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+add() {
+  for package in $* ; do
+    echo "$package: ADD" >> /tmp/SeTnewtag
+  done
+}
+skip() {
+  for package in $* ; do
+    echo "$package: SKP" >> /tmp/SeTnewtag
+  done
+}
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING PACKAGES FROM SERIES Y (GAMES)" \
+       --checklist "Please select the packages you wish to install \
+from series Y. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the packages you wish to install. \
+Press ENTER when you are \
+done." 14 70 4 \
+"abuse1" "Abuse video game for console and X" "on" \
+"abuse2" "Abuse video game files, part two" "on" \
+"doom" "DOOM v1.8 for Linux console and X" "on" \
+"doomwad" "Data file required for DOOM, part one" "on" \
+"doomwad2" "Data file required for DOOM, part two" "on" \
+"bsdgames" "The BSD text games collection" "on" \
+"sastroid" "An asteroids clone that uses SVGAlib" "on" \
+"tetris" "Tetris for terminals" "on" \
+"lizards" "Lizards video game" "on" \
+"rockndia"      "Rocks 'n' Dianmonds *5" "on" \
+"xboing"        "X-based blockout clone. V2.3 *4"       "off" \
+"maelstrm"      "Maelstrom *5" "on" \
+"mirmagic"      "Mirror Magic II *5" "on" \
+"xgal"          "X galaga" "off" \
+"xbill"         "XBill v1.1"   "on" \
+"xbomb"         "XBomb 2.0"       "off" \
+"xkobo"         "X Kobo *4" "on" \
+"xshisen"       "Shisen-sho for X11 *3" "off" \
+"shanghai"      "XShanghai" "off" \
+"fmsx"		"old MSX games with Xevious" "off" \
+"xquake"        "Linux/X11 Quake - (id Soft) *10" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in bsdgames sastroid tetris lizards doom doomwad doomwad2 \
+abuse1 abuse2 rockndia xboing maelstrm mirmagic xbill \
+xkobo xshisen xquak xbomb shanghai xgal fmsx xquake ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

@@ -1,0 +1,23 @@
+CONTENTS: xv32_so xvol32     
+xv32_so:  ELF shared libraries for xview3.2p1-X11R6.LinuxELF.2
+xv32_so:
+xv32_so:  XView provides a set of pre-built, user-interface objects such as
+xv32_so:  canvases, scrollbars, menus, and control panels.  The appearance and
+xv32_so:  functionality of these objects follow the OPEN LOOK Graphical User
+xv32_so:  Interface (GUI) specification.
+xv32_so:
+xv32_so:
+xv32_so:
+xv32_so:
+xv32_so:
+xvol32:   Binaries for xview3.2p1-X11R6.LinuxELF.2
+xvol32:
+xvol32:   Configuration files, programs, and documentation for xview3.2p1-X11R6.
+xvol32:
+xvol32:   Includes these programs: xgettext msgfmt olwm svenv toolwait winsysck
+xvol32:   owplaces openwin xcenter clock cmdtool olwmslave props textedit olvwm
+xvol32:
+xvol32:
+xvol32:
+xvol32:
+xvol32:

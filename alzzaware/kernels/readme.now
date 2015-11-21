@@ -1,0 +1,51 @@
+This directory contains many precompiled Linux kernels. See the README in
+bootdsks.12 or bootdsks.144 for a brief description of the drivers in each one,
+or the "config" files in these subdirectories for a complete description.
+
+Ther kernels found in directories ending with '.i' are for use on systems that
+only need IDE hard drive/CDROM support.  Those ending in '.s' contain support
+for at least one type of SCSI controller in addition to the usual IDE support.
+
+You can make bootdisks out of these, or use them with Loadlin to boot your
+Linux system from MS-DOS.
+
+Most people won't need this directory, but if you need to remake a bootkernel
+disk from scratch, or you need a bootdisk that doesn't load the rootdisk into a
+ramdisk here's what you do:
+
+1. Using a kernel in this directory to make a simple bootdisk:
+
+   Just cat the kernel to a floppy, like this: 
+ 
+        cat scsinet.b/zImage > /dev/fd0
+
+   Or, you may use RAWRITE.EXE to write the kernel to a disk. You may get 
+   warnings about it being a short file, but it will still work.
+
+   All of the kernels in this directory are configured to mount the root
+   partition, not load it into a ramdisk. This can make a big difference on
+   machines with only 4 megabytes or RAM when all else (including disabling
+   the shadow RAM, which does nothing under Linux except waste memory anyway)
+   has failed. If you use one of these raw kernels to install, you can't 
+   install from your first floppy drive, and you won't be able to make a
+   bootdisk at the end of the installation process. Use LILO, Loadlin, or one
+   of the normal bootkernel disks to get your system started after you finish
+   installing.
+
+2. Making a Slackware-like bootkernel disk from one of the supplied kernels,
+   or one of your own.
+
+   You can't do this under DOS - you'll have to be running Linux. First, edit
+   the 'makedisk' script to point to the location of your bootkernel disk master
+   directory if you don't want to use the default ./master one.
+
+   Then, with a formatted disk in your boot drive, type:
+
+   makedisk kernel_name disk_size
+            ^^          ^^^^^^^^^ This can be 1440, or 1200.
+            ^^^^^^^^^^^ mitsumi, scsi, or whatever you want to use. Include
+                        the path to the kernel if it's in one of the 
+                        subdirectories, such as: mitsumi.b/zImage
+
+   This should automatically create the disk.
+

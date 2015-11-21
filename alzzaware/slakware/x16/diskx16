@@ -1,0 +1,12 @@
+CONTENTS: x312xtra       
+x312xtra: Two optional experimental servers for X11R6.
+x312xtra:
+x312xtra: Xvfb -- a virtual framebuffer X server. Xvfb is an X server that can
+x312xtra: run on machines with no display hardware and no physical input 
+x312xtra: devices.  It emulates a dumb framebuffer using virtual memory.
+x312xtra:
+x312xtra: Xnest -- a nested X server.  Xnest is a client of the real server
+x312xtra: which manages windows and graphics requests on its behalf.  Xnest 
+x312xtra: is a server to its own clients.  Xnest manages windows and graphics 
+x312xtra: requests on their behalf.
+x312xtra:

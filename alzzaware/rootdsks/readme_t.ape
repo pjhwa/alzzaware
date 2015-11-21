@@ -1,0 +1,28 @@
+
+UMSDOS install disk:
+
+This is an version of the Slackware Linux distribution made to be installed 
+onto existing DOS partitions without the need for repartitioning or 
+reformatting. The system will be installed into a \linux directory on one
+of your DOS partitions, and will be bootable through the use of a boot disk.
+Don't create a \linux directory on your dos drive prior to installing.
+
+All of the Slackware bootkernel disks support UMSDOS, so you can pick whichever
+one of those seems best suited to your hardware.
+
+You will need 4 megabytes minimum to install this software.
+
+I tried installing the A series and found it took slightly less than 12
+megabytes. So, to give Linux a test drive, that's the smallest space you can
+squeeze a minimal system into.
+
+I'll take any bug reports or comments you have on this. I get *tons* of mail,
+so if I don't answer yours, don't take it personally. :^) I wish I could
+answer it all.
+
+Good luck, and have fun trying this out!
+
+---
+Patrick Volkerding
+volkerdi@mhd1.moorhead.msus.edu
+volkerdi@ftp.cdrom.com

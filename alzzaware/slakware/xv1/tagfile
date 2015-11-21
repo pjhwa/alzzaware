@@ -1,0 +1,9 @@
+# tagfile for XView (xview3.2p1-X11R6) series
+xvol32:   ADD
+xv32_so:  ADD
+xv32_a:   OPT
+xv32exmp: OPT
+xvinc32:  OPT
+xvmenus:  ADD
+sspkg:    OPT
+workman:  OPT

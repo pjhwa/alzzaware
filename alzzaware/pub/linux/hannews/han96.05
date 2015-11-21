@@ -1,0 +1,3274 @@
+From hangul-request@cair.kaist.ac.kr  Wed May 22 09:35:39 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id JAA13098 for <hangul@cair.kaist.ac.kr>; Wed, 22 May 1996 09:35:37 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id MAA15951 for hangul@cair.kaist.ac.kr; Tue, 21 May 1996 12:40:51 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 21 May 1996 03:40:44 GMT
+From: ssh <bp96015@pine2.kangwon.ac.kr>
+Message-ID: <4nrdvs$i5t@news.kreonet.re.kr>
+Organization: KWNU Mech' Eng' Plastic Lab.
+Content-Type: multipart/mixed;
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>, <4nq875$9vv@net161-61.student.yale.edu>
+Subject: Re: ÇÑ±Û encode/decode ¹®Á¦ ºĞ¼®Ç¥
+
+This is a multi-part message in MIME format.
+
+---------------------------------178251594515627
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=iso-8859-1
+
+jungshik@net161-61.student.yale.edu (Jungshik Shin) wrote:
+>You Young-ho (yhyou@asadal.cs.pusan.ac.kr) wrote:
+
+>:    ÇÑ±Û ÀüÀÚ ¿ìÆí¿¡¼­ »ı±â´Â ¹®Á¦¿¡ ´ëÇØ¼­ Ç¥·Î Á¤¸®ÇØ º¸¾Ò½À´Ï´Ù.
+>:    Á¤¸®ÇÑ Ç¥´Â 
+>: 	http://asadal.cs.pusan.ac.kr/mail 
+>:    °ü½ÉÀÖÀ¸½Å ºĞÀº ÇÑ ¹ø »ìÆì º¸½Ã°í, Á¶¾ğÀ» ÇØ ÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù.
+>
+>  Á¤¸®ÇÏ´À¶ó ¼ö°íÇÏ¼Ì½À´Ï´Ù. ±×·±µ¥, ³»¿ë¿¡¼­ ¾ğ±ŞÇÑ
+>hangul sendmail,pineµî¿¡ ´ëÇÑ ¸µÅ©³ª °ü·Ã RFC(822?,1521,1522,1557,
+>1652 µî)¿¡ ´ëÇÑ ¸µÅ©¸¦ °É¾îµÎ¾úÀ¸¸é ÁÁ¾ÒÀ» °ÍÀÔ´Ï´Ù.
+>
+>  ¸î°¡Áö Á¦°¡ ¾Æ´Â °Í°ú ´Ù¸¥ °ÍÀ» Àû¾î º¸°Ú½À´Ï´Ù. 
+>
+>
+> 1. .ISO-2022¿¡ ´ëÇÑ ¼³¸íÀÌ Àß¸øµÈ  °Í °°½À´Ï´Ù. "ISO-2022¶õ 
+>¹«¾ùÀÎ°¡"¿¡¼­ ½ÇÁ¦·Î ¼³¸íÇÑ °ÍÀº ÀÏ¹İÀûÀÎ ISO-2022-KRÀÌ
+>¾Æ´Ï¶ó, ISO-2022-KRÀÎ °Í °°Àºµ¥,
+>ISO-2022-KR¿¡ ´ëÇÑ ¼³¸íÀ¸·Îµµ Á¦°¡ ¾Æ´Â ÇÑ ¸ÂÁö ¾Ê½À´Ï´Ù.  
+>ISO-2022-KRÀ» ¾Ë¸®´Â ESC+$+)+C´Â ²À ÇàÀÇ Ã¹ ÄÃ·³¿¡ ³ª¿Í¾ßÇÏ´Â 
+>°ÍÀ¸·Î Àú´Â ¾Ë°í ÀÖ½À´Ï´Ù.(RFC 1557Âü°í). ³ªÁß¿¡ 
+>´Ù¸¥ ¼³¸í¿¡¼­´Â ´Ù ¸Â°Ô ¾²¼Ì´øµ¥.....
+>
+>   2. Pine 3.93¿¡¼­µµ MTA°¡ RFC 1652 ÀÇ ESMTP negotiation ruleÀ»
+>µû¸£´Â sendmail 8.7.x°ú °°Àº  MTA°¡ ¾²ÀÌ¸é MIMEÀ¸·Î ÀÎÄÚµåÇÏÁö 
+>¾Ê°í º¸³¾ ¼ö ÀÖ½À´Ï´Ù. ±×·±µ¥, ¾ÆÁ÷ ÇÑ±Û sendmail 8.7.x´Â
+>¾øÀ¸´Ï±î, ±×·¯¸é ±×³É 8bit·Î °¡°ÚÁö¿ä. ¶Ç, elmÀº UA¿¡¼­ ÀüÇô 
+>¾ğ±ŞÀ» ¾È ÇÏ¼Ì´øµ¥, elm2.4¸¦ MIME±â´ÉÀ» ³Ö¾î ÄÄÆÄÀÏÇÏ°í
+>metamail°ú °°ÀÌ ¾²¸é QP³ª Base64·Î ÀÎÄÚµåµÈ ¸ŞÀÏÀ» ÀĞ´Âµ¥
+>¾Æ¹« ÁöÀåÀÌ ¾ø½À´Ï´Ù(charsetÀÌ Á¦´ë·Î euc-krÀÌµç iso-8859-1·Î
+>Àß¸øµÇ¾úµç). ¶Ç, elm2.4ME+pl*(ÃÖ½ÅÀº 
+>elm2.4ME+PL17·Î ftp://ftp.funet.fi/pub/mail/elm/elm-2.4ME+°¡ 
+>homesiteÀÓ)À» ¾²¸é MIMEÀ¸·Î º¸³»´Â °Íµµ ¸Ş´º¿¡¼­ (º¸Åë elm2.4¿¡¼­´Â 
+>¼öµ¿À¸·Î)°¡´ÉÇÕ´Ï´Ù. ¶Ç, µÎ°¡Áö elm°ú pine 3.93¿¡¼­ Á¦¸ñÀÇ 
+>ÇÑ±Û  encodingÀ» Á¦¿ÜÇÏ°í´Â MTA°³ÀÔ¾øÀÌ (UA¼öÁØ¿¡¼­) iso-2022-kr·Î º»¹®ÀÌ  
+>Á¦´ë·Î ÀÎÄÚµùµÇ°í HeaderÀÇ MIMEÁ¤º¸µµ ÇÑ±Û sendmailÀ» °ÅÄ£ °Í°ú 
+>¶È°°Àº ¸Ş½ÃÁö¸¦ º¸³¾ ¼ö ÀÖ½À´Ï´Ù. Çì´õÀÇ ÇÑ±ÛÀº charsetÀ»
+>iso-2022-kr·Î ÇØ ³õÀ¸¸é ?iso-2022-kr?B?...?=¿Í °°Àº ½ÄÀ¸·Î
+>ÀÎÄÚµåÇØ ¹ö¸³´Ï´Ù.( headerÀÇ ¹®ÀÚ¼Â°ú Content-Type¿¡ ¾²ÀÎ ¹®ÀÚ¼ÂÀÌ 
+>´Ù¸¥ °æ¿ì±îÁö´Â ¹ÌÃ³ Áö¿øÇÒ »ı°¢À» ¸ø ÇßÀ»Å×´Ï±î¿ä)
+>
+>
+>  3. iso-2022-krÀ» ¾î´À Á¤µµ ´Ù·ê ¼ö ÀÖ´Â UA´Â mule¿¡¼­ Rmail(?)ÀÌ
+>ÀÖ½À´Ï´Ù. muleÀº mail¿¡¼­ ¾µ ¹®ÀÚ¼ÂÀ» ÁöÁ¤ÇÒ ¼ö ÀÖ´Â °ÍÀ¸·Î
+>º¸ÀÔ´Ï´Ù. 
+>
+>
+>   4. º»¹®¿¡¼­ Base64 encodingÀ» ÇÒ ¶§µµ Çì´õ¿¡¼­¿Í ¸¶Âù°¡Áö·Î
+>?charset?B?.....?=Ã³·³ ÇØ¾ßÇÏ´Â  °ÍÀ¸·Î ¾²¼Ì´øµ¥, 
+>±×°ÍÀº header¿¡¼­¸¸ ±×·¸°Ô ÇÏ´Â °ÍÀÔ´Ï´Ù.(RFC 1522) º»¹®¿¡ ¾²ÀÎ 
+>encoding ¹æ½ÄÀÌ³ª ±ÛÀÚ¼ÂÀº ÀÌ¹Ì Content-TypeÇì´õ¿Í 
+>Content-Transfer-Encoding¿¡¼­ ÁöÁ¤µÇ¾úÀ¸¹Ç·Î, º»¹®¿¡¼­ 
+>´Ù½Ã °°Àº  Á¤º¸¸¦ ¹İº¹ÇÒ ¤ÔÇÊ¿ä´Â ¾ø½À´Ï´Ù(RFC 1521). 
+>
+> 5.  ÇÑ±Û sendmailÀÌ Çì´õ µğÄÚµù½Ã euc-krÀÌ³ª base64¸¦
+>°¡¸®Å°´Â BÀÇ ´ë¼Ò¹®ÀÚ¸¦ °¡¸®´Â °ÍÀº (¼Ò¹®ÀÚ·Î º¸³»´Â
+>UA(Netscape°°Àº)ÀÇ Àß¸øÀÌ ¾Æ´Ï¶ó) ÇÑ±Û sendmailÀÇ
+>Àß¸øÀÔ´Ï´Ù. RFC 1522¿¡¼­ ´ë¼Ò¹®ÀÚ ±¸º°¾øÀÌ 
+>¾î´À °æ¿ì³ª ÀÎ½ÄÇÏµµ·Ï µÇ¾î ÀÖ½À´Ï´Ù. ´ÙÀ½ÆÇ¿¡¼­
+>°íÃÄÁú °ÍÀ¸·Î ±â´ëÇÕ´Ï´Ù. Mac¿ë ÇÑ±Ûmail ÇÁ·Î±×·¥¿¡¼­´Â 
+>ÇöÀçµµ ÀÌ°ÍÀ» Àß Ã³¸®ÇÕ´Ï´Ù. ¶Ç, Unix¿ë hcodeµµ Á¦°¡ °íÄ£ 
+>°ÍÀº ´ë¼Ò¹®ÀÚ¸¦ °¡¸®Áö ¾Ê°í µğÄÚµåÇÕ´Ï´Ù. (ÀÌ°ÍµéÀÇ
+>À§Ä¡´Â ÀÌ ±×·ì¿¡ Àü¿¡ ¿Ã¶ó¿Â ±Û Âü°í)
+>
+>
+>  6. ÀÏ¹İÀûÀÎ °Í¸¸ ´Ù·ç´Â °ÍÀÌ¶ó¼­ ¾ğ±ŞÇÏÁö ¾ÊÀ¸½Å °ÍÀÌ
+>ÀÚ¿¬½º·¯¿üÀ» ¼öµµ ÀÖÁö¸¸, ¿©·¯°¡Áö '²Ç¼ö'¸¦ ¾²¸é iso-2022-kr·Î 
+>³¯¾Æ¿À´Â mailµµ non-localized UA¿Í non-localized MTA¸¦ ½á¼­ 
+>(³ª¶ó ¹Û¿¡ »ç´Â ÇÑ±¹ÀÎ) ÀÏ¹İ»ç¿ëÀÚ´Â °ÅÀÇ ½Å°æÀ» ¾²Áö ¾Ê°Ô 
+>ÇÏ°íµµ  decodeÇØ¼­ º¸¿©ÁÙ ¼ö ÀÖ´Â ¹æ¹ıÀÌ ²Ï³ª ¿©·¯°¡Áö ÀÖ½À´Ï´Ù.
+>
+>   ±×·³, Âü°í°¡ µÇ¼Ì±â¸¦ ..
+>
+>   ½ÅÁ¤½Ä 
+>
+>P.S. Àû¾îµµ Linux ¹öÀüÀÇ Netscape 2.02¿Í  3.0b3,3.0b4´Â 
+>Àü¿¡´Â Àß µğÄÚµåÇØ¼­ º¸¿©ÁÖ´ø B encoded header¸¦
+>¸ŞÀÏ ¸ñ·Ï Ã¢¿¡¼­ µğÄÚµåÇÏÁö ¾Ê°í ±×´ë·Î ?euc-kr?B?....?=¿Í
+>°°Àº ½ÄÀ¸·Î º¸¿©Áİ´Ï´Ù. º»¹® Ã¢¿¡¼­´Â ÀÌ Á¦¸ñµµ 
+>µğÄÚµåÇØ¼­ º¸¿©ÁÖÁö¸¸¿ä. 
+
+
+---------------------------------178251594515627
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain
+
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Reply-To: jshin@minerva.cis.yale.edu
+Newsgroups: han.comp.mail,han.comp.hangul
+Followup-To: han.comp.mail,han.comp.hangul
+Subject: Re: ÇÑ±Û encode/decode ¹®Á¦ ºĞ¼®Ç¥
+Date: 20 May 1996 16:56:05 GMT
+Organization: Yale University, Physics Dept.
+Message-ID: <4nq875$9vv@net161-61.student.yale.edu>
+References: <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>
+
+You Young-ho (yhyou@asadal.cs.pusan.ac.kr) wrote:
+:    ÇÑ±Û ÀüÀÚ ¿ìÆí¿¡¼­ »ı±â´Â ¹®Á¦¿¡ ´ëÇØ¼­ Ç¥·Î Á¤¸®ÇØ º¸¾Ò½À´Ï´Ù.
+:    Á¤¸®ÇÑ Ç¥´Â 
+: 	http://asadal.cs.pusan.ac.kr/mail 
+:    °ü½ÉÀÖÀ¸½Å ºĞÀº ÇÑ ¹ø »ìÆì º¸½Ã°í, Á¶¾ğÀ» ÇØ ÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù.
+
+  Á¤¸®ÇÏ´À¶ó ¼ö°íÇÏ¼Ì½À´Ï´Ù. ±×·±µ¥, ³»¿ë¿¡¼­ ¾ğ±ŞÇÑ
+hangul sendmail,pineµî¿¡ ´ëÇÑ ¸µÅ©³ª °ü·Ã RFC(822?,1521,1522,1557,
+1652 µî)¿¡ ´ëÇÑ ¸µÅ©¸¦ °É¾îµÎ¾úÀ¸¸é ÁÁ¾ÒÀ» °ÍÀÔ´Ï´Ù.
+
+  ¸î°¡Áö Á¦°¡ ¾Æ´Â °Í°ú ´Ù¸¥ °ÍÀ» Àû¾î º¸°Ú½À´Ï´Ù. 
+
+
+ 1. .ISO-2022¿¡ ´ëÇÑ ¼³¸íÀÌ Àß¸øµÈ  °Í °°½À´Ï´Ù. "ISO-2022¶õ 
+¹«¾ùÀÎ°¡"¿¡¼­ ½ÇÁ¦·Î ¼³¸íÇÑ °ÍÀº ÀÏ¹İÀûÀÎ ISO-2022-KRÀÌ
+¾Æ´Ï¶ó, ISO-2022-KRÀÎ °Í °°Àºµ¥,
+ISO-2022-KR¿¡ ´ëÇÑ ¼³¸íÀ¸·Îµµ Á¦°¡ ¾Æ´Â ÇÑ ¸ÂÁö ¾Ê½À´Ï´Ù.  
+ISO-2022-KRÀ» ¾Ë¸®´Â ESC+$+)+C´Â ²À ÇàÀÇ Ã¹ ÄÃ·³¿¡ ³ª¿Í¾ßÇÏ´Â 
+°ÍÀ¸·Î Àú´Â ¾Ë°í ÀÖ½À´Ï´Ù.(RFC 1557Âü°í). ³ªÁß¿¡ 
+´Ù¸¥ ¼³¸í¿¡¼­´Â ´Ù ¸Â°Ô ¾²¼Ì´øµ¥.....
+
+   2. Pine 3.93¿¡¼­µµ MTA°¡ RFC 1652 ÀÇ ESMTP negotiation ruleÀ»
+µû¸£´Â sendmail 8.7.x°ú °°Àº  MTA°¡ ¾²ÀÌ¸é MIMEÀ¸·Î ÀÎÄÚµåÇÏÁö 
+¾Ê°í º¸³¾ ¼ö ÀÖ½À´Ï´Ù. ±×·±µ¥, ¾ÆÁ÷ ÇÑ±Û sendmail 8.7.x´Â
+¾øÀ¸´Ï±î, ±×·¯¸é ±×³É 8bit·Î °¡°ÚÁö¿ä. ¶Ç, elmÀº UA¿¡¼­ ÀüÇô 
+¾ğ±ŞÀ» ¾È ÇÏ¼Ì´øµ¥, elm2.4¸¦ MIME±â´ÉÀ» ³Ö¾î ÄÄÆÄÀÏÇÏ°í
+metamail°ú °°ÀÌ ¾²¸é QP³ª Base64·Î ÀÎÄÚµåµÈ ¸ŞÀÏÀ» ÀĞ´Âµ¥
+¾Æ¹« ÁöÀåÀÌ ¾ø½À´Ï´Ù(charsetÀÌ Á¦´ë·Î euc-krÀÌµç iso-8859-1·Î
+Àß¸øµÇ¾úµç). ¶Ç, elm2.4ME+pl*(ÃÖ½ÅÀº 
+elm2.4ME+PL17·Î ftp://ftp.funet.fi/pub/mail/elm/elm-2.4ME+°¡ 
+homesiteÀÓ)À» ¾²¸é MIMEÀ¸·Î º¸³»´Â °Íµµ ¸Ş´º¿¡¼­ (º¸Åë elm2.4¿¡¼­´Â 
+¼öµ¿À¸·Î)°¡´ÉÇÕ´Ï´Ù. ¶Ç, µÎ°¡Áö elm°ú pine 3.93¿¡¼­ Á¦¸ñÀÇ 
+ÇÑ±Û  encodingÀ» Á¦¿ÜÇÏ°í´Â MTA°³ÀÔ¾øÀÌ (UA¼öÁØ¿¡¼­) iso-2022-kr·Î º»¹®ÀÌ  
+Á¦´ë·Î ÀÎÄÚµùµÇ°í HeaderÀÇ MIMEÁ¤º¸µµ ÇÑ±Û sendmailÀ» °ÅÄ£ °Í°ú 
+¶È°°Àº ¸Ş½ÃÁö¸¦ º¸³¾ ¼ö ÀÖ½À´Ï´Ù. Çì´õÀÇ ÇÑ±ÛÀº charsetÀ»
+iso-2022-kr·Î ÇØ ³õÀ¸¸é ?iso-2022-kr?B?...?=¿Í °°Àº ½ÄÀ¸·Î
+ÀÎÄÚµåÇØ ¹ö¸³´Ï´Ù.( headerÀÇ ¹®ÀÚ¼Â°ú Content-Type¿¡ ¾²ÀÎ ¹®ÀÚ¼ÂÀÌ 
+´Ù¸¥ °æ¿ì±îÁö´Â ¹ÌÃ³ Áö¿øÇÒ »ı°¢À» ¸ø ÇßÀ»Å×´Ï±î¿ä)
+
+
+  3. iso-2022-krÀ» ¾î´À Á¤µµ ´Ù·ê ¼ö ÀÖ´Â UA´Â mule¿¡¼­ Rmail(?)ÀÌ
+ÀÖ½À´Ï´Ù. muleÀº mail¿¡¼­ ¾µ ¹®ÀÚ¼ÂÀ» ÁöÁ¤ÇÒ ¼ö ÀÖ´Â °ÍÀ¸·Î
+º¸ÀÔ´Ï´Ù. 
+
+
+   4. º»¹®¿¡¼­ Base64 encodingÀ» ÇÒ ¶§µµ Çì´õ¿¡¼­¿Í ¸¶Âù°¡Áö·Î
+?charset?B?.....?=Ã³·³ ÇØ¾ßÇÏ´Â  °ÍÀ¸·Î ¾²¼Ì´øµ¥, 
+±×°ÍÀº header¿¡¼­¸¸ ±×·¸°Ô ÇÏ´Â °ÍÀÔ´Ï´Ù.(RFC 1522) º»¹®¿¡ ¾²ÀÎ 
+encoding ¹æ½ÄÀÌ³ª ±ÛÀÚ¼ÂÀº ÀÌ¹Ì Content-TypeÇì´õ¿Í 
+Content-Transfer-Encoding¿¡¼­ ÁöÁ¤µÇ¾úÀ¸¹Ç·Î, º»¹®¿¡¼­ 
+´Ù½Ã °°Àº  Á¤º¸¸¦ ¹İº¹ÇÒ ¤ÔÇÊ¿ä´Â ¾ø½À´Ï´Ù(RFC 1521). 
+
+ 5.  ÇÑ±Û sendmailÀÌ Çì´õ µğÄÚµù½Ã euc-krÀÌ³ª base64¸¦
+°¡¸®Å°´Â BÀÇ ´ë¼Ò¹®ÀÚ¸¦ °¡¸®´Â °ÍÀº (¼Ò¹®ÀÚ·Î º¸³»´Â
+UA(Netscape°°Àº)ÀÇ Àß¸øÀÌ ¾Æ´Ï¶ó) ÇÑ±Û sendmailÀÇ
+Àß¸øÀÔ´Ï´Ù. RFC 1522¿¡¼­ ´ë¼Ò¹®ÀÚ ±¸º°¾øÀÌ 
+¾î´À °æ¿ì³ª ÀÎ½ÄÇÏµµ·Ï µÇ¾î ÀÖ½À´Ï´Ù. ´ÙÀ½ÆÇ¿¡¼­
+°íÃÄÁú °ÍÀ¸·Î ±â´ëÇÕ´Ï´Ù. Mac¿ë ÇÑ±Ûmail ÇÁ·Î±×·¥¿¡¼­´Â 
+ÇöÀçµµ ÀÌ°ÍÀ» Àß Ã³¸®ÇÕ´Ï´Ù. ¶Ç, Unix¿ë hcodeµµ Á¦°¡ °íÄ£ 
+°ÍÀº ´ë¼Ò¹®ÀÚ¸¦ °¡¸®Áö ¾Ê°í µğÄÚµåÇÕ´Ï´Ù. (ÀÌ°ÍµéÀÇ
+À§Ä¡´Â ÀÌ ±×·ì¿¡ Àü¿¡ ¿Ã¶ó¿Â ±Û Âü°í)
+
+
+  6. ÀÏ¹İÀûÀÎ °Í¸¸ ´Ù·ç´Â °ÍÀÌ¶ó¼­ ¾ğ±ŞÇÏÁö ¾ÊÀ¸½Å °ÍÀÌ
+ÀÚ¿¬½º·¯¿üÀ» ¼öµµ ÀÖÁö¸¸, ¿©·¯°¡Áö '²Ç¼ö'¸¦ ¾²¸é iso-2022-kr·Î 
+³¯¾Æ¿À´Â mailµµ non-localized UA¿Í non-localized MTA¸¦ ½á¼­ 
+(³ª¶ó ¹Û¿¡ »ç´Â ÇÑ±¹ÀÎ) ÀÏ¹İ»ç¿ëÀÚ´Â °ÅÀÇ ½Å°æÀ» ¾²Áö ¾Ê°Ô 
+ÇÏ°íµµ  decodeÇØ¼­ º¸¿©ÁÙ ¼ö ÀÖ´Â ¹æ¹ıÀÌ ²Ï³ª ¿©·¯°¡Áö ÀÖ½À´Ï´Ù.
+
+   ±×·³, Âü°í°¡ µÇ¼Ì±â¸¦ ..
+
+   ½ÅÁ¤½Ä 
+
+P.S. Àû¾îµµ Linux ¹öÀüÀÇ Netscape 2.02¿Í  3.0b3,3.0b4´Â 
+Àü¿¡´Â Àß µğÄÚµåÇØ¼­ º¸¿©ÁÖ´ø B encoded header¸¦
+¸ŞÀÏ ¸ñ·Ï Ã¢¿¡¼­ µğÄÚµåÇÏÁö ¾Ê°í ±×´ë·Î ?euc-kr?B?....?=¿Í
+°°Àº ½ÄÀ¸·Î º¸¿©Áİ´Ï´Ù. º»¹® Ã¢¿¡¼­´Â ÀÌ Á¦¸ñµµ 
+µğÄÚµåÇØ¼­ º¸¿©ÁÖÁö¸¸¿ä. 
+
+---------------------------------178251594515627--
+From jrson@nca.or.kr  Thu May 23 11:58:07 1996
+Received: from hen.nca.or.kr (hen.nca.or.kr [202.30.65.7]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id LAA00729 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 11:57:56 +0900
+Received: from jrson ([202.30.67.172]) by hen.nca.or.kr (8.6.12h2/8.6.9) with SMTP id LAA07931; Thu, 23 May 1996 11:59:01 +0900
+Received: by jrson with Microsoft Mail
+	id <01BB489F.855EC0C0@jrson>; Thu, 23 May 1996 12:01:05 +0900
+Message-ID: <01BB489F.855EC0C0@jrson>
+From: jrson <jrson@nca.or.kr>
+To: "'hana-tech@han.hana.nm.kr'" <hana-tech@han.hana.nm.kr>,
+        "'hangul@cair.kaist.ac.kr'" <hangul@cair.kaist.ac.kr>,
+        "'internet@osia.or.kr'" <internet@osia.or.kr>,
+        "'knc@krnic.net'" <knc@krnic.net>,
+        "'krnet-sec@ns.nca.or.kr'" <krnet-sec@ns.nca.or.kr>,
+        "'sg-inet@krnic.net'" <sg-inet@krnic.net>
+To: "'www-forum@krnic.net'" <www-forum@krnic.net>
+Subject: [ÁË¼ÛÇÕ´Ï´Ù.] Á¦6È¸ Àü»ê¸Á ±â¼ú ¹× Ç¥ÁØ
+ È­ ½ÉÆ÷Áö¿ò.
+Date: Thu, 23 May 1996 12:01:04 +0900
+MIME-Version: 1.0
+Content-Type: text/plain; charset="ISO-2022-KR"
+Content-Transfer-Encoding: 7bit
+
+--------------------------------------------------------------------
+
+ ÁË¼ÛÇÕ´Ï´Ù. Á¶±İÀü¿¡ º¸³½ E-mailÀ» Á¶ÇÕÇüÀ¸·Î º¸³»´Â ¹Ù¶÷¿¡
+³»¿ëÀÌ ±úÁ³½À´Ï´Ù. ±×·¡¼­ ´Ù½Ã Àü¼ÛÇÕ´Ï´Ù.
+
+±×·³...
+--------------------------------------------------------------------
+
+¾È³çÇÏ½Ê´Ï±î?
+
+ÇÑ±¹Àü»ê¿ø Ç¥ÁØº»ºÎÀÇ ±è¿µ±ÕÀÔ´Ï´Ù.
+
+ÇÑ±¹Àü»ê¿ø¿¡¼­´Â "Á¦ 9È¸ Á¤º¸¹®È­ÀÇ ´Ş"À» ¸ÂÀÌÇÏ¿© "Á¦ 6 È¸ Àü»ê¸Á
+±â¼ú ¹× Ç¥ÁØÈ­ ½ÉÆ÷Áö¿ò"À» °³ÃÖÇÕ´Ï´Ù. ÀÌ¿¡µû¸¥ ¼¼ºÎ »çÇ×À» ¾È³»
+ÇÏ¿À´Ï °ü·ÃºĞ¾ß¿¡ °è½Ã´Â ºĞµéÀÇ Âü¿©¸¦ ºÎÅ¹µå¸³´Ï´Ù.
+
+ÇöÀç ¿ìÆíÀ» ÅëÇÏ¿© Æ÷½ºÅÍ¿Í ¾È³»ÀåÀ» ¹ß¼ÛÁß¿¡ ÀÖÀ¸¸ç, ¾È³»ÀåÀÌ
+º°µµ·Î ÇÊ¿äÇÏ½Å ºĞµé²²´Â ¿ìÆí ¶Ç´Â ±âÅ¸ÀÇ ¹æ¹ıÀ¸·Î º¸³»µå¸®µµ·Ï
+ÇÏ°Ú½À´Ï´Ù.
+
+Âü°í·Î º» ¸ŞÀÏÀ» Áßº¹ÇÏ¿© ¹ŞÀ¸½Ã´Â ºĞµé²² ¾çÇØ¸¦ ¹Ù¶ó¸ç, ÁÖÀ§ÀÇ
+°ü½ÉÀÖ´Â ºĞµé²² Àü¼ÛÇÏ¿© ÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù.
+
+°¨»çÇÕ´Ï´Ù.
+
+
+   O /
+----X---------------------------------------------------------------
+   O \
+
+
+Á¦ 9È¸ Á¤º¸¹®È­ÀÇ ´Ş ±â³ä
+
+
+1996³â Á¦6È¸
+Àü»ê¸Á ±â¼ú ¹× Ç¥ÁØÈ­ ½ÉÆ÷Áö¿ò
+
+   - ÁÖ°ü/ Á¤º¸Åë½ÅºÎ
+   - ÁÖÃÖ/ ÇÑ±¹Àü»ê¿ø
+   - ÈÄ¿ø/ ÇÑ±¹°æ¿µÁ¤º¸ÇĞÈ¸, ÇÑ±¹Á¤º¸°úÇĞÈ¸, ÇÑ±¹Á¤º¸Ã³¸®ÇĞÈ¸,
+           ÇÑ±¹Åë½ÅÇĞÈ¸, ÇÑ±¹Åë½ÅÁ¤º¸º¸È£ÇĞÈ¸, Áß¾ÓÀÏº¸»ç, ÀüÀÚ½Å¹®»ç,
+   - ÀÏ½Ã/ 1996³â 6¿ù 4ÀÏ(È­) 09:00-18:00
+   - Àå¼Ò/ ÇÑ±¹°úÇĞ±â¼ú´ÜÃ¼ ÃÑ¿¬ÇÕÈ¸ ´ë°­´ç(¿ª»ïµ¿ ¼ÒÀç)
+
+
+  ÃÊ´ëÀÇ ¸»¾¸ ------------------------------------------------------
+
+  ±İ¹ø ÇÑ±¹Àü»ê¿ø¿¡¼­´Â "Á¦ 9È¸ Á¤º¸¹®È­ÀÇ ´Ş"À» ¸ÂÀÌÇÏ¿© ÃÊ°í¼Ó
+±¹°¡¸Á ±¸Ãà°ú ÀÌ¸¦ ÅëÇÑ Á¤º¸Åë½Å ¼±Áø±¹À¸·ÎÀÇ ¹ßÀüÀÇ °è±â¸¦ ¸¶·Ã
+ÇÏ°íÀÚ ¡¸Á¦ 6È¸ Àü»ê¸Á ±â¼ú ¹× Ç¥ÁØÈ­ ½ÉÆ÷Áö¿ò¡¹À» °³ÃÖÇÏ°Ô µÇ¾ú
+½À´Ï´Ù.
+  ÀÌ¹ø ½ÉÆ÷Áö¿ò¿¡¼­´Â ÃÊ°í¼Ó Á¤º¸Åë½ÅÀÇ µ¿Çâ ¹× ¹Ì·¡ ±×¸®°í ÃÊ°í¼Ó
+±¹°¡¸Á ±¸ÃàÀ» À§ÇÑ ±¹³»¿Ü Ç¥ÁØÈ­ µ¿ÇâÀ» ¼Ò°³ÇÏ°í  º¸¾È ±â¼ú È°¿ë
+¹× ÃÊ°í¼Ó ±¹°¡¸Á °ü·Ã ±â¼ú¿¡ ´ëÇÑ ¼Ò°³¸¦ ÅëÇØ ¿ì¸®³ª¶ó Ç¥ÁØÈ­
+ºĞ¾ß¿¡ ´ëÇÑ °ü½É°íÃë¿Í °¢ °èÀÇ Àü¹®°¡µéÀÇ °øµ¿³ë·ÂÀ» À§ÇÑ ½ÇÁúÀûÀÎ
+Ç¥ÁØÈ­ È°µ¿ÀÇ ÀåÀÌ µÉ °ÍÀÔ´Ï´Ù.
+  ¿©·¯ºĞÀÇ ¸¹Àº Âü¿©¿Í ¼º¿ø ¹Ù¶ø´Ï´Ù.
+
+
+ÇÁ·Î±×·¥  ----------------------------------------------
+
+¿ÀÀü/1996³â 6¿ù 4ÀÏ(È­)
++-------------+-----------------------------------------------------+
+|   ½Ã   °£   |                  ³»                  ¿ë             |
++-------------+-----------------------------------------------------+
+| 08:00~09:00 | µî  ·Ï                                              |
++-------------+-----------------------------------------------------+
+| 09:00~09:10 | ºñµğ¿À»ó¿µ(Á¤º¸È­¿Í ¼¼°èÈ­)                         |
++-------------+-----------------------------------------------------+
+| 09:10~10:00 | ½ÄÀü°­¿¬                                            |
+|             |     : ÃÊ°í¼Ó È¯°æ¿¡¼­ÀÇ À§¼º ¹× ¹«¼±Åë½Å ¿î¿µ¹æ¾È   |
+|             |       (ÃÖ¿ëÀÏ, LGÁ¤º¸Åë½Å)                          |
++-------------+-----------------------------------------------------+
+| 10:00~10:30 | °³È¸»ç  (ÇÑ±¹Àü»ê¿øÀå)                              |
+|             | Ãà»ç    (Á¤º¸Åë½ÅºÎ Â÷°ü)                           |
++-------------+-----------------------------------------------------+
+| 10:30~11:00 | ±âÁ¶¿¬¼³                                            |
+|             |   1. WTO È¯°æ¿¡¼­ Á¤º¸Åë½Å ¹× Àü»ê¸Á Ç¥ÁØÈ­ Á¤Ã¥    |
+|             |      (±èÃ¢°ï, Á¤º¸Åë½ÅºÎ ±â¼ú½ÉÀÇ°ü)                |
+|             |   2. ÃÊ°í¼ÓÁ¤º¸Åë½Å¸Á¿¡¼­ÀÇ Ç¥ÁØÈ­ Àü·«             |
+|             |      (¼Û°üÈ£, ÇÑ±¹Àü»ê¿ø Ç¥ÁØº»ºÎÀå)                |
++-------------+-----------------------------------------------------+
+| 11:00~12:00 | Æ¯º°°­¿¬                                            |
+|             |     : ¸ÖÆ¼¹Ìµğ¾î ¼­ºñ½º ±â¼ú °³¹ß Àü·«              |
+|             |       (±è°ÇÁß, »ï¼ºÀüÀÚ Àü¹«)                       |
++-------------+-----------------------------------------------------+
+| 12:00~13:00 | Áß½Ä                                                |
++-------------+-----------------------------------------------------+
+
+¿ÀÈÄ/1996³â 6¿ù 4ÀÏ(È­)
++-----------+-------------------------------------------------------+
+| ½Ã   °£   |                    ³»                         ¿ë      |
++-----------+-------------------------------------------------------+
+|13:00~14:50|³í¹®¹ßÇ¥                                               |
+|           +-------------------------------------------------------+
+|           |                           ¼¼  ¼Ç   1                  |
+|           +-------------------------------------------------------+
+|           |                             ÁÂÀå : ¼ÛÁÖ¼® (¿¬¼¼´ë)    |
+|           |                                                       |
+|           | ³í¹® 1 : ÃÊ°í¼ÓÁ¤º¸Åë½ÅÀ» ÇâÇÑ ±âÁ¸ ¸ÁÀÇ ÁøÈ­Àü·«     |
+|           |                  ÀÌ»óÈÆ (ÇÑ±¹Åë½Å)                    |
+|           | ³í¹® 2 : ÃÊ°í¼Ó ÀÀ¿ë¼­ºñ½ºÀÇ ±¸Çö ¹× ±â¼ú             |
+|           |                  Á¶±¹Çö (±¤¿î´ë)                      |
+|           | ³í¹® 3 : ¸ÖÆ¼¹Ìµğ¾î Á¤º¸Åë½Å ºĞ¾ßÀÇ Ç¥ÁØÈ­ ¹× Àü·«    |
+|           |                  ÇÔÁøÈ£ (ETRI)                        |
+|           | ³í¹® 4 : Á¤º¸Åë½Å ½Å±â¼ú Àû¿ë¹æ¾È                     |
+|           |                  À±ÅÂ¼· (ÇÑ±¹Àü»ê¿ø)                  |
+|           +-------------------------------------------------------+
+|           |                           ¼¼  ¼Ç   2                  |
+|           +-------------------------------------------------------+
+|           |               ÁÂÀå : È«¿ø±â(Æ÷Ç×°ø´ë)                 |
+|           |                                                       |
+|           | ³í¹® 5 : Àü»ê¸Á º¸¾È±â¼ú Ç¥ÁØÈ­ µ¿Çâ                  |
+|           |                ÀÌ°æ¼® (»ê¾÷¿¬±¸¿ø)                    |
+|           | ³í¹® 6 : ÇØ½¬ÇÔ¼öÀÇ ¼¼°è Ç¥ÁØÈ­ ¹× ±â¼ú               |
+|           |                ±è  Ã¶ (±¤¿î´ë)                        |
+|           | ³í¹® 7 : º¸¾È»ç°í ´ëÀÀ(IRC)°ú À§Çè ºĞ¼®ÀÇ ¿ªÇÒ        |
+|           |                ÀÌº´¸¸ (ÇÑ±¹Àü»ê¿ø)                    |
+|           | ³í¹® 8 : ÀÎÅÍ³×Æ® º¸¾È ±â¼ú ¹× ´ëÃ¥                   |
+|           |                ¿°Çå¿µ (¼­¿ï´ë)                        |
++-----------+-------------------------------------------------------+
+|14:50~15:00|ÈŞ½Ä                                                   |
++-----------+-------------------------------------------------------+
+|15:00~17:00|³í¹®¹ßÇ¥                                               |
+|           +-------------------------------------------------------+
+|           |                           ¼¼  ¼Ç   3                  |
+|           +-------------------------------------------------------+
+|           |                             ÁÂÀå : ±è´ë¿µ (Ãæ³²´ë)    |
+|           |                                                       |
+|           | ³í¹® 9 : ÀÎÅÍ³İ/ÀÎÆ®¶ó³İ ½Å±â¼ú µ¿Çâ ¹× Àû¿ë¹æ¾È      |
+|           |                  ÀÌÀç¿ë (¿¬¼¼´ë)                      |
+|           | ³í¹® 10: GIIÇ¥ÁØÈ­ ±â¼ú ¹× Àü·«                       |
+|           |                  ¹ÚÁ¾ÈÆ (ÇÑ±¹Àü»ê¿ø)                  |
+|           | ³í¹® 11: µğÁöÅ» ¿Àµğ¿À/ºñÁê¾ó ÀÀ¿ë¼­ºñ½º Ç¥ÁØÇöÈ²     |
+|           |          ¹× ÃßÁø¹æ¾È                                  |
+|           |                  ¹Ú¿µ´ö (ETRI)                        |
+|           | ³í¹® 12: ±¹³» WEB ºê¶ó¿ìÁ® ±â¼ú ¹× ±¹Á¦µ¿Çâ           |
+|           |                  ÇÑ¼±¿µ (°Ç±¹´ë)                      |
+|           +-------------------------------------------------------+
+|           |                          ¼¼  ¼Ç   4                   |
+|           +-------------------------------------------------------+
+|           |                             ÁÂÀå : Á¤±â¿ø (¼ş½Ç´ë)    |
+|           |                                                       |
+|           | ³í¹® 13 : °´Ã¼ÁöÇâ DBMS                               |
+|           |                º¯±¤ÁØ (¾ÆÁÖ´ë)                        |
+|           | ³í¹® 14 : À¯´ÏÄÚµå¿Í KSC 5700                         |
+|           |                °­ÅÂÁø (ÇÑ±Û°úÄÄÇ»ÅÍ)                  |
+|           | ³í¹® 15 : Open GIS Ç¥ÁØ°³¹ß Àü·«                      |
+|           |                ÁøÈñÃ¤ (ÇÑ±¹Àü»ê¿ø)                    |
+|           | ³í¹® 16 : Â÷¼¼´ëÀü»ê¸Á ¹Ìµé¿ş¾î ÇÃ·§Æû Ç¥ÁØÈ­ ÃßÁø¹æ¾È|
+|           |                 ÀÓ¿µÈ¯ (¼ş½Ç´ë)                       |
+|           |                                                       |
++-----------+-------------------------------------------------------+
+|17:00~17:10|ÈŞ½Ä                                                   |
++-----------+-------------------------------------------------------+
+|17:10~18:00|ÆĞ³ÎÅäÀÇ                                               |
++-----------+-------------------------------------------------------+
+|           |  ÁÖ  Á¦ : ÃÊ°í¼Ó Á¤º¸Åë½Å Ç¥ÁØÈ­                      |
+|           |  ÁÂ  Àå : ¾È¼ø½Å ±³¼ö (°í·Á´ë/OSIAÈ¸-Àå)              |
+|           |  Åä·ĞÀÚ : »ê¾÷°è  È²ÅÂÀÎ »ó¹« (½Ö¿ëÁ¤º¸Åë½Å)          |
+|           |                   À¯½ÂÈ­ »ó¹« (»ï¼ºÀüÀÚ)              |
+|           |           ¿¬±¸¼Ò  ÀÌ¿µÈñ ¼¾ÅÍÀå (ÇÑ±¹ÀüÀÚÅë½Å¿¬±¸¼Ò   |
+|           |                                 Á¤º¸Åë½Å Ç¥ÁØ¿¬±¸¼¾ÅÍ)|
+|           |                   ¼Û°üÈ£ º»ºÎÀå (ÇÑ±¹Àü»ê¿ø Ç¥ÁØº»ºÎ) |
+|           |           °ü  °è  ¹ÚÁ¤·Ä °úÀå (Á¤º¸Åë½ÅºÎ ±â¼ú±âÁØ°ú) |
+|           |           ÇĞ  °è  ÃÖ¾çÈñ ±³¼ö (¼­¿ï´ë ÄÄÇ»ÅÍ °øÇĞ°ú)  |
++-----------+-------------------------------------------------------+
+|18:00      |ÆóÈ¸                                                   |
++-----------+-------------------------------------------------------+
+  ¡Ø ¼¼¼Ç1°ú ¼¼¼Ç2 ±×¸®°í, ¼¼¼Ç3°ú ¼¼¼Ç4´Â µ¿½Ã¿¡ ÁøÇàµÊ
+
+
+
+Âü°¡¾È³»  ----------------------------------------------
+
+  - ÀÏ  ½Ã : 1996³â 6¿ù 4ÀÏ(È­) (1ÀÏ°£)
+  - Àå  ¼Ò : ÇÑ±¹°úÇĞ±â¼ú´ÜÃ¼ ÃÑ¿¬ÇÕÈ¸ ´ëÈ¸ÀÇÀå (¿ª»ïµ¿ ¼ÒÀç)
+  - Âü°¡ºñ : ÀÏ¹İ : 2¸¸¿ø (»çÀüµî·Ï), 3¸¸¿ø(´çÀÏµî·Ï)
+             ÇĞ»ı : 1¸¸¿ø
+
+ * »çÀüµî·Ï ¾È³»
+  - ½ÅÃ»±â°£ : 1996³â 5¿ù 31ÀÏ(±İ)±îÁö
+  - ½ÅÃ»¹æ¹ı : Ã·ºÎµÈ ½ÅÃ»¼­¸¦ ÀÛ¼ºÇÏ¿© E-MailÀÌ³ª FAX·Î
+               º¸³»ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.
+  - Âü °¡ ºñ : ±¸ÁÂ NO: ÇÏ³ªÀºÇà, 404-097848-00204
+               ±¸ÁÂ¸í : ÇÑ±¹Àü»ê¿ø
+  - Âü°¡¹®ÀÇ : TEL : (0331)260-2526, 260-2553~2559
+                     (02)553-2181(±³223) (Çà»ç´çÀÏ)
+               FAX : (0331)284-2752,262-2752)
+               E-Mail : ygkim@nca.or.kr
+               WWW : http://www.standard.nca.or.kr/sympo
+               ½ÉÆ÷Áö¿ò ´ã´çÀÚ
+  - ±â    Å¸ : (1) Âü°¡ºñ¿¡´Â Áß½Ä°ú ÇÁ·Î½ÃµùÀÌ Æ÷ÇÔµÇ¾î ÀÖ½À´Ï´Ù.
+               (2) Çà»ç´çÀÏ µî·ÏÀÇ °æ¿ì´Â ¼ö¿ë´É·Â¿¡ µû¶ó µî·Ï¼øÀ»
+                   ¿ì¼±ÇÏ¹Ç·Î »çÀü¿¡ µî·Ï¹Ù¶ø´Ï´Ù.
+               (3)±³ÅëÆíÀº ´ëÁß±³ÅëÀ» ÀÌ¿ëÇÏ¿© ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.
+                  (ÁÖÂ÷ºñ´Â º»ÀÎºÎ´ã, ÁöÇÏÃ¶ 2È£¼± °­³²¿ª,
+                   ¿ª»ï¿ª ÀÌ¿ë)
+
+
+From hangul-request@cair.kaist.ac.kr  Thu May 23 12:19:07 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id MAA10627 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 12:19:07 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id MAA19406 for hangul@cair.kaist.ac.kr; Thu, 23 May 1996 12:20:22 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 02:18:11 GMT
+From: yhyou@asadal.cs.pusan.ac.kr (You Young-ho)
+Message-ID: <4o0ht3$pur@jagalchi.cc.pusan.ac.kr>
+Organization: Pusan Nat'l Univ. Computer Center
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>, <4nq875$9vv@net161-61.student.yale.edu>
+Subject: Re: ÇÑ±Û encode/decode ¹®Á¦ ºĞ¼®Ç¥
+
+      jungshik shin wrote:
+:)
+
+:)      ¸î°¡Áö Á¦°¡ ¾Æ´Â °Í°ú ´Ù¸¥ °ÍÀ» Àû¾î º¸°Ú½À´Ï´Ù.
+:)
+       ¸ÕÀú °ü½ÉÀ» °¡Áö°í ÁöÀûÇØ ÁÖ½Åµ¥ ´ëÇØ °¨»çµå¸³´Ï´Ù.
+	
+:)
+:)     1. .ISO-2022¿¡ ´ëÇÑ ¼³¸íÀÌ Àß¸øµÈ  °Í °°½À´Ï´Ù. "ISO-2022¶õ
+:)    ¹«¾ùÀÎ°¡"¿¡¼­ ½ÇÁ¦·Î ¼³¸íÇÑ °ÍÀº ÀÏ¹İÀûÀÎ ISO-2022-KRÀÌ
+:)    ¾Æ´Ï¶ó, ISO-2022-KRÀÎ °Í °°Àºµ¥,
+:)    ISO-2022-KR¿¡ ´ëÇÑ ¼³¸íÀ¸·Îµµ Á¦°¡ ¾Æ´Â ÇÑ ¸ÂÁö ¾Ê½À´Ï´Ù.
+:)    ISO-2022-KRÀ» ¾Ë¸®´Â ESC+$+)+C´Â ²À ÇàÀÇ Ã¹ ÄÃ·³¿¡ ³ª¿Í¾ßÇÏ´Â
+:)    °ÍÀ¸·Î Àú´Â ¾Ë°í ÀÖ½À´Ï´Ù.(RFC 1557Âü°í). ³ªÁß¿¡
+:)    ´Ù¸¥ ¼³¸í¿¡¼­´Â ´Ù ¸Â°Ô ¾²¼Ì´øµ¥.....
+:)
+      ESC+$+)+C´Â ÇàÀÇ Ã¹ ÄÃ·³¿¡ ³ª¿Í¾ßÇÏ´Â °Ô ¸Â½À´Ï´Ù.
+      Áö±İ ÁöÀûÇÏ½Å °ÍÀº Á¦°¡ ½á³õÀº ±Û ÁßÀÇ Á¤±Ô½Ä(?)À» º¸°í ÇÏ½Å ¸»¾¸
+      °°Àºµ¥ Á¦°¡ Á¤±Ô½ÄÀ» °£¼ÒÈ­ ÇÏ´Â °úÁ¤¿¡¼­ Àß¸ø Ç¥ÇöÇÑ °ÍÀÔ´Ï´Ù.
+   
+:)       2. Pine 3.93¿¡¼­µµ MTA°¡ RFC 1652 ÀÇ ESMTP negotiation ruleÀ»
+:)    µû¸£´Â sendmail 8.7.x°ú °°Àº  MTA°¡ ¾²ÀÌ¸é MIMEÀ¸·Î ÀÎÄÚµåÇÏÁö
+:)    ¾Ê°í º¸³¾ ¼ö ÀÖ½À´Ï´Ù. ±×·±µ¥, ¾ÆÁ÷ ÇÑ±Û sendmail 8.7.x´Â
+:)    ¾øÀ¸´Ï±î, ±×·¯¸é ±×³É 8bit·Î °¡°ÚÁö¿ä. ¶Ç, elmÀº UA¿¡¼­ ÀüÇô
+
+      ÀÌ ¸»¾¸Àº UMA °¡ MTA ÀÇ ¹öÁ¯¿¡ µû¶ó ´Ù¸£°Ô µ¿ÀÛÇÑ´Ù´Â ¸»¾¸ÀÌ½ÅÁö..
+     Àß ÀÌÇØ°¡ ¾ÈµÇ³×¿ä. Á» ÀÚ¼¼È÷ ¸»¾¸ÇØ ÁÖ½Ã¸é °í¸¿°Ú½À´Ï´Ù.
+      
+:)    Àß¸øµÇ¾úµç). ¶Ç, elm2.4ME+pl*(ÃÖ½ÅÀº
+:)    elm2.4ME+PL17·Î ftp://ftp.funet.fi/pub/mail/elm/elm-2.4ME+°¡
+:)    homesiteÀÓ)À» ¾²¸é MIMEÀ¸·Î º¸³»´Â °Íµµ ¸Ş´º¿¡¼­ (º¸Åë elm2.4¿¡¼­´Â
+:)    ¼öµ¿À¸·Î)°¡´ÉÇÕ´Ï´Ù. ¶Ç, µÎ°¡Áö elm°ú pine 3.93¿¡¼­ Á¦¸ñÀÇ
+:)    ÇÑ±Û  encodingÀ» Á¦¿ÜÇÏ°í´Â MTA°³ÀÔ¾øÀÌ(UA¼öÁØ¿¡¼­) iso-2022-kr·Î º»¹®ÀÌ
+:)    Á¦´ë·Î ÀÎÄÚµùµÇ°í HeaderÀÇ MIMEÁ¤º¸µµ ÇÑ±Û sendmailÀ» °ÅÄ£ °Í°ú
+     
+      elm Àº Å×½ºÆ® ÇØº¸Áö ¾Ê¾ÒÁö¸¸, pine3.93 ¿¡¼­´Â º»¹®¿¡ ÇÑ±ÛÀÌ Æ÷ÇÔµÇ¸é
+      ¹«Á¶°Ç QP ·Î ÀÎÄÚµù ÇÏ´øµ¥ ¾î¶»°Ô ÇÏ¸é MTA °³ÀÔ¾øÀÌ 2022 ·Î ÀÎÄÚµù ÇÏÁÒ?
+      pine ¿¡¼­ iso-2022-kr ·Î µÈ ¸Ş½ÃÁö¸¦ ÀĞ±âÀ§ÇØ¼± filter ¸¦ ÁöÁ¤ÇÏ°í 
+      pipe ¸¦ ÅëÇØ¼­ ÀÌ filter ¸¦ ¿¬°á½ÃÄÑ¾ß ÇÏÁö ¾Ê³ª¿ä? Áï, Á¦¸»Àº pine¿¡´Â
+      2022 ·Î ÀÎÄÚµåÇÏ°í µğÄÚµåÇÏ´Â ·çÆ¾ÀÌ ¾øÁö ¾Ê³ª ÇÏ´Â °ÅÁÒ.
+:)
+:)       4. º»¹®¿¡¼­ Base64 encodingÀ» ÇÒ ¶§µµ Çì´õ¿¡¼­¿Í ¸¶Âù°¡Áö·Î
+:)    ?charset?B?.....?=Ã³·³ ÇØ¾ßÇÏ´Â  °ÍÀ¸·Î ¾²¼Ì´øµ¥,
+:)    ±×°ÍÀº header¿¡¼­¸¸ ±×·¸°Ô ÇÏ´Â °ÍÀÔ´Ï´Ù.(RFC 1522) º»¹®¿¡ ¾²ÀÎ
+:)    encoding ¹æ½ÄÀÌ³ª ±ÛÀÚ¼ÂÀº ÀÌ¹Ì Content-TypeÇì´õ¿Í
+:)    Content-Transfer-Encoding¿¡¼­ ÁöÁ¤µÇ¾úÀ¸¹Ç·Î, º»¹®¿¡¼­
+:)    ´Ù½Ã °°Àº  Á¤º¸¸¦ ¹İº¹ÇÒ ¤ÔÇÊ¿ä´Â ¾ø½À´Ï´Ù(RFC 1521).
+:)
+      ¿¹ ¸Â½À´Ï´Ù.  Á¦°¡ Àß¸ø ¾Ë°í ÀÖ¾ú½À´Ï´Ù. ÁöÀû °¨»çÇÕ´Ï´Ù.
+			  
+:)       ±×·³, Âü°í°¡ µÇ¼Ì±â¸¦ ..
+:)
+      ¸¹Àº µµ¿òÀÌ µÇ¾ú½À´Ï´Ù.
+      °¨»çÇÕ´Ï´Ù.
+			       
+      À¯  ¿µ È£
+					      
+---------------------------
+Information on me
+---------------------------
+Name: Youngho You
+Internet ID: yhyou@asadal.cs.pusan.ac.kr(164.125.25.30)
+Address : Database & Hangul Information Processing Lab. 
+	  Dept. of Computer Science,
+	  College of Science, Pusan National Univ.,
+          San 30, Janjun-dong, Geumjung-gu, Pusan 609-735, Korea
+Telephone Number : (051) 582-0491    Fax : (051) 515-2208
+
+From hangul-request@cair.kaist.ac.kr  Thu May 23 13:13:32 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id NAA22278 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 13:13:25 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id NAA20707 for hangul@cair.kaist.ac.kr; Thu, 23 May 1996 13:14:36 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Tue, 21 May 1996 16:17:24 GMT
+From: teaba@cre.co.kr (Kim Byuong ho)
+Message-ID: <4o0on5$dhc@news.kreonet.re.kr>
+Organization: Korea Research Environment Open Network (KREONet)
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: ¿¡ÀÌÀüÆ®¿¡¼­ ¸øÀĞ´Â ÇÑ±Û
+
+
+>À© ¿¡ÀÌÀüÆ®¿¡¼­ ¿Ï¼ºÇü ¸»°í ÀĞÀ»¼ö ÀÖ´Â ¹æ¹ıÀ» 
+>¾Æ½Ã´Â ºĞÀº Á» ¿Ã·ÁÁÖ¼¼¿ä 
+>À©µµ¿ì Á¶ÇÕÇü µµ ÀÖ´ÂÁö 
+
+From hangul-request@cair.kaist.ac.kr  Thu May 23 14:09:24 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id OAA25605 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 14:09:22 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id OAA22111 for hangul@cair.kaist.ac.kr; Thu, 23 May 1996 14:10:43 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 05:06:57 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4o0rph$2av@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: ÇÑ±Û encode/decode ¹®Á¦ ºĞ¼®Ç¥
+
+You Young-ho (yhyou@asadal.cs.pusan.ac.kr) wrote:
+:       Jungshik Shin wrote:
+
+
+: :     1. .ISO-2022¿¡ ´ëÇÑ ¼³¸íÀÌ Àß¸øµÈ  °Í °°½À´Ï´Ù. "ISO-2022¶õ
+: :    ¹«¾ùÀÎ°¡"¿¡¼­ ½ÇÁ¦·Î ¼³¸íÇÑ °ÍÀº ÀÏ¹İÀûÀÎ ISO-2022-KRÀÌ
+                                                  ISO-2022°¡ 
+: :    ¾Æ´Ï¶ó, ISO-2022-KRÀÎ °Í °°Àºµ¥,
+
+: Áö±İ ÁöÀûÇÏ½Å °ÍÀº Á¦°¡ ½á³õÀº ±Û ÁßÀÇ Á¤±Ô½Ä(?)À» º¸°í ÇÏ½Å ¸»¾¸
+:  °°Àºµ¥ Á¦°¡ Á¤±Ô½ÄÀ» °£¼ÒÈ­ ÇÏ´Â °úÁ¤¿¡¼­ Àß¸ø Ç¥ÇöÇÑ °ÍÀÔ´Ï´Ù.
+ 
+  Á¤±Ô½Ä ¾Õ¿¡ ³ª¿Í ÀÖ´Â ¾Æ·¡¿¡ ÀÎ¿ëÇÑ ¼³¸í¿¡¼­µµ  Àß¸ø ¾²½Å µí ÇÕ´Ï´Ù.
+
+-----------------
+   ISO 2022 ¶õ °£´ÜÈ÷¸»ÇØ¼­ Á¤º¸ ±³È¯¿ë ºÎÈ£¿¡ °üÇÑ ±¹Á¦ Ç¥ÁØÀÌ´Ù. Á¤º¸
+   ±³È¯À» À§ ÇØ msb ¸¦ Á¦¿ÜÇÑ ³ª¸ÓÁö 7 bit ¸¸À» »ç¿ëÇÏ´Â ¹æ½ÄÀ¸·Î ÀÌ
+   ¹æ½ÄÀ¸·Î Ç¥ÇöµÇ´Â µ¥ÀÌÅÍ ´Â ¸ğµÎ ASCII charset ÀÇ ¾ËÆÄºªÀ¸·Î
+   ±¸¼ºµÈ´Ù. ASCII ¹®ÀÚ´Â ASCII ¹®ÀÚ ±×´ë·Î µÎ°í non-ASCII ¹®ÀÚ´Â msb
+   ¸¦ Á¦°ÅÇÑ ³ª¸ÓÁö 7 bit ¿¡ ÇØ´çÇÏ´Â ASCII ¹®ÀÚ·Î Ç¥ÇöÇÏ´Â ¹æ¹ıÀ¸·Î,
+   non-ASCII ¹®ÀÚ°¡ Ã³À½ ³ªÅ¸³ª´Â °÷¿¡ ^[$)C ¸¦ »ğÀÔÇÏ°í, non-ASCII
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ¹®ÀÚ°¡ ÀÎÄÚµåµÈ ºÎºĞÀÇ ½ÃÀÛÀ» ^N (ASCII ºÎÈ£°ª 14, SO) À¸·Î
+   Ç¥½ÃÇÏ°í, ´Ù½Ã ASCII ¹® ÀÚ°¡ ½ÃÀÛµÊÀ» ¾Ë¸®±â À§ÇØ ^O (ASCII ºÎÈ£°ª
+   15, SI) ¸¦ »ç¿ëÇÑ´Ù. Âü°í·Î ^[ (ESC) ´Â ASCII ºÎÈ£°ªÀÌ 27 ÀÌ´Ù.
+-----------
+
+  ±×¸®°í, À§ÀÇ ¼³¸íÀº ÀÏ¹İÀûÀÎ ISO-2022¿¡ ´ëÇÑ ¼³¸íÃ³·³ º¸ÀÌÁö¸¸, 
+½ÇÁ¦ ³»¿ëÀº ISO-2022-KR¿¡ ´ëÇÑ °ÍÀÔ´Ï´Ù. ±×·¯´Ï±î, 
+ISO-2022¶ó°í¸¸ ÇÏÁö ¸»°í, ISO-2022-KRÀÌ¶ó°í ÇØ¾ß ¸ÂÁö ¾Ê³ª¿ä? 
+ISO-2022-JP, ISO-2022-CNµî ¿©·¯°¡Áö°¡ ÀÖ°í, ±×°ÍµéÀ»
+¾Ë¸®´Â ÄÚµå´Â ¶Ç µû·Î ÀÖÀ¸´Ï±î¿ä. 
+
+ 
+: :       2. Pine 3.93¿¡¼­µµ MTA°¡ RFC 1652 ÀÇ ESMTP negotiation ruleÀ»
+: :    µû¸£´Â sendmail 8.7.x°ú °°Àº  MTA°¡ ¾²ÀÌ¸é MIMEÀ¸·Î ÀÎÄÚµåÇÏÁö
+: :    ¾Ê°í º¸³¾ ¼ö ÀÖ½À´Ï´Ù. ±×·±µ¥, ¾ÆÁ÷ ÇÑ±Û sendmail 8.7.x´Â
+: :    ¾øÀ¸´Ï±î, ±×·¯¸é ±×³É 8bit·Î °¡°ÚÁö¿ä. ¶Ç, elmÀº UA¿¡¼­ ÀüÇô
+
+:  ÀÌ ¸»¾¸Àº UMA °¡ MTA ÀÇ ¹öÁ¯¿¡ µû¶ó ´Ù¸£°Ô µ¿ÀÛÇÑ´Ù´Â ¸»¾¸ÀÌ½ÅÁö..
+:   Àß ÀÌÇØ°¡ ¾ÈµÇ³×¿ä. Á» ÀÚ¼¼È÷ ¸»¾¸ÇØ ÁÖ½Ã¸é °í¸¿°Ú½À´Ï´Ù.
+
+  ¸Â½À´Ï´Ù. RFC 1652¿Í Pine¿¡¼­ ESMTP negotiationÀ» ONÇßÀ» ¶§ÀÇ
+µ¿ÀÛ¿¡ ´ëÇØ¼­´Â ÀÌ¹Ì ÀÌ ±×·ì¿¡ Á¦°¡ ¿Ã¸° ±ÛÀÌ ÀÖÀ¸´Ï ÀĞ¾î º¸½Ê½Ã¿À. 
+PineÀº MTA°¡ ESMTP¸¦ Áö¿øÇÏ´ÂÁö ¹°¾îº¸°í, ´äÀÌ RFC 1652¿¡
+ºÎÇÕÇÏ¸é(sendmail 8.7.5Ã³·³), 8bit¸¦ ±×´ë·Î MTA¿¡ ³Ñ±â°í, 
+ºñ·Ï  MTA°¡ ESMTP¸¦ Áö¿øÇÒ Áö¶óµµ ´äÀÌ RFC 1652ÀÇ spec´ë·Î 
+³ª¿ÀÁö ¾ÊÀ¸¸é (Sendmail 8.6.12¿Í °°ÀÌ), QP·Î ÀÎÄÚµåÇØ¼­ º¸³À´Ï´Ù. 
+
+
+: :  ¼öµ¿À¸·Î)°¡´ÉÇÕ´Ï´Ù. ¶Ç, µÎ°¡Áö elm°ú pine 3.93¿¡¼­ Á¦¸ñÀÇ
+: :  ÇÑ±Û  encodingÀ» Á¦¿ÜÇÏ°í´Â MTA°³ÀÔ¾øÀÌ(UA¼öÁØ¿¡¼­) iso-2022-kr·Î º»¹®ÀÌ
+: :  Á¦´ë·Î ÀÎÄÚµùµÇ°í HeaderÀÇ MIMEÁ¤º¸µµ ÇÑ±Û sendmailÀ» °ÅÄ£ °Í°ú
+:      
+:   elm Àº Å×½ºÆ® ÇØº¸Áö ¾Ê¾ÒÁö¸¸, pine3.93 ¿¡¼­´Â º»¹®¿¡ ÇÑ±ÛÀÌ Æ÷ÇÔµÇ¸é
+:   ¹«Á¶°Ç QP ·Î ÀÎÄÚµù ÇÏ´øµ¥ ¾î¶»°Ô ÇÏ¸é MTA °³ÀÔ¾øÀÌ 2022 ·Î ÀÎÄÚµù ÇÏÁÒ?
+:   pine ¿¡¼­ iso-2022-kr ·Î µÈ ¸Ş½ÃÁö¸¦ ÀĞ±âÀ§ÇØ¼± filter ¸¦ ÁöÁ¤ÇÏ°í 
+:   pipe ¸¦ ÅëÇØ¼­ ÀÌ filter ¸¦ ¿¬°á½ÃÄÑ¾ß ÇÏÁö ¾Ê³ª¿ä? Áï, Á¦¸»Àº pine¿¡´Â
+:   2022 ·Î ÀÎÄÚµåÇÏ°í µğÄÚµåÇÏ´Â ·çÆ¾ÀÌ ¾øÁö ¾Ê³ª ÇÏ´Â °ÅÁÒ.
+
+  pineÀÌ³ª Elm³»ºÎ¿¡´Â ¾øÁö¿ä, ÇÏÁö¸¸, editor¸¦ configureÇÒ ¶§
+ÄÚµå º¯È¯À»(ksc5601--> iso-2022-kr) ÀÚµ¿À¸·Î ÇÏµµ·Ï ÇÏ°í, 
+charsetÀ» iso-2022-kr·Î ÇØ ³õÀ¸¸é, º»¹®Àº iso-2022-kr·Î µÇ°í, 
+MIME header´Â ¾Æ·¡¿Í °°ÀÌ ÇÑ±Û sendmailÀ» °ÅÄ£ °Í°ú ¶È°°ÀÌ µË´Ï´Ù. 
+¹°·Ğ, ÀÌ°ÍÀº ±Ùº»ÀûÀÎ ÇØ°áÃ¥Àº ¾Æ´Ï°í, ÇöÀç iso-2022-krÀÌ Á¦´ë·Î 
+Áö¿øµÇÁö ¾Ê´Â »óÈ²¿¡¼­ ÇÑ±Û sendmailÀÌ ¾ø´Â ¿Ü±¹¿¡¼­ ÇÑ±Û ¸ŞÀÏ 
+±³È¯À» À§ÇØ °í¾ÈÇØ ³½ ÀÓ½Ã ¹æÆíÀÌ±ä ÇÕ´Ï´Ù. 
+
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-2022-kr
+Content-Transfer-Encoding: 7bit
+
+  ±×¸®°í, ¿¬±¸ ¸ñÇ¥°¡ ksc 5601·Î µÈ ÇÑ±Û ¸ŞÀÏÀÇ ÀÚÀ¯·Î¿î
+±³È¯À» À§ÇÑ °ÍÀÌ¶ó¸é, localized ELM(elm 2.4h4¿Í °°Àº)¿¡ ´ëÇØ¼­ 
+¾ğ±ŞÇÏÁö ¾ÊÀº °ÍÀº ¶æ¹ÛÀÔ´Ï´Ù. ºĞ¸íÈ÷ ÇÑ±Û sendmail°ú localized 
+ELM(MIME enableµÈ)À» °°ÀÌ ¾²¸é iso-2022-kr·Î ¸ŞÀÏÀ» ÁÖ°í¹Ş´Âµ¥ 
+¾Æ¹« ¹®Á¦°¡ ¾ø½À´Ï´Ù. 
+
+
+  µğÄÚµå¿¡ ´ëÇØ¼­´Â Á¦°¡ À§¿¡¼­ ¾ê±âÇÏÁö ¾Ê¾Ò´Âµ¥¿ä :-) 
+¾îÂ·µç,  "²Ç¼ö"´Â ¸î°¡Áö ÀÖ½À´Ï´Ù. µğÄÚµå´Â ¼öµ¿À¸·Î pipe¸¦ 
+¾²´Â ¼öµµ ÀÖ°í, .forward¸¦ ½á¼­ mailbox¿¡ ÀúÀåÇÏ±â Àü¿¡ ksc5601·Î 
+¹Ù²Ü ¼öµµ ÀÖ½À´Ï´Ù. ¶Ç´Â
+elmÀÇ °æ¿ì mailcapÀ» ½á¼­(MIME header°¡ Á¦´ë·Î ¼¼ÆÃµÇ¾î ¿À´Â 
+ÇÑ±Û mailÀÇ °æ¿ì)  »ç¿ëÀÚ´Â ½Å°æ¾²Áö ¾Ê¾Æµµ decodeÇØ¼­ º¸¿©ÁÙ 
+¼ö ÀÖ½À´Ï´Ù.pineÀº text/plain type¿¡ ´ëÇØ mailcapÁöÁ¤À» 
+¸øÇÏ°Ô ÇØ¼­ ÀÌ ¹æ¹ıÀº ¾µ ¼ö ¾ø½À´Ï´Ù. 
+
+´õ ÀÚ¼¼ÇÑ °ÍÀº ÀúÀÇ ÇÑ±Û FAQ(
+ftp://rtfm.mit.edu/pub/usenet-by-hieararchy/alt/internet/services³ª
+http://pantheon.cis.yale.edu/~jshin/faq/hmail.html)³ª ÀÌ ±×·ì¿¡ ±×µ¿¾È 
+¿Ã¶ó¿Â ÇÑ±Û ¸ŞÀÏ¿¡ ´ëÇÑ ¼ö¸¹Àº ±ÛµéÀ» Âß ÀĞ¾î º¸½Ã¸é ³ª¿É´Ï´Ù. 
+
+  ¶Ç, ¾ÕÀÇ ±Û¿¡¼­ ¾ğ±ŞÇß´ÂÁö È¹½ÇÄ¡ ¾ÊÀºµ¥, mule(Multilinguial
+extension of Emacs)ÀÇ Rmail¿¡¼­´Â ¤Ô¤Ôiso-2022-krÀ» ÀÚÀ¯·Ó°Ô 
+¾µ ¼ö ÀÖ½À´Ï´Ù. 
+
+:     ¸¹Àº µµ¿òÀÌ µÇ¾ú½À´Ï´Ù.
+:     °¨»çÇÕ´Ï´Ù.
+
+  µµ¿òÀÌ µÇ¼Ì´Ù´Ï Àúµµ ±â»Ş´Ï´Ù. ÇÑ±Û mail¿¡  ´ëÇÑ ÀÌÇØ¸¦
+³ôÀÌ´Âµ¥ ±× Ç¥°¡ ¸¹Àº µµ¿òÀÌ µÉ °Í °°½À´Ï´Ù. ±×·±µ¥,
+°Å±â¼­ ¾ğ±ŞµÈ ¿©·¯°¡Áö  RFC¿Í ÇÑ±Û sendmail,iso-2022-kr¿¡ ´ëÇÑ 
+±³Â÷ÂüÁ¶ ¸µÅ©¿Í ÀûÀıÇÑ credit¸¦ ÁÖ¸é ´õ¿í ÁÁ°Ú±º¿ä. 
+
+  ½ÅÁ¤½Ä 
+From hangul-request@cair.kaist.ac.kr  Thu May 23 14:19:29 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id OAA25640 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 14:19:22 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id OAA22257 for hangul@cair.kaist.ac.kr; Thu, 23 May 1996 14:20:44 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 05:16:45 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4o0sbt$2av@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <199605221955.EAA04204@sorak.kaist.ac.kr>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: ÇÑ±Û bash,GNU-NLS,ÇÑ±Û (was Re: ÇÑ±ÛÀÌ¸§ º¸ÀÌ´Â color-ls)
+
+Seyeon Weon (sywon@sorak.kaist.ac.kr) wrote:
+
+
+: 	±×¸®°í, À§ÀÇ ÇÑ±Û bash´Â Á» ¿¾³¯ ¹öÀüÀÎµ¥, È¤½Ã ÃÖ½Å ¹öÀü bash
+: ÇÑ±ÛÈ­ÇÏ´Â ¼ö°íÇÏ½Ç ºĞ ¾ø´ÂÁö ±Ã±İÇÏ±º¿ä. :-)  ±×³ªÀú³ª ÃÖ½Å ¹öÀü
+: bash¿¡ ¹¹ ÁÁ¾ÆÁø°Ô ÀÖ³ª¿ä?  Àü ±×³É ÀÌ°É·Î Àß ¾²°í ÀÖ´Âµ¥...
+
+  bash¸¸ µû·Î ÇÑ±Û patchÇØ¼­ ÇÑ±¹³»¿¡¼­ ¶Ç´Â ÇÑ±¹ÀÎ³¢¸®¸¸ 
+µ¹·Á ¾²´Â °ÍÀº º°·Î ÀÇ¹Ì°¡ ¾ø´Ù°í º¾´Ï´Ù. ¿©·¯¹ø ¹İº¹ÇÏ´Â 
+¾ê±âÀÔ´Ï´Ù¸¸, ±×·± ³ë·ÂÀ» ÇÒ ¼ö ÀÖ´Ù¸é, GNU-NLSÆÀ¿¡ ÇÑ±¹ ÆÀµµ 
+¸¸µé¾î¼­ bash»Ó ¾Æ´Ï¶ó GNUÀÇ ¸ğµç ÇÁ·Î±×·¥¿¡¼­ ÇÑ±Û Áö¿øÀÌ 
+¿ÏÀüÈ÷ µÇµµ·Ï ÇÏ´Â °ÍÀÌ ³ªÀ» °Í °°½À´Ï´Ù. ¹°·Ğ, Àúµµ ¾Æ¹« ÀÏµµ 
+¾È ÇÏ¸é¼­ ÀÌ·± ¸»À» ÇÒ ÀÚ°İÀÌ ¾ø½À´Ï´Ù¸¸, Àú¾ß ÀçÁÖ°¡ ¾ø¾î¼­ 
+±×·± °ÍÀÌ°í ¸¹Àº ÀçÁÖ¸¦ °¡Áö½Å  ºĞµéÀÌ  Á¶±İ ´õ ´«À» ³ĞÀº °÷À¸·Î 
+µ¹·ÈÀ¸¸é ÁÁÁö ¾ÊÀ»±î ÇÏ´Â »ı°¢¿¡¼­ Àû¾îº¾´Ï´Ù. 
+
+ ½ÅÁ¤½Ä 
+From hangul-request@cair.kaist.ac.kr  Thu May 23 19:01:14 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id TAA01463 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 19:01:05 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id SAA28170 for hangul@cair.kaist.ac.kr; Thu, 23 May 1996 18:20:22 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 08:53:29 GMT
+From: nklee@microsoft.com (Daniel NK Lee)
+Message-ID: <4o1929$t2m@news.microsoft.com>
+Organization: Microsoft Corporation
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>
+Subject: Re: ÇÑ±Û encode/decode ¹®Á¦ ºĞ¼®Ç¥
+
+
+Á¤¸®ÇÏ½Ã´À¶ó ¼ö°í ¸¹ÀÌ ÇÏ¼Ì½À´Ï´Ù.
+±×·±µ¥, ¼öÁ¤ÀÌ µÇ¾ßµÉ ºÎºĞÀÌ ÀÖ±º¿ä.
+Windows95 Exchange ¿¡ ´ëÇÏ¿© MIME, non-MIMEÀ» ºñ±³ ÇÏ¼Ì´Âµ¥, ÇÑ±Û 
+Windows95ÀÇ ÇÑ±ÛExchange¿¡ ÇÑ±ÛPlus!¸¦ ¼³Ä¡ÇÏ°í »ç¿ëÇÏ¼Ì´ÂÁö ±Ã±İÇÏ±º¿ä.
+ÇÑ±ÛWindows95¿¡ ÀÖ´Â Exchange client´Â ÇÑ±ÛPlus!¸¦ ¼³Ä¡ÇßÀ»¶§, 
+ÇÑ±Ûsendmail°ú È£È¯ÀÌ µË´Ï´Ù.  Çì´õ´Â EUC-KR·Î, ¹Ùµğ´Â 7bit encodingÀÌ 
+µÇ¸ç, RFC 1557À» Áö¿øÇÕ´Ï´Ù.
+
+±×¸®°í encodingÀ» client side ¿¡¼­¸¸ ºñ±³ÇÏ¼Ì´Âµ¥, Server³ª Gateway¿¡¼­ÀÇ 
+encodingµµ ºñ±³ ´ë»óÀÌ µÇ¾ßÇÏÁö ¾ÊÀ»±î ÇÕ´Ï´Ù.
+
+In article <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>, 
+yhyou@asadal.cs.pusan.ac.kr says...
+>
+>   ÇÑ±Û ÀüÀÚ ¿ìÆí¿¡¼­ »ı±â´Â ¹®Á¦¿¡ ´ëÇØ¼­ Ç¥·Î Á¤¸®ÇØ º¸¾Ò½À´Ï´Ù.
+>
+>   Á¤¸®ÇÑ Ç¥´Â 
+>     
+>        http://asadal.cs.pusan.ac.kr/mail 
+>   
+>   ¿¡ ÀÖ½À´Ï´Ù.
+>
+>   °ü½ÉÀÖÀ¸½Å ºĞÀº ÇÑ ¹ø »ìÆì º¸½Ã°í, Á¶¾ğÀ» ÇØ ÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù.
+>
+>
+
+-- 
+The opinions expressed in this message are my own personal views 
+and do not reflect the official views of Microsoft Corporation.
+
+From hangul-request@cair.kaist.ac.kr  Thu May 23 20:46:14 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id UAA02695 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 20:46:13 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id UAA02987 for hangul@cair.kaist.ac.kr; Thu, 23 May 1996 20:47:34 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 20:46:59 +0900
+From: jschoi@cad1.seodu.co.kr (Choi Jaeseon)
+Message-ID: <4o1j7j$e9u@cad1.seodu.co.kr>
+Organization: Seodu Logic, Inc., Seoul, Korea
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>, <4o1929$t2m@news.microsoft.com>
+Reply-To: jschoi@seodu.co.kr
+Subject: Re: ÇÑ±Û encode/decode ¹®Á¦ ºĞ¼®Ç¥
+
+Daniel NK Lee (nklee@microsoft.com) wrote:
+
+: ÇÑ±ÛWindows95¿¡ ÀÖ´Â Exchange client´Â ÇÑ±ÛPlus!¸¦ ¼³Ä¡ÇßÀ»¶§, 
+: ÇÑ±Ûsendmail°ú È£È¯ÀÌ µË´Ï´Ù.  Çì´õ´Â EUC-KR·Î, ¹Ùµğ´Â 7bit encodingÀÌ 
+: µÇ¸ç, RFC 1557À» Áö¿øÇÕ´Ï´Ù.
+
+ÇÑ±ÛPlus!¿¡ ÀÌ·± Áß¿äÇÑ º¯È­°¡ ÀÖ¾ú´Âµ¥µµ README.TXT°°Àº °÷¿¡ ÇÑÁÙµµ
+¾ğ±ŞÀÌ ¾ø¾ú±º¿ä. ÀÌÁ¦ Netscape mailÀÇ 'leave on server'°°Àº ±â´É¸¸
+µé¾î°£´Ù¸é µåµğ¾î Elm´ë½Å¿¡ PC·Îµµ ¸ŞÀÏÀ» Ã³¸®ÇÒ ¸¶À½ÀÌ µé°Ú½À´Ï´Ù.
+
+Âü°í·Î ´ÙÀ½Àº Exchange client·Î º¸³½ ¸ŞÀÏÀ» SunOSÀÇ Sendmail°ú ÇÑ±Û
+Sendmail V8·Î °¢°¢ ¹Ş¾Æº» °á°úÀÔ´Ï´Ù.
+
+Return-Path: <jschoi@seodu.co.kr>
+Received: ... »ı·« ...
+Message-Id: ... »ı·« ...
+From: =?EUC-KR?B?w9bA57yx?= <jschoi@seodu.co.kr>
+To: "'jschoi@cad1.seodu.co.kr'" <jschoi@cad1.seodu.co.kr>
+Subject: =?EUC-KR?B?vcPH6MHfIHRlc3RpbmcgvcPH6MHf?=
+Date: Thu, 23 May 1996 20:19:06 +0900
+Mime-Version: 1.0
+Content-Type: text/plain; charset="ISO-2022-KR"
+Content-Transfer-Encoding: 7bit
+Status: RO
+
+testing
+½ÃÇèÁß
+testing
+½ÃÇèÁß
+          ^^±×·±µ¥ °¡ ¿Ö ÀÌ·¸°Ô ¾µµ¥¾øÀÌ ÀÚÁÖµé¾î°¡ÁÒ?
+
+Received: ... »ı·« ...
+Message-ID: ... »ı·« ...
+From: ÃÖÀç¼± <jschoi@seodu.co.kr>
+To: "'jschoi@cad1.seodu.co.kr'" <jschoi@cad1.seodu.co.kr>
+Subject: ½ÃÇèÁß testing ½ÃÇèÁß
+Date: Thu, 23 May 1996 20:26:20 +0900
+MIME-Version: 1.0
+Content-Type: text/plain; charset="ISO-2022-KR"
+Content-Transfer-Encoding: 7bit
+Status: RO
+
+testing
+½ÃÇèÁß
+testing
+½ÃÇèÁß
+
+
+
+--
+Choi Jaeseon                                                ÃÖÀç¼±
+From hangul-request@cair.kaist.ac.kr  Thu May 23 21:47:13 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id VAA06170 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 21:47:13 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id VAA04999 for hangul@cair.kaist.ac.kr; Thu, 23 May 1996 21:48:31 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 12:44:26 GMT
+From: crisp@hugsvr.kaist.ac.kr (Chung Jae-youn)
+Message-ID: <CRISP.96May23214426@hugsvr.kaist.ac.kr>
+Organization: Korea Research Environment Open Network (KREONet)
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: muleÀ» ¾µ¶§..
+
+
+
+muleÀÌ fileÀ» ÀúÀåÇÒ¶§, helvis³ª moreµîµî°ú È£È¯ÀÌ µÇ°Ô ÇÒ¼ö ¾øÀ»±î¿ä..??
+
+-- 
+=========
+Chung Jae-youn in CS Dept. of Kaist.
+Beeper: 015-291-3902
+crisp@hugsvr.kaist.ac.kr
+From sunghun@lynx.co.nz  Thu May 23 21:58:30 1996
+Received: from gladys (gladys.lynx.co.nz [202.36.46.4]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with SMTP id VAA06283 for <hangul@cair.kaist.ac.kr>; Thu, 23 May 1996 21:58:11 +0900
+Message-Id: <m0uMbYK-00019IC@gladys>
+Date: Fri, 24 May 96 02:39 NZST
+X-Sender: sunghun@layla.lynx.co.nz
+X-Mailer: Windows Eudora Light Version 1.5.2
+Mime-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+To: hangul@cair.kaist.ac.kr
+From: "Lee, Seung Hoon" <sunghun@lynx.co.nz>
+
+subscribe
+
+From hangul-request@cair.kaist.ac.kr  Fri May 24 01:08:57 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id BAA19489 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 01:08:57 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id BAA09129 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 01:10:18 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 16:04:16 GMT
+From: chidoo@topaz.kaist.ac.kr (Chi Doo-Hyon)
+Message-ID: <4o22a0$snt@worak.kaist.ac.kr>
+Organization: Korea Advanced Institute of Science and Technology (KAIST)
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: Hangul MS word file format. I want.
+
+hello, everybody.
+
+I am a novice in using newgroup.
+I am now seeking the information about the Microsoft
+hangul word file format.  In my work, I need the 
+file format.
+
+If anyone who reads this article knows about what
+I am now finding, then mail to me listed in the 
+following sig.  Or make a re about my article.
+
+And also as a novice in news group, I also want to
+know how to configuration this 'tin'.
+Now I am using the mule as the editor, but I want
+to use 'vi' for my editor.  Does anybody know
+how to configure this option?
+
+
+Thanks for your sincere reading my article and
+I am waiting for your help.
+
+good luck.
+
+--
+Doohyon,Chi  -  MS1 in Computer Department in KAIST.
+----------------------------------------------------
+E-Mail    : chidoo@emerald.kaist.ac.kr
+Home page : http://compiler.kaist.ac.kr/~chidoo
+Phone     : 082-042-822-3042
+Pager     : 082-012-438-5191
+----------------------------------------------------
+I am seeking for your help and ready for helping you
+From hangul-request@cair.kaist.ac.kr  Fri May 24 03:11:23 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id DAA20374 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 03:11:22 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id DAA12646 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 03:12:44 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 18:10:27 GMT
+From: KIM2817@chollian.dacom.co.kr (Ãµ¸®¾È NEWS GROUP ÀÌ¿ëÀÚ)
+Message-ID: <4o29mj$kp6@nis.dacom.co.kr>
+Organization: DACOM Internet
+Sender: hangul-request@cair.kaist.ac.kr
+References: <317F01E0.694@munhak.inha.ac.kr>, <31968336.3FD5@super.co.kr>
+Subject: Re: tar¿Í gzip/gunzipÀ» 99% È°¿ëÇÏÀÚ!!!!
+
+SungKyoon Shin (ssk@super.co.kr) wrote:
+: Sohn, Kangmin wrote:
+: >  gunzip -d *.tar.gz | tar x(v)f -
+
+: Àü zcat *.tar.gz | tar xvf -
+: ·Î ÇÕ´Ï´Ù.
+: ±×·³ ¾ĞÃàÈ­ÀÏµµ ±×³ÉÀÖ°í ÆÄÀÏÀ» Ç®¼öÀÖÁö¿ä.
+
+:   =================================================
+:                            Sung-Kyoon Shin(½Å ¼º±Õ)
+:   =================================================
+:                                  SuperStar Software
+:                                       Host R&D Team
+:                                  http://super.co.kr
+:                             E-mail: ssk@super.co.kr
+:   =================================================
+From hangul-request@cair.kaist.ac.kr  Fri May 24 04:39:01 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id EAA21273 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 04:39:00 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id EAA14196 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 04:40:18 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 23 May 1996 19:17:53 GMT
+From: nklee@microsoft.com (Daniel NK Lee)
+Message-ID: <4o2dl1$g2e@news.microsoft.com>
+Organization: Microsoft Corporation
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>, <4o1929$t2m@news.microsoft.com>, <4o1j7j$e9u@cad1.seodu.co.kr>
+Subject: Re: ÇÑ±Û encode/decode ¹®Á¦ ºĞ¼®Ç¥
+
+
+¿ø°İ¸ŞÀÏ±â´ÉÀ» »ç¿ëÇÏ¸é, leave on server°°Àº ±â´Éµµ ¸Ş´ºº°·Î »ç¿ëÇÒ ¼ö 
+ÀÖ½À´Ï´Ù.  ±×¸®°í Windows95¿¡ µé¾î°£ Exchange client´Â ¸Àº¸±â ¿´Áö¸¸, ÁøÂ¥ 
+(ÇÑ±Û)Exchange server & client°¡ ³ª¿À¸é ´õ Áö¿øµÇ´Â ±â´ÉÀÌ 
+¸¹½À´Ï´Ù.(½ºÄÉÁÙ °ü¸®, EformÁö¿øµî)
+
+In article <4o1j7j$e9u@cad1.seodu.co.kr>, jschoi@cad1.seodu.co.kr says...
+>
+>Daniel NK Lee (nklee@microsoft.com) wrote:
+>: ÇÑ±ÛWindows95¿¡ ÀÖ´Â Exchange client´Â ÇÑ±ÛPlus!¸¦ ¼³Ä¡ÇßÀ»¶§, 
+>: ÇÑ±Ûsendmail°ú È£È¯ÀÌ µË´Ï´Ù.  Çì´õ´Â EUC-KR·Î, ¹Ùµğ´Â 7bit encodingÀÌ 
+>: µÇ¸ç, RFC 1557À» Áö¿øÇÕ´Ï´Ù.
+>
+>ÇÑ±ÛPlus!¿¡ ÀÌ·± Áß¿äÇÑ º¯È­°¡ ÀÖ¾ú´Âµ¥µµ README.TXT°°Àº °÷¿¡ ÇÑÁÙµµ
+>¾ğ±ŞÀÌ ¾ø¾ú±º¿ä. ÀÌÁ¦ Netscape mailÀÇ 'leave on server'°°Àº ±â´É¸¸
+>µé¾î°£´Ù¸é µåµğ¾î Elm´ë½Å¿¡ PC·Îµµ ¸ŞÀÏÀ» Ã³¸®ÇÒ ¸¶À½ÀÌ µé°Ú½À´Ï´Ù.
+>
+>Âü°í·Î ´ÙÀ½Àº Exchange client·Î º¸³½ ¸ŞÀÏÀ» SunOSÀÇ Sendmail°ú ÇÑ±Û
+>Sendmail V8·Î °¢°¢ ¹Ş¾Æº» °á°úÀÔ´Ï´Ù.
+>
+>Return-Path: <jschoi@seodu.co.kr>
+>Received: ... »ı·« ...
+>Message-Id: ... »ı·« ...
+>From: =?EUC-KR?B?w9bA57yx?= <jschoi@seodu.co.kr>
+>To: "'jschoi@cad1.seodu.co.kr'" <jschoi@cad1.seodu.co.kr>
+>Subject: =?EUC-KR?B?vcPH6MHfIHRlc3RpbmcgvcPH6MHf?=
+>Date: Thu, 23 May 1996 20:19:06 +0900
+>Mime-Version: 1.0
+>Content-Type: text/plain; charset="ISO-2022-KR"
+>Content-Transfer-Encoding: 7bit
+>Status: RO
+>
+>$)Ctesting
+>½ÃÇèÁß
+>testing
+>½ÃÇèÁß
+>          ^^±×·±µ¥ °¡ ¿Ö ÀÌ·¸°Ô ¾µµ¥¾øÀÌ ÀÚÁÖµé¾î°¡ÁÒ?
+>
+>Received: ... »ı·« ...
+>Message-ID: ... »ı·« ...
+>From: ÃÖÀç¼± <jschoi@seodu.co.kr>
+>To: "'jschoi@cad1.seodu.co.kr'" <jschoi@cad1.seodu.co.kr>
+>Subject: ½ÃÇèÁß testing ½ÃÇèÁß
+>Date: Thu, 23 May 1996 20:26:20 +0900
+>MIME-Version: 1.0
+>Content-Type: text/plain; charset="ISO-2022-KR"
+>Content-Transfer-Encoding: 7bit
+>Status: RO
+>
+>testing
+>½ÃÇèÁß
+>testing
+>½ÃÇèÁß
+>
+>
+>
+>--
+>Choi Jaeseon                                                ÃÖÀç¼±
+
+-- 
+The opinions expressed in this message are my own personal views 
+and do not reflect the official views of Microsoft Corporation.
+
+From hangul-request@cair.kaist.ac.kr  Fri May 24 06:50:02 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id GAA22199 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 06:49:59 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id GAA16491 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 06:51:21 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Fri, 24 May 1996 06:51:49 +0900
+From: Lee Jae-ho <kamisama@kt.rim.or.jp>
+Message-ID: <31A4DDF5.4293@kt.rim.or.jp>
+Organization: KORNET (Korea Telecom)
+Content-Type: text/plain; charset=euc-kr
+Content-Transfer-Encoding: 8bit
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>, <4o1929$t2m@news.microsoft.com>
+Subject: Re: =?euc-kr?B?x9Gx2yBlbmNvZGUvZGVjb2RlILmuwaYgutC8rsel?=
+
+Daniel NK Lee wrote:
+> 
+
+> Á¤¸®ÇÏ½Ã´À¶ó ¼ö°í ¸¹ÀÌ ÇÏ¼Ì½À´Ï´Ù.
+> ±×·±µ¥, ¼öÁ¤ÀÌ µÇ¾ßµÉ ºÎºĞÀÌ ÀÖ±º¿ä.
+> Windows95 Exchange ¿¡ ´ëÇÏ¿© MIME, non-MIMEÀ» ºñ±³ ÇÏ¼Ì´Âµ¥, ÇÑ±Û
+> Windows95ÀÇ ÇÑ±ÛExchange¿¡ ÇÑ±ÛPlus!¸¦ ¼³Ä¡ÇÏ°í »ç¿ëÇÏ¼Ì´ÂÁö ±Ã±İÇÏ±º¿ä.
+> ÇÑ±ÛWindows95¿¡ ÀÖ´Â Exchange client´Â ÇÑ±ÛPlus!¸¦ ¼³Ä¡ÇßÀ»¶§,
+> ÇÑ±Ûsendmail°ú È£È¯ÀÌ µË´Ï´Ù.  Çì´õ´Â EUC-KR·Î, ¹Ùµğ´Â 7bit encodingÀÌ
+> µÇ¸ç, RFC 1557À» Áö¿øÇÕ´Ï´Ù.
+> 
+> ±×¸®°í encodingÀ» client side ¿¡¼­¸¸ ºñ±³ÇÏ¼Ì´Âµ¥, Server³ª Gateway¿¡¼­ÀÇ
+> encodingµµ ºñ±³ ´ë»óÀÌ µÇ¾ßÇÏÁö ¾ÊÀ»±î ÇÕ´Ï´Ù.
+> 
+
+ÀÌÀçÈ£@µ¿°æ°ø´ëÀÔ´Ï´Ù.
+
+MSÀÍ½ºÃ¼ÀÎÁö¿¡ ´ëÇØ Àß ¾Æ½Ç°Í°°¾Æ¼­¿ä^^)
+Âü°í·Î Àú´Â ÇÑ±ÛÀ©µµ95¿Í ÇÑ±ÛPlus!¸¦ ¾²°í ÀÖÀ¾´Ï´Ù.
+¹°·Ğ ¿©±â´Â ÀÏº»ÀÌ¶ó ¸ŞÀÏ¼­¹öÀÇ sendmail¿¡´Â ÇÑ±ÛÆĞÄ¡µÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.
+
+(1) ¸Ş¼¼Áöº¸³»´Â Çü½Ä¿¡ MIMEÀ» Ã¼Å©ÇßÀ» °æ¿ì
+
+"ÀÎÅÍ³İ¸ŞÀÏ¿¡ »ç¿ëÇÒ ¹®ÀÚÁıÇÕ"À» ÇÑ±Û·Î ÇßÀ» °æ¿ì¿Í iso-8859-1·Î ÇßÀ» ¶§
+Á¦¸ñ°ú º»¹®ÀÌ °¢°¢ ¹«¾ùÀ¸·Î ÀÎÄÚµùµÇÁÒ?(QP or Base64)
+ÀÏ´Ü UMA¿¡¼­ ÀÎÄÚµùµÇ¾î °¡´Ï±î ÇÑ±Û¼¾µå¸ŞÀÏ°ú´Â »ó°ü¾øÀ»Å×ÁÒ?
+
+(2) ¸Ş¼¼Áöº¸³»´Â Çü½Ä¿¡ MIMEÀ» Ã¼Å©ÇÏÁö ¾Ê´Â °æ¿ì
+
+"ÀÎÅÍ³İ¸ŞÀÏ¿¡ »ç¿ëÇÒ ¹®ÀÚÁıÇÕ"¿¡ ÇÑ±ÛÀ» ¼±ÅÃÇßÀ» °æ¿ì¿Í iso-8859-1·Î ÇßÀ»
+ ¶§ÀÇ Â÷ÀÌ?(ÇÑ±Û¼¾µå¸ŞÀÏÀ» °ÅÄ£ ¸Ş¼¼ÁöÇì´õ¿¡ ³ªÅ¸³ª´Â)
+±×·±µ¥ ¿Ö UUENCODEÇÒ ¹®ÀÚÁıÇÕÀÌ¶ó´Â À©µµÃ¢ÀÇ Á¦¸ñÀÌ ¶ßÁö¿ä?
+MIMEÀ» ÇØÁ¦ÇÏ¸é ±×³É 8ºñÆ®·Î ÇÑ±Û¼¾µå¸ŞÀÏ¿¡ ³Ñ°ÜÁÖÁö ¾Ê°í UUENCODEÇÏ³ª¿ä?
+
+(3) À¯µµ¶ó´Â(³×Æ®½ºÄÉÀÌÇÁ¸ŞÀÏ·¯´Â Àß¸ğ¸£°ÚÁö¸¸) MAPI¿Í È£È¯ÀÌ ¾ÈµÇ³ª¿ä?
+
+±×¸²ÆÄÀÏÀ» µ¡ºÙ¿© º¸³»¸é(MIMEÀ» ¼±ÅÃÇÏ³ª ¾ÈÇÏ³ª) À¯µµ¶ó°¡ Á¦´ë·Î ¹Ş¾Æº¸Áö 
+¸øÇÏ´øµ¥¿ä? ÀÍ½ºÃ¼ÀÎÁö³¢¸®¸¸ °¡´ÉÇÑ°¡¿ä? ¹Ş¾Æº¸´Â°Ç µÇ´Âµ¥....
+ÁÖ¼Ò·ÏÇ×¸ñ¿¡ ÀÖ´Â "Ç×»ó MSÀÍ½ºÃ¼ÀÎÁö¼­½ÄÀ¸·Î º¸³¿"À» °æ¿ì¿¡ µû¶ó ÇØÁ¦ÇØ¾ß
+µÇ³ª¿ä?
+ÆÄÀÏ»ğÀÔ/°³Ã¼»ğÀÔ/¸Ş¼¼Áö»ğÀÔÀÇ µµ¿ò¸»Àº ¾Æ¹«¸® ÀĞ¾îºÁµµ ÀÌÇØ°¡ ¾ÈµÇ¼­¿ä.
+¼³¸í Á» ÇØÁÖ½Ã°Ú¾î¿ä? ÅØ½ºÆ®ÆÄÀÏÀÌ ¾Æ´Ñ ÆÄÀÏÀ» ÅØ½ºÆ®·Î »ğÀÔÇÑ´Ù´Â°ÍÀÌ ¹«
+¾ùÀ» ÀÇ¹ÌÇÏ´ÂÁö...
+µ¡ºÙÀÎ ÆÄÀÏ·Î »ğÀÔÇÒ ¶§ ¿øº»ÆÄÀÏ°ú ¿¬°áÇÒ±î ¸»±î°¡ ¹«¾ùÀ» ÀÇ¹ÌÇÏ´ÂÁö.... 
+
+(4) ¹ŞÀºÆíÁöÇÔÀ» ¿­¾îº¸¾ÒÀ» ¶§ ³ªÅ¸³ª´Â ¸Ş¼¼Áö ¹ŞÀº ½Ã°£°ú µî·ÏÁ¤º¸·Î »ìÆì
+º» ¸Ş¼¼Áö ¹ŞÀº ½Ã°£ÀÌ ´Ù¸¥ ÀÌÀ¯´Â ¹º°¡¿ä? ¾ÆÁ÷ µÇÁöµµ ¾ÊÀº ½Ã°£ÀÌ Ç¥½ÃµÇ°Å
+µç¿ä. µî·ÏÁ¤º¸¿¡¼­ ³ª¿À´Â ½Ã°¢ÀÌ ¸Â´Â°Í°°Àºµ¥...
+½Ã°£¼³Á¤Àº Á¦¾îÆÇ¿¡¼­ ¼­¿ï,µ¿°æ,¿À»çÄ«....ÀÇ ½Ã°¢À¸·Î ¸ÂÃß¾î ³õ¾ÒÀ¾´Ï´Ù.
+¹º°¡ ¼³Á¤À» Àß¸øÇÑ°ÇÁö...
+ 
+¹Ì¸® °¨»çµå¸³´Ï´Ù. 
+
+-- 
+===========TOKYO INST. OF TECH.=============
+          LEE JAE-HO  (ÀÌ Àç È£)
+Dept. Eng. of Inorganic Material,Yamane Lab.
+--------------------------------------------
+152, 1-12-1 Ookayama Meguroku Tokyo, JAPAN
+TEL : 81 - 3 - 5734 - 2523
+FAX : 81 - 3 - 3727 - 1120
+E-mail : kamisama@kt.rim.or.jp
+============================================
+     I Love Truth, Freedom and YOU!!!
+From t60478@hongo.ecc.u-tokyo.ac.jp  Fri May 24 10:19:46 1996
+Received: from ecc-mail.hongo.ecc.u-tokyo.ac.jp (root@ecc-as06.hongo.ecc.u-tokyo.ac.jp [130.69.248.26]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id KAA24381 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 10:19:45 +0900
+Received: from t03-xs03.hongo.ecc.u-tokyo.ac.jp (t60478@[130.69.160.19]) by ecc-mail.hongo.ecc.u-tokyo.ac.jp (8.6.9+2.4W/3.3W95032410) with ESMTP id KAA20205 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 10:21:05 +0900
+Received: (from t60478@localhost) by t03-xs03.hongo.ecc.u-tokyo.ac.jp (8.6.9+2.4W/3.3W95032315) id KAA24821 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 10:21:03 +0900
+Date: Fri, 24 May 1996 10:21:03 +0900
+From: Sehoon <t60478@hongo.ecc.u-tokyo.ac.jp>
+Message-Id: <199605240121.KAA24821@t03-xs03.hongo.ecc.u-tokyo.ac.jp>
+To: hangul@cair.kaist.ac.kr
+Subject: some questions
+
+$(C>H3gGO=J4O1n(B?
+$(C0\?l(B $(CGQ1[7N(B $(C4:=:?!(B $(CEu0mGR(B $(C<v(B $(C@V0T(B $(C5G>z=@4O4Y(B.
+$(CA&0!(B $(CGQ1[(B $(C8^@O@;(B $(C>24B(B $(C9f9}@:(B
+
+1.Mule$(C?!<-(B $(CGQ1[(B $(C9.<-8&(B $(C>8(B.
+2.M-x set-file-coding-system:*iso-2022-kr*$(C8&(B $(C=GG`GT(B.
+3.'ml'$(C@L6u(B $(C@L8'@87N(B $(C@z@eGO0m(B shell(kterm etc.)$(C7N(B $(C59>F0((B.
+4.mail -s "Subject" hangul@cair.kaist.ac.kr < ml $(C@;(B $(C=GG`(B.
+
+$(C@L6s4B(B $(C8;55(B $(C8x(B $(CGO0T(B $(C:9@bGQ(B $(C<x<-7N(B $(C:83;0m(B $(C@V=@4O4Y(B.
+Mailer $(C7N<-4B(B Mule$(C?!<-(B $(C>24B(Bmh-e$(C?M(B mew$(C@V=@4O4Y88(B $(C>n5p8&(B 
+$(C>n6;0T(B $(C0mCD>_(B $(CGR(B $(CAv(B $(C>K(B $(C<v0!(B $(C>x=@4O4Y(B.($(C@|:N(B $(C@O:;>n(B $(CH/0f(B
+$(C@87N(B $(C5G>n(B $(C@V@84O1n?d(B.)
+$(CAA@:(B $(C9f9}(B $(C>F=C4B(B $(C:P@L(B $(C0h=C8i(B $(C55?M(B $(CAV=J=C?d(B.
+
+$(C6G(B $(CGO3*(B.
+$(C8^@O@:(B $(C@|:N(B Mule mh-e$(C7N(B $(C@P0m(B $(C@V4B(B $(C5%(B $(CGQ1[@:(B $(C3*?@3*(B $(CGQ1[(B
+$(C8^@O@G(B $(C?5>n(B $(C:N:P@:(B $(C@|:N(B $(C:N<-A}4O4Y(B.
+$(CGP13@G(B $(C=C=:E[@L(B $(C=GG`GO4B(B default$(C@G(B $(CDZ5y(B $(C@[>w6'9.@O1n?d(B?(
+$(C>n5p1nAv3*(B $(C03@N@{(B $(CGP<3@T4O4Y88(B)
+mh-e$(C?!<-(B $(CGQ1[(B $(C8^@O@;(B $(C@P@;(B $(C6'?!4B(B 
+set-file-coding-system-for-read:*korean-mail*
+$(C@;(B $(C=GG`GU4O4Y(B.
+$(C1W7/8i(B $(C@O>n(B $(C8^@O@:(B $(C1W4k7N(B $(C@_(B $(C3*?@0m(B $(CGQ1[55(B $(C:N<-Av4B(B $(C@O(B
+$(C>x@L(B $(C3*?@4B(B $(C5%(B $(C?5(B/$(C<}@Z(B $(C:N:P@:(B $(C4Y(B $(C1z>nA}4O4Y(B.
+$(C>n6;0T(B $(C5H(B $(C0M@O1n?d(B?
+
+$(C86Av87@87N(B Mule$(C?!<-(B gnus$(C7N(B $(CGQ1[(B $(C4:=:(B $(C@P0m(B $(C0h=E(B $(C:P(B $(C>H(B $(C0h(B
+$(C=E0!?d(B?
+
+$(C@_(B $(C:NE9(B $(C5e834O4Y(B.
+From hangul-request@cair.kaist.ac.kr  Fri May 24 10:50:21 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id KAA25002 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 10:50:14 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id KAA21130 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 10:51:20 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 10:22:34 +0900
+From: junker@skuld.snu.ac.kr (Choi Jun-Ho)
+Message-ID: <xl2enoag90l.fsf@skuld.snu.ac.kr>
+Organization: SNU Dept. of CS
+Sender: hangul-request@cair.kaist.ac.kr
+References: <199605221955.EAA04204@sorak.kaist.ac.kr>
+Subject: Re: ÇÑ±Û bash,GNU-NLS,ÇÑ±Û (was Re: ÇÑ±ÛÀÌ¸§ º¸ÀÌ´Â color-ls)
+
+In article <4o0sbt$2av@net161-61.student.yale.edu> jungshik@net161-61.student.yale.edu (Jungshik Shin) writes:
+
+
+     bash¸¸ µû·Î ÇÑ±Û patchÇØ¼­ ÇÑ±¹³»¿¡¼­ ¶Ç´Â ÇÑ±¹ÀÎ³¢¸®¸¸ 
+   µ¹·Á ¾²´Â °ÍÀº º°·Î ÀÇ¹Ì°¡ ¾ø´Ù°í º¾´Ï´Ù. ¿©·¯¹ø ¹İº¹ÇÏ´Â 
+   ¾ê±âÀÔ´Ï´Ù¸¸, ±×·± ³ë·ÂÀ» ÇÒ ¼ö ÀÖ´Ù¸é, GNU-NLSÆÀ¿¡ ÇÑ±¹ ÆÀµµ 
+   ¸¸µé¾î¼­ bash»Ó ¾Æ´Ï¶ó GNUÀÇ ¸ğµç ÇÁ·Î±×·¥¿¡¼­ ÇÑ±Û Áö¿øÀÌ 
+   ¿ÏÀüÈ÷ µÇµµ·Ï ÇÏ´Â °ÍÀÌ ³ªÀ» °Í °°½À´Ï´Ù. ¹°·Ğ, Àúµµ ¾Æ¹« ÀÏµµ 
+   ¾È ÇÏ¸é¼­ ÀÌ·± ¸»À» ÇÒ ÀÚ°İÀÌ ¾ø½À´Ï´Ù¸¸, Àú¾ß ÀçÁÖ°¡ ¾ø¾î¼­ 
+   ±×·± °ÍÀÌ°í ¸¹Àº ÀçÁÖ¸¦ °¡Áö½Å  ºĞµéÀÌ  Á¶±İ ´õ ´«À» ³ĞÀº °÷À¸·Î 
+   µ¹·ÈÀ¸¸é ÁÁÁö ¾ÊÀ»±î ÇÏ´Â »ı°¢¿¡¼­ Àû¾îº¾´Ï´Ù. 
+
+    ½ÅÁ¤½Ä 
+
+GNU-NLSÀÇ ÇÑ±¹ÆÀÀº ÀÖ½À´Ï´Ù. mailling list´Â ko@li.orgÀÌ°í¿ä,
+°¡ÀÔÇÏ½Ã·Á¸é ko-request@li.org¿¡ subscribe¶ó°í body¸¦ ½á¼­ º¸³»¸é
+µË´Ï´Ù. ¾ÆÁ÷ ¸¹Àº ÀÏÀ» ÇÏÁö´Â ¾Ê¾Ò½À´Ï´Ù¸¸... Àúµµ °¡ÀÔÇÑÁö ¾ó¸¶
+¾È µÇ¾ú°í, ¾ÆÁ÷ ÀÏÀ» Á¦´ë·Î ½ÃÀÛÇÏÁö´Â ¾Ê¾Æ¼­ ¹¹¶ó ¸»¾¸µå¸®±â´Â
+±×·¸Áö¸¸, ÀÌ¹Ì ÆÀÀº ÀÖ°í, È°µ¿Àº ÇÏ°í ÀÖ½À´Ï´Ù. 
+
+-- 
+-------------------------------------------------------------^^----
+Judgement Uninfected Naked Kind & Executive Ranger         <JUNKER>
+                                  KONAMI 1988 "SD-Snatcher" in MSX2
+Choi Jun-Ho|junker@vishnu.snu.ac.kr|http://vishnu.snu.ac.kr/~junker
+Computer Science & Statistics Dept,Seoul National University, Korea
+From hangul-request@cair.kaist.ac.kr  Fri May 24 11:19:25 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id LAA25322 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 11:19:18 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id LAA21833 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 11:20:27 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 02:19:41 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4o36bt$aq1@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <199605221955.EAA04204@sorak.kaist.ac.kr>, <xl2enoag90l.fsf@skuld.snu.ac.kr>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: ÇÑ±Û bash,GNU-NLS,ÇÑ±Û (was Re: ÇÑ±ÛÀÌ¸§ º¸ÀÌ´Â color-ls)
+
+Choi Jun-Ho (junker@skuld.snu.ac.kr) wrote:
+: In article <4o0sbt$2av@net161-61.student.yale.edu> 
+   jungshik@net161-61.student.yale.edu (Jungshik Shin) writes:
+
+
+:    ¾ê±âÀÔ´Ï´Ù¸¸, ±×·± ³ë·ÂÀ» ÇÒ ¼ö ÀÖ´Ù¸é, GNU-NLSÆÀ¿¡ ÇÑ±¹ ÆÀµµ 
+:    ¸¸µé¾î¼­ bash»Ó ¾Æ´Ï¶ó GNUÀÇ ¸ğµç ÇÁ·Î±×·¥¿¡¼­ ÇÑ±Û Áö¿øÀÌ 
+
+: GNU-NLSÀÇ ÇÑ±¹ÆÀÀº ÀÖ½À´Ï´Ù. mailling list´Â ko@li.orgÀÌ°í¿ä,
+
+  Á¦°¡ ÃÖ±Ù¿¡ prep.ai.mit.edu¿¡ °¡¼­ È®ÀÎÀ» ÇØ º¸Áö ¾ÊÀº »çÀÌ¿¡
+¾ğÁ¦ ¸¸µé¾îÁ³±º¿ä. ¸¸µç ´ÙÀ½¿¡ han.comp.hangulÀÌ³ª ´Ù¸¥
+°ü·ÃµÈ °÷¿¡ ±ÛÀÌ¶óµµ ÇÑ¹ø ¿Ã·Á¼­ ¾Ë·Á¼­  º¸´Ù ¸¹Àº »ç¶÷µéÀÌ
+Âü¿©ÇÒ ¼ö ÀÖµµ·Ï ÇßÀ¸¸é  ÁÁ¾ÒÀ»ÅÙµ¥ - ÃÖ¼ÒÇÑ Àú´Â  ÀüÇô ±×·± 
+°ø°í¸¦ º» ÀûÀÌ ¾ø½À´Ï´Ù- ÇÏ´Â ¾Æ½¬¿òÀÌ ÀÖ½À´Ï´Ù. ¹¹, underground·Î 
+ÇÒ  ÀÌÀ¯µµ ¾ø¾úÀ»ÅÙµ¥¿ä :-) ¾îÂ·µç ÆÀÀÌ ¸¸µé¾îÁø ÀÌ»ó °¡´ÉÇÑ
+ÇÑ ¸¹Àº ÀÌµéÀÌ Âü¿©ÇÏ°í,  È°¹ßÇÑ È°µ¿À» ÇØ¼­ GNU ÇÁ·Î±×·¥µé¿¡¼­ 
+ÇÑ±ÛÀ» ¸¶À½²¯ ¾µ ¼ö ÀÖ¾úÀ¸¸é ÇÕ´Ï´Ù.
+
+  ½ÅÁ¤½Ä
+From hangul-request@cair.kaist.ac.kr  Fri May 24 14:49:29 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id OAA26833 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 14:49:22 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id OAA27013 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 14:50:33 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 05:42:56 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4o3i90$dgj@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <199605240121.KAA24821@t03-xs03.hongo.ecc.u-tokyo.ac.jp>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: some questions
+
+> Sehoon (t60478@hongo.ecc.u-tokyo.ac.jp) wrote:
+> 
+
+> ¾È³çÇÏ½Ê´Ï±î?
+> °Ü¿ì ÇÑ±Û·Î ´º½º¿¡ Åõ°íÇÒ ¼ö ÀÖ°Ô µÇ¾ú½À´Ï´Ù.
+
+
+> Á¦°¡ ÇÑ±Û ¸ŞÀÏÀ» ¾²´Â ¹æ¹ıÀº
+> 1.Mule¿¡¼­ ÇÑ±Û ¹®¼­¸¦ ¾¸.
+> 2.M-x set-file-coding-system:*iso-2022-kr*¸¦ ½ÇÇàÇÔ.
+> 3.'ml'ÀÌ¶õ ÀÌ¸§À¸·Î ÀúÀåÇÏ°í shell(kterm etc.)·Î µ¹¾Æ°¨.
+> 4.mail -s "Subject" hangul@cair.kaist.ac.kr < ml À» ½ÇÇà.
+> 
+> ÀÌ¶ó´Â ¸»µµ ¸ø ÇÏ°Ô º¹ÀâÇÑ ¼ø¼­·Î º¸³»°í ÀÖ½À´Ï´Ù.
+
+  È¤½Ã, elmÀÌ³ª pineÀ» ¾²½Ç ¼ö ÀÖ´Ù¸é(pineÀÇ °æ¿ì¿¡´Â
+¼³Ä¡µÇ¾î ÀÖÁö ¾Ê´õ¶óµµ ½Ã½ºÅÛ °ü¸®ÀÚ°¡ ¾Æ´Ï¶óµµ binary¸¸ °¡Á®´Ù°¡
+È¨µğ·ºÅä¸®¿¡ ¼³Ä¡ÇØ¼­ ¾²½Ç ¼ö ÀÖÀ» °ÍÀÔ´Ï´Ù.
+ftp://ftp.cac.washington.edu¿¡ ÀÖ½À´Ï´Ù), editor¸¦ mule·Î ¹Ù²Ù½Ã°í, 
+À§¿¡ ÇÏ½Å °ÍÃ³·³ mule¿¡¼­ charsetÀ» iso-2022-kr·Î ¸ÂÃß½Å ´ÙÀ½¿¡ 
+ÇÑ±Û ¸ŞÀÏÀ» ÀÛ¼ºÇÏ¼Å¼­ º¸³»¸é µË´Ï´Ù. ÀÌ ÀÛ¾÷Àº kterm´ë½Å
+hanterm¿¡¼­ ÇÏ½Ã´Â °ÍÀÌ ÁÁ°ÚÁö¿ä. ±×¸®°í, pineÀÌ³ª
+elm¿¡¼­ charsetÀ» ISO-2022-KR·Î  ¸ÂÃç ³õÀ¸½Ã¸é,
+Á¦¸ñ¸¸ Á¦¿ÜÇÏ°í(Á¦¸ñÀº pine¿¡¼­ ?EUC-KR?B?....?=´ë½Å¿¡ 
+?ISO-2022-KR?B?....?=¿Í °°Àº ½ÄÀ¸·Î ÀÎÄÚµåµÇ´Â ¹®Á¦°¡ ÀÖÀ½)´Â
+ÇÑ±¹¿¡¼­ 'hangul sendmail'À» ½á¼­ º¸³½ °Í°ú ¶È°°ÀÌ ÇÒ ¼ö
+ÀÖ½À´Ï´Ù.
+
+> Mailer ·Î¼­´Â Mule¿¡¼­ ¾²´Âmh-e¿Í mewÀÖ½À´Ï´Ù¸¸ ¾îµğ¸¦ 
+> ¾î¶»°Ô °íÃÄ¾ß ÇÒ Áö ¾Ë ¼ö°¡ ¾ø½À´Ï´Ù.(ÀüºÎ ÀÏº»¾î È¯°æ
+> À¸·Î µÇ¾î ÀÖÀ¸´Ï±î¿ä.)
+
+ Á¦°¡ muleÀº ¹°·Ğ emacsµµ ¾²Áú ¾Ê¾Æ¼­ Á¤È®ÇÑ °ÍÀº ¸ğ¸£°Ú½À´Ï´Ù.
+  ~/.emacs¿¡¼­ ¼¼ÆÃÀ» ÇØÁÖ¸é  mailÀº iso-2022-krÀ» ¾²°í(
+mh³ª Rmailµî¿¡¼­), º¸Åë ¶§¿¡´Â ksc 5601À» ¾²µµ·Ï ÇÏ´Â ¹æ¹ıÀÌ 
+ÀÖ´Â °ÍÀ¸·Î ¾Ë°í ÀÖ½À´Ï´Ù. ±×¿¡ ´ëÇÑ ¼³¸íÀº Àº±¤Èñ´ÔÀÇ Hangul LaTeX¿¡
+µş¸° hlatex-guide.ps(ÆÄÀÏ¸í?)¶õ PostscriptÆÄÀÏÀ» ÀÎ¼âÇØ¼­ º¸½Ã¸é
+Ã£À» ¼ö ÀÖÀ» °ÍÀÔ´Ï´Ù. HLaTeX 0.95e´Â °¡±î¿î CTAN mirror
+site¿¡¼­ tex-archive/language/korean¿¡¼­ Ã£À¸½Ê½Ã¿À. 
+
+> ¸ŞÀÏÀº ÀüºÎ Mule mh-e·Î ÀĞ°í ÀÖ´Â µ¥ ÇÑ±ÛÀº ³ª¿À³ª ÇÑ±Û
+> ¸ŞÀÏÀÇ ¿µ¾î ºÎºĞÀº ÀüºÎ ºÎ¼­Áı´Ï´Ù.
+> ÇĞ±³ÀÇ ½Ã½ºÅÛÀÌ ½ÇÇàÇÏ´Â defaultÀÇ ÄÚµù ÀÛ¾÷¶§¹®ÀÏ±î¿ä?(
+> ¾îµğ±îÁö³ª °³ÀÎÀû ÇĞ¼³ÀÔ´Ï´Ù¸¸)
+> mh-e¿¡¼­ ÇÑ±Û ¸ŞÀÏÀ» ÀĞÀ» ¶§¿¡´Â 
+> set-file-coding-system-for-read:*korean-mail*
+> À» ½ÇÇàÇÕ´Ï´Ù.
+> ±×·¯¸é ÀÏ¾î ¸ŞÀÏÀº ±×´ë·Î Àß ³ª¿À°í ÇÑ±Ûµµ ºÎ¼­Áö´Â ÀÏ
+> ¾øÀÌ ³ª¿À´Â µ¥ ¿µ/¼ıÀÚ ºÎºĞÀº ´Ù ±ú¾îÁı´Ï´Ù.
+
+ ÈñÇÑÇÑ ÀÏÀÌ±º¿ä. Àü¿¡ muleÀ» ¾²½Ã´Â µ¶ÀÏÀÇ Àº±¤Èñ´Ô°ú ¸ŞÀÏ ±³È¯ÇÒ ¶§
+Á¦°¡ iso-2022-kr·Î ÀÎÄÚµåÇØ¼­ º¸³»µµ ¾Æ¹« ÀÌ»ó¾øÀÌ Àß ¹ŞÀ¸½Ã´øµ¥¿ä.
+¾îÂ·µç, À§ÀÇ hangul latex guide¿¡ ¾²¿© ÀÖ´Âµ¥·Î ÇÑ¹ø ÇØ º¸½Ã´Â °ÍÀÌ ÁÁÀ»
+µí ÇÕ´Ï´Ù. °Å±â¼­, system-wide defaultÆÄÀÏ¿¡¼­ ÇÏ¶ó°í ÇÑ °ÍÀº ¾Æ¸¶
+´ëºÎºĞ ~/.emacs¿¡¼­ ÇØµµ µÇ´Â °ÍÀ¸·Î Àú´Â ¾Ë°í ÀÖ½À´Ï´Ù. 
+
+mule ¾²½Ã´Â ºĞµéÀÌ Á»´õ ÀÚ¼¼ÇÑ °ÍÀº ´äÇØ ÁÖ½Ã¸®¶ó ¹Ï½À´Ï´Ù.
+
+> ¸¶Áö¸·À¸·Î Mule¿¡¼­ gnus·Î ÇÑ±Û ´º½º ÀĞ°í °è½Å ºĞ ¾È °è
+> ½Å°¡¿ä?
+
+  News´Â iso-2022-kr(korean mail code)´ë½Å ±×³É euc-kr(ksc-5601)·Î
+ÄÚµå¸¦ ¼¼ÆÃÇÏ°í ±ÛÀ» ¿Ã¸®½Ã°í ÀĞÀ¸¼Å¾ß ÇÕ´Ï´Ù. mule·Î´Â Á¦°¡ ÇØ º¸Áö 
+¸ø Çß°í, hanemacs¿¡¼­´Â  gnus·Î ÇÑ±Û ´º½º º¸´Âµ¥¿¡ ¾Æ¹« ÁöÀåÀÌ ¾ø¾ú½À´Ï´Ù.
+È¤½Ã ÇÑ±Û ÆùÆ®°¡ ¹®Á¦°¡ µÈ´Ù¸é, ¾Æ¿¹ ÇÑÅÒÀ» ¼³Ä¡ÇÏ°í, ±× ¾È¿¡¼­
+mule¿¡ -nw optionÀ» ÁÖ°í ¶ç¿î ´ÙÀ½¿¡ ¹®ÀÚ¼ÂÀ» euc-kr·Î ¸ÂÃß°í
+gnus·Î º¸¸é ¾Æ¹« ¹®Á¦°¡ ¾øÀ¸¸®¶ó°í º¾´Ï´Ù.
+
+  ½ÅÁ¤½Ä
+
+µ¡¸»  
+  1. ¿Ã¸®½Å ±ÛÀ» º¸¸é, iso-2022-krÀ» RFC 1557¿¡ ±ÔÁ¤°ú´Â ÀüÇô ´Ù¸£°Ô
+ÀÏº»¿¡¼­ SJIS,JIS,EUC-JP µî ¿©·¯°¡Áö ÄÚµå¸¦ ¼¯¾î ¾µ ¶§(Àúµµ Àß
+¸ğ¸¨´Ï´Ù. ¾Æ´Ï¸é, ±×°ÍÀÌ ISO-2022ÀÇ ÄÚµå È®Àå ¹æ¹ıÀÎÁöµµ...????)Ã³·³
+charsetÀÌ ¹Ù²ğ ¶§¸¶´Ù ESC+code-specifier(?)¸¦ »ğÀÔÇÏ´Â ½ÄÀ¸·Î
+¾²¿©Á® ÀÖ±º¿ä. ´õ±¸³ª, ÇÑ±ÛÀÌ ³ª¿Ã ¶§ ESC+$)C°¡ ¾Æ´Ñ ESC+$(C°¡
+»ğÀÔµÇ¾ú±º¿ä. US-ASCII·Î ³Ñ¾î°¥ ¶§¿¡´Â ESC+(B°¡ »ğÀÔµÇ¾î ÀÖ°í¿ä. ±×·±µ¥,
+hantermÀº ÀÌ ÆÄÀÏÀÌ iso-2022-krÀ» µû¸£Áö ¾ÊÀ½¿¡µµ catÀ¸·Î º¼ ¶§, Á¦´ë·Î
+µğÄÚµåÇØ¼­ º¸¿©ÁÖ°í ÀÖ½À´Ï´Ù.  (º»·¡ ÇÑÅÒ¿¡´Â  iso-2022-kr µğÄÚµå ±â´ÉÀÌ
+µé¾î ÀÖÀ½)
+
+  2. hantermÀ» ¼³Ä¡ÇÏ½Ã´Â °ÍÀÌ ÁÁ°Ú½À´Ï´Ù. 
+     
+  3. Please, contact me by mail if this message is not readable.
+From hangul-request@cair.kaist.ac.kr  Fri May 24 22:26:00 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id WAA01766 for <hangul@cair.kaist.ac.kr>; Fri, 24 May 1996 22:25:59 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id WAA05319 for hangul@cair.kaist.ac.kr; Fri, 24 May 1996 22:27:19 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Fri, 24 May 1996 03:26:08 GMT
+From: mountie@www.jmi.co.kr (DongSan Lee)
+Message-ID: <4o4dai$9r6@cham.nuri.net>
+Organization: HanNuri Internet Service
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: (Q) hanterm and X-client problem
+
+
+¾È³çÇÏ¼¼¿ä ÀÌµ¿»êÀÌ¶ó°í ÇÕ´Ï´Ù.
+ÃÖ±Ù hanterm 3.04 beta2 ¹öÀüÀ» ´Ù¿î¹Ş¾Æ À©µµ¿ì95¿¡¼­ ÀÛµ¿ÇÏ´Â
+X-Xlient¿¡¼­ »ç¿ëÇÏ°í ÀÖ´Âµ¥ ¾à°£(?)ÀÇ ¹®Á¦°¡ ÀÖ½À´Ï´Ù.
+
+hantermÀÇ ÄÄÆÄÀÏµµ ¿Ïº®ÇÏ°Ô ³¡³µ°í System Console¿¡¼­´Â Á¤»óÀûÀ¸·Î
+ÀÛµ¿ÇÏ´Âµ¥ X-Client¿¡¼­´Â ¹®Á¦°¡ ¹ß»ıÇÏ°í ÀÖ½À´Ï´Ù. ÀúÀÇ ¹®Á¦¸¦
+Á¤¸®ÇÏ¸é ¾Æ·¡¿Í °°½À´Ï´Ù.
+
+Á¦°¡ »ç¿ëÇÏ´Â X-Client´Â StarNet Communications
+(http://www.starnet.com) ¿¡¼­ ³ª¿Â demo versionÀ¸·Î Áö±İ±îÁö
+hanterm¿Ü¿¡´Â ÀüÇô ¹®Á¦¾øÀÌ »ç¿ë°¡´ÉÇß½À´Ï´Ù.
+
+¹®Á¦°¡ ¹ß»ıÇÏ´Â ºÎºĞÀº hantermÀ» ½ÇÇà½ÃÅ²ÈÄ ÀÏÁ¤½Ã°£ÀÌ»ó ÇÑ±Û ¹®¼­¸¦
+º¸°ÔµÇ¸é Á¡Á¡ ÇÑ±ÛºÎºĞÀÌ ¿ª»óÀ¸·Î ¹İÀüµÇ´Ù°¡ ³ªÁß¿¡´Â ¾Æ¿¹ ³ª¿ÀÁö
+¾ÊÀ¸¸ç °á±¹ ¸Ş¸ğ¸®°¡ ºÎÁ·ÇÏ´Ù´Â ¸Ş¼¼Áö°¡ ÀÚ¿Í¼­ X-Client ÀÚÃ¼¸¦ ¿ÏÀüÈ÷
+Á¾·áÇÏÁö ¾ÊÀ¸¸é ¾ÈµÇ¸ç °¡²û¾¿ window 95°¡ rebootingµÇ±âµµ ÇÕ´Ï´Ù.
+
+ÆùÆ®ºÎºĞ¿¡¼­ ¹®Á¦°¡ ÀÖÀ»¼öµµ ÀÖ°Ú´Âµ¥ README.0ÆÄÀÏ¿¡¼­ ¾ğ±ŞÇÏµíÀÌ
+daewoo font¸¦ ÁöÁ¤ÇÏ¸é hantermÀº ¶ß´Âµ¥ ÇÑ±ÛÀÌ ÀüÇô ¾Èº¸ÀÌ°í kaistÀÇ
+Á¶ÇÕÇü ÆùÆ®¸¦ ÁöÁ¤ÇÏ¸é ÇÑ±ÛÀÌ Àß º¸ÀÌ¸ç ÀÔ·Âµµ ÀßµË´Ï´Ù. ±×·¯³ª °è¼Ó
+»ç¿ëÇÏ´Ùº¸¸é ¸Ş¸ğ¸® ºÎÁ·ÀÌ¶ó´Â ¸Ş¼¼Áö°¡ ³ª¿ÀÁö¿ä.
+
+X-Server´Â Sun SparcStation20¿¡¼­ solaris 2.5¹× OpenWindows 3.5¸¦
+»ç¿ëÇÏ°í ÀÖ½À´Ï´Ù.
+
+Á¤¸®¸¦ ÇÏ¸é ¹®Á¦ÀÇ ¿øÀÎÁ¦°øÀº
+	hanterm ÀÚÃ¼ÀÇ ¹ö±×
+	X-ClientÀÇ ¹ö±×
+	ÇÑ±Û ÆùÆ®ÀÇ ¹®Á¦
+	À©µµ¿ì 95ÀÇ ¹®Á¦
+	ÇÑÅÒÀÇ ¿É¼ÇÁöÁ¤ Àß¸ø
+	........
+
+µîµîÀ» »ı°¢ÇÒ ¼ö ÀÖ´Âµ¥ µÎ²¨¿î ÀúÀÇ ¸Ó¸®·Î´Â ¾Æ¹«¸® »ı°¢ÇØµµ Àß
+¸ğ¸£°Ú½À´Ï´Ù.
+
+Âü°í·Î X-Client¿¡¼­ make font dir ¸Ş´º°¡ ÀÖ¾î ClientÃøÀÇ ÆúÆ®ÁöÁ¤À»
+ÇÏ¿´½À´Ï´Ù.
+±×¸®°í ld.so..... error°¡ »ı±â±æ·¹ ´Ü¼øÈ÷ ÇØ´ç ÆÄÀÏÀ» ¸µÅ©¸¸
+ÇØÁÖ¾ú½À´Ï´Ù. Áï ½ÇÁ¦ ÆÄÀÏÀº /usr/openwin/lib¿¡ ÀÕ´Âµ¥ ÀÚ²Ù ÇÑÅÒ¿¡¼­
+/usr/lib¿¡¼­ ±× ÆÄÀÏÀ» Ã£±æ·¡ link¸¦ ¸¸µé¾îµÎ¾úÁö¿ä.
+
+±×·³.
+¿©·¯ Àü¹®°¡µéÀÇ Á¶¾ğÀ» ±â´Ù¸®°Ú½À´Ï´Ù.
+
+ÀÌµ¿»ê
+1996³â 5¿ù 24
+http://www.jmi.co.kr/san/
+
+
+From hangul-request@cair.kaist.ac.kr  Sat May 25 00:05:12 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id AAA02449 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 00:05:12 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id AAA07408 for hangul@cair.kaist.ac.kr; Sat, 25 May 1996 00:06:31 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Fri, 24 May 1996 15:05:24 GMT
+From: hanbak@cre.co.kr (Hanbak Lim)
+Message-ID: <4o4j9m$ksi@news.kreonet.re.kr>
+Organization: Korea Research Environment Open Network (KREONet)
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: [Áú¹®]ÇÑÅÒ¿¡¼­ ÄÃ·¯¸¦.....
+
+
+Áö±İ ÇÑÅÒ 3.0.4 beta2¸¦ Àß ¾²°í ÀÖ´Â »ç¶÷ÀÔ´Ï´Ù.
+
+±Ùµ¥ ÇÑÅÒ.. Âü ÁÁÁö¸¸.. ¸î°¡Áö ±ÍÂúÀº°Ô ÀÖ¾î¼­ ±ÛÀ» ¿Ã¸³´Ï´Ù.
+
+ÄÃ·¯ ¹®Á¦ÀÎµ¥¿ä.. ÄÃ·¯°¡ Áö¿øµÇ´Â°Ç ÁÁ±â´Â ÇÕ´Ï´Ù¸¸..
+
+Á» ÀÌ»óÇÏ´õ¶ó°í¿ä..
+
+±×·¯´Ï±î. ¸î¸î Åë½Å¸Á¿¡ Á¢¼ÓÀ» ÇØ º¸¸é..
+
+´ë¹®¾È½Ã¸¦ ¸ÚÁö°Ô ÇÑ °æ¿ì.. ¾Æ¿¡ ±Û¾¾°¡ ¾È º¸ÀÏ°æ¿ì°¡ ÀÖ½À´Ï´Ù.
+
+ÂÁ..
+
+¾Æ½±´õ±º¿ä..
+
+´ë¹®¾È½Ã »Ó¸¸ ¾Æ´Ï¶ó ¸Ş´º¸¶Àú ¾È º¸ÀÏ¶§´Â Á¤¸» Â¥Áõ³ª´õ±º¿ä..
+
+ÀÌ°Å ÄÃ·¯¸¦ ¾î¶»°Ô Áö¿ø ¾È ÇÏ°Ô ÇÏ´Â ¹ı ¾øÀ»±î¿ä..?
+
+¿¹ÀüÃ³·³ ÄÃ·¯¸é ±½¾îÁø´Ù.. ¶ó´ø°¡ ¾È º¸ÀÎ´Ù°¡ ¾Æ´Ï¶ó. 
+
+ÄÃ·¯°Ç ÄÃ·¯°¡ ¾Æ´Ï°Ç.. ¹«Á¶°Ç ±×³É ÇÑ°¡Áö·Î¸¸ Ç¥½ÃµÇ°Ô ÇÏ´Â  ¿É¼Ç..
+
+°°Àº°Å ¶óµçÁö.. ¾Æ´Ï¸é..
+
+Ä®¶ó°¡ ÀüºÎ Áö¿øµÇ°Ô ÇÏ´Â ¹æ¹ıÀÌ¶óµçÁö..
+
+ºÎÅ¹µå¸³´Ï´Ù...
+
+±×·³,
+
+°æ½Ä.
+
+
+
+man xtermÇØ º¸´Ï±î ¾ø´õ±º¿ä.. ÂÁ.
+
+
+From hangul-request@cair.kaist.ac.kr  Sat May 25 01:49:18 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id BAA03023 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 01:49:17 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id BAA09218 for hangul@cair.kaist.ac.kr; Sat, 25 May 1996 01:50:34 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 16:41:31 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4o4orr$he3@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4o4j9m$ksi@news.kreonet.re.kr>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: [Áú¹®]ÇÑÅÒ¿¡¼­ ÄÃ·¯¸¦.....
+
+Hanbak Lim (hanbak@cre.co.kr) wrote:
+
+: ÄÃ·¯ ¹®Á¦ÀÎµ¥¿ä.. ÄÃ·¯°¡ Áö¿øµÇ´Â°Ç ÁÁ±â´Â ÇÕ´Ï´Ù¸¸..
+: Á» ÀÌ»óÇÏ´õ¶ó°í¿ä..
+: ±×·¯´Ï±î. ¸î¸î Åë½Å¸Á¿¡ Á¢¼ÓÀ» ÇØ º¸¸é..
+: ´ë¹®¾È½Ã¸¦ ¸ÚÁö°Ô ÇÑ °æ¿ì.. ¾Æ¿¡ ±Û¾¾°¡ ¾È º¸ÀÏ°æ¿ì°¡ ÀÖ½À´Ï´Ù.
+
+  ±×°Ç ÇÑÅÒ Å¿À» ÇÒ °ÍÀÌ ¸ø µË´Ï´Ù. ¿©·¯¹ø ³ª¿Â ¾ê±âÁö¸¸, 
+ÀÌ»óÇÑ ***ºñÇ¥ÁØ*** ¾È½Ã¸¦ ¾²°í ÀÖ´Â ÂÊÀÌ Àß¸øÀÌÁö¿ä- º¸±ŞÇÑ ÂÊÀÌ 
+´õ¿í ´õ Àß¸øÀÌ¶ó°í ÇØ¾ß°ÚÁö¿ä.  ¾ğÁ¦ºÎÅÍ ANSI°¡ "??? ANSI"¶ó°í ÇØ¼­ 
+ÇÑ±¹ÀÇ ¾î´À  Åë½Å ¿¡¹Ä·¹ÀÌÅÍ(Åë½Å ¿¡¹Ä·¹ÀÌÅÍÀÇ "Á¦ 1ÀÇ »ç¸í"ÀÎ 
+ÅÍ¹Ì³Î - ¿¹¸¦ µé¾î, vt100- ¿¡¹Ä·¹ÀÌ¼ÇÁ¶Â÷ Á¦´ë·Î ÇÏÁö ¸øÇÏ´Â) Á¦ÀÛÆÀ¿¡ 
+ÀÌ¸§À» ºô·Á ¾²°Ô Çã¶ôÇÏ°í,  "Ç¥ÁØ Á¦Á¤±Ç"µµ ³Ñ°Ü ÁÖ¾ú´ÂÁö ¸ğ¸£°Ú±º¿ä. 
+
+  ½ÅÁ¤½Ä
+From hangul-request@cair.kaist.ac.kr  Sat May 25 02:13:29 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id CAA03772 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 02:13:28 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id CAA11015 for hangul@cair.kaist.ac.kr; Sat, 25 May 1996 02:14:48 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Sat, 25 May 1996 02:17:09 +0900
+From: Jung-Ju Choi <jjchoi@hobak.postech.ac.kr>
+Message-ID: <31A5EF15.3AC0@graphics.postech.ac.kr>
+Organization: Pohang University of Science and Technology
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+Sender: hangul-request@cair.kaist.ac.kr
+References: <CRISP.96May23214426@hugsvr.kaist.ac.kr>
+Subject: Re: muleÀ» ¾µ¶§..
+
+Chung Jae-youn wrote:
+> 
+
+> muleÀÌ fileÀ» ÀúÀåÇÒ¶§, helvis³ª moreµîµî°ú È£È¯ÀÌ µÇ°Ô ÇÒ¼ö ¾øÀ»±î¿ä..??
+>Á¤È®È÷ ¹«¾ùÀ» ¹°À¸½Ã´ÂÁö ¸ğ¸£°ÚÁö¸¸...
+muleÀ» »ç¿ëÇÏ¿© ÀÛ¼ºÇÑ È­ÀÏÀº hanterm, helvis, more µîÀ» »ç¿ëÇÏ¿©µµ ±×´ë
+·Î º¼ ¼ö ÀÖ´Â °ÍÀ¸·Î ¾Ë°í ÀÖ½À´Ï´Ù.
+
+-- 
+ _ _ /|    Jung-Ju Choi
+ \'o.@"    Graphics Lab, Department of CSE, POSTECH
+ =(___)=   mailto:jjchoi@graphics.postech.ac.kr
+    U      http://www-cs.postech.ac.kr/jjchoi/
+From hangul-request@cair.kaist.ac.kr  Sat May 25 02:18:59 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id CAA03985 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 02:18:58 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id CAA11111 for hangul@cair.kaist.ac.kr; Sat, 25 May 1996 02:20:20 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 17:10:40 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4o4qig$he3@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4o4dai$9r6@cham.nuri.net>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: (Q) hanterm and X-client problem
+
+DongSan Lee (mountie@www.jmi.co.kr) wrote:
+
+: ÃÖ±Ù hanterm 3.04 beta2 ¹öÀüÀ» ´Ù¿î¹Ş¾Æ À©µµ¿ì95¿¡¼­ ÀÛµ¿ÇÏ´Â
+: X-Xlient¿¡¼­ »ç¿ëÇÏ°í ÀÖ´Âµ¥ ¾à°£(?)ÀÇ ¹®Á¦°¡ ÀÖ½À´Ï´Ù.
+
+  X server¿Í X client¸¦ ¹Ù²ã¼­ »ı°¢ÇÏ¼Ì±º¿ä. °íÇØ»óµµ  È­¸éÀ» Á¦°øÇÏ°í,
+¿ø°İÁö¿¡ ÀÖµç °°Àº °÷¿¡ ÀÖµç x clientÀÇ "X ¸í·É"À»
+¹Ş¾Æ¼­ È­¸é¿¡ ±×·Á ÁÖ´Â °ÍÀÌ "X server"ÀÔ´Ï´Ù.
+
+
+: Á¦°¡ »ç¿ëÇÏ´Â X-Client´Â StarNet Communications
+: (http://www.starnet.com) ¿¡¼­ ³ª¿Â demo versionÀ¸·Î Áö±İ±îÁö
+: hanterm¿Ü¿¡´Â ÀüÇô ¹®Á¦¾øÀÌ »ç¿ë°¡´ÉÇß½À´Ï´Ù.
+
+  °Å±â¼­ ³ª¿Â Win95¿ë  X-server µ¥¸ğ¸¦ °¡Áö°í, ¾Æ¹« ¹®Á¦¾øÀÌ
+SGI¿¡¼­ µµ´Â hanterm.304beta2¸¦ X-client·Î ¾²°í ÀÖ´Â °ÍÀ» Àú´Â 
+¿©·¯¹ø ¸ñ°İÇß½À´Ï´Ù. Àúµµ Win 3.1ÇÏ¿¡¼­ °°Àº °÷¿¡¼­ ¸¸µç 
+X server¿¡(¾Æ¸¶ 16bit¿ë,32bit¿ë ¸ğµÎ)  Solaris 2.4¿¡¼­ µµ´Â 
+hanterm(ÀÌ°ÍÀº Á¶±İ ¿¾³¯ ¹öÀü)À» x client·Î ¹®Á¦¾øÀÌ ¾´ ÀûÀÌ ÀÖ°í¿ä.
+
+: ¹®Á¦°¡ ¹ß»ıÇÏ´Â ºÎºĞÀº hantermÀ» ½ÇÇà½ÃÅ²ÈÄ ÀÏÁ¤½Ã°£ÀÌ»ó ÇÑ±Û ¹®¼­¸¦
+: º¸°ÔµÇ¸é Á¡Á¡ ÇÑ±ÛºÎºĞÀÌ ¿ª»óÀ¸·Î ¹İÀüµÇ´Ù°¡ ³ªÁß¿¡´Â ¾Æ¿¹ ³ª¿ÀÁö
+: ¾ÊÀ¸¸ç °á±¹ ¸Ş¸ğ¸®°¡ ºÎÁ·ÇÏ´Ù´Â ¸Ş¼¼Áö°¡ ÀÚ¿Í¼­ X-Client ÀÚÃ¼¸¦ ¿ÏÀüÈ÷
+: Á¾·áÇÏÁö ¾ÊÀ¸¸é ¾ÈµÇ¸ç °¡²û¾¿ window 95°¡ rebootingµÇ±âµµ ÇÕ´Ï´Ù.
+
+ Èì, ÀÌ»óÇÏ±º¿ä. ÀÌ·± °æ¿ì´Â Ã³À½ Á¢ÇÕ´Ï´Ù. Windows¿ë X server¿¡¼­
+ÇÑÅÒÀ» ¾µ´ë Á¶ÇÕÇü ÆùÆ®¸¦ ¾²¸é, ÇÑ±ÛÀÌ Á¦´ë·Î Ç¥½Ã°¡ ¾È µÈ´Ù°Å³ª ÇÏ´Â 
+¹®Á¦´Â ¿À·¡ Àü¿¡ Á¦±âµÇ¾î¼­ ¾Æ¸¶ 304beta2¿¡¼± ÀÌ¹Ì °íÃÄÁ³À» °ÍÀ¸·Î 
+¾Ë°í ÀÖ°í¿ä.  À§¿¡ ÀûÀº °ÍÃ³·³ ÀÌ»óÀÌ ¾ø¾ú´Âµ¥, È¤½Ã
+Á¤¸» ÄÄÇ»ÅÍÀÇ ¸Ş¸ğ¸® »çÁ¤ÀÌ ÁÁÁö ¾ÊÀº °Í ¾Æ´Õ´Ï±î? ÃÖ¼ÒÇÑÀÇ
+ÇÁ·Î±×·¥¸¸ ¶ç¿ì°í ÇØµµ ¸¶Âù°¡ÁöÀÎ°¡¿ä?  eXceed¶ó´Â
+´Ù¸¥ Win95/3.1¿ë X serverÀÇ µ¥¸ğ(ÀÌ°ÍÀÌ µ¥¸ğ ¹öÀüÀÌ ÀÖ´ÂÁö È®½ÇÄ¡ ¾ÊÀºµ¥)
+¹öÀüÀ» °¡Á®´Ù°¡ ½ÇÇèÇØ º¸½Ã´Â °ÍÀº ¾î¶³±î¿ä? Win95´ë½Å Win3.1¿¡¼­´Â
+¾î¶²°¡¿ä? ¹°·Ğ, °¡´ÉÇÏ½Ã´Ù¸é hantermÀÌ µµ´Â  ÂÊÀÇ 
+OS³ª ½Ã½ºÅÛµµ ´Ù¸¥ °ÍÀ¸·Î ¹Ù²ã¼­ ½ÃÇèÇØ º¸¼¼¿ä. ÀÌ°ÍµéÀ»
+´Ù Á¶ÇÕÇÏ¸é(°Å±â´Ù ¾Æ·¡ÀÇ ÆùÆ® Á¾·ù)  °æ¿ìÀÇ ¼ö°¡ ²Ï ¸¹¾ÆÁö´Â±º¿ä.
+
+
+: ÆùÆ®ºÎºĞ¿¡¼­ ¹®Á¦°¡ ÀÖÀ»¼öµµ ÀÖ°Ú´Âµ¥ README.0ÆÄÀÏ¿¡¼­ ¾ğ±ŞÇÏµíÀÌ
+: daewoo font¸¦ ÁöÁ¤ÇÏ¸é hantermÀº ¶ß´Âµ¥ ÇÑ±ÛÀÌ ÀüÇô ¾Èº¸ÀÌ°í kaistÀÇ
+  
+  ´ë¿ì³ª ÇÑ¾ç µîÀÇ ¿Ï¼ºÇü ÆùÆ®¸¦ ¾²·Á¸é, '-ks'¶õ ¿É¼ÇÀ» ¸í·ÉÇà¾Ö¼­
+ÁÖ¾î¾ß ÇÕ´Ï´Ù.ÀÌ°ÍÀº ¿©·¯°³ÀÇ README Áß ÇÏ³ª¿¡ ¼³¸íµÇ¾î ÀÖ½À´Ï´Ù.
+(ÇÑÅÒ ¹®¼­¸¦ Á¤¸®ÇÒ ÇÊ¿ä°¡ Å©±º¿ä)
+
+  ¾²°í º¸´Ï ±×¸® µµ¿òÀÌ µÉ¸¸ÇÑ ¾ê±â°¡ ¾ø½À´Ï´Ù¸¸, ±×·¡µµ ¾à°£ÀÌ³ª¸¶ ¹®Á¦ 
+ÇØ°á ¹æÇâÀ» ÀâÀ¸½Ã´Âµ¥ º¸ÅÆÀÌ µÇ¾úÀ¸¸é ÇÕ´Ï´Ù.
+
+   ½ÅÁ¤½Ä
+From hangul-request@cair.kaist.ac.kr  Sat May 25 02:29:12 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id CAA04267 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 02:29:12 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id CAA11354 for hangul@cair.kaist.ac.kr; Sat, 25 May 1996 02:30:33 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 17:28:11 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4o4rjb$i43@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4o4dai$9r6@cham.nuri.net>, <4o4qig$he3@net161-61.student.yale.edu>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: (Q) hanterm and X-client problem
+
+Jungshik Shin (jungshik@net161-61.student.yale.edu) wrote:
+: DongSan Lee (mountie@www.jmi.co.kr) wrote:
+
+: : ÃÖ±Ù hanterm 3.04 beta2 ¹öÀüÀ» ´Ù¿î¹Ş¾Æ À©µµ¿ì95¿¡¼­ ÀÛµ¿ÇÏ´Â
+: : X-Xlient¿¡¼­ »ç¿ëÇÏ°í ÀÖ´Âµ¥ ¾à°£(?)ÀÇ ¹®Á¦°¡ ÀÖ½À´Ï´Ù.
+
+:   X server¿Í X client¸¦ ¹Ù²ã¼­ »ı°¢ÇÏ¼Ì±º¿ä. °íÇØ»óµµ  È­¸éÀ» Á¦°øÇÏ°í,
+: ¿ø°İÁö¿¡ ÀÖµç °°Àº °÷¿¡ ÀÖµç x clientÀÇ "X ¸í·É"À»
+  ---------------------------- 
+   ÀÌ ºÎºĞÀº ¹Ù·Î µÚÀÇ x client¸¦ ÇÑÁ¤(¼ö½Ä)
+
+: ¹Ş¾Æ¼­ È­¸é¿¡ ±×·Á ÁÖ´Â °ÍÀÌ "X server"ÀÔ´Ï´Ù.
+
+ ÀÌ ¹®ÀåÀÌ Àß¸ø ÀÌÇØµÉ ¼ÒÁö°¡ ÀÖ±º¿ä. ÇÑ¸¶µğ·Î ÇöÀç ÀÚ½ÅÀÇ
+¾Õ¿¡ ³õ¿© ÀÖ´Â ¸ğ´ÏÅÍ°¡ ºÙ¾î ÀÖ´Â ÄÄÇ»ÅÍ³ª X-terminal¿¡¼­ 
+µ¹¾Æ°¡°í ÀÖ´Â °ÍÀÌ X serverÀÔ´Ï´Ù.
+
+ ½ÅÁ¤½Ä
+From hangul-request@cair.kaist.ac.kr  Sat May 25 03:09:24 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id DAA04573 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 03:09:23 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id DAA12056 for hangul@cair.kaist.ac.kr; Sat, 25 May 1996 03:10:39 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 18:03:23 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4o4tlb$icn@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: ÇÑ±ÛÀÔ·Â±â(X À©µµ¿ì¿¡¼­):SCO¿¡¼­ ¹ŞÀº ÆíÁö
+
+
+  Àü¿¡µµ Àá±ñ ¾ê±â°¡ ÀÖ¾ú´ø X¿¡¼­ÀÇ ÇÑ±Û ÀÔ·Â±â¿¡
+´ëÇØ ¹®ÀÇÇÏ´Â ÆíÁö¸¦ SCO¿¡¼­ ¹Ş¾Ò½À´Ï´Ù. ÀÌÂÊ
+¹®Á¦¸¦ Àß ¾Ë°í °è½Å ºĞÀÌ °è½Ã¸é Á÷Á¢ ´äÀ» ÇØ
+ÁÖ¼Åµµ µÇ°í, ¾Æ´Ï¸é ÀÌ°÷(han.comp.hangul)¿¡ ¿Ã·Á ÁÖ¼Åµµ ÁÁ°Ú½À´Ï´Ù. 
+½Ç·ÂÀÖ´Â ºĞµéÀÌ ³ª¼­¼­ X11 R6¿¡ ÀÇ°ÅÇÑ °ø°³ ÇÑ±Û
+ÀÔ·Â±â¸¦ ¸¸µé¾îÁÖ¼ÌÀ¸¸é ÁÁ°Ú½À´Ï´Ù¸¸..... 
+
+  ½ÅÁ¤½Ä
+
+
+> From: Donald Page <donaldp@sco.COM>
+> To: jshin@minerva.cis.yale.edu
+> Subject: Hangul Text Input
+> 
+> Hi, allow me to introduce myself.  My name is Donald Page
+> and I work for the internationalisation group within SCO.
+> Recently I have had some requests from customers on
+> obtaining Korean software for the SCO platform.  I have
+> read your FAQ on soc.culture.korean, for which I am most
+> grateful, but I am left with a couple of questions.
+> 
+> I have successfully compiled hanterm 3.0.2 for SCO OpenServer
+> version 5 and can display Korean text on it.  I have also
+> created a Korean locale and can display Korean on our
+> EUC enabled Xterm.  While I can type in Hangul on hanterm
+> I cannot of course enter it in the Xterm or any of the other
+> SCO clients as I do not have a Hangul Input Method.
+> 
+> I cannot find any reference in your FAQ as to how to obtain
+> a Hangul Input Method to port to SCO OpenServer and was
+> hoping you may be able to give me some pointers to one or
+> to a company which provides one.
+From hangul-request@cair.kaist.ac.kr  Sat May 25 04:01:54 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id EAA10462 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 04:01:54 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id EAA13114 for hangul@cair.kaist.ac.kr; Sat, 25 May 1996 04:03:11 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 18:54:33 GMT
+From: azrael@chopin.postech.ac.kr (Kim Tae Hyoung)
+Message-ID: <4o50l9$quo@news.postech.ac.kr>
+Organization: POSTECH, Pohang, Korea
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: teTeX + hlatexp ---> T.T
+
+
+¾È³çÇÏ¼¼¿ä ¿©·¯ºĞ ?
+
+teTeX¿¡´Ù°¡ hlatexp¸¦ ¿Ã¸®·ÁÇÏ°í ÀÖ¾ú½À´Ï´Ù.
+
+´º½º±×·ì¿¡ ÀÖ´Â´ë·Î, ±Û±¸ hlatexpÀÇ readme¿¡ ÀÖ´Â´ë·Î ´Ù Çß°É¶û¿ä...
+
+±×·±µ¥ ÀÌ»óÇÑ ¿¡·¯°¡ °è¼Ó »ı±â°í ÀÖ½À´Ï´Ù. ¶È°°Àº °ÅÁö¸¸¿ä.
+
+¿¡·¯´Â
+
+------------------<begin>-----------------------
+This is TeX, Version 3.14159 (C version 6.1)
+kpathsea: Running MakeTeXTFM xnmj1.tfm 
+MakeTeXnames: Could not map source abbreviation x.
+MakeTeXTFM: Running mf \mode:=ljfour; mag:=1; scrollmode; input xnmj1
+This is METAFONT, Version 2.718 (C version 6.1)
+
+kpathsea: Running MakeTeXMF xnmj1.mf 
+! I can't find file `xnmj1.mf'.
+<*> \mode:=ljfour; mag:=1; scrollmode; input xnmj1
+                                                  
+Please type another input file name: 
+! Emergency stop.
+<*> \mode:=ljfour; mag:=1; scrollmode; input xnmj1
+                                                  
+Transcript written on mfput.log.
+MakeTeXTFM: 'mf \mode:=ljfour; mag:=1; scrollmode; input xnmj1' failed to
+make xnmj1.tfm.
+kpathsea: Appending font creation commands to missfont.log.
+------------------<end>--------------------
+
+ÀÌ·¯ÇÑ °ÍÀÌ °è¼ÓÀûÀ¸·Î ¹İº¹ÀÌ µÇ´Â°ÍÀÔ´Ï´Ù.
+
+Âü°í·Î x*.tfm È­ÀÏµéÀº ~teTeX/texmf/fonts/tfm/korean ÀÌ¶õ 
+
+directory¸¦ ¸¸µé¾î¼­ ¸ğµÎ ³Ö¾î³ù½À´Ï´Ù.
+
+ÇÑ±Û/ÇÑ¹®/±âÈ£¹®ÀÚ pk È­ÀÏµéÀº Áö½ÃµÇ¾îÀÖ´Â´ë·Î 
+
+~teTeX/texmf/fonts/pk/ljfour/public/ µğ·ºÅä¸®¿¡ µğ·ºÅä¸®Ã¤·Î
+
+±×³É ³Ö¾ú½À´Ï´Ù.
+
+±×¸®°í, »ç¿ëÈ¯°æÀº solaris 2.5 ÀÔ´Ï´Ù. 
+
+teTeXÀº binary°¡ solaris 2.5¿ëÀÌ ¾ø¾î¼­ compileÇÏ·Á Çß´Âµ¥...
+
+Àß ¾ÈµÇ´õ±º¿ä.. ±×·¡¼­ ±×³É 2.4¿ë binary¸¦ installÇß´Âµ¥
+
+º° ÀÌ»ó¾øÀÌ ¿µ¾î´Â Àß µÇ¾ú½À´Ï´Ù.
+
+È¤½Ã³ª, ¾Õ¿¡ ±Ûµé¿¡ ÇØ´äÀÌ ÀÖ³ªÇØ¼­ °ÅÀÇ´Ù »ìÆìº¸¾ÒÁö¸¸... ÇÏÇÏÇÏ..
+
+¸øÃ£°Ú´õ±º¿ä.
+
+
+±×·¯¸é... ¸¹Àº ´äº¯À» ±â´ëÇÏ°Ú½À´Ï´Ù. 
+
+--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Snail Address :         Computer Science Dept.
+                        Pohang Institute of Science & Technology
+                        San 31, Hyoja Dong Pohang, 
+                        Kyungbuk, 790-784 KOREA 
+
+Phone  : 82-562-279-5655 (POSTECH, NDS Lab.)
+
+E-mail : azrael@mozart.postech.ac.kr (141.223.92.1)
+		 thkim@vision.postech.ac.kr (141.223.1.2)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+From hangul-request@cair.kaist.ac.kr  Sat May 25 14:46:28 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id OAA04700 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 14:46:27 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id OAA25908 for hangul@cair.kaist.ac.kr; Sat, 25 May 1996 14:47:47 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 24 May 1996 18:36:11 -0900
+From: khkim@lab.snu.ac.kr (Kang hee Kim)
+Message-ID: <9an32xwhjo.fsf@lab.snu.ac.kr>
+Organization: Seoul National Univ. Computing Center
+Sender: hangul-request@cair.kaist.ac.kr
+References: <199605221955.EAA04204@sorak.kaist.ac.kr>
+Subject: Re: ÇÑ±Û bash,GNU-NLS,ÇÑ±Û (was Re: ÇÑ±ÛÀÌ¸§ º¸ÀÀÌ´Â color-ls)
+
+
+GNU-NLS ÇÑ±¹¾îÆÀÀÌ »ı°å´Ù´Ï ±â»Ú±º¿ä.
+NLS¿¡ ´ëÇÑ ±ÛÀº ÀĞ¾îºÃÁö¸¸ 
+ÇÑ±¹¾îÆÀ¿¡¼­ ±¸Ã¼ÀûÀ¸·Î ¾î¶¶² ÀÏÀ» ÇÏ´ÂÁö ±Ã±İÇÕ´Ï´Ù.
+±¸Ã¼ÀûÀ¸·Î ¾î¶² ÀÏÀ» ÇÏ´ÂÁö, ÁøÃ´µÈ ¹Ù°¡ ¸¹Áö ¾Ê´Ù¸é
+¾ÕÀ¸·Î ¾î¶² ÀÏÀ» ÇÒ °°ÍÀÎÁö Á» ¾Ë°í ½Í½À´Ï´Ù.
+From chlim@cert-kr.or.kr  Sat May 25 18:24:17 1996
+Received: from www.cert-kr.or.kr (cert-kr.or.kr [134.75.30.71]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id SAA10383 for <hangul@cair.kaist.ac.kr>; Sat, 25 May 1996 18:24:17 +0900
+Received: (from chlim@localhost) by www.cert-kr.or.kr (8.6.12H1/8.6.9) id SAA10484; Sat, 25 May 1996 18:21:29 -0700
+From: Lim Chae-ho <chlim@cert-kr.or.kr>
+Message-Id: <199605260121.SAA10484@www.cert-kr.or.kr>
+Subject: KISA - Job Opportunity
+To: security@cert-kr.or.kr
+Date: Sat, 25 May 1996 18:21:28 -0700 (PDT)
+Cc: k-tg@garam.kreonet.re.kr, hana-tech@han.kornet.nm.kr.cert-kr.or.kr
+Action: n
+X-Mailer: ELM [version 2.4 PL21-h4]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=euc-kr
+Content-Transfer-Encoding: 8bit
+Content-Length: 3028      
+
+
+
+
+
+                          - ¿¬±¸¿ø ¸ğÁı °ø°í -
+
+ÇÑ±¹Á¤º¸º¸È£¼¾ÅÍ°¡ Á¤º¸»çÈ¸¿¡¼­ ÁßÃßÀû ¿ªÇÒÀ» ´ã´çÇÒ Á¤º¸º¸È£ ºĞ¾ßÀÇ ÀÎÀç¸¦ 
+Ã£½À´Ï´Ù. 
+
+"Á¤º¸È­ÃËÁøÀ» À§ÇÑ Á¤º¸º¸È£ÀÇ  ÁßÃß±â°üÀÎ ÇÑ±¹Á¤º¸º¸È£¼¾ÅÍ´Â Á¤º¸È­ÃËÁø±âº»¹ı
+¿¡ ÀÇÇÏ¿© 1996³â 4¿ù 4ÀÏ ¼³¸³µÈ ±¹³» À¯ÀÏÇÑ ÃÖÃÊÀÇ Á¤º¸º¸È£ Àü´ã±â°üÀ¸·Î¼­ 
+°ÇÀüÇÑ Á¤º¸Åë½ÅÁú¼­ÀÇ È®¸³°ú Á¤º¸ÀÇ ¾ÈÀüÇÑ À¯ÅëÀ» À§ÇÏ¿© Á¤º¸º¸È£¿¡ ÇÊ¿äÇÑ 
+±â¼úÁö¿ø ¹× Á¤Ã¥°³¹ß, Á¤º¸È­¿ª±â´É¹æÁö ´ëÃ¥¿¬±¸, ÄÄÇ»ÅÍÇØÅ· ¹æÁö±â¼ú ¿¬±¸°³¹ß, 
+ÄÄÇ»ÅÍ Ä§ÇØ»ç°í´ëÀÀ±â¼ú°³¹ß, Á¤º¸º¸È£Ç¥ÁØÈ­ ¹× ½ÃÇèÆò°¡ µîÀÇ ÀÓ¹«¸¦  ¸Ã°í ÀÖ½À
+´Ï´Ù.
+
+1. ¸ğÁıºÎ¹® ¹× ÀÀ½ÃÀÚ°İ
+¦£¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¨¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¨¦¡¦¡¦¡¦¡¦¤
+¦¢       ¸ğ  Áı  ºÎ  ¹®   ¦¢           ÀÀ   ½Ã   ÀÚ   °İ        ¦¢  ÀÎ ¿ø ¦¢
+¦¢        £¨¿¬ ±¸ Á÷£©    ¦¢          £¨Àü°øÀÚ ¹× °æ·ÂÀÚ£©      ¦¢        ¦¢
+¦§¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦«¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦«¦¡¦¡¦¡¦¡¦©
+¦¢1£®Á¤º¸º¸È£ Á¤Ã¥ ¹× ±â¼ú¦¢ Á¤º¸Åë½Å ¹× Á¤º¸º¸È£Á¤Ã¥ °ü·Ã ºĞ¾ß ¦¢ ½ÅÀÔÁ÷ ¦¢
+¦¢                        ¦¢ ÄÄÇ»ÅÍ³×Æ®¿öÅ© ºĞ¾ß                ¦¢   ¹×   ¦¢
+¦¢                        ¦¢ Á¤º¸½Ã½ºÅÛ º¸¾È°ü¸® ºĞ¾ß           ¦¢ °æ·ÂÁ÷ ¦¢
+¦¢                        ¦¢ Ä§ÇØ»ç°í´ëÀÀÆÀ ¿î¿µ ºĞ¾ß           ¦¢   00¸í ¦¢
+¦¢                        ¦¢ º¸¾È £Ó£¯£× °³¹ß ºĞ¾ß              ¦¢        ¦¢
+¦§¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦«¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦©        ¦¢ 
+¦¢2£®Á¤º¸º¸È£ ¿¬±¸°³¹ß    ¦¢ Á¤º¸Åë½Å °ü·Ã ºĞ¾ß                 ¦¢        ¦¢
+¦¢                        ¦¢ Àü»ê °ü·Ã ºĞ¾ß                     ¦¢        ¦¢
+¦¢                        ¦¢ ¾ÏÈ£ °ü·Ã ºĞ¾ß                     ¦¢        ¦¢
+¦¢                        ¦¢ ³×Æ®¿öÅ© º¸¾È ¹× ÇØÅ·¹æÁö±â¼ú ºĞ¾ß ¦¢        ¦¢
+¦§¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦«¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦©        ¦¢ 
+¦¢3£®Á¤º¸º¸È£ ½ÃÇèÆò°¡    ¦¢ Á¤º¸Åë½Å °ü·Ã ºĞ¾ß                 ¦¢        ¦¢
+¦¢                        ¦¢ Àü»ê °ü·Ã ºĞ¾ß                     ¦¢        ¦¢
+¦¢                        ¦¢ Á¤º¸º¸È£½Ã½ºÅÛ ½ÃÇèÆò°¡ ¹×         ¦¢        ¦¢
+¦¢                        ¦¢  Æò°¡±âÁØ ºĞ¾ß                     ¦¢        ¦¢
+¦¢                        ¦¢ Á¤º¸º¸È£ Ç¥ÁØ ºĞ¾ß                 ¦¢        ¦¢
+¦¦¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦ª¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦ª¦¡¦¡¦¡¦¡¦¥
+
+2. ÀÚ°İ ¿ä°Ç
+   °¡. ÇØ´çºĞ¾ß Àü°øÀÚ ¹× °æ·ÂÀÚ
+   ³ª. ÇÊ ¶Ç´Â ¸éÁ¦ÀÚ
+   ´Ù. ÇØ¿Ü¿©Çà¿¡ °á°İ»çÀ¯°¡ ¾ø´Â ÀÚ
+3. ÀüÇü¹æ¹ı
+   °¡. 1Â÷ : ¼­·ùÀüÇü(ÇÕ°İÀÚ¿¡ ÇÑÇÏ¿© °³º°ÅëÁö)
+   ³ª. 2Â÷ : ¸éÁ¢(ÇÕ°İÀÚ¿¡ ÇÑÇÏ¿© °³º°ÅëÁö)
+
+4. Á¦Ãâ¼­·ù
+   °¡. ÀÚÇÊÀÌ·Â¼­ ¹× ÀÚ±â¼Ò°³¼­(A4Å©±â 3¸Å ÀÌ³»)
+       (ÀÌ·Â¼­ »ó´Ü¿¡ ¸ğÁıºÎ¹® ¹× ¿¬¶ôÃ³ ¸í½Ã)
+   ³ª. ÃÖÁ¾ÇĞ±³ ¼ºÀûÁõ¸í¼­(¼®.¹Ú»ç´Â ÇĞºÎ¼ºÀû Æ÷ÇÔ)
+   ´Ù. Á¹¾÷Áõ¸í¼­(¼®.¹Ú»ç´Â ÇĞÀ§Áõ¸í¼­)    
+   ¶ó. °æ·ÂÁõ¸í¼­ ¶Ç´Â ÀçÁ÷Áõ¸í¼­
+
+5. Áö¿ø¼­ Á¢¼ö
+   °¡. Á¢¼öÀÏÀÚ : '96.  5. 10 ~ 5. 30(¿ìÆíÁ¢¼ö´Â ´çÀÏ µµÂøºĞ¿¡ ÇÑÇÔ)
+   ³ª. Á¢¼öÀå¼Ò
+       * 110-070 ¼­¿ï½Ã Á¾·Î±¸ ³»¼öµ¿ 167¹øÁö ¼¼Á¾·Î ´ë¿ìºôµù º¹ÇÕµ¿ 2Ãş
+         ÇÑ±¹Á¤º¸º¸È£¼¾ÅÍ ÃÑ¹«°ú
+
+6. ±âÅ¸»çÇ×
+   - ±âÅ¸ ÀÚ¼¼ÇÑ »çÇ×Àº ´ç¼¾ÅÍ ÃÑ¹«°ú·Î ¹®ÀÇ(02-725-3151/3152)
+
+
+                                     ÇÑ±¹Á¤º¸º¸È£¼¾ÅÍ
+                          Korea Information Security Agency
+
+From hangul-request@cair.kaist.ac.kr  Sun May 26 15:36:43 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id PAA17158 for <hangul@cair.kaist.ac.kr>; Sun, 26 May 1996 15:36:42 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id PAA29578 for hangul@cair.kaist.ac.kr; Sun, 26 May 1996 15:38:02 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 26 May 1996 06:35:55 GMT
+From: PCS007@chollian.dacom.co.kr (Ãµ¸®¾È NEWS GROUP ÀÌ¿ëÀÚ)
+Message-ID: <4o8u4b$5nk@nis.dacom.co.kr>
+Organization: DACOM Internet
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: [w[Áú¹®] ÇÑÄÄ¿Â¶óÀÎ À¯·áÈ­ µË´Ï²²?
+
+
+
+
+ 6/1 ÀÎÅÍÇÇ¾Æ¼­ºñ½º Ãâ¹üÀ¸·Î À¯·áÈ­ µÈ´Ù´Âµ¥..
+
+ »ç½ÇÀÎÁö..
+
+ ¾Æ·ÁÁÖ½Ã±æ ¹Ù¶÷
+
+ À¯·áÈ­µÇ¸é ¾È³ç~ ÇÑÄÄ~
+
+ (pcs007)
+
+
+From hangul-request@cair.kaist.ac.kr  Mon May 27 10:43:36 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id KAA29530 for <hangul@cair.kaist.ac.kr>; Mon, 27 May 1996 10:43:35 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id KAA24365 for hangul@cair.kaist.ac.kr; Mon, 27 May 1996 10:44:48 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Mon, 27 May 1996 17:44:36 GMT
+From: black@hansol.co.kr (Seong-ho Jang)
+Message-ID: <31a9e9f9.9639337@news.hansol.net>
+Organization: Hansol Telecom
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4o0on5$dhc@news.kreonet.re.kr>
+Subject: Re: ¿¡ÀÌÀüÆ®¿¡¼­ ¸øÀĞ´Â ÇÑ±Û
+
+On Tue, 21 May 1996 16:17:24 GMT, teaba@cre.co.kr (Kim Byuong ho)
+wrote:
+
+
+>>À© ¿¡ÀÌÀüÆ®¿¡¼­ ¿Ï¼ºÇü ¸»°í ÀĞÀ»¼ö ÀÖ´Â ¹æ¹ıÀ» 
+>>¾Æ½Ã´Â ºĞÀº Á» ¿Ã·ÁÁÖ¼¼¿ä 
+>>À©µµ¿ì Á¶ÇÕÇü µµ ÀÖ´ÂÁö 
+ÇÑ±Û À©µµ¿ì¸¦ »ç¿ëÇÏ½Å´Ù¸é ´ç¿¬È÷ ¿Ï¼ºÇü¹Û¿¡´Â »ç¿ëÀ» ¸øÇÏÁö¿ä.
+±×·¸Áö¾Ê°í ÇÑ¸ŞÇÑ±Û For Windows °°Àº °ÍÀ» »ç¿ëÇÏ½Ã¸é Á¶ÇÕÇüµµ »ç¿ë
+ÇÏ½Ç¼ö ÀÖÁö¿ä. ±×·¯³ª ¿äÁò Ãß¼¼°¡ ÇÑ¸Ş¸¦ Àß ¾È¾²´Â °Í °°¾Æ¿ä.
+ÂÁ...
+From hangul-request@cair.kaist.ac.kr  Mon May 27 14:58:38 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id OAA05343 for <hangul@cair.kaist.ac.kr>; Mon, 27 May 1996 14:58:37 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id OAA29878 for hangul@cair.kaist.ac.kr; Mon, 27 May 1996 14:59:49 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 27 May 1996 06:00:03 GMT
+From: ahnmy@nextel.net ()
+Message-ID: <4obgd3$3it@worak.kaist.ac.kr>
+Organization: Korea Advanced Institute of Science and Technology (KAIST)
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: Atlas Preview
+
+
+ Àú´Â MS Windows95¿¡¼­ ½áº¸¾Ò´Âµ¥ °°Àº ¹®Á¦¸¦ ¹ß°ßÇß½À´Ï´Ù.
+ÁÙ ³¡¿¡ ÀÖ´Â ÇÑ±ÛÀÌ ±úÁö´õ±º¿ä.
+
+From hangul-request@cair.kaist.ac.kr  Mon May 27 23:36:55 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id XAA24346 for <hangul@cair.kaist.ac.kr>; Mon, 27 May 1996 23:36:55 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id XAA01379 for hangul@cair.kaist.ac.kr; Mon, 27 May 1996 23:38:08 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Mon, 27 May 1996 23:32:56 +0900
+From: Ahn Seok Young <syahn@archer.postech.ac.kr>
+Message-ID: <31A9BD18.61F8@archer.postech.ac.kr>
+Organization: Korea Naval Academy
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+Sender: hangul-request@cair.kaist.ac.kr
+Reply-To: syahn@archer.postech.ac.kr
+Subject: ÇÑ±Û ±úÁö´Â ¹®Á¦: atlas beta4 ?
+
+
+mailing list¿¡¼­ ¹Ş¾Æ¿À´Â°Ç  ±úÁö´Â ±º¿ä..(¾î¶²°Ç Á¦¸ñ¸¸ »ì°í)
+
+Àü ÀÚ¼¼ÇÑ ³»¿ëÀº Àß ¸ğ¸£°í, ¾î¶»°Ô ÇÏ¸é..
+
+ÀÌ ³­±¹À» ²õº¹ÇÒ ¼ö ÀÖ³ª¿ä...?
+
+ÀÌÁ¦±îÁö´Â ¾Æ¹« ÀÌ»ó¾øÀÌ netscape·Î Àß ½è´Âµ¥...
+
+netscape news´Â ¾È ±úÁö±¸¿ä...
+
+Á» µµ¿ÍÁÖ¼¼¿ä...
+
+¾ÕÀÇ ¿©·¯±Û ÀĞ¾îº¸¾ÆµÎ ³Ê¹« Çì±ò·Á¿ä...
+From hangul-request@cair.kaist.ac.kr  Tue May 28 10:49:08 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id KAA06945 for <hangul@cair.kaist.ac.kr>; Tue, 28 May 1996 10:49:06 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id KAA16709 for hangul@cair.kaist.ac.kr; Tue, 28 May 1996 10:50:17 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 28 May 1996 01:49:49 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4odm3t$ln7@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4o9mm0$djd@worak.kaist.ac.kr>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: tin-1.30b-4.tar.gz ¿¡¼­ ÇÑ±ÛÀÌ µÇ°Ô Çß½À´Ï´Ù.
+
+Joo Jae-kyong (jjk9428@kyungpook.ac.kr) wrote:
+
+
+:  ±×·±µ¥ tin 1.3 ¹öÁ¯ÀÌ»óÀº ÇÑ±ÛÀ» »ç¿ëÇÏ±â¿¡ Á» ¹®Á¦°¡ ÀÖ´õ±º¿ä.
+:  Á¦ÀÏ¸ÕÀú °¢ article µéÀÌ ÇÑ±ÛÀÏ¶§ ±úÁ®¼­ ³ª¿À´õ±º¿ä. ÇÑ±Û´ë½Å¿¡ ???
+: °¡ ´ë½Å ³ª¿É´Ï´Ù.±×·¡¼­ ÀÌ°É Àâ¾Ò½À´Ï´Ù. tinÀÇ °³¹ßÀÚ´Â Á¦¸ñ¿¡ ascii
+: ÀÌ¿ÜÀÇ ¹®ÀÚ°¡ ³ª¿À¸é Àß¸øµÈ°É·Î °£ÁÖÇÏ°í ¹«Á¶°Ç ? ¸¦ ´ë½Å Ãâ·ÂÇÏµµ·Ï
+: ¸¸µé¾î ³ù´õ±º¿ä.(¿µ¾î¾Æ´Ï¸é ¹®ÀÚ°¡ ¾Æ´Ï¶ó°í »ı°¢ÇÏ´ÂÁö...:( ) ±×·¡¼­
+: ÇØ´çºÎºĞÀ» ¾Æ¿¹ »©¹ö·È½À´Ï´Ù. :)
+
+  isprint()·Î °Ë»çÇÏ´Ï±î, ¿µ¾î ¾Æ´Ï¸é ¹®ÀÚ°¡ ¾Æ´Ï¶ó°í »ı°¢ÇÑ °ÍÀº
+¾Æ´ÏÁö¿ä? isascii()·Î °É·¯³Â´Ù¸é ¸ô¶óµµ¿ä :-) tinÀÇ ÀúÀÚµµ 
+µ¶ÀÏ »ç¶÷ÀÎµ¥(iso-8859-1ÀÇ 8bit±ÛÀÚ¸¦ ½á¾ßÇÏ´Â), ±×·¨°Ú¾î¿ä? 
+±×ºÎºĞÀ» ¾Æ¿¹ »© ¹ö¸° °ÍÀº Á¶±İ "°ú°İÇÑ" °Í °°±º¿ä :-)
+
+  Àü¿¡µµ ÇÑ¹ø ÁöÀûµÇ¾úÁö¸¸, linuxÀÇ(isprint°¡ locale¿¡ µû¶ó ´Ş¶óÁö´Â  
+OS¿¡¼­´Â ¾Æ¸¶ º»·¡ ¼Ò½º¸¦ ±×³É ½áµµ ¹®Á¦°¡ ¾øÀ» °ÍÀÔ´Ï´Ù)   
+isprint()¿¡ ¹®Á¦°¡ ÀÖ´Â °Í °°½À´Ï´Ù. 
+(ÇÑ±Û patch¸¦ Àû¿ëÇÏÁö ¾ÊÀº  LinuxÀÇ elm¿¡¼­  ÇÑ±Û Á¦¸ñÀÌ Á¦´ë·Î 
+¾È º¸ÀÌ´Â °Íµµ ÀÌ ¶§¹®ÀÔ´Ï´Ù) ±×·¡¼­, include/tin.hÀÇ ¸Ç ³¡¿¡ ISPRINT¶õ macro¸¦ 
+¾Æ·¡Ã³·³ Á¤ÀÇÇÏ°í - ´ëÃæ ¶«Áú¿ëÀ¸·Î ¾´ °ÍÀÌ´Ï±î,  ÀÌ½Ä¼ºÀÌ ¾ó¸¶³ª ÀÖ´Â 
+Áö¿¡ ´ëÇØ¼­´Â ÀüÇô ÀÚ½ÅÀÌ ¾ø½À´Ï´Ù -, group.c¿Í getline.c¿¡¼­ 
+isprint´ë½Å ISPRINT¸¦ ¾²µµ·Ï Çß½À´Ï´Ù. ±×·¯¸é, tin1.22pl2h1¿¡¼­ 
+ÇÑ ÇÑ±Û patch´Â ¾²Áö ¾Ê¾Æµµ µË´Ï´Ù. (°¢°¢ 1¹ø¾¿¹Û¿¡ ºÎ¸£Áö ¾ÊÀ¸´Ï±î 
+Ã£±â´Â ¾ÆÁÖ ½±½À´Ï´Ù). Linux¿¡¼­ gcc 2.7.2¿Í libc 5.2.18·Î ÄÄÆÄÀÏÇßÀ» 
+¶§ - tin1.3beta-950824¿Í Debian¿¡ Æ÷ÇÔµÈ tin1.3beta9505??ÀÇ µÎ°æ¿ì ¸ğµÎ-
+Àß µ¿ÀÛÇÕ´Ï´Ù. (thread list¿¡¼­µµ ÇÑ±ÛÀÌ Àß ³ª¿É´Ï´Ù).  0xa1°ú 
+0xfe±îÁö¸¸À¸·Î Á¦ÇÑÇÑ °ÍÀº ksc5601ÀÇ ¹üÀ§¾ÈÀÇ ±ÛÀÚ¸¸ ÀÎ¼â°¡´ÉÇÑ 
+°ÍÀ¸·Î »ı°¢ÇØ¼­ÀÔ´Ï´Ù. 
+
+
+#define ISPRINT(c)  ( isprint(c) || ( (char) (c) > '\xa0' && \
+                      (char)  (c) < '\xff' ) )
+
+
+  ½ÅÁ¤½Ä 
+
+P.S. Linux¿ë binary¿Í ÇÑ±Û ÆĞÄ¡ ¹× post.cÀÇ ¹ú·¹¸¦ ÀâÀº patch¸¦ 
+(950824¿¡ ´ëÇÑ) ftp://juno.kaist.ac.kr/incoming¿¡ ¿Ã·Á ³õ°Ú½À´Ï´Ù.
+From hangul-request@cair.kaist.ac.kr  Tue May 28 17:01:59 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id RAA11892 for <hangul@cair.kaist.ac.kr>; Tue, 28 May 1996 17:01:51 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id QAA23193 for hangul@cair.kaist.ac.kr; Tue, 28 May 1996 16:22:00 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 28 May 1996 09:17:30 +0200
+From: zraun01@indiaka.zdv.uni-tuebingen.de (Koaunghi Un)
+Message-ID: <omd93pb71x.fsf@indiaka.zdv.uni-tuebingen.de>
+Organization: KORNET (Korea Telecom)
+Sender: hangul-request@cair.kaist.ac.kr
+References: <199605240121.KAA24821@t03-xs03.hongo.ecc.u-tokyo.ac.jp>
+Subject: Re: some questions
+
+In article <4o3i90$dgj@net161-61.student.yale.edu> jungshik@net161-61.student.yale.edu (Jungshik Shin) writes:
+
+   From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+   Newsgroups: han.comp.hangul
+   Date: 24 May 1996 05:42:56 GMT
+   Organization: Yale University, Physics Dept.
+   Reply-To: jshin@minerva.cis.yale.edu
+   Path: usenet.kornet.nm.kr!usenet.etri.re.kr!news.kreonet.re.kr!bofh.dot!usenet.seri.re.kr!bofh.dot!net161-61.student.yale.edu!net161-61.student.yale.edu!jungshik
+   Lines: 83
+   References: <199605240121.KAA24821@t03-xs03.hongo.ecc.u-tokyo.ac.jp>
+   NNTP-Posting-Host: net161-61.student.yale.edu
+   X-Newsreader: TIN [version 1.2 PL2]
+
+   > Sehoon (t60478@hongo.ecc.u-tokyo.ac.jp) wrote:
+   > 
+
+   > ¾È³çÇÏ½Ê´Ï±î?
+   > °Ü¿ì ÇÑ±Û·Î ´º½º¿¡ Åõ°íÇÒ ¼ö ÀÖ°Ô µÇ¾ú½À´Ï´Ù.
+
+
+   > Á¦°¡ ÇÑ±Û ¸ŞÀÏÀ» ¾²´Â ¹æ¹ıÀº
+   > 1.Mule¿¡¼­ ÇÑ±Û ¹®¼­¸¦ ¾¸.
+   > 2.M-x set-file-coding-system:*iso-2022-kr*¸¦ ½ÇÇàÇÔ.
+   > 3.'ml'ÀÌ¶õ ÀÌ¸§À¸·Î ÀúÀåÇÏ°í shell(kterm etc.)·Î µ¹¾Æ°¨.
+   > 4.mail -s "Subject" hangul@cair.kaist.ac.kr < ml À» ½ÇÇà.
+   > 
+   > ÀÌ¶ó´Â ¸»µµ ¸ø ÇÏ°Ô º¹ÀâÇÑ ¼ø¼­·Î º¸³»°í ÀÖ½À´Ï´Ù.
+
+~/.emacs¿¡ ´ÙÀ½°ú °°Àº ÄÚµå¸¦ ³ÖÀ¸½Ã°í
+
+(define-program-coding-system nil ".*mail.*" *iso-2022-kr*)
+
+¹ÄÀ» ¶ç¿ì½Å ÈÄ¿¡ C-x mÀ¸·Î ÇÑ±Û ¸ŞÀÏÀ» ¾²±â ½ÃÀÛÇØ¼­ C-c C-sÇÏ½Ã¸é
+¹ÄÀÌ ÇÑ±Û¸ŞÀÏÀ» *iso-2022-kr*·Î ¹Ù²Ù¾î º¸³»°Ô µË´Ï´Ù.
+
+   > ¸¶Áö¸·À¸·Î Mule¿¡¼­ gnus·Î ÇÑ±Û ´º½º ÀĞ°í °è½Å ºĞ ¾È °è
+   > ½Å°¡¿ä?
+
+     News´Â iso-2022-kr(korean mail code)´ë½Å ±×³É euc-kr(ksc-5601)·Î
+   ÄÚµå¸¦ ¼¼ÆÃÇÏ°í ±ÛÀ» ¿Ã¸®½Ã°í ÀĞÀ¸¼Å¾ß ÇÕ´Ï´Ù. mule·Î´Â Á¦°¡ ÇØ º¸Áö 
+   ¸ø Çß°í, hanemacs¿¡¼­´Â  gnus·Î ÇÑ±Û ´º½º º¸´Âµ¥¿¡ ¾Æ¹« ÁöÀåÀÌ ¾ø¾ú½À´Ï´Ù.
+
+±×·¸½À´Ï´Ù. Àúµµ hanemacs·Î ´º½º¸¦ ÁÖ·Î ÀĞ´Âµ¥, ¾Æ¹«·± ¹®Á¦°¡
+¾øÀ¾´Ï´Ù. ¸¸ÀÏÀ» ´ëºñÇØ¼­ mule·Îµµ ÀĞÀ» ¼ö ÀÖµµ·Ï ÇØ º¸¾Ò´Âµ¥ ´ÙÀ½°ú
+°°Àº ÄÚµå¸¦ ~/.emacs¿¡¼­ ½ÇÇà½ÃÄ×À¾´Ï´Ù.
+
+(setq gnus-nntp-server "168.126.63.6" ; usenet.kornet.nm.kr
+      gnus-startup-file "~/News/hangul/.newsrc-usenet.kornet.nm.kr")
+(define-program-coding-system nil ".*inews.*" *euc-korea*)
+(define-program-coding-system nil ".*News.*" *euc-korea*)
+(define-service-coding-system "nntp" nil *euc-korea*)
+
+nntp-server¸¦ ipÁÖ¼Ò·Î Á¤ÇØ¾ß Çß´ø °ÍÀº ¿©±â SUN ½Ã½ºÅÛÀÇ nameserver°¡
+Á¦´ë·Î ÀÛµ¿µÇÁö ¾Ê´Â °Í °°¾Æ¼­ ±×·± °ÍÀÌ°í startup-fileÀº ´Ù¸¥
+´º½º¼­¹ö¿Í ±¸º°ÇÏ±â À§ÇØ¼­ (±×³É tinÀ¸·Î ÀĞÀ½),
+program-coding-systemÀ» µÎ¹ø Á¤ÇÑ °ÍÀº ¿ø·¡ÀÇ ¹Ä¿¡¼­´Â inews¶ó´Â
+±ÛÀÚ°¡ µéÀº buffer¿¡¼­´Â *euc-korea*¸¦ »ç¿ëÇÏµµ·Ï ¾Ë·ÁÁÖ°í ÀÖÀ¸³ª ½ÇÁ¦
+GNUS¿¡ µé¾î°¡¼­ ´º½º¸¦ ÀĞÀ¸¸é bufferÀÌ¸§¿¡ inews°¡ ¾Æ´Ï¶ó News·Î µÇ¾î
+ÀÖ¾î¼­ ²À Á¤ÇØ ÁÖ¾î¾ß¸¸ Çß´ø°ÍÀÔ´Ï´Ù.
+
+
+   µ¡¸»  
+     1. ¿Ã¸®½Å ±ÛÀ» º¸¸é, iso-2022-krÀ» RFC 1557¿¡ ±ÔÁ¤°ú´Â ÀüÇô ´Ù¸£°Ô
+   ÀÏº»¿¡¼­ SJIS,JIS,EUC-JP µî ¿©·¯°¡Áö ÄÚµå¸¦ ¼¯¾î ¾µ ¶§(Àúµµ Àß
+   ¸ğ¸¨´Ï´Ù. ¾Æ´Ï¸é, ±×°ÍÀÌ ISO-2022ÀÇ ÄÚµå È®Àå ¹æ¹ıÀÎÁöµµ...????)Ã³·³
+   charsetÀÌ ¹Ù²ğ ¶§¸¶´Ù ESC+code-specifier(?)¸¦ »ğÀÔÇÏ´Â ½ÄÀ¸·Î
+   ¾²¿©Á® ÀÖ±º¿ä. ´õ±¸³ª, ÇÑ±ÛÀÌ ³ª¿Ã ¶§ ESC+$)C°¡ ¾Æ´Ñ ESC+$(C°¡
+   »ğÀÔµÇ¾ú±º¿ä. US-ASCII·Î ³Ñ¾î°¥ ¶§¿¡´Â ESC+(B°¡ »ğÀÔµÇ¾î ÀÖ°í¿ä. ±×·±µ¥,
+   hantermÀº ÀÌ ÆÄÀÏÀÌ iso-2022-krÀ» µû¸£Áö ¾ÊÀ½¿¡µµ catÀ¸·Î º¼ ¶§, Á¦´ë·Î
+   µğÄÚµåÇØ¼­ º¸¿©ÁÖ°í ÀÖ½À´Ï´Ù.  (º»·¡ ÇÑÅÒ¿¡´Â  iso-2022-kr µğÄÚµå ±â´ÉÀÌ
+   µé¾î ÀÖÀ½)
+
+¾îÂ¾Áö Àúµµ ¿øº»À» ÀĞÀ» ¼ö°¡ ¾ø´õ±º¿ä. ¹Ä·Î ÀĞ¾úÀ¸¸é È¤½Ã³ª ÀÚµ¿º¯È¯À»
+ÇßÀ»Áöµµ ¸ğ¸£°Ú´Ù´Â »ı°¢ÀÌ µì´Ï´Ù. ¿©ÇÏÆ° ÀÌ ±ÛÀº ½ÅÁß½Ä´ÔÀÇ ´äº¯¿¡
+´ëÇÑ ´äº¯ÀÌ ¾Æ´Ï¶ó KAA24821´ÔÀÇ Áú¹®¿¡ ´ëÇÑ ´äº¯¿¡ ¼ÓÇÏ´Âµ¥ ¾îÂ¿ ¼ö
+¾øÀÌ ½ÅÁß½Ä´ÔÀÇ ´äº¯¿¡ ´ëÇÑ reply·Î º¸³»°Ô µÇ¾úÀ¾´Ï´Ù.
+
+=========================================================================
+ Koaunghi Un (Àº ±¤Èñ, ëÜ ÎÃı÷)
+ Zentrum f"ur Datenverarbeitung
+ Universit"at T"ubingen | E-mail:
+ Morgenstelle           | Internet (zraun01@sunap3.zdv.uni-tuebingen.de)
+                        | Alternative (koaunghi.un@zdv.uni-tuebingen.de)
+ D-72074 T"ubingen      | Telefon: +49-7071-296937
+ Fed. Rep. of Germany   | Fax: +49-7071-296936
+=========================================================================
+-- 
+=========================================================================
+ Koaunghi Un (Àº ±¤Èñ, ëÜ ÎÃı÷)
+ Zentrum f"ur Datenverarbeitung
+ Universit"at T"ubingen | E-mail:
+ Morgenstelle           | Internet (zraun01@sunap3.zdv.uni-tuebingen.de)
+                        | Alternative (koaunghi.un@zdv.uni-tuebingen.de)
+ D-72074 T"ubingen      | Telefon: +49-7071-296937
+ Fed. Rep. of Germany   | Fax: +49-7071-296936
+=========================================================================
+From hangul-request@cair.kaist.ac.kr  Tue May 28 17:02:04 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id RAA11900 for <hangul@cair.kaist.ac.kr>; Tue, 28 May 1996 17:02:03 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id PAA22811 for hangul@cair.kaist.ac.kr; Tue, 28 May 1996 15:59:46 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 28 May 1996 06:52:05 GMT
+From: t60478@komaba.ecc.u-tokyo.ac.jp (Sehoon)
+Message-ID: <T60478.96May28155206@t03-xs00.komaba.ecc.u-tokyo.ac.jp>
+Organization: University of Tokyo ( Hongo )
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: I can read han_news with gnus
+
+
+
+¾È³çÇÏ½Ê´Ï±î.
+¿©·¯°¡Áö Á¶¾ğ ÁÖ½ÉÀ» °¨»çÇÕ´Ï´Ù.
+´öºĞ¿¡ ÇÑÅÒµµ ÀÎ½ºÅçÇÒ ¼ö ÀÖ¾ú°í ÇÑ±Û½Ã½ºÅÛ¿¡ ´ëÇÑ 
+¸¹Àº ÀÌÇØ°¡ °¡´ÉÇØ Á³½À´Ï´Ù.
+¶Ç Ä£±¸°¡ ¿­½ÉÈ÷ EmacsÀÇ lisp¸¦ ÈÈ¾î º¸¾Æ¼­ gnus¿¡¼­
+ÇÑ±Û ´º½º¸¦ ÀĞÀ» ¼ö ÀÖ°Ô µÇ¾ú½À´Ï´Ù.
+´ÙÀ½°ú °°Àº 3ÇàÀ» .emacsÈ­ÀÏ¿¡ Ãß°¡ÇÏ¸é µË´Ï´Ù.
+
+(setq gnus-Group-mode-hook 'gnusutil-initialize)
+(setq gnus-group-mode-hook 'gnusutil-initialize)
+(gnusutil-add-group "han" '*euc-korea*)		
+ 
+¾Æ,±×¸®°í Áö±İ ÀÌ ÇÑ±Û ´º½º±×·ìÀº ¸ŞÀÏ¸®½ºÆ®¿¡ °¡ÀÔ
+ÇØ ÀÖ½À´Ï´Ù¸¸,ÄÄÇ»ÅÍ Àü¹İÀûÀÎ ³»¿ëÀ» ´Ù·ç´Â ±×·ìÀÇ
+¸ŞÀÏ¸®½ºÆ®´Â ¾øÀ» ±î¿ä?(ÀÌ·± Áú¹®Àº han.comp.question
+¿¡ ³»´Â °Ô ¹Ù¸¦ °Í °°Áö¸¸ ¾²´Â ±è¿¡ ¿©±â¿¡ ³»¾î º¾´Ï´Ù.)
+--
+-----------------------------------------------------------
+Oh Sehoon...... Yes,I am Korean and a chritian.
+      URL   ; http://www.hongo.ecc.u-tokyo.ac.jp/~t60478
+      E-mail; t60478@hongo.ecc.u-tokyo.ac.jp	
+              t60478@ee.t.u-tokyo.ac.jp
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+From hangul-request@cair.kaist.ac.kr  Tue May 28 17:02:15 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id RAA11904 for <hangul@cair.kaist.ac.kr>; Tue, 28 May 1996 17:02:04 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id PAA22339 for hangul@cair.kaist.ac.kr; Tue, 28 May 1996 15:30:11 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 28 May 1996 06:21:17 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4oe60t$on5@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: pine 3.93°ú ÇÑ±Û ¸ŞÀÏ
+
+
+   Pine 3.93¿¡´Â displayfilter¿Í sending filter°¡ ÀÖ¾î¼­ hangul sendmailÀÌ
+¾ø´õ¶óµµ RFC 1557À» µû¸£´Â ÇÑ±Û ¸ŞÀÏ ±³È¯ÀÌ ¼öµ¿ ÄÚµå º¯È¯  ÀÛ¾÷¾øÀÌµµ
+°¡´ÉÇÕ´Ï´Ù.  Àü¿¡´Â displayfilter¿Í sending filter¸¦ ¼¼ÆÃÇÏ´Â ¹æ¹ıÀ»
+Àß¸ø ¾Ë°í ÀÖ¾î¼­ ÀÛµ¿ÇÏÁö ¾Ê´Â °ÍÀ¸·Î »ı°¢Çß½À´Ï´Ù. ¿ì¿¬È÷, lynx 2.5¿¡
+´ëÇÑ ±ÛÀ» º¸´Ù°¡ pineÀÇ ÀÌ µÎ°¡Áö ¼¼ÆÃ ¹æ¹ıÀ» Á¦´ë·Î ¾Ë°Ô  µÇ¾ú½À´Ï´Ù.
+
+  pine 3.93ÀÇ °ÅÀÇ ¸ğµç Unix¹× Windows version¿¡ ´ëÇÑ ½ÇÇà ÆÄÀÏÀº
+ftp://ftp.cac.washington.edu/pine¿¡ °¡¸é ÀÖ½À´Ï´Ù. ±×¸®°í,
+ÄÚµå º¯È¯À» À§ÇØ hcode(µµ´Â iso2ks/ks2iso)°¡ ÇÊ¿äÇÕ´Ï´Ù.
+
+  ¼¼ÆÃ ¹æ¹ıÀº ´ÙÀ½°ú °°½À´Ï´Ù. 
+
+  1. main menu¿¡¼­ S¸¦ ´­·¯¼­ SetupÀ» ¼±ÅÃÇÕ´Ï´Ù. 
+  2. C¸¦ ´­·¯¼­ configure¸¦ °í¸¨´Ï´Ù.
+  3. toggleÇÒ option Áß¿¡¼­ ´ÙÀ½À» ¸ğµÎ ÄÑ Áİ´Ï´Ù. (ON)
+
+     - compose-send-offers-first-filter
+     - pass-control-character-as-is
+
+  4. °ªÀ» ÁÖ¾î¾ß ÇÒ option Áß¿¡¼­ ´ÙÀ½À» ¾Æ·¡Ã³·³ ¼¼ÆÃÇÕ´Ï´Ù.
+  
+    - character-set   :    iso-2022-kr
+    - display-filters :    "" /full/path/hcode -ik
+                       ¶Ç´Â 
+                           "$)C" /full/path/hcode -ik
+                      ¶Ç´Â _CHARSET(iso-2022-kr)_ /full/path/hcode -ik
+                           _CHARSET(iso-8859-1)_ /full/path/hcode -ik
+                           _CHARSET(euc-kr)_  /full/path/hcode -ik
+
+                           ¼¼¹øÂ° °æ¿ìÃ³·³  º¹¼ö ÁöÁ¤ °¡´É
+
+    - sending-filters :    /full/path/hcode  -ki
+
+                           ¿ª½Ã º¹¼ö ÁöÁ¤ °¡´É
+
+    ²À, hcodeÀÇ full  path¸¦ ½á ÁÖ¾î¾ß ÇÕ´Ï´Ù. ±×¸®°í, 
+.cshrc/.tcshrc³ª .bashrc(¶Ç´Â kshÀÌ¶ó¸é ENV µî¿¡
+ÁöÁ¤µÈ ÆÄÀÏ) µîÀÇ  shell startupÆÄÀÏ¿¡¼­ stty¿Í °°Àº ¸í·ÉÀº 
+non-interactive shellÀÏ °æ¿ì¿¡´Â ½ÇÇàµÇÁö ¾Êµµ·Ï 
+ÇØ ÁÖ¾î¾ß ÇÕ´Ï´Ù.  filter ¼³Á¤¿¡ ´ëÇÑ µµ¿ò¸»Àº filter¸¦
+ÁöÁ¤ÇÏ´Â °÷¿¡¼­ "?"¸¦ ´©¸£¸é ³ª¿É´Ï´Ù. 
+
+
+  ÀÌ·¸°Ô ÇÏ¸é RFC 1557¿¡ µû¶ó ¿Â ÇÑ±Û ¸ŞÀÏÀº ÀÚµ¿À¸·Î 
+displayfilter°¡ ÀÛµ¿ÇØ¼­ euc-kr(ksc5601)·Î ¹Ù²ã¼­ 
+º¸¿©Áİ´Ï´Ù. ÇÑ±Û ¸ŞÀÏÀ» º¸³¾ ¶§¿¡´Â Á¦¸ñ¿¡ ÇÑ±ÛÀ»
+¾²´Â °Í¸¸ Á¦¿ÜÇÏ°í´Â ¹®Á¦°¡ ¾ø½À´Ï´Ù. Á¦¸ñÀº 
+Base64 encodingÀ» ÇÒ ¶§¿¡ euc-kr´ë½Å iso-2022-krÀÌ¶õ
+¹®ÀÚ¼Â ÀÌ¸§ÀÌ ¾²ÀÌ´Â ¹®Á¦°¡ ÀÖ½À´Ï´Ù. (?iso-2022-kr?B?....?=¿Í
+°°ÀÌ). ´Ù ¾²°í ³ª¼­ sending filter¸¦ ¾µ °ÍÀÌ³Ä°í ¹°¾îº¸¸é, 
+¾²°Ú´Ù°í [enter]¸¸ ÇÑ¹ø ÃÄ ÁÖ¸é µË´Ï´Ù. 
+
+
+   ½ÅÁ¤½Ä 
+
+P.S.  hcode(¶Ç´Â iso2ks,ks2iso)¸¦ MS-DOS/Windows¿ëÀ¸·Î ÄÄÆÄÀÏÇÑ 
+binary¸¸ ÀÖÀ¸¸é À§ÀÇ ¹æ¹ıÀº PC-Pine¿¡¼­µµ (Windows¿¡¼­ µ¹¾Æ°¡´Â) 
+¾Æ¸¶ ±×´ë·Î ¾µ ¼ö ÀÖÀ» °ÍÀÔ´Ï´Ù.
+From hangul-request@cair.kaist.ac.kr  Tue May 28 18:03:12 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id SAA12786 for <hangul@cair.kaist.ac.kr>; Tue, 28 May 1996 18:03:11 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id SAA24940 for hangul@cair.kaist.ac.kr; Tue, 28 May 1996 18:04:19 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Tue, 28 May 1996 18:05:36 +0900
+From: Ryu Byeong Soon <bsryu@utopia.kaist.ac.kr>
+Message-ID: <31AAC1E0.41C6@utopia.kaist.ac.kr>
+Organization: CS Dept., KAIST
+Content-Type: text/plain; charset=euc-kr
+Content-Transfer-Encoding: 8bit
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: netscape¿Í Input Method ¿¬°áÇÏ±â¿
+
+
+X11R5¿ë Hangul Input Method¸¦ °¡Áö°í ÀÖ´Âµ¥
+netscape¿Í ¿¬°áÀÌ ¾ÈµÇ³×¿ä...
+X11À¸·ÎµÈ ÇÁ·Î±×·¥¿¡¼­´Â µ¹¾Æ°¡´Âµ¥...
+ºñ½ÁÇÑ¤¤ ¹æ¹ıÀ¸·Î ÀÏº»¾î¸¦ ½áº¸¼Ì°Å³ª
+¹æ¹ıÀ» ¾Æ½Ã´Â ºĞÀº ¾Ë·ÁÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.
+From hangul-request@cair.kaist.ac.kr  Wed May 29 09:16:14 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id JAA20344 for <hangul@cair.kaist.ac.kr>; Wed, 29 May 1996 09:16:13 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id JAA14073 for hangul@cair.kaist.ac.kr; Wed, 29 May 1996 09:17:11 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 29 May 1996 00:15:08 GMT
+From: DRWMEDIA@chollian.dacom.co.kr (Ãµ¸®¾È NEWS GROUP ÀÌ¿ëÀÚ)
+Message-ID: <4og4uc$idq@nis.dacom.co.kr>
+Organization: DACOM Internet
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>, <4o1929$t2m@news.microsoft.com>
+Subject: Re: ÇÑ±Û encode/decode ¹®Á¦ ºĞ¼®Ç¥
+
+qqh
+ .
+Q
+^m
+
+Daniel NK Lee (nklee@microsoft.com) wrote:
+
+: Á¤¸®ÇÏ½Ã´À¶ó ¼ö°í ¸¹ÀÌ ÇÏ¼Ì½À´Ï´Ù.
+: ±×·±µ¥, ¼öÁ¤ÀÌ µÇ¾ßµÉ ºÎºĞÀÌ ÀÖ±º¿ä.
+: Windows95 Exchange ¿¡ ´ëÇÏ¿© MIME, non-MIMEÀ» ºñ±³ ÇÏ¼Ì´Âµ¥, ÇÑ±Û 
+: Windows95ÀÇ ÇÑ±ÛExchange¿¡ ÇÑ±ÛPlus!¸¦ ¼³Ä¡ÇÏ°í »ç¿ëÇÏ¼Ì´ÂÁö ±Ã±İÇÏ±º¿ä.
+: ÇÑ±ÛWindows95¿¡ ÀÖ´Â Exchange client´Â ÇÑ±ÛPlus!¸¦ ¼³Ä¡ÇßÀ»¶§, 
+: ÇÑ±Ûsendmail°ú È£È¯ÀÌ µË´Ï´Ù.  Çì´õ´Â EUC-KR·Î, ¹Ùµğ´Â 7bit encodingÀÌ 
+: µÇ¸ç, RFC 1557À» Áö¿øÇÕ´Ï´Ù.
+
+: ±×¸®°í encodingÀ» client side ¿¡¼­¸¸ ºñ±³ÇÏ¼Ì´Âµ¥, Server³ª Gateway¿¡¼­ÀÇ 
+: encodingµµ ºñ±³ ´ë»óÀÌ µÇ¾ßÇÏÁö ¾ÊÀ»±î ÇÕ´Ï´Ù.
+
+: In article <4npj0p$ig7@jagalchi.cc.pusan.ac.kr>, 
+: yhyou@asadal.cs.pusan.ac.kr says...
+: >
+: >   ÇÑ±Û ÀüÀÚ ¿ìÆí¿¡¼­ »ı±â´Â ¹®Á¦¿¡ ´ëÇØ¼­ Ç¥·Î Á¤¸®ÇØ º¸¾Ò½À´Ï´Ù.
+: >
+: >   Á¤¸®ÇÑ Ç¥´Â 
+: >     
+: >        http://asadal.cs.pusan.ac.kr/mail 
+: >   
+: >   ¿¡ ÀÖ½À´Ï´Ù.
+: >
+: >   °ü½ÉÀÖÀ¸½Å ºĞÀº ÇÑ ¹ø »ìÆì º¸½Ã°í, Á¶¾ğÀ» ÇØ ÁÖ½Ã¸é °¨»çÇÏ°Ú½À´Ï´Ù.
+: >
+: >
+
+: -- 
+: The opinions expressed in this message are my own personal views 
+: and do not reflect the official views of Microsoft Corporation.
+
+From hangul-request@cair.kaist.ac.kr  Wed May 29 14:46:56 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id OAA24748 for <hangul@cair.kaist.ac.kr>; Wed, 29 May 1996 14:46:44 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id OAA19957 for hangul@cair.kaist.ac.kr; Wed, 29 May 1996 14:47:47 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 29 May 1996 05:37:25 GMT
+From: setup@odinn (Lee YongJae)
+Message-ID: <4ognql$128s@snunews.snu.ac.kr>
+Organization: Seoul National Univ. Computing Center
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4nkha3$rdd@snunews.snu.ac.kr>
+Subject: Updated to nhpf-v1.1
+
+
+
+ nhpf-1.0¿¡¼­ Courier font·Î Ãâ·ÂµÇ´Â ºÎºĞ¿¡ ¹ö±×°¡ ÀÖ¾î¼­ °íÃÆ½À´Ï´Ù.
+
+ "ftp://shiva.snu.ac.kr/pub/hangul/filter/nhpf-1.1.tar.gz" ¿¡ ÀÖ½À´Ï´Ù.
+
+From hangul-request@cair.kaist.ac.kr  Wed May 29 16:46:28 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id QAA26430 for <hangul@cair.kaist.ac.kr>; Wed, 29 May 1996 16:46:15 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id QAA22165 for hangul@cair.kaist.ac.kr; Wed, 29 May 1996 16:47:18 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 29 May 1996 07:00:55 GMT
+From: yskang@dvxa.snu.ac.kr (Young-Seog Kang)
+Message-ID: <4ogsn7$ckl@snunews.snu.ac.kr>
+Organization: Sch. of Mat's Sci & Eng., Seoul Nat'l Univ.
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: Áß¾ÓÀÏº¸ ÀÚ¸·À» º¸·Á¸é?
+
+
+¾È³çÇÏ¼¼¿ä?
+
+Àú´Â ¸®´ª½º¿¡¼­ netscape 2.0 À» ¾²°í ÀÖ´Âµ¥¿ä, ¿Ö... Áß¾ÓÀÏº¸¸¦ º¸¸é
+Á¦ÀÏ ¹Ø¿¡ ÀÚ¸·ÀÌ Èê·¯°¡Áö¿ä?(±×°Ô, java ¸¦ ¾²´Â °Ç°¡¿ä?)
+±×°É º¸°í ½Í¾î¼­ º°ÁşÀ» ´Ù ÇØº¸¾Ò´Âµ¥, Àß ¾ÈµÇ³×¿ä.
+
+HanX ¸¦ ±ò¾Æµµ ¾Èº¸ÀÌ°í, PXhan À» ¾²¸é, ´Ù¸¥ site ´Â ¸ÖÂÄÇÑµ¥, Áß¾ÓÀÏº¸¸¸
+Á¢¼ÓÇÏ¸é, º»¹®À» ¹Ş°í ÀÚ¸·ÀÌ ³ª¿À·Á´Â ½ÃÁ¡¿¡¼­ netscape °¡ ³¡³ª¹ö¸®´Â±º¿ä.
+¾Æ¹«·± ¿¡·¯ ¸Ş½ÃÁöµµ ¾øÀÌ...
+
+º»¹®ÀÇ ÇÑ±ÛÀº ¾Æ¹« ¹®Á¦¾ø°í, title bar ³ª, news subject ¿¡¼­µµ ÇÑ±ÛÀÌ
+Àß ³ª¿À´Âµ¥, ¿Ö Èê·¯°¡´Â ÀÚ¸·Àº ¾È º¸ÀÌ´Â°ÅÁÒ? ¿ø·¡ ¸®´ª½º¿¡¼­´Â ¸øº¸´Â 
+°Ç°¡¿ä?
+
+¹«½ÄÇÑ Àú¸¦ Á» ÀÏ±ú¿ö ÁÖ¼¼¿ä.
+
+ÀĞ¾îÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Kang, Young-Seog                                       TEL:+82-2-880-7166
+Dep't of Inorganic Materials Engineering               FAX:+82-2-884-1413
+Seoul Nat'l Univ., Seoul, 151-742, Korea     Email: yskang@dvxa.snu.ac.kr
+From hangul-request@cair.kaist.ac.kr  Thu May 30 09:11:29 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id JAA13128 for <hangul@cair.kaist.ac.kr>; Thu, 30 May 1996 09:11:28 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id JAA15089 for hangul@cair.kaist.ac.kr; Thu, 30 May 1996 09:12:43 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 30 May 1996 00:12:46 GMT
+From: kskksk@ksk.cheju.ac.kr (Ko songkuk)
+Message-ID: <4oip5u$rte@news.kreonet.re.kr>
+Organization: Korea Research Environment Open Network (KREONet)
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4ogsn7$ckl@snunews.snu.ac.kr>
+Subject: Re: Áß¾ÓÀÏº¸ ÀÚ¸·À» º¸·Á¸é?
+
+
+
+: º»¹®ÀÇ ÇÑ±ÛÀº ¾Æ¹« ¹®Á¦¾ø°í, title bar ³ª, news subject ¿¡¼­µµ ÇÑ±ÛÀÌ
+: Àß ³ª¿À´Âµ¥, ¿Ö Èê·¯°¡´Â ÀÚ¸·Àº ¾È º¸ÀÌ´Â°ÅÁÒ? ¿ø·¡ ¸®´ª½º¿¡¼­´Â ¸øº¸´Â 
+: °Ç°¡¿ä?
+
+netscape 3.0b4 gold °¡ ftp.kaist.ac.kr ¿¡ ÀÖ½À´Ï´Ù.
+ÀÌ°Í¿¡¼­ HANX È¯°æÀÌ¸é ¹Ø¿¡ Èê·¯°¡´Â ÀÚ¸·ÀÌ Àß º¸ÀÌ¾ú½À´Ï´Ù.
+
+ÇÑ±ÛÀÔ·Âµµ Á¶±İ ´ä´äÇÏÁö¸¸ µË´Ï´Ù. ±×·¯´Ï mail, news µµ ÀĞ°í ¾²°í°¡
+°¡´ÉÇÏÁö¿ä.
+
+ZZ
+
+: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+: Kang, Young-Seog                                       TEL:+82-2-880-7166
+: Dep't of Inorganic Materials Engineering               FAX:+82-2-884-1413
+: Seoul Nat'l Univ., Seoul, 151-742, Korea     Email: yskang@dvxa.snu.ac.kr
+
+--
+Ko songkuk
+kskksk@ksk.cheju.ac.kr
+
+From hangul-request@cair.kaist.ac.kr  Thu May 30 09:49:25 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id JAA13998 for <hangul@cair.kaist.ac.kr>; Thu, 30 May 1996 09:49:22 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id JAA15783 for hangul@cair.kaist.ac.kr; Thu, 30 May 1996 09:50:34 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Wed, 29 May 1996 23:49:00 GMT
+From: genius@soback.kornet.nm.kr (chin yang woo)
+Message-ID: <4oiri3$e54@usenet.kornet.nm.kr>
+Organization: KORNET (Korea Telecom)
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: [ÀüºÏÀüÁÖ] ÀÎÅß³İ ¹«·á±³À°ÈÄ¿øÀÚ¸¦ ¸ğ½Ê´Ï´Ù.
+
+
+¾È³çÇÏ½Ê´Ï±î?
+ÀÛ³âºÎÅÍ ÃÊµîÇĞ±³¹× °ü°ø¼­·Î ÀÎÅÍ³İ ¹«·á±³À°»ç¾÷À» ÇØ¿Ô´ø ÀüÁÖÀü»êÀÇ
+ÀÎÅÍ³İ ´ã´ç Áø¾ç¿ìÀÔ´Ï´Ù.  ¿ÃÃÊºÎÅÍ ºÒ¾î´ÚÄ£ ÀÎÅÍ³İ ¿­±â¿Í Å°µå³İ
+¿îµ¿ÀÇ È°¼ºÈ­·Î ÀÌÁ¦ ¿ì¸® ÀüºÏµµ¹Îµµ Á¤º¸È­ÀÇ ´ë¿­¿¡ Âü¿©ÇÒ¼ö ÀÖ°Ô
+µÇ¾ú½À´Ï´Ù.  
+ÀúÈñ´Â »ê°£º®ÁöÀÇ ÃÊµîÇĞ±³¸¦ Áß½ÉÀ¸·Î ÀÎÅÍ³İ ¹«·á±³À°»ç¾÷À» ÇàÇÏ°í
+ÀÖ½À´Ï´Ù. ÀÌ´Â ±³À°ÇıÅÃÀ» ´Ù¼Ò ¹ŞÁö ¸øÇÏ´Â ÀÌµé¿¡°Ô ¼Ò¿Ü°¨À» ÀÒÁö¾Ê°í
+µµ½ÃÇĞ»ıµéº¸´Ù ±³À°¿©°Ç¿¡¼­ µÚÁ®¼­´Â ¾ÈµÈ´Ù´Â ÀúÈñÀÇ Á¶±×¸¶ÇÑ ¼Ò½Å¿¡¼­
+ºñ·ÔµÈ °ÍÀÔ´Ï´Ù.
+±×·¯³ª  ¸¹Àº ¼öÀÇ ÇĞ±³¿Í ÇĞ»ıµéÀ» ´ë»óÀ¸·Î ¹«·á±³À°À» ÇÑ´Ù´Â°ÍÀÌ
+´ë±â¾÷ÀÌ ¾Æ´ÑÀÌ»ó, ±×¸®°í »çÈ¸ÀÚ¼±ºÀ»ç´ÜÃ¼°¡ ¾Æ´ÑÀÌ»ó  ÇÑ°è°¡
+ÀÖ½À´Ï´Ù.  Æø¹ßÀûÀ¸·Î ´Ã¾î³ª´Â ±³À°´ë»óÀÚµé¿¡°Ô ºü¸¥ È¸¼±°ú ÁÁÀº ±³Àç,
+±×¸®°í ´É·ÂÀÖ´Â °­»ç¸¦ Ãæ¿øÇÏ´Â ¹®Á¦´Â ±×¸® ½¬¿î ÀÏÀÌ ¾Æ´Õ´Ï´Ù. ´ÙÇàÈ÷
+ÀÌ ±¤°í°¡ ³ª°£ÈÄ¿¡ ¸¹Àº °³ÀÎºĞµé°ú À¯°ü±â°ü¿¡¼­ ¿©·¯°¡Áö µµ¿òÀ» ÁÖ½Ã°í
+°è½Ã³ª,  Àåºñ¿Í ÀÎ¿øÀÇ Àı´ëºÎÁ·Çö»óÀ» ¸Ş¿ì±â¿¡´Â ¾ÆÁ÷ ¾î·Á¿òÀÌ »êÀçÇØ
+ÀÖ½À´Ï´Ù. 
+´ë±â¾÷¿¡¼­ ÄÄÇ»ÅÍ¿µ¾÷¼úÃ¥ÀÇ ÇÏ³ª·Î½á ÀÎÅÍ³İ ¹«·á±³À°ÀÌ¶õ Å¸ÀÌÆ²À»
+³»°É°í  ¼ÒºñÀÚ¸¦ À¯È¤ÇÏ´Â »ó¼ú¿¡¼­ ¹ş¾î³ª, ÁøÁ¤ÇÑ ±³À°ÀÇ ÇÑ ºĞ¾ß·Î½á
+ÀÌ¶¥¿¡ »ç´Â ´©±¸µçÁö ºñ½Ñ µ· µéÀÌÁö ¾Ê°í ¹«·á·Î ¹è¿ï¼ö ÀÖ´Â ±³À°ÀÇ
+±ÕµîºĞ¹è°¡ ¹İµå½Ã Á¤ÂøµÇ¾î¾ß ÇÕ´Ï´Ù.
+ÀÌ·¯ÇÑ ÃëÁöÇÏ¿¡ ÀúÈñ ÀüÁÖÀü»êÀº ¾ÕÀ¸·Îµµ ´õ¿í ¸ÅÁøÇÒ°ÍÀÔ´Ï´Ù.  
+¿©·¯ºĞÀÇ Á¶±×¸¶ÇÑ Á¤¼º ÇÏ³ª·ÎºÎÅÍ ½ÃÀÛµÇ´Â ÀüºÏÀÇ Á¤º¸È­±³À°! ÀÌÁ¦
+¾ó¸¶³²Áö ¾Ê¾Ò½À´Ï´Ù.
+
+[ÀÚ¿øºÀ»ç ³»¿ë]
+1. ¹°Ç°Áö¿ø: ÀÎÅÍ³İ ±³Àç, ±¸Çü Ä®¶ó¸ğ´ÏÅÍ, Å°º¸µå,¸ğµ©(144ÀÌ»ó)...
+2. ÀÎ¿øÁö¿ø: ´ëÇĞÀçÇĞÀÌ»óÀÇ ÀÚ·Î½á ¹æÇĞ±â°£Áß »ê°£¿ÀÁöÀÇ ÇĞ±³¿¡¼­
+ÀÎÅÍ³İ±³À°À» ÇÒ¼öÀÖ´ÂÀÚ(Áß½Ä,±³ÅëºñÁö±Ş)
+3. È¸¼±Á¦°ø: »ê°£º®Áö¿¡ 9.6kÀÌ»óÀÇ Àü¿ë¼±À» Á¦°øÇÒ¼ö ÀÖ´ÂÀÚ
+±âÅ¸: ÀÎÅÍ³İ ±³À°¿¡ ÇÊ¿äÇÑ ¼Ò¿äÀÚÀç 
+
+ÀüºÏÀÇ Á¤º¸È­¸¦ ¼±µµÇÏ´Â ÀüÁÖÀü»ê 
+0652-72-0087  Áø¾ç¿ì
+ÀüºÏ ÀüÁÖ½Ã ´öÁø±¸ ´öÁøµ¿ 2°¡ 206-1 Çâ±ººôµù 4Ãş 
+[[[[[welcome to TOP TRADING.CO]]]]
+we sell a traditional goods with world wide service
+Anything what you want we get and serve you.
+thank you very much. Have a nice day!
+[ADDRESS]
+We are 24hour open
+E-mail:genius@soback.kornet.nm.kr
+URL:http://soback.kornet.nm.kr/~genius
+TEL&FAX: 82-652-72-0087
+PAGER: 012-683-1167
+Manager: Mr. CHIN.Y.W
+
+From hangul-request@cair.kaist.ac.kr  Thu May 30 16:11:50 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id QAA19170 for <hangul@cair.kaist.ac.kr>; Thu, 30 May 1996 16:11:49 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id QAA23226 for hangul@cair.kaist.ac.kr; Thu, 30 May 1996 16:12:52 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 30 May 1996 07:15:47 GMT
+From: hnalgae@soback.kornet.nm.kr (SungJin Kang (kornet))
+Message-ID: <4ojhv3$mbu@usenet.kornet.nm.kr>
+Organization: KORNET (Korea Telecom)
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: ÇÑ±Û Win95¿ë Æ®·çÅ¸ÀÔ¿¡¼­ Á¶ÇÕÇüÀÇ Áö¿øÀº?
+
+
+¾È³çÇÏ¼¼¿ä. ÇÏ¾á³¯°³ÀÔ´Ï´Ù.
+
+MS¿¡¼­´Â Win95¿ë ±Û²ÃÀ» À¯´ÏÄÚµå¿¡ ¸ÂÃç¼­ ÀÛ¼ºÇÒ °ÍÀ»
+±ÇÇÏ°í ÀÖ½À´Ï´Ù. ±×¸®°í Win95¿ë ÇÑ±Û ±Û²ÃÀ» Á¶ÇÕÇüÀÌ 
+°¡´ÉÇÏ´Ù°í µé¾ú½À´Ï´Ù.
+
+±×·¡¼­ ±×¿¡ °üÇØ ¸î°¡Áö ±Ã±İÇÑ °ÍÀÌ ÀÖ¾î Áú¹®À» µå¸³´Ï´Ù.
+
+1. À©95ÀÇ À¯´ÏÄÚµå´Â V1.0ÀÎ°¡¿ä? V2.0ÀÎ°¡¿ä? ±×µµ Àúµµ
+   ¾Æ´Ï¸é?
+
+2. Á¶ÇÕÇüÀÌ °¡´ÉÇÏ´Ù´Â °ÍÀº ÇÑ±Û À©95¿ëÀ¸·Î¸¸ °¡´ÉÇÏ´Ù´Â
+   °ÍÀÎÁö, ¾Æ´Ï¸é À¯´ÏÄÚµå¿ë ±Û²Ã¿¡¼­ °¡´ÉÇÏ´Ù´Â °ÍÀÎÁö¿ä?
+
+3. Á¶ÇÕÇüÀÌ °¡´ÉÇÏ´Ù°í ÇÏ´øµ¥ µµ´ëÃ¼ ¾î´À Á¤µµ ¼öÁØ±îÁö
+   °¡´ÉÇÑ °ÍÀÔ´Ï±î? 2Â÷¿ø Å×ÀÌºí ¹æ½ÄÀÎ°¡¿ä? 3Â÷¿ø Å×ÀÌºí
+   ¹æ½ÄÀÎ°¡¿ä? ´Ù½Ã ¸»ÇØ¼­ ÃÊ¼º ±â¿ªÀÌ 4°³¸é ´Ù¸¥ ÃÊ¼ºÀº
+   ¸ğµÎ 4°³·Î °íÁ¤µÇ´Â ¹æ½ÄÀÎ°¡¿ä? ¾Æ´Ï¸é ÃÊ¼º ±â¿ªÀÌ
+   4°³¶óµµ ´ÏÀºÀº 6°³, µğ±ÚÀº 5°³ ÀÌ·± ½ÄÀ¸·Î ¸ğµÎ Æ²¸±
+   ¼ö°¡ ÀÖ´Â °ÍÀÎ°¡¿ä?
+
+±×·³ ÀĞ¾îÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.
+ÇÏ¾á³¯°³...
+hnalgae@soback.kornet.nm.kr
+
+From chhwang@kkongchi.kjist.ac.kr  Fri May 31 04:57:04 1996
+Received: from kkongchi.kjist.ac.kr (chhwang@kkongchi.kjist.ac.kr [203.237.41.86]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id EAA28604; Fri, 31 May 1996 04:57:04 +0900
+Received: (from chhwang@localhost) by kkongchi.kjist.ac.kr (8.6.12/8.6.9) id LAA01033; Thu, 30 May 1996 11:58:10 +0900
+From: "C. H. Hwang" <chhwang@kkongchi.kjist.ac.kr>
+Message-Id: <199605300258.LAA01033@kkongchi.kjist.ac.kr>
+Subject: Re: Error Condition Re:
+To: hangul@cair.kaist.ac.kr
+Date: Thu, 30 May 1996 11:58:10 +0900 (KST)
+Cc: listserv@cair.kaist.ac.kr
+In-Reply-To: <199605300254.LAA00968@kkongchi.kjist.ac.kr> from "hangul@cair.kaist.ac.kr" at May 31, 96 04:53:41 am
+X-Mailer: ELM [version 2.4 PL24]
+MIME-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+Content-Length: 23        
+
+> subscribe hangul
+> 
+
+From hangul-request@cair.kaist.ac.kr  Fri May 31 13:46:01 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id NAA02422 for <hangul@cair.kaist.ac.kr>; Fri, 31 May 1996 13:45:58 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id NAA02528 for hangul@cair.kaist.ac.kr; Fri, 31 May 1996 13:46:57 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 30 May 1996 12:52:13 GMT
+From: Shaky <msuser1@nuri.net>
+Message-ID: <4ok5lt$rm9@usenet.kornet.nm.kr>
+Organization: KORNET (Korea Telecom)
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: UHC chars
+
+Unified Hangeul Chracters.
+
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghij
+klmnopqrstuvwxyz‚ƒ„…†‡ˆ‰€Š€âãäåæçèéê€
+‘’“”
+•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸
+¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜ
+İŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüış‚A‚B
+‚C‚D‚E‚F‚G‚H‚I‚J‚K‚L‚M‚N‚O‚P‚Q‚R‚S‚T‚U‚V‚W‚X‚Y‚Z‚a‚b‚c‚d‚e‚f‚g‚h‚i‚j‚k‚l
+‚m‚n‚o‚p‚q‚r‚s‚t‚u‚v‚w‚x‚y‚z‚‚‚‚ƒ‚„‚…‚†‚‡‚ˆ‚‰‚€Š€âãäåæçèéêëì€
+‚‚‚‘‚’‚“‚”‚•‚–
+‚—‚˜‚™‚š‚›‚œ‚‚‚Ÿ‚ ‚¡‚¢‚£‚¤‚¥‚¦‚§‚¨‚©‚ª‚«‚¬‚­‚®‚¯‚°‚±‚²‚³‚´‚µ‚¶‚·‚¸‚¹‚º
+‚»‚¼‚½‚¾‚¿‚À‚Á‚Â‚Ã‚Ä‚Å‚Æ‚Ç‚È‚É‚Ê‚Ë‚Ì‚Í‚Î‚Ï‚Ğ‚Ñ‚Ò‚Ó‚Ô‚Õ‚Ö‚×‚Ø‚Ù‚Ú‚Û‚Ü‚İ‚Ş
+‚ß‚à‚á‚â‚ã‚ä‚å‚æ‚ç‚è‚é‚ê‚ë‚ì‚í‚î‚ï‚ğ‚ñ‚ò‚ó‚ô‚õ‚ö‚÷‚ø‚ù‚ú‚û‚ü‚ı‚şƒAƒBƒCƒD
+ƒEƒFƒGƒHƒIƒJƒKƒLƒMƒNƒOƒPƒQƒRƒSƒTƒUƒVƒWƒXƒYƒZƒaƒbƒcƒdƒeƒfƒgƒhƒiƒjƒkƒlƒmƒn
+ƒoƒpƒqƒrƒsƒtƒuƒvƒwƒxƒyƒzƒƒ‚ƒƒƒ„ƒ…ƒ†ƒ‡ƒˆƒ‰ƒ€Š€âãäåæçèéêëìíî€
+ƒƒƒ‘ƒ’ƒ“ƒ”ƒ•ƒ–ƒ—ƒ˜
+ƒ™ƒšƒ›ƒœƒƒƒŸƒ ƒ¡ƒ¢ƒ£ƒ¤ƒ¥ƒ¦ƒ§ƒ¨ƒ©ƒªƒ«ƒ¬ƒ­ƒ®ƒ¯ƒ°ƒ±ƒ²ƒ³ƒ´ƒµƒ¶ƒ·ƒ¸ƒ¹ƒºƒ»ƒ¼
+ƒ½ƒ¾ƒ¿ƒÀƒÁƒÂƒÃƒÄƒÅƒÆƒÇƒÈƒÉƒÊƒËƒÌƒÍƒÎƒÏƒĞƒÑƒÒƒÓƒÔƒÕƒÖƒ×ƒØƒÙƒÚƒÛƒÜƒİƒŞƒßƒà
+ƒáƒâƒãƒäƒåƒæƒçƒèƒéƒêƒëƒìƒíƒîƒïƒğƒñƒòƒóƒôƒõƒöƒ÷ƒøƒùƒúƒûƒüƒıƒş„A„B„C„D„E„F
+„G„H„I„J„K„L„M„N„O„P„Q„R„S„T„U„V„W„X„Y„Z„a„b„c„d„e„f„g„h„i„j„k„l„m„n„o„p
+„q„r„s„t„u„v„w„x„y„z„„‚„ƒ„„„…„†„‡„ˆ„‰„€Š€âãäåæçèéêëìíîïğ€
+„„„‘„’„“„”„•„–„—„˜„™„š
+„›„œ„„„Ÿ„ „¡„¢„£„¤„¥„¦„§„¨„©„ª„«„¬„­„®„¯„°„±„²„³„´„µ„¶„·„¸„¹„º„»„¼„½„¾
+„¿„À„Á„Â„Ã„Ä„Å„Æ„Ç„È„É„Ê„Ë„Ì„Í„Î„Ï„Ğ„Ñ„Ò„Ó„Ô„Õ„Ö„×„Ø„Ù„Ú„Û„Ü„İ„Ş„ß„à„á„â
+„ã„ä„å„æ„ç„è„é„ê„ë„ì„í„î„ï„ğ„ñ„ò„ó„ô„õ„ö„÷„ø„ù„ú„û„ü„ı„ş…A…B…C…D…E…F…G…H
+…I…J…K…L…M…N…O…P…Q…R…S…T…U…V…W…X…Y…Z…a…b…c…d…e…f…g…h…i…j…k…l…m…n…o…p…q…r
+…s…t…u…v…w…x…y…z……‚…ƒ…„………†…‡…ˆ…‰…€Š€âãäåæçèéêëìíîïğñò€
+………‘…’…“…”…•…–…—…˜…™…š…›…œ
+………Ÿ… …¡…¢…£…¤…¥…¦…§…¨…©…ª…«…¬…­…®…¯…°…±…²…³…´…µ…¶…·…¸…¹…º…»…¼…½…¾…¿…À
+…Á…Â…Ã…Ä…Å…Æ…Ç…È…É…Ê…Ë…Ì…Í…Î…Ï…Ğ…Ñ…Ò…Ó…Ô…Õ…Ö…×…Ø…Ù…Ú…Û…Ü…İ…Ş…ß…à…á…â…ã…ä
+…å…æ…ç…è…é…ê…ë…ì…í…î…ï…ğ…ñ…ò…ó…ô…õ…ö…÷…ø…ù…ú…û…ü…ı…ş†A†B†C†D†E†F†G†H†I†J
+†K†L†M†N†O†P†Q†R†S†T†U†V†W†X†Y†Z†a†b†c†d†e†f†g†h†i†j†k†l†m†n†o†p†q†r†s†t
+†u†v†w†x†y†z††‚†ƒ†„†…†††‡†ˆ†‰†€Š€âãäåæçèéêëìíîïğñòóô€
+†††‘†’†“†”†•†–†—†˜†™†š†›†œ††
+†Ÿ† †¡†¢†£†¤†¥†¦†§†¨†©†ª†«†¬†­†®†¯†°†±†²†³†´†µ†¶†·†¸†¹†º†»†¼†½†¾†¿†À†Á†Â
+†Ã†Ä†Å†Æ†Ç†È†É†Ê†Ë†Ì†Í†Î†Ï†Ğ†Ñ†Ò†Ó†Ô†Õ†Ö†×†Ø†Ù†Ú†Û†Ü†İ†Ş†ß†à†á†â†ã†ä†å†æ
+†ç†è†é†ê†ë†ì†í†î†ï†ğ†ñ†ò†ó†ô†õ†ö†÷†ø†ù†ú†û†ü†ı†ş‡A‡B‡C‡D‡E‡F‡G‡H‡I‡J‡K‡L
+‡M‡N‡O‡P‡Q‡R‡S‡T‡U‡V‡W‡X‡Y‡Z‡a‡b‡c‡d‡e‡f‡g‡h‡i‡j‡k‡l‡m‡n‡o‡p‡q‡r‡s‡t‡u‡v
+‡w‡x‡y‡z‡‡‚‡ƒ‡„‡…‡†‡‡‡ˆ‡‰‡€Š€âãäåæçèéêëìíîïğñòóôõö€
+‡‡‡‘‡’‡“‡”‡•‡–‡—‡˜‡™‡š‡›‡œ‡‡‡Ÿ‡ 
+‡¡‡¢‡£‡¤‡¥‡¦‡§‡¨‡©‡ª‡«‡¬‡­‡®‡¯‡°‡±‡²‡³‡´‡µ‡¶‡·‡¸‡¹‡º‡»‡¼‡½‡¾‡¿‡À‡Á‡Â‡Ã‡Ä
+‡Å‡Æ‡Ç‡È‡É‡Ê‡Ë‡Ì‡Í‡Î‡Ï‡Ğ‡Ñ‡Ò‡Ó‡Ô‡Õ‡Ö‡×‡Ø‡Ù‡Ú‡Û‡Ü‡İ‡Ş‡ß‡à‡á‡â‡ã‡ä‡å‡æ‡ç‡è
+‡é‡ê‡ë‡ì‡í‡î‡ï‡ğ‡ñ‡ò‡ó‡ô‡õ‡ö‡÷‡ø‡ù‡ú‡û‡ü‡ı‡şˆAˆBˆCˆDˆEˆFˆGˆHˆIˆJˆKˆLˆMˆN
+ˆOˆPˆQˆRˆSˆTˆUˆVˆWˆXˆYˆZˆaˆbˆcˆdˆeˆfˆgˆhˆiˆjˆkˆlˆmˆnˆoˆpˆqˆrˆsˆtˆuˆvˆwˆx
+ˆyˆzˆˆ‚ˆƒˆ„ˆ…ˆ†ˆ‡ˆˆˆ‰ˆ€Š€âãäåæçèéêëìíîïğñòóôõö÷ø€
+ˆˆˆ‘ˆ’ˆ“ˆ”ˆ•ˆ–ˆ—ˆ˜ˆ™ˆšˆ›ˆœˆˆˆŸˆ ˆ¡ˆ¢
+ˆ£ˆ¤ˆ¥ˆ¦ˆ§ˆ¨ˆ©ˆªˆ«ˆ¬ˆ­ˆ®ˆ¯ˆ°ˆ±ˆ²ˆ³ˆ´ˆµˆ¶ˆ·ˆ¸ˆ¹ˆºˆ»ˆ¼ˆ½ˆ¾ˆ¿ˆÀˆÁˆÂˆÃˆÄˆÅˆÆ
+ˆÇˆÈˆÉˆÊˆËˆÌˆÍˆÎˆÏˆĞˆÑˆÒˆÓˆÔˆÕˆÖˆ×ˆØˆÙˆÚˆÛˆÜˆİˆŞˆßˆàˆáˆâˆãˆäˆåˆæˆçˆèˆéˆê
+ˆëˆìˆíˆîˆïˆğˆñˆòˆóˆôˆõˆöˆ÷ˆøˆùˆúˆûˆüˆıˆş‰A‰B‰C‰D‰E‰F‰G‰H‰I‰J‰K‰L‰M‰N‰O‰P
+‰Q‰R‰S‰T‰U‰V‰W‰X‰Y‰Z‰a‰b‰c‰d‰e‰f‰g‰h‰i‰j‰k‰l‰m‰n‰o‰p‰q‰r‰s‰t‰u‰v‰w‰x‰y‰z
+‰‰‚‰ƒ‰„‰…‰†‰‡‰ˆ‰‰‰€Š€â	ã	ä	å	æ	ç	è	é	ê	ë	ì	í	î	ï	ğ	ñ	ò	ó	ô	õ	ö	÷	ø	ù	ú€
+				‰‰‰‘‰’‰“‰”‰•‰–‰—‰˜‰™‰š‰›‰œ‰‰‰Ÿ‰ ‰¡‰¢‰£‰¤
+‰¥‰¦‰§‰¨‰©‰ª‰«‰¬‰­‰®‰¯‰°‰±‰²‰³‰´‰µ‰¶‰·‰¸‰¹‰º‰»‰¼‰½‰¾‰¿‰À‰Á‰Â‰Ã‰Ä‰Å‰Æ‰Ç‰È
+‰É‰Ê‰Ë‰Ì‰Í‰Î‰Ï‰Ğ‰Ñ‰Ò‰Ó‰Ô‰Õ‰Ö‰×‰Ø‰Ù‰Ú‰Û‰Ü‰İ‰Ş‰ß‰à‰á‰â‰ã‰ä‰å‰æ‰ç‰è‰é‰ê‰ë‰ì
+‰í‰î‰ï‰ğ‰ñ‰ò‰ó‰ô‰õ‰ö‰÷‰ø‰ù‰ú‰û‰ü‰ı‰ş
+Á
+Â
+Ã
+Ä
+Å
+Æ
+Ç
+È
+É
+Ê
+Ë
+Ì
+Í
+Î
+Ï
+Ğ
+Ñ
+Ò
+
+Ó
+Ô
+Õ
+Ö
+×
+Ø
+Ù
+Ú
+á
+â
+ã
+ä
+å
+æ
+ç
+è
+é
+ê
+ë
+ì
+í
+î
+ï
+ğ
+ñ
+ò
+ó
+ô
+õ
+ö
+÷
+ø
+ù
+ú
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+!
+"
+#
+$
+%
+&
+
+'
+(
+)
+*
++
+,
+-
+..
+/
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+:
+;
+<
+=
+>
+?
+@
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+[
+\
+]
+^
+_
+`
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+
+o
+p
+q
+r
+s
+t
+u
+v
+w
+x
+y
+z
+{
+|
+}
+~ÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔ
+‹U‹V‹W‹X‹Y‹Z‹a‹b‹c‹d‹e‹f‹g‹h‹i‹j‹k‹l‹m‹n‹o‹p‹q‹r‹s‹t‹u‹v‹w‹x‹y‹z‹‹‚‹ƒ‹„
+‹…‹†‹‡‹ˆ‹‰‹€Š€âãäåæçèéêëìíîïğñòóôõö÷øùú€
+‹‹‹‘‹’‹“‹”‹•‹–‹—‹˜‹™‹š‹›‹œ‹‹‹Ÿ‹ ‹¡‹¢‹£‹¤‹¥‹¦‹§‹¨
+‹©‹ª‹«‹¬‹­‹®‹¯‹°‹±‹²‹³‹´‹µ‹¶‹·‹¸‹¹‹º‹»‹¼‹½‹¾‹¿‹À‹Á‹Â‹Ã‹Ä‹Å‹Æ‹Ç‹È‹É‹Ê‹Ë‹Ì
+‹Í‹Î‹Ï‹Ğ‹Ñ‹Ò‹Ó‹Ô‹Õ‹Ö‹×‹Ø‹Ù‹Ú‹Û‹Ü‹İ‹Ş‹ß‹à‹á‹â‹ã‹ä‹å‹æ‹ç‹è‹é‹ê‹ë‹ì‹í‹î‹ï‹ğ
+‹ñ‹ò‹ó‹ô‹õ‹ö‹÷‹ø‹ù‹ú‹û‹ü‹ı‹şŒAŒBŒCŒDŒEŒFŒGŒHŒIŒJŒKŒLŒMŒNŒOŒPŒQŒRŒSŒTŒUŒV
+ŒWŒXŒYŒZŒaŒbŒcŒdŒeŒfŒgŒhŒiŒjŒkŒlŒmŒnŒoŒpŒqŒrŒsŒtŒuŒvŒwŒxŒyŒzŒŒ‚ŒƒŒ„Œ…Œ†
+Œ‡ŒˆŒ‰Œ€Š€âãäåæçèéêëìíîïğñòóôõö÷øùú€
+ŒŒŒ‘Œ’Œ“Œ”Œ•Œ–Œ—Œ˜Œ™ŒšŒ›ŒœŒŒŒŸŒ Œ¡Œ¢Œ£Œ¤Œ¥Œ¦Œ§Œ¨Œ©Œª
+Œ«Œ¬Œ­Œ®Œ¯Œ°Œ±Œ²Œ³Œ´ŒµŒ¶Œ·Œ¸Œ¹ŒºŒ»Œ¼Œ½Œ¾Œ¿ŒÀŒÁŒÂŒÃŒÄŒÅŒÆŒÇŒÈŒÉŒÊŒËŒÌŒÍŒÎ
+ŒÏŒĞŒÑŒÒŒÓŒÔŒÕŒÖŒ×ŒØŒÙŒÚŒÛŒÜŒİŒŞŒßŒàŒáŒâŒãŒäŒåŒæŒçŒèŒéŒêŒëŒìŒíŒîŒïŒğŒñŒò
+ŒóŒôŒõŒöŒ÷ŒøŒùŒúŒûŒüŒıŒşABCDEFGHIJKLMNOPQRSTUVWX
+YZabcdefghijklmnopqrstuvwxyz‚ƒ„…†‡ˆ
+‰€Š€âãäåæçèéêëìíîïğñòóôõö÷øùú€
+‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬
+­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞ
+ÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóô
+õö÷øùúûüışABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz‚ƒ„…†‡ˆ‰
+
+‹Œ‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®
+¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒ
+ÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö
+÷øùúûüışABCDEFGHIJKLMNOPQRSTUVWXYZab
+ãäåæçèéêëìíîïğñòóôõö÷øùú	
+
+ !"#$%&'()*+,-./0
+123456789:;<=>?@ABCDEFGHIJKLMNOPQRST
+UVWXYZ[\]^_`abcdefghijklmnopqrstuvwx
+yz{|}~ÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚáâãä
+efghijklmnopqrstuvwxyz‚ƒ„…†‡ˆ‰€Š€bcd
+
+‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²
+³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ
+×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùú
+ûüış‘A‘B‘C‘D‘E‘F‘G‘H‘I‘J‘K‘L‘M‘N‘O‘P‘Q‘R‘S‘T‘U‘V‘W‘X‘Y‘Z‘a‘b‘c‘d‘e‘f
+‘g‘h‘i‘j‘k‘l‘m‘n‘o‘p‘q‘r‘s‘t‘u‘v‘w‘x‘y‘z‘‘‚‘ƒ‘„‘…‘†‘‡‘ˆ‘‰‘€Š€âãäåæ€
+‘‘
+‘‘‘’‘“‘”‘•‘–‘—‘˜‘™‘š‘›‘œ‘‘‘Ÿ‘ ‘¡‘¢‘£‘¤‘¥‘¦‘§‘¨‘©‘ª‘«‘¬‘­‘®‘¯‘°‘±‘²‘³‘´
+‘µ‘¶‘·‘¸‘¹‘º‘»‘¼‘½‘¾‘¿‘À‘Á‘Â‘Ã‘Ä‘Å‘Æ‘Ç‘È‘É‘Ê‘Ë‘Ì‘Í‘Î‘Ï‘Ğ‘Ñ‘Ò‘Ó‘Ô‘Õ‘Ö‘×‘Ø
+‘Ù‘Ú‘Û‘Ü‘İ‘Ş‘ß‘à‘á‘â‘ã‘ä‘å‘æ‘ç‘è‘é‘ê‘ë‘ì‘í‘î‘ï‘ğ‘ñ‘ò‘ó‘ô‘õ‘ö‘÷‘ø‘ù‘ú‘û‘ü
+‘ı‘ş’A’B’C’D’E’F’G’H’I’J’K’L’M’N’O’P’Q’R’S’T’U’V’W’X’Y’Z’a’b’c’d’e’f’g’h
+’i’j’k’l’m’n’o’p’q’r’s’t’u’v’w’x’y’z’’‚’ƒ’„’…’†’‡’ˆ’‰’€Š€âãäåæçè€
+’’’‘’’
+’“’”’•’–’—’˜’™’š’›’œ’’’Ÿ’ ’¡’¢’£’¤’¥’¦’§’¨’©’ª’«’¬’­’®’¯’°’±’²’³’´’µ’¶
+’·’¸’¹’º’»’¼’½’¾’¿’À’Á’Â’Ã’Ä’Å’Æ’Ç’È’É’Ê’Ë’Ì’Í’Î’Ï’Ğ’Ñ’Ò’Ó’Ô’Õ’Ö’×’Ø’Ù’Ú
+’Û’Ü’İ’Ş’ß’à’á’â’ã’ä’å’æ’ç’è’é’ê’ë’ì’í’î’ï’ğ’ñ’ò’ó’ô’õ’ö’÷’ø’ù’ú’û’ü’ı’ş
+“A“B“C“D“E“F“G“H“I“J“K“L“M“N“O“P“Q“R“S“T“U“V“W“X“Y“Z“a“b“c“d“e“f“g“h“i“j
+“k“l“m“n“o“p“q“r“s“t“u“v“w“x“y“z““‚“ƒ“„“…“†“‡“ˆ“‰“€Š€âãäåæçèéê€
+“““‘“’“““”
+“•“–“—“˜“™“š“›“œ“““Ÿ“ “¡“¢“£“¤“¥“¦“§“¨“©“ª“«“¬“­“®“¯“°“±“²“³“´“µ“¶“·“¸
+“¹“º“»“¼“½“¾“¿“À“Á“Â“Ã“Ä“Å“Æ“Ç“È“É“Ê“Ë“Ì“Í“Î“Ï“Ğ“Ñ“Ò“Ó“Ô“Õ“Ö“×“Ø“Ù“Ú“Û“Ü
+“İ“Ş“ß“à“á“â“ã“ä“å“æ“ç“è“é“ê“ë“ì“í“î“ï“ğ“ñ“ò“ó“ô“õ“ö“÷“ø“ù“ú“û“ü“ı“ş”A”B
+”C”D”E”F”G”H”I”J”K”L”M”N”O”P”Q”R”S”T”U”V”W”X”Y”Z”a”b”c”d”e”f”g”h”i”j”k”l
+”m”n”o”p”q”r”s”t”u”v”w”x”y”z””‚”ƒ”„”…”†”‡”ˆ”‰”€Š€âãäåæçèéêëì€
+”””‘”’”“”””•”–
+”—”˜”™”š”›”œ”””Ÿ” ”¡”¢”£”¤”¥”¦”§”¨”©”ª”«”¬”­”®”¯”°”±”²”³”´”µ”¶”·”¸”¹”º
+”»”¼”½”¾”¿”À”Á”Â”Ã”Ä”Å”Æ”Ç”È”É”Ê”Ë”Ì”Í”Î”Ï”Ğ”Ñ”Ò”Ó”Ô”Õ”Ö”×”Ø”Ù”Ú”Û”Ü”İ”Ş
+”ß”à”á”â”ã”ä”å”æ”ç”è”é”ê”ë”ì”í”î”ï”ğ”ñ”ò”ó”ô”õ”ö”÷”ø”ù”ú”û”ü”ı”ş•A•B•C•D
+•E•F•G•H•I•J•K•L•M•N•O•P•Q•R•S•T•U•V•W•X•Y•Z•a•b•c•d•e•f•g•h•i•j•k•l•m•n
+•o•p•q•r•s•t•u•v•w•x•y•z••‚•ƒ•„•…•†•‡•ˆ•‰•€Š€âãäåæçèéêëìíî€
+•••‘•’•“•”•••–•—•˜
+•™•š•›•œ•••Ÿ• •¡•¢•£•¤•¥•¦•§•¨•©•ª•«•¬•­•®•¯•°•±•²•³•´•µ•¶•·•¸•¹•º•»•¼
+•½•¾•¿•À•Á•Â•Ã•Ä•Å•Æ•Ç•È•É•Ê•Ë•Ì•Í•Î•Ï•Ğ•Ñ•Ò•Ó•Ô•Õ•Ö•×•Ø•Ù•Ú•Û•Ü•İ•Ş•ß•à
+•á•â•ã•ä•å•æ•ç•è•é•ê•ë•ì•í•î•ï•ğ•ñ•ò•ó•ô•õ•ö•÷•ø•ù•ú•û•ü•ı•ş–A–B–C–D–E–F
+–G–H–I–J–K–L–M–N–O–P–Q–R–S–T–U–V–W–X–Y–Z–a–b–c–d–e–f–g–h–i–j–k–l–m–n–o–p
+–q–r–s–t–u–v–w–x–y–z––‚–ƒ–„–…–†–‡–ˆ–‰–€Š€âãäåæçèéêëìíîïğ€
+–––‘–’–“–”–•–––—–˜–™–š
+–›–œ–––Ÿ– –¡–¢–£–¤–¥–¦–§–¨–©–ª–«–¬–­–®–¯–°–±–²–³–´–µ–¶–·–¸–¹–º–»–¼–½–¾
+–¿–À–Á–Â–Ã–Ä–Å–Æ–Ç–È–É–Ê–Ë–Ì–Í–Î–Ï–Ğ–Ñ–Ò–Ó–Ô–Õ–Ö–×–Ø–Ù–Ú–Û–Ü–İ–Ş–ß–à–á–â
+–ã–ä–å–æ–ç–è–é–ê–ë–ì–í–î–ï–ğ–ñ–ò–ó–ô–õ–ö–÷–ø–ù–ú–û–ü–ı–ş—A—B—C—D—E—F—G—H
+—I—J—K—L—M—N—O—P—Q—R—S—T—U—V—W—X—Y—Z—a—b—c—d—e—f—g—h—i—j—k—l—m—n—o—p—q—r
+—s—t—u—v—w—x—y—z——‚—ƒ—„—…—†—‡—ˆ—‰—€Š€âãäåæçèéêëìíîïğñò€
+———‘—’—“—”—•—–———˜—™—š—›—œ
+———Ÿ— —¡—¢—£—¤—¥—¦—§—¨—©—ª—«—¬—­—®—¯—°—±—²—³—´—µ—¶—·—¸—¹—º—»—¼—½—¾—¿—À
+—Á—Â—Ã—Ä—Å—Æ—Ç—È—É—Ê—Ë—Ì—Í—Î—Ï—Ğ—Ñ—Ò—Ó—Ô—Õ—Ö—×—Ø—Ù—Ú—Û—Ü—İ—Ş—ß—à—á—â—ã—ä
+—å—æ—ç—è—é—ê—ë—ì—í—î—ï—ğ—ñ—ò—ó—ô—õ—ö—÷—ø—ù—ú—û—ü—ı—ş˜A˜B˜C˜D˜E˜F˜G˜H˜I˜J
+˜K˜L˜M˜N˜O˜P˜Q˜R˜S˜T˜U˜V˜W˜X˜Y˜Z˜a˜b˜c˜d˜e˜f˜g˜h˜i˜j˜k˜l˜m˜n˜o˜p˜q˜r˜s˜t
+˜u˜v˜w˜x˜y˜z˜˜‚˜ƒ˜„˜…˜†˜‡˜ˆ˜‰˜€Š€âãäåæçèéêëìíîïğñòóô€
+˜˜˜‘˜’˜“˜”˜•˜–˜—˜˜˜™˜š˜›˜œ˜˜
+˜Ÿ˜ ˜¡˜¢˜£˜¤˜¥˜¦˜§˜¨˜©˜ª˜«˜¬˜­˜®˜¯˜°˜±˜²˜³˜´˜µ˜¶˜·˜¸˜¹˜º˜»˜¼˜½˜¾˜¿˜À˜Á˜Â
+˜Ã˜Ä˜Å˜Æ˜Ç˜È˜É˜Ê˜Ë˜Ì˜Í˜Î˜Ï˜Ğ˜Ñ˜Ò˜Ó˜Ô˜Õ˜Ö˜×˜Ø˜Ù˜Ú˜Û˜Ü˜İ˜Ş˜ß˜à˜á˜â˜ã˜ä˜å˜æ
+˜ç˜è˜é˜ê˜ë˜ì˜í˜î˜ï˜ğ˜ñ˜ò˜ó˜ô˜õ˜ö˜÷˜ø˜ù˜ú˜û˜ü˜ı˜ş™A™B™C™D™E™F™G™H™I™J™K™L
+™M™N™O™P™Q™R™S™T™U™V™W™X™Y™Z™a™b™c™d™e™f™g™h™i™j™k™l™m™n™o™p™q™r™s™t™u™v
+™w™x™y™z™™‚™ƒ™„™…™†™‡™ˆ™‰™€Š€âãäåæçèéêëìíîïğñòóôõö€
+™™™‘™’™“™”™•™–™—™˜™™™š™›™œ™™™Ÿ™ 
+™¡™¢™£™¤™¥™¦™§™¨™©™ª™«™¬™­™®™¯™°™±™²™³™´™µ™¶™·™¸™¹™º™»™¼™½™¾™¿™À™Á™Â™Ã™Ä
+™Å™Æ™Ç™È™É™Ê™Ë™Ì™Í™Î™Ï™Ğ™Ñ™Ò™Ó™Ô™Õ™Ö™×™Ø™Ù™Ú™Û™Ü™İ™Ş™ß™à™á™â™ã™ä™å™æ™ç™è
+™é™ê™ë™ì™í™î™ï™ğ™ñ™ò™ó™ô™õ™ö™÷™ø™ù™ú™û™ü™ı™şšAšBšCšDšEšFšGšHšIšJšKšLšMšN
+šOšPšQšRšSšTšUšVšWšXšYšZšašbšcšdšešfšgšhšišjškšlšmšnšošpšqšršsštšušvšwšx
+šyšzšš‚šƒš„š…š†š‡šˆš‰š€Š€âãäåæçèéêëìíîïğñòóôõö÷ø€
+ššš‘š’š“š”š•š–š—š˜š™ššš›šœšššŸš š¡š¢
+š£š¤š¥š¦š§š¨š©šªš«š¬š­š®š¯š°š±š²š³š´šµš¶š·š¸š¹šºš»š¼š½š¾š¿šÀšÁšÂšÃšÄšÅšÆ
+šÇšÈšÉšÊšËšÌšÍšÎšÏšĞšÑšÒšÓšÔšÕšÖš×šØšÙšÚšÛšÜšİšŞšßšàšášâšãšäšåšæšçšèšéšê
+šëšìšíšîšïšğšñšòšóšôšõšöš÷šøšùšúšûšüšıšş›A›B›C›D›E›F›G›H›I›J›K›L›M›N›O›P
+›Q›R›S›T›U›V›W›X›Y›Z›a›b›c›d›e›f›g›h›i›j›k›l›m›n›o›p›q›r›s›t›u›v›w›x›y›z
+››‚›ƒ›„›…›†›‡›ˆ›‰›€Š€âãäåæçèéêëìíîïğñòóôõö÷øùú€
+›››‘›’›“›”›•›–›—›˜›™›š›››œ›››Ÿ› ›¡›¢›£›¤
+›¥›¦›§›¨›©›ª›«›¬›­›®›¯›°›±›²›³›´›µ›¶›·›¸›¹›º›»›¼›½›¾›¿›À›Á›Â›Ã›Ä›Å›Æ›Ç›È
+›É›Ê›Ë›Ì›Í›Î›Ï›Ğ›Ñ›Ò›Ó›Ô›Õ›Ö›×›Ø›Ù›Ú›Û›Ü›İ›Ş›ß›à›á›â›ã›ä›å›æ›ç›è›é›ê›ë›ì
+›í›î›ï›ğ›ñ›ò›ó›ô›õ›ö›÷›ø›ù›ú›û›ü›ı›şœAœBœCœDœEœFœGœHœIœJœKœLœMœNœOœPœQœR
+œSœTœUœVœWœXœYœZœaœbœcœdœeœfœgœhœiœjœkœlœmœnœoœpœqœrœsœtœuœvœwœxœyœzœœ‚
+œƒœ„œ…œ†œ‡œˆœ‰œ€Š€âãäåæçèéêëìíîïğñòóôõö÷øùú€
+œœœ‘œ’œ“œ”œ•œ–œ—œ˜œ™œšœ›œœœœœŸœ œ¡œ¢œ£œ¤œ¥œ¦
+œ§œ¨œ©œªœ«œ¬œ­œ®œ¯œ°œ±œ²œ³œ´œµœ¶œ·œ¸œ¹œºœ»œ¼œ½œ¾œ¿œÀœÁœÂœÃœÄœÅœÆœÇœÈœÉœÊ
+œËœÌœÍœÎœÏœĞœÑœÒœÓœÔœÕœÖœ×œØœÙœÚœÛœÜœİœŞœßœàœáœâœãœäœåœæœçœèœéœêœëœìœíœî
+œïœğœñœòœóœôœõœöœ÷œøœùœúœûœüœıœşABCDEFGHIJKLMNOPQRST
+UVWXYZabcdefghijklmnopqrstuvwxyz‚ƒ„
+…†‡ˆ‰€Š€âãäåæçèéêëìíîïğñòóôõö÷øùú€
+‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨
+©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌ
+ÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğ
+ñòóôõö÷øùúûüışABCDEFGHIJKLMNOPQRSTUV
+WXYZabcdefghijklmnopqrstuvwxyz‚ƒ„…†
+‡ˆ‰€Š€âãäåæçèéêëìíîïğñòóôõö÷øùú€
+‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª
+«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎ
+ÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñò
+óôõö÷øùúûüışŸAŸBŸCŸDŸEŸFŸGŸHŸIŸJŸKŸLŸMŸNŸOŸPŸQŸRŸSŸTŸUŸVŸWŸX
+ŸYŸZŸaŸbŸcŸdŸeŸfŸgŸhŸiŸjŸkŸlŸmŸnŸoŸpŸqŸrŸsŸtŸuŸvŸwŸxŸyŸzŸŸ‚ŸƒŸ„Ÿ…Ÿ†Ÿ‡Ÿˆ
+Ÿ‰Ÿ€Š€âãäåæçèéêëìíîïğñòóôõö÷øùú€
+ŸŸŸ‘Ÿ’Ÿ“Ÿ”Ÿ•Ÿ–Ÿ—Ÿ˜Ÿ™ŸšŸ›ŸœŸŸŸŸŸ Ÿ¡Ÿ¢Ÿ£Ÿ¤Ÿ¥Ÿ¦Ÿ§Ÿ¨Ÿ©ŸªŸ«Ÿ¬
+Ÿ­Ÿ®Ÿ¯Ÿ°Ÿ±Ÿ²Ÿ³Ÿ´ŸµŸ¶Ÿ·Ÿ¸Ÿ¹ŸºŸ»Ÿ¼Ÿ½Ÿ¾Ÿ¿ŸÀŸÁŸÂŸÃŸÄŸÅŸÆŸÇŸÈŸÉŸÊŸËŸÌŸÍŸÎŸÏŸĞ
+ŸÑŸÒŸÓŸÔŸÕŸÖŸ×ŸØŸÙŸÚŸÛŸÜŸİŸŞŸßŸàŸáŸâŸãŸäŸåŸæŸçŸèŸéŸêŸëŸìŸíŸîŸïŸğŸñŸòŸóŸô
+ŸõŸöŸ÷ŸøŸùŸúŸûŸüŸıŸş A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+ a b c d e f g h i j k l m n o p q r s t u v w x y z  ‚ ƒ „ … † ‡ ˆ ‰ 
+
+ ‹ Œ                      ! " # $ % & ' ( ) * + , - .
+ ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º » ¼ ½ ¾ ¿ À Á Â Ã Ä Å Æ Ç È É Ê Ë Ì Í Î Ï Ğ Ñ Ò
+ Ó Ô Õ Ö × Ø Ù Ú Û Ü İ Ş ß à á â ã ä å æ ç è é ê ë ì í î ï ğ ñ ò ó ô õ ö
+ ÷ ø ù ú û ü ı ş¡A¡B¡C¡D¡E¡F¡G¡H¡I¡J¡K¡L¡M¡N¡O¡P¡Q¡R¡S¡T¡U¡V¡W¡X¡Y¡Z¡a¡b
+¡c¡d¡e¡f¡g¡h¡i¡j¡k¡l¡m¡n¡o¡p¡q¡r¡s¡t¡u¡v¡w¡x¡y¡z¡¡‚¡ƒ¡„¡…¡†¡‡¡ˆ¡‰¡€Š€â
+!!
+¡¡¡¡¡‘¡’¡“¡”¡•¡–¡—¡˜¡™¡š¡›¡œ¡¡¡Ÿ¡ ¢A¢B¢C¢D¢E¢F¢G¢H¢I¢J¢K¢L¢M¢N¢O¢P
+¢Q¢R¢S¢T¢U¢V¢W¢X¢Y¢Z¢a¢b¢c¢d¢e¢f¢g¢h¢i¢j¢k¢l¢m¢n¢o¢p¢q¢r¢s¢t¢u¢v¢w¢x¢y¢z
+¢¢‚¢ƒ¢„¢…¢†¢‡¢ˆ¢‰¢€Š€â"ã"ä"å"æ"ç"è"é"ê"ë"ì"í"î"ï"ğ"ñ"ò"ó"ô"õ"ö"÷"ø"ù"ú€
+""""¢¢¢‘¢’¢“¢”¢•¢–¢—¢˜¢™¢š¢›¢œ¢¢¢Ÿ¢ £A£B£C£D
+£E£F£G£H£I£J£K£L£M£N£O£P£Q£R£S£T£U£V£W£X£Y£Z£a£b£c£d£e£f£g£h£i£j£k£l£m£n
+£o£p£q£r£s£t£u£v£w£x£y£z££‚£ƒ£„£…£†£‡£ˆ£‰£€Š€â#ã#ä#å#æ#ç#è#é#ê#ë#ì#í#î€
+####£££‘£’£“£”£•£–£—£˜
+£™£š£›£œ£££Ÿ£ ¤A¤B¤C¤D¤E¤F¤G¤H¤I¤J¤K¤L¤M¤N¤O¤P¤Q¤R¤S¤T¤U¤V¤W¤X¤Y¤Z¤a¤b
+¤c¤d¤e¤f¤g¤h¤i¤j¤k¤l¤m¤n¤o¤p¤q¤r¤s¤t¤u¤v¤w¤x¤y¤z¤¤‚¤ƒ¤„¤…¤†¤‡¤ˆ¤‰¤€Š€â€
+$$
+¤¤¤¤¤‘¤’¤“¤”¤•¤–¤—¤˜¤™¤š¤›¤œ¤¤¤Ÿ¤ ¥A¥B¥C¥D¥E¥F¥G¥H¥I¥J¥K¥L¥M¥N¥O¥P
+¥Q¥R¥S¥T¥U¥V¥W¥X¥Y¥Z¥a¥b¥c¥d¥e¥f¥g¥h¥i¥j¥k¥l¥m¥n¥o¥p¥q¥r¥s¥t¥u¥v¥w¥x¥y¥z
+¥¥‚¥ƒ¥„¥…¥†¥‡¥ˆ¥‰¥€Š€â%ã%ä%å%æ%ç%è%é%ê%ë%ì%í%î%ï%ğ%ñ%ò%ó%ô%õ%ö%÷%ø%ù%ú€
+%%%%¥¥¥‘¥’¥“¥”¥•¥–¥—¥˜¥™¥š¥›¥œ¥¥¥Ÿ¥ ¦A¦B¦C¦D
+¦E¦F¦G¦H¦I¦J¦K¦L¦M¦N¦O¦P¦Q¦R¦S¦T¦U¦V¦W¦X¦Y¦Z¦a¦b¦c¦d¦e¦f¦g¦h¦i¦j¦k¦l¦m¦n
+¦o¦p¦q¦r¦s¦t¦u¦v¦w¦x¦y¦z¦¦‚¦ƒ¦„¦…¦†¦‡¦ˆ¦‰¦€Š€â&ã&ä&å&æ&ç&è&é&ê&ë&ì&í&î€
+&&&&¦¦¦‘¦’¦“¦”¦•¦–¦—¦˜
+¦™¦š¦›¦œ¦¦¦Ÿ¦ §A§B§C§D§E§F§G§H§I§J§K§L§M§N§O§P§Q§R§S§T§U§V§W§X§Y§Z§a§b
+§c§d§e§f§g§h§i§j§k§l§m§n§o§p§q§r§s§t§u§v§w§x§y§z§§‚§ƒ§„§…§†§‡§ˆ§‰§€Š€â€
+''
+§§§§§‘§’§“§”§•§–§—§˜§™§š§›§œ§§§Ÿ§ ¨A¨B¨C¨D¨E¨F¨G¨H¨I¨J¨K¨L¨M¨N¨O¨P
+¨Q¨R¨S¨T¨U¨V¨W¨X¨Y¨Z¨a¨b¨c¨d¨e¨f¨g¨h¨i¨j¨k¨l¨m¨n¨o¨p¨q¨r¨s¨t¨u¨v¨w¨x¨y¨z
+¨¨‚¨ƒ¨„¨…¨†¨‡¨ˆ¨‰¨€Š€â(ã(ä(å(æ(ç(è(é(ê(ë(ì(í(î(ï(ğ(ñ(ò(ó(ô(õ(ö(÷(ø(ù(ú€
+((((¨¨¨‘¨’¨“¨”¨•¨–¨—¨˜¨™¨š¨›¨œ¨¨¨Ÿ¨ ©A©B©C©D
+©E©F©G©H©I©J©K©L©M©N©O©P©Q©R©S©T©U©V©W©X©Y©Z©a©b©c©d©e©f©g©h©i©j©k©l©m©n
+©o©p©q©r©s©t©u©v©w©x©y©z©©‚©ƒ©„©…©†©‡©ˆ©‰©€Š€â)ã)ä)å)æ)ç)è)é)ê)ë)ì)í)î€
+))))©©©‘©’©“©”©•©–©—©˜
+©™©š©›©œ©©©Ÿ© ªAªBªCªDªEªFªGªHªIªJªKªLªMªNªOªPªQªRªSªTªUªVªWªXªYªZªaªb
+ªcªdªeªfªgªhªiªjªkªlªmªnªoªpªqªrªsªtªuªvªwªxªyªzªª‚ªƒª„ª…ª†ª‡ªˆª‰ª€Š€â€
+**
+ªªªªª‘ª’ª“ª”ª•ª–ª—ª˜ª™ªšª›ªœªªªŸª «A«B«C«D«E«F«G«H«I«J«K«L«M«N«O«P
+«Q«R«S«T«U«V«W«X«Y«Z«a«b«c«d«e«f«g«h«i«j«k«l«m«n«o«p«q«r«s«t«u«v«w«x«y«z
+««‚«ƒ«„«…«†«‡«ˆ«‰«€Š€â+ã+ä+å+æ+ç+è+é+ê+ë+ì+í+î+ï+ğ+ñ+ò+ó+ô+õ+ö+÷+ø+ù+ú€
+++++«««‘«’«“«”«•«–«—«˜«™«š«›«œ«««Ÿ« ¬A¬B¬C¬D
+¬E¬F¬G¬H¬I¬J¬K¬L¬M¬N¬O¬P¬Q¬R¬S¬T¬U¬V¬W¬X¬Y¬Z¬a¬b¬c¬d¬e¬f¬g¬h¬i¬j¬k¬l¬m¬n
+¬o¬p¬q¬r¬s¬t¬u¬v¬w¬x¬y¬z¬¬‚¬ƒ¬„¬…¬†¬‡¬ˆ¬‰¬€Š€â,ã,ä,å,æ,ç,è,é,ê,ë,ì,í,î€
+,,,,¬¬¬‘¬’¬“¬”¬•¬–¬—¬˜
+¬™¬š¬›¬œ¬¬¬Ÿ¬ ­A­B­C­D­E­F­G­H­I­J­K­L­M­N­O­P­Q­R­S­T­U­V­W­X­Y­Z­a­b
+­c­d­e­f­g­h­i­j­k­l­m­n­o­p­q­r­s­t­u­v­w­x­y­z­­‚­ƒ­„­…­†­‡­ˆ­‰­€Š€â€
+--
+­­­­­‘­’­“­”­•­–­—­˜­™­š­›­œ­­­Ÿ­ ®A®B®C®D®E®F®G®H®I®J®K®L®M®N®O®P
+®Q®R®S®T®U®V®W®X®Y®Z®a®b®c®d®e®f®g®h®i®j®k®l®m®n®o®p®q®r®s®t®u®v®w®x®y®z
+®®‚®ƒ®„®…®†®‡®ˆ®‰®€Š€â.ã.ä.å.æ.ç.è.é.ê.ë.ì.í.î.ï.ğ.ñ.ò.ó.ô.õ.ö.÷.ø.ù.ú€
+....®®®‘®’®“®”®•®–®—®˜®™®š®›®œ®®®Ÿ® ¯A¯B¯C¯D
+¯E¯F¯G¯H¯I¯J¯K¯L¯M¯N¯O¯P¯Q¯R¯S¯T¯U¯V¯W¯X¯Y¯Z¯a¯b¯c¯d¯e¯f¯g¯h¯i¯j¯k¯l¯m¯n
+¯o¯p¯q¯r¯s¯t¯u¯v¯w¯x¯y¯z¯¯‚¯ƒ¯„¯…¯†¯‡¯ˆ¯‰¯€Š€â/ã/ä/å/æ/ç/è/é/ê/ë/ì/í/î€
+////¯¯¯‘¯’¯“¯”¯•¯–¯—¯˜
+¯™¯š¯›¯œ¯¯¯Ÿ¯ °A°B°C°D°E°F°G°H°I°J°K°L°M°N°O°P°Q°R°S°T°U°V°W°X°Y°Z°a°b
+°c°d°e°f°g°h°i°j°k°l°m°n°o°p°q°r°s°t°u°v°w°x°y°z°°‚°ƒ°„°…°†°‡°ˆ°‰°€Š€â€
+00
+°°°°°‘°’°“°”°•°–°—°˜°™°š°›°œ°°°Ÿ° °¡°¢°£°¤°¥°¦°§°¨°©°ª°«°¬°­°®°¯°°
+°±°²°³°´°µ°¶°·°¸°¹°º°»°¼°½°¾°¿°À°Á°Â°Ã°Ä°Å°Æ°Ç°È°É°Ê°Ë°Ì°Í°Î°Ï°Ğ°Ñ°Ò°Ó°Ô
+°Õ°Ö°×°Ø°Ù°Ú°Û°Ü°İ°Ş°ß°à°á°â°ã°ä°å°æ°ç°è°é°ê°ë°ì°í°î°ï°ğ°ñ°ò°ó°ô°õ°ö°÷°ø
+°ù°ú°û°ü°ı°ş±A±B±C±D±E±F±G±H±I±J±K±L±M±N±O±P±Q±R±S±T±U±V±W±X±Y±Z±a±b±c±d
+±e±f±g±h±i±j±k±l±m±n±o±p±q±r±s±t±u±v±w±x±y±z±±‚±ƒ±„±…±†±‡±ˆ±‰±€Š€â1ã1ä€
+1111
+±±±‘±’±“±”±•±–±—±˜±™±š±›±œ±±±Ÿ± ±¡±¢±£±¤±¥±¦±§±¨±©±ª±«±¬±­±®±¯±°±±±²
+±³±´±µ±¶±·±¸±¹±º±»±¼±½±¾±¿±À±Á±Â±Ã±Ä±Å±Æ±Ç±È±É±Ê±Ë±Ì±Í±Î±Ï±Ğ±Ñ±Ò±Ó±Ô±Õ±Ö
+±×±Ø±Ù±Ú±Û±Ü±İ±Ş±ß±à±á±â±ã±ä±å±æ±ç±è±é±ê±ë±ì±í±î±ï±ğ±ñ±ò±ó±ô±õ±ö±÷±ø±ù±ú
+±û±ü±ı±ş²A²B²C²D²E²F²G²H²I²J²K²L²M²N²O²P²Q²R²S²T²U²V²W²X²Y²Z²a²b²c²d²e²f
+²g²h²i²j²k²l²m²n²o²p²q²r²s²t²u²v²w²x²y²z²²‚²ƒ²„²…²†²‡²ˆ²‰²€Š€â2ã2ä2å2æ€
+2222²²
+²‘²’²“²”²•²–²—²˜²™²š²›²œ²²²Ÿ² ²¡²¢²£²¤²¥²¦²§²¨²©²ª²«²¬²­²®²¯²°²±²²²³²´
+²µ²¶²·²¸²¹²º²»²¼²½²¾²¿²À²Á²Â²Ã²Ä²Å²Æ²Ç²È²É²Ê²Ë²Ì²Í²Î²Ï²Ğ²Ñ²Ò²Ó²Ô²Õ²Ö²×²Ø
+²Ù²Ú²Û²Ü²İ²Ş²ß²à²á²â²ã²ä²å²æ²ç²è²é²ê²ë²ì²í²î²ï²ğ²ñ²ò²ó²ô²õ²ö²÷²ø²ù²ú²û²ü
+²ı²ş³A³B³C³D³E³F³G³H³I³J³K³L³M³N³O³P³Q³R³S³T³U³V³W³X³Y³Z³a³b³c³d³e³f³g³h
+³i³j³k³l³m³n³o³p³q³r³s³t³u³v³w³x³y³z³³‚³ƒ³„³…³†³‡³ˆ³‰³€Š€â3ã3ä3å3æ3ç3è€
+3333³³³‘³’
+³“³”³•³–³—³˜³™³š³›³œ³³³Ÿ³ ³¡³¢³£³¤³¥³¦³§³¨³©³ª³«³¬³­³®³¯³°³±³²³³³´³µ³¶
+³·³¸³¹³º³»³¼³½³¾³¿³À³Á³Â³Ã³Ä³Å³Æ³Ç³È³É³Ê³Ë³Ì³Í³Î³Ï³Ğ³Ñ³Ò³Ó³Ô³Õ³Ö³×³Ø³Ù³Ú
+³Û³Ü³İ³Ş³ß³à³á³â³ã³ä³å³æ³ç³è³é³ê³ë³ì³í³î³ï³ğ³ñ³ò³ó³ô³õ³ö³÷³ø³ù³ú³û³ü³ı³ş
+´A´B´C´D´E´F´G´H´I´J´K´L´M´N´O´P´Q´R´S´T´U´V´W´X´Y´Z´a´b´c´d´e´f´g´h´i´j
+´k´l´m´n´o´p´q´r´s´t´u´v´w´x´y´z´´‚´ƒ´„´…´†´‡´ˆ´‰´€Š€â4ã4ä4å4æ4ç4è4é4ê€
+4444´´´‘´’´“´”
+´•´–´—´˜´™´š´›´œ´´´Ÿ´ ´¡´¢´£´¤´¥´¦´§´¨´©´ª´«´¬´­´®´¯´°´±´²´³´´´µ´¶´·´¸
+´¹´º´»´¼´½´¾´¿´À´Á´Â´Ã´Ä´Å´Æ´Ç´È´É´Ê´Ë´Ì´Í´Î´Ï´Ğ´Ñ´Ò´Ó´Ô´Õ´Ö´×´Ø´Ù´Ú´Û´Ü
+´İ´Ş´ß´à´á´â´ã´ä´å´æ´ç´è´é´ê´ë´ì´í´î´ï´ğ´ñ´ò´ó´ô´õ´ö´÷´ø´ù´ú´û´ü´ı´şµAµB
+µCµDµEµFµGµHµIµJµKµLµMµNµOµPµQµRµSµTµUµVµWµXµYµZµaµbµcµdµeµfµgµhµiµjµkµl
+µmµnµoµpµqµrµsµtµuµvµwµxµyµzµµ‚µƒµ„µ…µ†µ‡µˆµ‰µ€Š€â5ã5ä5å5æ5ç5è5é5ê5ë5ì€
+5555µµµ‘µ’µ“µ”µ•µ–
+µ—µ˜µ™µšµ›µœµµµŸµ µ¡µ¢µ£µ¤µ¥µ¦µ§µ¨µ©µªµ«µ¬µ­µ®µ¯µ°µ±µ²µ³µ´µµµ¶µ·µ¸µ¹µº
+µ»µ¼µ½µ¾µ¿µÀµÁµÂµÃµÄµÅµÆµÇµÈµÉµÊµËµÌµÍµÎµÏµĞµÑµÒµÓµÔµÕµÖµ×µØµÙµÚµÛµÜµİµŞ
+µßµàµáµâµãµäµåµæµçµèµéµêµëµìµíµîµïµğµñµòµóµôµõµöµ÷µøµùµúµûµüµıµş¶A¶B¶C¶D
+¶E¶F¶G¶H¶I¶J¶K¶L¶M¶N¶O¶P¶Q¶R¶S¶T¶U¶V¶W¶X¶Y¶Z¶a¶b¶c¶d¶e¶f¶g¶h¶i¶j¶k¶l¶m¶n
+¶o¶p¶q¶r¶s¶t¶u¶v¶w¶x¶y¶z¶¶‚¶ƒ¶„¶…¶†¶‡¶ˆ¶‰¶€Š€â6ã6ä6å6æ6ç6è6é6ê6ë6ì6í6î€
+6666¶¶¶‘¶’¶“¶”¶•¶–¶—¶˜
+¶™¶š¶›¶œ¶¶¶Ÿ¶ ¶¡¶¢¶£¶¤¶¥¶¦¶§¶¨¶©¶ª¶«¶¬¶­¶®¶¯¶°¶±¶²¶³¶´¶µ¶¶¶·¶¸¶¹¶º¶»¶¼
+
+¶½¶¾¶¿¶À¶Á¶Â¶Ã¶Ä¶Å¶Æ¶Ç¶È¶É¶Ê¶Ë¶Ì¶Í¶Î¶Ï¶Ğ¶Ñ¶Ò¶Ó¶Ô¶Õ¶Ö¶×¶Ø¶Ù¶Ú¶Û¶Ü¶İ¶Ş¶ß¶à
+¶á¶â¶ã¶ä¶å¶æ¶ç¶è¶é¶ê¶ë¶ì¶í¶î¶ï¶ğ¶ñ¶ò¶ó¶ô¶õ¶ö¶÷¶ø¶ù¶ú¶û¶ü¶ı¶ş·A·B·C·D·E·F
+·G·H·I·J·K·L·M·N·O·P·Q·R·S·T·U·V·W·X·Y·Z·a·b·c·d·e·f·g·h·i·j·k·l·m·n·o·p
+·q·r·s·t·u·v·w·x·y·z··‚·ƒ·„·…·†·‡·ˆ·‰·€Š€â7ã7ä7å7æ7ç7è7é7ê7ë7ì7í7î7ï7ğ€
+7777···‘·’·“·”·•·–·—·˜·™·š
+·›·œ···Ÿ· ·¡·¢·£·¤·¥·¦·§·¨·©·ª·«·¬·­·®·¯·°·±·²·³·´·µ·¶···¸·¹·º·»·¼·½·¾
+·¿·À·Á·Â·Ã·Ä·Å·Æ·Ç·È·É·Ê·Ë·Ì·Í·Î·Ï·Ğ·Ñ·Ò·Ó·Ô·Õ·Ö·×·Ø·Ù·Ú·Û·Ü·İ·Ş·ß·à·á·â
+
+·ã·ä·å·æ·ç·è·é·ê·ë·ì·í·î·ï·ğ·ñ·ò·ó·ô·õ·ö·÷·ø·ù·ú·û·ü·ı·ş¸A¸B¸C¸D¸E¸F¸G¸H
+¸I¸J¸K¸L¸M¸N¸O¸P¸Q¸R¸S¸T¸U¸V¸W¸X¸Y¸Z¸a¸b¸c¸d¸e¸f¸g¸h¸i¸j¸k¸l¸m¸n¸o¸p¸q¸r
+¸s¸t¸u¸v¸w¸x¸y¸z¸¸‚¸ƒ¸„¸…¸†¸‡¸ˆ¸‰¸€Š€â8ã8ä8å8æ8ç8è8é8ê8ë8ì8í8î8ï8ğ8ñ8ò€
+8888¸¸¸‘¸’¸“¸”¸•¸–¸—¸˜¸™¸š¸›¸œ
+¸¸¸Ÿ¸ ¸¡¸¢¸£¸¤¸¥¸¦¸§¸¨¸©¸ª¸«¸¬¸­¸®¸¯¸°¸±¸²¸³¸´¸µ¸¶¸·¸¸¸¹¸º¸»¸¼¸½¸¾¸¿¸À
+¸Á¸Â¸Ã¸Ä¸Å¸Æ¸Ç¸È¸É¸Ê¸Ë¸Ì¸Í¸Î¸Ï¸Ğ¸Ñ¸Ò¸Ó¸Ô¸Õ¸Ö¸×¸Ø¸Ù¸Ú¸Û¸Ü¸İ¸Ş¸ß¸à¸á¸â¸ã¸ä
+¸å¸æ¸ç¸è¸é¸ê¸ë¸ì¸í¸î¸ï¸ğ¸ñ¸ò¸ó¸ô¸õ¸ö¸÷¸ø¸ù¸ú¸û¸ü¸ı¸ş¹A¹B¹C¹D¹E¹F¹G¹H¹I¹J
+¹K¹L¹M¹N¹O¹P¹Q¹R¹S¹T¹U¹V¹W¹X¹Y¹Z¹a¹b¹c¹d¹e¹f¹g¹h¹i¹j¹k¹l¹m¹n¹o¹p¹q¹r¹s¹t
+¹u¹v¹w¹x¹y¹z¹¹‚¹ƒ¹„¹…¹†¹‡¹ˆ¹‰¹€Š€â9ã9ä9å9æ9ç9è9é9ê9ë9ì9í9î9ï9ğ9ñ9ò9ó9ô€
+9999¹¹¹‘¹’¹“¹”¹•¹–¹—¹˜¹™¹š¹›¹œ¹¹
+¹Ÿ¹ ¹¡¹¢¹£¹¤¹¥¹¦¹§¹¨¹©¹ª¹«¹¬¹­¹®¹¯¹°¹±¹²¹³¹´¹µ¹¶¹·¹¸¹¹¹º¹»¹¼¹½¹¾¹¿¹À¹Á¹Â
+¹Ã¹Ä¹Å¹Æ¹Ç¹È¹É¹Ê¹Ë¹Ì¹Í¹Î¹Ï¹Ğ¹Ñ¹Ò¹Ó¹Ô¹Õ¹Ö¹×¹Ø¹Ù¹Ú¹Û¹Ü¹İ¹Ş¹ß¹à¹á¹â¹ã¹ä¹å¹æ
+¹ç¹è¹é¹ê¹ë¹ì¹í¹î¹ï¹ğ¹ñ¹ò¹ó¹ô¹õ¹ö¹÷¹ø¹ù¹ú¹û¹ü¹ı¹şºAºBºCºDºEºFºGºHºIºJºKºL
+ºMºNºOºPºQºRºSºTºUºVºWºXºYºZºaºbºcºdºeºfºgºhºiºjºkºlºmºnºoºpºqºrºsºtºuºv
+ºwºxºyºzºº‚ºƒº„º…º†º‡ºˆº‰º€Š€â:ã:ä:å:æ:ç:è:é:ê:ë:ì:í:î:ï:ğ:ñ:ò:ó:ô:õ:ö€
+::::ººº‘º’º“º”º•º–º—º˜º™ºšº›ºœºººŸº 
+º¡º¢º£º¤º¥º¦º§º¨º©ºªº«º¬º­º®º¯º°º±º²º³º´ºµº¶º·º¸º¹ººº»º¼º½º¾º¿ºÀºÁºÂºÃºÄ
+ºÅºÆºÇºÈºÉºÊºËºÌºÍºÎºÏºĞºÑºÒºÓºÔºÕºÖº×ºØºÙºÚºÛºÜºİºŞºßºàºáºâºãºäºåºæºçºè
+ºéºêºëºìºíºîºïºğºñºòºóºôºõºöº÷ºøºùºúºûºüºıºş»A»B»C»D»E»F»G»H»I»J»K»L»M»N
+»O»P»Q»R»S»T»U»V»W»X»Y»Z»a»b»c»d»e»f»g»h»i»j»k»l»m»n»o»p»q»r»s»t»u»v»w»x
+»y»z»»‚»ƒ»„»…»†»‡»ˆ»‰»€Š€â;ã;ä;å;æ;ç;è;é;ê;ë;ì;í;î;ï;ğ;ñ;ò;ó;ô;õ;ö;÷;ø€
+;;;;»»»‘»’»“»”»•»–»—»˜»™»š»›»œ»»»Ÿ» »¡»¢
+»£»¤»¥»¦»§»¨»©»ª»«»¬»­»®»¯»°»±»²»³»´»µ»¶»·»¸»¹»º»»»¼»½»¾»¿»À»Á»Â»Ã»Ä»Å»Æ
+»Ç»È»É»Ê»Ë»Ì»Í»Î»Ï»Ğ»Ñ»Ò»Ó»Ô»Õ»Ö»×»Ø»Ù»Ú»Û»Ü»İ»Ş»ß»à»á»â»ã»ä»å»æ»ç»è»é»ê
+»ë»ì»í»î»ï»ğ»ñ»ò»ó»ô»õ»ö»÷»ø»ù»ú»û»ü»ı»ş¼A¼B¼C¼D¼E¼F¼G¼H¼I¼J¼K¼L¼M¼N¼O¼P
+¼Q¼R¼S¼T¼U¼V¼W¼X¼Y¼Z¼a¼b¼c¼d¼e¼f¼g¼h¼i¼j¼k¼l¼m¼n¼o¼p¼q¼r¼s¼t¼u¼v¼w¼x¼y¼z
+
+¼¼‚¼ƒ¼„¼…¼†¼‡¼ˆ¼‰¼€Š€â<ã<ä<å<æ<ç<è<é<ê<ë<ì<í<î<ï<ğ<ñ<ò<ó<ô<õ<ö<÷<ø<ù<ú€
+<<<<¼¼¼‘¼’¼“¼”¼•¼–¼—¼˜¼™¼š¼›¼œ¼¼¼Ÿ¼ ¼¡¼¢¼£¼¤
+
+¼¥¼¦¼§¼¨¼©¼ª¼«¼¬¼­¼®¼¯¼°¼±¼²¼³¼´¼µ¼¶¼·¼¸¼¹¼º¼»¼¼¼½¼¾¼¿¼À¼Á¼Â¼Ã¼Ä¼Å¼Æ¼Ç¼È
+¼É¼Ê¼Ë¼Ì¼Í¼Î¼Ï¼Ğ¼Ñ¼Ò¼Ó¼Ô¼Õ¼Ö¼×¼Ø¼Ù¼Ú¼Û¼Ü¼İ¼Ş¼ß¼à¼á¼â¼ã¼ä¼å¼æ¼ç¼è¼é¼ê¼ë¼ì
+¼í¼î¼ï¼ğ¼ñ¼ò¼ó¼ô¼õ¼ö¼÷¼ø¼ù¼ú¼û¼ü¼ı¼ş½A½B½C½D½E½F½G½H½I½J½K½L½M½N½O½P½Q½R
+½S½T½U½V½W½X½Y½Z½a½b½c½d½e½f½g½h½i½j½k½l½m½n½o½p½q½r½s½t½u½v½w½x½y½z½½‚
+½ƒ½„½…½†½‡½ˆ½‰½€Š€â=ã=ä=å=æ=ç=è=é=ê=ë=ì=í=î=ï=ğ=ñ=ò=ó=ô=õ=ö=÷=ø=ù=ú==€
+====½½½‘½’½“½”½•½–½—½˜½™½š½›½œ½½½Ÿ½ ½¡½¢½£½¤½¥½¦
+½§½¨½©½ª½«½¬½­½®½¯½°½±½²½³½´½µ½¶½·½¸½¹½º½»½¼½½½¾½¿½À½Á½Â½Ã½Ä½Å½Æ½Ç½È½É½Ê
+½Ë½Ì½Í½Î½Ï½Ğ½Ñ½Ò½Ó½Ô½Õ½Ö½×½Ø½Ù½Ú½Û½Ü½İ½Ş½ß½à½á½â½ã½ä½å½æ½ç½è½é½ê½ë½ì½í½î
+½ï½ğ½ñ½ò½ó½ô½õ½ö½÷½ø½ù½ú½û½ü½ı½ş¾A¾B¾C¾D¾E¾F¾G¾H¾I¾J¾K¾L¾M¾N¾O¾P¾Q¾R¾S¾T
+¾U¾V¾W¾X¾Y¾Z¾a¾b¾c¾d¾e¾f¾g¾h¾i¾j¾k¾l¾m¾n¾o¾p¾q¾r¾s¾t¾u¾v¾w¾x¾y¾z¾¾‚¾ƒ¾„
+
+¾†¾‡¾ˆ¾‰¾€Š€á>â>ã>ä>å>æ>ç>è>é>ê>ë>ì>í>î>ï>ğ>ñ>ò>ó>ô>õ>ö>÷>ø>ù>ú>>>>€
+>>>>¾¾¾‘¾’¾“¾”¾•¾–¾—¾˜¾™¾š¾›¾œ¾¾¾Ÿ¾ ¾¡¾¢¾£¾¤¾¥¾¦¾§¾¨¾©
+¾ª¾«¾¬¾­¾®¾¯¾°¾±¾²¾³¾´¾µ¾¶¾·¾¸¾¹¾º¾»¾¼¾½¾¾¾¿¾À¾Á¾Â¾Ã¾Ä¾Å¾Æ¾Ç¾È¾É¾Ê¾Ë¾Ì¾Í
+¾Î¾Ï¾Ğ¾Ñ¾Ò¾Ó¾Ô¾Õ¾Ö¾×¾Ø¾Ù¾Ú¾Û¾Ü¾İ¾Ş¾ß¾à¾á¾â¾ã¾ä¾å¾æ¾ç¾è¾é¾ê¾ë¾ì¾í¾î¾ï¾ğ¾ñ
+¾ò¾ó¾ô¾õ¾ö¾÷¾ø¾ù¾ú¾û¾ü¾ı¾ş¿A¿B¿C¿D¿E¿F¿G¿H¿I¿J¿K¿L¿M¿N¿O¿P¿Q¿R¿S¿T¿U¿V¿W
+¿Y¿Z¿a¿b¿c¿d¿e¿f¿g¿h¿i¿j¿k¿l¿m¿n¿o¿p¿q¿r¿s¿t¿u¿v¿w¿x¿y¿z¿¿‚¿ƒ¿„¿…¿†¿‡¿ˆ
+¿‰¿€Š€â?ã?ä?å?æ?ç?è?é?ê?ë?ì?í?î?ï?ğ?ñ?ò?ó?ô?õ?ö?÷?ø?ù?ú????????€
+????¿¿¿‘¿’¿“¿”¿•¿–¿—¿˜¿™¿š¿›¿œ¿¿¿Ÿ¿ ¿¡¿¢¿£¿¤¿¥¿¦¿§¿¨¿©¿ª¿«¿¬
+¿­¿®¿¯¿°¿±¿²¿³¿´¿µ¿¶¿·¿¸¿¹¿º¿»¿¼¿½¿¾¿¿¿À¿Á¿Â¿Ã¿Ä¿Å¿Æ¿Ç¿È¿É¿Ê¿Ë¿Ì¿Í¿Î¿Ï¿Ğ
+¿Ñ¿Ò¿Ó¿Ô¿Õ¿Ö¿×¿Ø¿Ù¿Ú¿Û¿Ü¿İ¿Ş¿ß¿à¿á¿â¿ã¿ä¿å¿æ¿ç¿è¿é¿ê¿ë¿ì¿í¿î¿ï¿ğ¿ñ¿ò¿ó¿ô
+
+¿ö¿÷¿ø¿ù¿ú¿û¿ü¿ı¿şÀAÀBÀCÀDÀEÀFÀGÀHÀIÀJÀKÀLÀMÀNÀOÀPÀQÀRÀSÀTÀUÀVÀWÀXÀYÀZÀa
+ÀbÀcÀdÀeÀfÀgÀhÀiÀjÀkÀlÀmÀnÀoÀpÀqÀrÀsÀtÀuÀvÀwÀxÀyÀzÀÀ‚ÀƒÀ„À…À†À‡ÀˆÀ‰À€Š€
+@
+ÀŒÀÀÀÀÀ‘À’À“À”À•À–À—À˜À™ÀšÀ›ÀœÀÀÀŸÀ À¡À¢À£À¤À¥À¦À§À¨À©ÀªÀ«À¬À­À®À¯
+À°À±À²À³À´ÀµÀ¶À·À¸À¹ÀºÀ»À¼À½À¾À¿ÀÀÀÁÀÂÀÃÀÄÀÅÀÆÀÇÀÈÀÉÀÊÀËÀÌÀÍÀÎÀÏÀĞÀÑÀÒÀÓ
+ÀÔÀÕÀÖÀ×ÀØÀÙÀÚÀÛÀÜÀİÀŞÀßÀàÀáÀâÀãÀäÀåÀæÀçÀèÀéÀêÀëÀìÀíÀîÀïÀğÀñÀòÀóÀôÀõÀöÀ÷
+ÀøÀùÀúÀûÀüÀıÀşÁAÁBÁCÁDÁEÁFÁGÁHÁIÁJÁKÁLÁMÁNÁOÁPÁQÁRÁSÁTÁUÁVÁWÁXÁYÁZÁaÁbÁc
+ÁdÁeÁfÁgÁhÁiÁjÁkÁlÁmÁnÁoÁpÁqÁrÁsÁtÁuÁvÁwÁxÁyÁzÁÁ‚ÁƒÁ„Á…Á†Á‡ÁˆÁ‰Á€Š€âAã€
+AAA
+ÁÁÁÁ‘Á’Á“Á”Á•Á–Á—Á˜Á™ÁšÁ›ÁœÁÁÁŸÁ Á¡Á¢Á£Á¤Á¥Á¦Á§Á¨Á©ÁªÁ«Á¬Á­Á®Á¯Á°Á±
+Á²Á³Á´ÁµÁ¶Á·Á¸Á¹ÁºÁ»Á¼Á½Á¾Á¿ÁÀÁÁÁÂÁÃÁÄÁÅÁÆÁÇÁÈÁÉÁÊÁËÁÌÁÍÁÎÁÏÁĞÁÑÁÒÁÓÁÔÁÕ
+ÁÖÁ×ÁØÁÙÁÚÁÛÁÜÁİÁŞÁßÁàÁáÁâÁãÁäÁåÁæÁçÁèÁéÁêÁëÁìÁíÁîÁïÁğÁñÁòÁóÁôÁõÁöÁ÷ÁøÁù
+ÁûÁüÁıÁşÂAÂBÂCÂDÂEÂFÂGÂHÂIÂJÂKÂLÂMÂNÂOÂPÂQÂRÂSÂTÂUÂVÂWÂXÂYÂZÂaÂbÂcÂdÂeÂf
+ÂgÂhÂiÂjÂkÂlÂmÂnÂoÂpÂqÂrÂsÂtÂuÂvÂwÂxÂyÂzÂÂ‚ÂƒÂ„Â…Â†Â‡ÂˆÂ‰Â€Š€âBãBäBåBæ€
+BBBBÂÂ
+Â‘Â’Â“Â”Â•Â–Â—Â˜Â™ÂšÂ›ÂœÂÂÂŸÂ Â¡Â¢Â£Â¤Â¥Â¦Â§Â¨Â©ÂªÂ«Â¬Â­Â®Â¯Â°Â±Â²Â³Â´
+
+ÂµÂ¶Â·Â¸Â¹ÂºÂ»Â¼Â½Â¾Â¿ÂÀÂÁÂÂÂÃÂÄÂÅÂÆÂÇÂÈÂÉÂÊÂËÂÌÂÍÂÎÂÏÂĞÂÑÂÒÂÓÂÔÂÕÂÖÂ×ÂØ
+ÂÙÂÚÂÛÂÜÂİÂŞÂßÂàÂáÂâÂãÂäÂåÂæÂçÂèÂéÂêÂëÂìÂíÂîÂïÂğÂñÂòÂóÂôÂõÂöÂ÷ÂøÂùÂúÂûÂü
+ÂıÂşÃAÃBÃCÃDÃEÃFÃGÃHÃIÃJÃKÃLÃMÃNÃOÃPÃQÃRÃSÃTÃUÃVÃWÃXÃYÃZÃaÃbÃcÃdÃeÃfÃgÃh
+ÃiÃjÃkÃlÃmÃnÃoÃpÃqÃrÃsÃtÃuÃvÃwÃxÃyÃzÃÃ‚ÃƒÃ„Ã…Ã†Ã‡ÃˆÃ‰Ã€Š€âCãCäCåCæCçCè€
+CCCCÃÃÃ‘Ã’
+Ã“Ã”Ã•Ã–Ã—Ã˜Ã™ÃšÃ›ÃœÃÃÃŸÃ Ã¡Ã¢Ã£Ã¤Ã¥Ã¦Ã§Ã¨Ã©ÃªÃ«Ã¬Ã­Ã®Ã¯Ã°Ã±Ã²Ã³Ã´ÃµÃ¶
+Ã·Ã¸Ã¹ÃºÃ»Ã¼Ã½Ã¾Ã¿ÃÀÃÁÃÂÃÃÃÄÃÅÃÆÃÇÃÈÃÉÃÊÃËÃÌÃÍÃÎÃÏÃĞÃÑÃÒÃÓÃÔÃÕÃÖÃ×ÃØÃÙÃÚ
+ÃÛÃÜÃİÃŞÃßÃàÃáÃâÃãÃäÃåÃæÃçÃèÃéÃêÃëÃìÃíÃîÃïÃğÃñÃòÃóÃôÃõÃöÃ÷ÃøÃùÃúÃûÃüÃıÃş
+ÄAÄBÄCÄDÄEÄFÄGÄHÄIÄJÄKÄLÄMÄNÄOÄPÄQÄRÄSÄTÄUÄVÄWÄXÄYÄZÄaÄbÄcÄdÄeÄfÄgÄhÄiÄj
+
+ÄlÄmÄnÄoÄpÄqÄrÄsÄtÄuÄvÄwÄxÄyÄzÄÄ‚ÄƒÄ„Ä…Ä†Ä‡ÄˆÄ‰Ä€Š€áDâDãDäDåDæDçDèDéDê€
+DDDDÄÄÄ‘Ä’Ä“Ä”Ä•
+Ä–Ä—Ä˜Ä™ÄšÄ›ÄœÄÄÄŸÄ Ä¡Ä¢Ä£Ä¤Ä¥Ä¦Ä§Ä¨Ä©ÄªÄ«Ä¬Ä­Ä®Ä¯Ä°Ä±Ä²Ä³Ä´ÄµÄ¶Ä·Ä¸Ä¹
+ÄºÄ»Ä¼Ä½Ä¾Ä¿ÄÀÄÁÄÂÄÃÄÄÄÅÄÆÄÇÄÈÄÉÄÊÄËÄÌÄÍÄÎÄÏÄĞÄÑÄÒÄÓÄÔÄÕÄÖÄ×ÄØÄÙÄÚÄÛÄÜÄİ
+ÄŞÄßÄàÄáÄâÄãÄäÄåÄæÄçÄèÄéÄêÄëÄìÄíÄîÄïÄğÄñÄòÄóÄôÄõÄöÄ÷ÄøÄùÄúÄûÄüÄıÄşÅAÅBÅC
+ÅDÅEÅFÅGÅHÅIÅJÅKÅLÅMÅNÅOÅPÅQÅRÅSÅTÅUÅVÅWÅXÅYÅZÅaÅbÅcÅdÅeÅfÅgÅhÅiÅjÅkÅlÅm
+ÅnÅoÅpÅqÅrÅsÅtÅuÅvÅwÅxÅyÅzÅÅ‚ÅƒÅ„Å…Å†Å‡ÅˆÅ‰Å€Š€âEãEäEåEæEçEèEéEêEëEìEí€
+EEEEÅÅÅ‘Å’Å“Å”Å•Å–Å—
+Å˜Å™ÅšÅ›ÅœÅÅÅŸÅ Å¡Å¢Å£Å¤Å¥Å¦Å§Å¨Å©ÅªÅ«Å¬Å­Å®Å¯Å°Å±Å²Å³Å´ÅµÅ¶Å·Å¸Å¹ÅºÅ»
+Å¼Å½Å¾Å¿ÅÀÅÁÅÂÅÃÅÄÅÅÅÆÅÇÅÈÅÉÅÊÅËÅÌÅÍÅÎÅÏÅĞÅÑÅÒÅÓÅÔÅÕÅÖÅ×ÅØÅÙÅÚÅÛÅÜÅİÅŞÅß
+ÅàÅáÅâÅãÅäÅåÅæÅçÅèÅéÅêÅëÅìÅíÅîÅïÅğÅñÅòÅóÅôÅõÅöÅ÷ÅøÅùÅúÅûÅüÅıÅşÆAÆBÆCÆDÆE
+ÆFÆGÆHÆIÆJÆKÆLÆMÆNÆOÆPÆQÆRÆ¡Æ¢Æ£Æ¤Æ¥Æ¦Æ§Æ¨Æ©ÆªÆ«Æ¬Æ­Æ®Æ¯Æ°Æ±Æ²Æ³Æ´ÆµÆ¶Æ·
+Æ¸Æ¹ÆºÆ»Æ¼Æ½Æ¾Æ¿ÆÀÆÁÆÂÆÃÆÄÆÅÆÆÆÇÆÈÆÉÆÊÆËÆÌÆÍÆÎÆÏÆĞÆÑÆÒÆÓÆÔÆÕÆÖÆ×ÆØÆÙÆÚÆÛ
+ÆÜÆİÆŞÆßÆàÆáÆâÆãÆäÆåÆæÆçÆèÆéÆêÆëÆìÆíÆîÆïÆğÆñÆòÆóÆôÆõÆöÆ÷ÆøÆùÆúÆûÆüÆıÆşÇ¡
+Ç¢Ç£Ç¤Ç¥Ç¦Ç§Ç¨Ç©ÇªÇ«Ç¬Ç­Ç®Ç¯Ç°Ç±Ç²Ç³Ç´ÇµÇ¶Ç·Ç¸Ç¹ÇºÇ»Ç¼Ç½Ç¾Ç¿ÇÀÇÁÇÂÇÃÇÄÇÅ
+ÇÆÇÇÇÈÇÉÇÊÇËÇÌÇÍÇÎÇÏÇĞÇÑÇÒÇÓÇÔÇÕÇÖÇ×ÇØÇÙÇÚÇÛÇÜÇİÇŞÇßÇàÇáÇâÇãÇäÇåÇæÇçÇèÇé
+ÇêÇëÇìÇíÇîÇïÇğÇñÇòÇóÇôÇõÇöÇ÷ÇøÇùÇúÇûÇüÇıÇşÈ¡È¢È£È¤È¥È¦È§È¨È©ÈªÈ«È¬È­È®È¯
+È°È±È²È³È´ÈµÈ¶È·È¸È¹ÈºÈ»È¼È½È¾È¿ÈÀÈÁÈÂÈÃÈÄÈÅÈÆÈÇÈÈÈÉÈÊÈËÈÌÈÍÈÎÈÏÈĞÈÑÈÒÈÓ
+ÈÔÈÕÈÖÈ×ÈØÈÙÈÚÈÛÈÜÈİÈŞÈßÈàÈáÈâÈãÈäÈåÈæÈçÈèÈéÈêÈëÈìÈíÈîÈïÈğÈñÈòÈóÈôÈõÈöÈ÷
+ÈøÈùÈúÈûÈüÈıÈş 
+
+
+
+From hangul-request@cair.kaist.ac.kr  Fri May 31 13:47:11 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id NAA02466 for <hangul@cair.kaist.ac.kr>; Fri, 31 May 1996 13:46:58 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id NAA02525 for hangul@cair.kaist.ac.kr; Fri, 31 May 1996 13:46:57 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 30 May 1996 12:11:38 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4ok39q$2tk@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4oe60t$on5@net161-61.student.yale.edu>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: pine 3.93°ú ÇÑ±Û ¸ŞÀÏ
+
+Jungshik Shin (jungshik@net161-61.student.yale.edu) wrote:
+
+:    Pine 3.93¿¡´Â displayfilter¿Í sending filter°¡ ÀÖ¾î¼­ hangul sendmailÀÌ
+: ¾ø´õ¶óµµ RFC 1557À» µû¸£´Â ÇÑ±Û ¸ŞÀÏ ±³È¯ÀÌ ¼öµ¿ ÄÚµå º¯È¯  ÀÛ¾÷¾øÀÌµµ
+: °¡´ÉÇÕ´Ï´Ù.  Àü¿¡´Â displayfilter¿Í sending filter¸¦ ¼¼ÆÃÇÏ´Â ¹æ¹ıÀ»
+: Àß¸ø ¾Ë°í ÀÖ¾î¼­ ÀÛµ¿ÇÏÁö ¾Ê´Â °ÍÀ¸·Î »ı°¢Çß½À´Ï´Ù. ¿ì¿¬È÷, lynx 2.5¿¡
+: ´ëÇÑ ±ÛÀ» º¸´Ù°¡ pineÀÇ ÀÌ µÎ°¡Áö ¼¼ÆÃ ¹æ¹ıÀ» Á¦´ë·Î ¾Ë°Ô  µÇ¾ú½À´Ï´Ù.
+ 
+  hcodeÀÇ iso-2022-kr<->ksc5601º¯È¯ ±â´ÉÀ» ´ëÃæ ¶«ÁúÇØ¼­ ¾²´Ù°¡
+¾Æ¹«·¡µµ ¹®Á¦°¡ ÀÖ¾î¼­ (iso2ks/ks2iso´Â ¼Ò½º°¡ ¾È º¸ÀÌ°í,
+ETRIÀÇ hdcodµµ ¾È º¸¿©¼­), iso2ks/ks2iso¿ªÇÒÀ» ÇÏ´Â ÇÁ·Î±×·¥À»
+°£´ÜÈ÷ ÇÏ³ª ¾²°í hmconv¶ó°í ÀÌ¸§ºÙ¿´½À´Ï´Ù.( 
+ftp://ftp.kaist.ac.kr/incoming/hangul°ú 
+ftp://korea.stanford.edu/incoming/upload9605¿¡ ¿Ã¸®°Ú½À´Ï´Ù.
+'-u'¿É¼ÇÀº iso->ksc, ¿É¼ÇÀÌ ¾øÀ¸¸é ksc->isoÀÔ´Ï´Ù)
+¾Æ·¡¿¡ Pine 3.93¿¡¼­ RFC 1557À» µû¸£´Â ÇÑ±Û ¸ŞÀÏ ±³È¯À» 
+À§ÇÑ ¹æ¹ıÀ» ´Ù½Ã Á¤¸®ÇÕ´Ï´Ù.
+
+
+  ¼¼ÆÃ ¹æ¹ıÀº ´ÙÀ½°ú °°½À´Ï´Ù. 
+ 
+   1. main menu¿¡¼­ S¸¦ ´­·¯¼­ SetupÀ» ¼±ÅÃÇÕ´Ï´Ù. 
+   2. C¸¦ ´­·¯¼­ configure¸¦ °í¸¨´Ï´Ù.
+   3. toggleÇÒ option Áß¿¡¼­ ´ÙÀ½À» ¸ğµÎ ÄÑ Áİ´Ï´Ù. (ON)
+ 
+      - compose-send-offers-first-filter
+      - pass-control-character-as-is
+      - enable 8bit esmtp negotiation
+ 
+   4. °ªÀ» ÁÖ¾î¾ß ÇÒ option Áß¿¡¼­ ´ÙÀ½À» ¾Æ·¡Ã³·³ ¼¼ÆÃÇÕ´Ï´Ù.
+   
+     - character-set   :    ISO-2022-KR
+                      (ÇÑ±Û sendmailÀÌ ¼³Ä¡µÈ °÷¿¡¼­´Â 
+                            EUC-KR·Î ÇÏ½Ê½Ã¿À. ¸ŞÀÏ Á¦¸ñÀÇ  ÇÑ±Û°ú
+                            °ü·ÃÇÑ ¹®Á¦´Â ¸Ç ¾Æ·¡ Âü°í)
+
+     - display-filters :    "" /full/path/hmconv -u
+                        ¶Ç´Â 
+                            "$)C" /full/path/hmconv -u
+                       ¶Ç´Â _CHARSET(iso-2022-kr)_ /full/path/hmconv -u
+                            _CHARSET(ISO-2022-KR)_ /full/path/hmconv -u
+                            _CHARSET(iso-8859-1)_ /full/path/hmconv -u
+                            _CHARSET(euc-kr)_  /full/path/hmconv -u
+                            _CHARSET(EUC-KR)_  /full/path/hmconv -u
+ 
+                            ¼¼¹øÂ° °æ¿ìÃ³·³  º¹¼ö ÁöÁ¤ °¡´É
+
+       (ÇÑ±Û sendmailÀÌ ¼³Ä¡µÈ °÷¿¡¼­´Â displayfilter´Â ¼¼ÆÃÇÒ
+        ÇÊ¿ä°¡ ¾ø½À´Ï´Ù)
+        
+ 
+     - sending-filters :    /full/path/hmconv 
+ 
+                            ¿ª½Ã º¹¼ö ÁöÁ¤ °¡´É
+
+         (ÇÑ±Û sendmailÀÌ ÀÖ´õ¶óµµ sending filter´Â 
+          ÁöÁ¤ÇØ¾ß ÇÕ´Ï´Ù. ±×·¸Áö ¾ÊÀ¸¸é, QP/Base64·Î
+           ÀÎÄÚµåµÇ¾î ³ª°©´Ï´Ù. sendmail 8.7.x¸¦
+           localizeÇÑ ÇÑ±Û sendmail 8.7.x°¡ ³ª¿À±â±îÁö´Â
+           ÀÌ·¸°Ô ÇØ¾ßÇÕ´Ï´Ù)
+
+    5. ÇÑ±Û sendmailÀÌ ¾ø´Â °æ¿ì¿¡ (ÀÖ´Â °æ¿ì¿¡µµ 
+       Pine 3.93»ç¿ëÀÚ¿¡°Ô Æí¸®ÇÒ ¼ö ÀÖÀ½.ÀÚ½ÅÀÌ 
+       º¸³½ ¸ŞÀÏÀ» ´Ù½Ã ÇÑ¹ø ÆíÁıÇØ ´Ù¸¥ ÀÌ¿¡°Ô 
+       º¸³¾ °æ¿ì µî¿¡) iso-2022-kr·Î
+      ÀúÀåµÈ mailbox¸£ ´Ù·ç´Âµ¥ Æí¸®ÇÏµµ·Ï PineÀÇ 
+      editor¸¦ ¹Ù²ãÁİ´Ï´Ù.
+
+       - Setup-Configure¿¡¼­(À§ 1¹ø Âü°í)
+         ¾Æ·¡ µÎ°¡Áö¸¦ ÄÑ(ON) Áİ´Ï´Ù.
+
+         enable-alternate-editor-cmd
+         enable-alternate-editor-implicitly
+
+         ±×¸®°í, 'editor'¸¦ ¾Æ·¡¿Í °°Àº shell script·Î
+         ÁöÁ¤ÇÕ´Ï´Ù.ÀÌ¸§À» hmailedit¶ó°í ºÙ¿´´Ù¸é, 
+         'editor'¶õ¿¡ hmailedit¶ó°í 'C'¸¦ ´­·¯¼­
+         Àû¾îÁİ´Ï´Ù. hmailedit´Â ÀÚ½ÅÀÇ path¿¡ 
+         ÀÖ¾î¾ß ÇÏ°í, ¹°·Ğ ½ÇÇà°¡´ÉÇØ¾ß°ÚÁö¿ä.
+         ¾Æ·¡¿¡¼­ 'hvi'´ë½Å ÇÑ±Û ÆíÁıÀÌ °¡´ÉÇÑ
+         ÀÚ½ÅÀÌ ÁÁ¾ÆÇÏ´Â ÆíÁı±â¸¦ ³Ö¾îµµ ¹°·Ğ
+         »ó°ü¾ø½À´Ï´Ù. pico¶ó¸é 'pico -t'·Î  '-t'
+         optionÀ» ÁÖ½Ê½Ã¿À. emacs,hanemacs³ª muleÀÌ¶ó¸é
+         X window¿¡¼­´Â µû·Î window¸¦ ¿­±â ½ÈÀ¸¸é
+         '-nw' optionÀ» ÁÙ ¼öµµ ÀÖ°ÚÁö¿ä.
+         'hmconv'´ë½Å iso-2022-kr<->ksc5601°£
+         º¯È¯À» ÇÏ´Â ´Ù¸¥ ÇÁ·Î±×·¥À» ½áµµ µË´Ï´Ù. 
+         iso2022-krÀÌ ¾Æ´Ï¸é ÀÌ º¯È¯±âµéÀº ¾Æ¹«·±
+         ÀÏµµ ÇÏÁö ¾ÊÀ¸¹Ç·Î, hmailedit¸¦ ¿µ¹®
+         ÆíÁö ÀÛ¼º¿¡ ½áµµ »ó°ü¾ø½À´Ï´Ù.
+         "hmconv $new $1"¶õ ÁÙÀº "cp $new $1"À¸·Î 
+         ¹Ù²Ù°í, ÆíÁö¸¦ º¸³»±â Á÷Àü¿¡ 'filter
+         thru hmconv'¶õ Áú¹®¿¡ yes·Î ´äÇØµµ 
+         µË´Ï´Ù.
+
+-------- hmaileditÀÇ ³»¿ë ----------------
+#!/bin/sh
+new=/tmp/$$.`basename $1`
+trap 'rm -f /tmp/$$.*; exit 1' 1 2 15
+hmconv -u  $1 $new
+hvi $new
+if test -r $new ;
+then 
+ hmconv $new $1      
+fi
+/bin/rm $new
+---------------------
+
+     ²À, hmconv(¶Ç´Â ´Ù¸¥ ksc5601<->iso-2022-kr ÄÚµå º¯È¯±â)ÀÇ full 
+ path¸¦ ½á ÁÖ¾î¾ß ÇÕ´Ï´Ù. ±×¸®°í, : .cshrc/.tcshrc³ª .bashrc(¶Ç´Â 
+kshÀÌ¶ó¸é ENV µî¿¡  ÁöÁ¤µÈ ÆÄÀÏ) µîÀÇ  shell startupÆÄÀÏ¿¡¼­ stty¿Í 
+°°Àº ¸í·ÉÀº  non-interactive shellÀÏ °æ¿ì¿¡´Â ½ÇÇàµÇÁö ¾Êµµ·Ï 
+ÇØ ÁÖ¾î¾ß ÇÕ´Ï´Ù.  filter ¼³Á¤¿¡ ´ëÇÑ µµ¿ò¸»Àº filter¸¦
+ÁöÁ¤ÇÏ´Â °÷¿¡¼­ "?"¸¦ ´©¸£¸é ³ª¿É´Ï´Ù. 
+
+  ´Ü, ÀÌ °æ¿ì¿¡ hangul sendmailÀÌ ¾ø¾î¼­ charsetÀ» 
+ISO-2022-KR·Î ¼¼ÆÃÇß´Ù¸é, ÇÑ±Û Subject¸¦ »ç¿ëÇÏÁö
+¾Ê´Â °ÍÀÌ ÁÁ½À´Ï´Ù. ?EUC-KR?B?b_encoded_hangul?=¿Í
+°°ÀÌ µÇ¾î¾ß ÇÏ´Âµ¥, ?ISO-2022-KR?B?b_encoded_hangul?=¿Í
+°°ÀÌ µË´Ï´Ù. ÀÌ°ÍÀ» ÇÇÇÏ·Á¸é, À§ÀÇ 4¿¡¼­ ÇÑ±Û
+sendmailÀÌ ¾ø´õ¶óµµ charsetÀ» EUC-KR·Î ÇÏ½Ê½Ã¿À.
+±×·¯¸é, Content-type: Çì´õ¿¡¼­ charsetÀÌ EUC-KR·Î
+Àß¸ø ¼¼ÆÃ(º»¹®Àº ½ÇÁ¦·Î ISO-2022-KRÀÎµ¥µµ)µÇ´Â
+¹®Á¦°¡ ÀÖ±â´Â ÇÕ´Ï´Ù¸¸, ±×¸® Å« ÁöÀåÀÌ ¾ø°í,
+ÇÑ±Û Á¦¸ñÀÌ hangul sendmail¿¡ ÀÇÇØ Á¦´ë·Î
+µğÄÚµåµÇ´Â ÀåÁ¡ÀÌ ÀÖ½À´Ï´Ù. 
+
+   ½ÅÁ¤½Ä 
+
+From kyung@cslsun10.sogang.ac.kr  Fri May 31 14:40:23 1996
+Received: from ccs.sogang.ac.kr (ccs.sogang.ac.kr [163.239.1.1]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id OAA03077 for <hangul@cair.kaist.ac.kr>; Fri, 31 May 1996 14:40:11 +0900
+Received: from cslsun10.sogang.ac.kr by ccs.sogang.ac.kr (8.7.5/Sogang) id OAA24323; Fri, 31 May 1996 14:39:53 +0900 (KST)
+Received: by cslsun10.sogang.ac.kr (4.1/SMI-4.1)
+	id AA19812; Fri, 31 May 96 14:41:10 KST
+Date: Fri, 31 May 96 14:41:10 KST
+From: kyung@cslsun10.sogang.ac.kr (Cho Kyung Choon)
+Message-Id: <9605310541.AA19812@cslsun10.sogang.ac.kr>
+To: hangul@cair.kaist.ac.kr
+Subject: "ÇÑ±Û"¿¡¼­ eps ³ª ps¸¦ Ãâ·ÂÇÒ ¼ö ÀÖ³ª¿ä?
+
+
+¸Ş´º¾ó º¸¸é eps´Â µÈ´Ù°í ÇÏ´øµ¥,
+½ÇÁ¦·Ğ Ãâ·ÂÀÌ ¾ÈµÅ³×¿ä.
+¹» Àß¸ø¾Ë°í ÀÖ´Â°ÇÁö.. -.-
+"ÇÑ±Û"¿öµåÇÁ·Î¼¼¼­¿¡¼­ postscriptÃâ·ÂÇÏ·Á¸é ¾î¶»°Ô ÇÏ³ª¿ä?
+
+Âü°í·Î, ÀúÈò ÇÑ±Û 3.0b¸¦ ¾²°í ÀÖ°í¿ä,
+unix¿¡¼­ tgif¸¦ ÀÌ¿ëÇØ¼­ ±×¸²À» ±×¸° ÈÄ eps È­ÀÏÀ» Ãâ·ÂÇÏ°í ÀÖ½À´Ï´Ù.
+eps¸¦ xbmÀÌ³ª tiffµîÀ¸·Î ¹Ù²ã Ãâ·ÂÇÒ ¼ö ÀÖÁö¸¸,
+ÇØ»óµµ°¡ ¶³¾îÁ®¼­ ¹İ/µå/½Ã epsÇü½ÄÀ¸·Î Ãâ·ÂÇÏ°í ½Í½À´Ï´Ù.
+
+±×·³ ¹Ì¸® °¨»ç.
+
+From hangul-request@cair.kaist.ac.kr  Fri May 31 15:50:03 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id PAA04474 for <hangul@cair.kaist.ac.kr>; Fri, 31 May 1996 15:50:02 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id PAA05697 for hangul@cair.kaist.ac.kr; Fri, 31 May 1996 15:51:30 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 31 May 1996 06:42:47 GMT
+From: jungshik@net161-61.student.yale.edu (Jungshik Shin)
+Message-ID: <4om4d7$9sb@net161-61.student.yale.edu>
+Organization: Yale University, Physics Dept.
+Sender: hangul-request@cair.kaist.ac.kr
+References: <4oe60t$on5@net161-61.student.yale.edu>, <4ok39q$2tk@net161-61.student.yale.edu>
+Reply-To: jshin@minerva.cis.yale.edu
+Subject: Re: pine 3.93°ú ÇÑ±Û ¸ŞÀÏ
+
+Jungshik Shin (jungshik@net161-61.student.yale.edu) wrote:
+: Jungshik Shin (jungshik@net161-61.student.yale.edu) wrote:
+
+
+: °£´ÜÈ÷ ÇÏ³ª ¾²°í hmconv¶ó°í ÀÌ¸§ºÙ¿´½À´Ï´Ù.( 
+: ftp://ftp.kaist.ac.kr/incoming/hangul°ú 
+: ftp://korea.stanford.edu/incoming/upload9605¿¡ ¿Ã¸®°Ú½À´Ï´Ù.
+
+  ftp://korea.standford.edu/incoming/upload9604¿¡ ¿Ã·È½À´Ï´Ù.
+
+:   ¼¼ÆÃ ¹æ¹ıÀº ´ÙÀ½°ú °°½À´Ï´Ù. 
+:  
+:      - display-filters :    "" /full/path/hmconv -u
+
+.............
+
+: 
+:        (ÇÑ±Û sendmailÀÌ ¼³Ä¡µÈ °÷¿¡¼­´Â displayfilter´Â ¼¼ÆÃÇÒ
+:         ÇÊ¿ä°¡ ¾øÀ½)
+
+   ÇÑ±Û sendmailÀÌ ÀÖ´õ¶óµµ displayfilter¸¦ ¼³Á¤ÇÏ´Â °ÍÀÌ
+  ÁÁ°Ú½À´Ï´Ù. ¹Û¿¡¼­ ¿Â ¸ŞÀÏÀº ÇÑ±Û sendmailÀÌ ÀÌ¹Ì 
+  ISO->KSC º¯È¯À» ÇØ¼­ displayfilter°¡ ÇÊ¿ä¾øÁö¸¸, 
+  ÀÚ½ÅÀÌ  º¸³½ ¸ŞÀÏÀº sendingfilter¸¦ °ÅÄ¡¸é¼­ 
+  ISO-2022-KR·Î ÀúÀåµÇ¹Ç·Î ÀÌ°ÍÀ» º¼¶§¿¡´Â 
+  displayfilter¸¦ ¾²½Ã´Â °ÍÀÌ ÁÁ°Ú½À´Ï´Ù.  »ç½Ç,
+  'hmconv -u'´Â ISO-2022-KRÀÌ ¾Æ´Ï¸é ¾Æ¹«·± ÀÏµµ
+  ÇÏÁö ¾ÊÀ¸¹Ç·Î, ÀÌ°ÍÀ» ¼¼ÆÃÇØµµ ÇØ°¡ µÉ °ÍÀÌ ¾ø½À´Ï´Ù.
+
+   ½ÅÁ¤½Ä
+From hangul-request@cair.kaist.ac.kr  Fri May 31 16:37:06 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id QAA05215 for <hangul@cair.kaist.ac.kr>; Fri, 31 May 1996 16:37:05 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id QAA06786 for hangul@cair.kaist.ac.kr; Fri, 31 May 1996 16:38:23 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: Fri, 31 May 1996 16:18:36 +0900
+From: Suh Sun-Il <sunil@medison.co.kr>
+Message-ID: <cleanqp.31AE9D4C.1945@medison.co.kr>
+Organization: Medidas Co LMTd
+Content-Type: text/plain; charset=euc-kr
+Content-Transfer-Encoding: 8bit
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: Solaris¿¡¼­ ÇÑ±Û...
+
+
+Solaris 2.5¸¦ »ç¿ëÇÏ°í ÀÖ½À´Ï´Ù.
+±×·±µ¥, olwmÀ» openwin ¸í·ÉÀ¸·Î ¶ç¿ì¸é °¢ xterm µé¿¡ ÇÑ±ÛÀÌ ³ª¿À´Âµ¥,
+twmÀÌ³ª, mwm, fvwm À» »ç¿ëÇÏ¸é ÇÑ±ÛÀÌ ³ª¿ÀÁú ¾Ê´Â±º¿ä.
+xterm ¿¡¼­ ÇÑ±ÛÀÌ ³ª¿Àµµ·Ï ÇÏ·Á¸é openwin X system¿¡¼­ ¾î¶»°Ô ÇØ¾ßÇÏ´ÂÁö¿ä?
+xlsfonts·Î kodig-medium14 ÀÌ¶õ font°¡ ³ª¿Íµµ, xterm -fn kodig-medium14 & ¸í·ÉÀ»
+»ç¿ëÇÏ¸é xtermÀÌ ´ë»§¸¸ÇÏ°Ô ³ª¿À°í, ÇÑ±ÛÀº Ä¿³ç ¿µ¹® ÀÔ·Âµµ ¾ÈµË´Ï´Ù.
+ÇØ°áÃ¥À» °¡¸£ÃÄÁÖ½Ê½Ã¿ä...
+¶Ç, ²À hantermÀ» ±ò¾Æ¾ß¸¸ ÇÏ´ÂÁö¿ä? ¿Ö hantermÀ» »ç¿ëÇØ¾ß ÇÏ´ÂÁö¿ä?
+±×¸®°í, ÇÑ±Û editor Áß ±ÇÀåÇÒ ¸¸ÇÑ °ÍÀ» °¡¸£ÃÄÁÖ½Ê½Ã¿ä.
+¹Ì¸® °¨»çµå¸³´Ï´Ù.
+From hangul-request@cair.kaist.ac.kr  Fri May 31 22:48:25 1996
+Received: from xpat.postech.ac.kr (xpat.postech.ac.kr [141.223.100.100]) by cair.kaist.ac.kr (8.6.12h2/8.6.12) with ESMTP id WAA11272 for <hangul@cair.kaist.ac.kr>; Fri, 31 May 1996 22:48:25 +0900
+Received: (from news@localhost) by xpat.postech.ac.kr (8.6.10H1/8.6.10) id VAA14541 for hangul@cair.kaist.ac.kr; Fri, 31 May 1996 21:59:06 +0900
+Received: from GATEWAY by xpat with netnews
+	for hangul@cair.kaist.ac.kr (hangul@cair.kaist.ac.kr)
+To: hangul@cair.kaist.ac.kr
+Date: 31 May 1996 12:56:13 GMT
+From: woong@joun.postech.ac.kr (Kim Dae-Woong)
+Message-ID: <4omq9d$omt@news.postech.ac.kr>
+Organization: POSTECH, Pohang, Korea
+Sender: hangul-request@cair.kaist.ac.kr
+Subject: [Áú¹®] LaTeX¿¡¼­ 600dpi ÆùÆ®¸¦ ¾²´Â ¹æ¹ı?
+
+
+DVIPS config¸¦ 300 DPI·Î ¸ÂÃç ³õ°í ¾²´Ù°¡ 600DPI·Î ¹Ù²å´Âµ¥
+
+ÆùÆ®°¡ ¾ø´Ù°í 300dpi·Î ½ºÄÉÀÏ¸µÇÏ³×¿ä.  ^^; 
+
+600dpi ÆùÆ®¸¦ »ç¿ëÇÏ·Á¸é ¾î¶»°Ô ÇØ¾ß ÇÏ´ÂÁö ¾Ë·ÁÁÖ¼¼¿ä.     
+     
+±×·³ ¹Ì¸® °¨»ç...
+
+ woong@yoobee.postech.ac.kr

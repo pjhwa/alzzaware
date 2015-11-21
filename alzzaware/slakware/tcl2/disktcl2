@@ -1,0 +1,23 @@
+CONTENTS: tkdesk tclx 
+tkdesk:   TkDesk 1.0a2
+tkdesk:
+tkdesk:   TkDesk is a graphical file manager for Unix (esp. Linux) and the X
+tkdesk:   Window System. Compared with other file managers available, it offers
+tkdesk:   the most complete set of file operations and services, plus gives the
+tkdesk:   user the ability to configure most every aspect of TkDesk in a
+tkdesk:   powerful way. The reason for this is the use of Tcl/Tk as the
+tkdesk:   configuration and implementation language. 
+tkdesk:
+tkdesk:   TkDesk's author is Christian Bolik.
+tkdesk:
+tclx:     Extended Tcl (TclX) 7.5.0.
+tclx:  
+tclx:     Extended Tcl (TclX), is a set of extensions to Tcl 7.5, the Tool
+tclx:     Command Language invented by Dr. John Ousterhout. Extended Tcl is
+tclx:     oriented towards Unix system programming tasks and large application
+tclx:     development. Many additional interfaces to the Unix operating system
+tclx:     are provided. Extended Tcl was designed and implemented by Karl
+tclx:     Lehenbauer (karl@NeoSoft.com) and Mark Diekhans (markd@Grizzly.com),
+tclx:     with help in the early stages from Peter da Silva (peter@NeoSoft.com).
+tclx:  
+tclx:  

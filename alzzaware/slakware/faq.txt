@@ -1,0 +1,630 @@
+Slackware FAQ, last revised:  14 May 1996
+
+These are questions people ask me quite often. Hopefully now that they're
+answered here that won't be the case. :^)
+
+-----
+
+Q: After installation, my ethernet, CDROM drive, and/or other hardware that I
+   thought Linux supported doesn't work.  Why?
+
+A: Probably because the kernel you're running doesn't contain the support. 
+   To fix the problem, you'll have to install a kernel that does.  There might
+   a suitable kernel in the /kernels directory on the CDROM, or you can compile
+   a custom kernel for your machine.  This isn't too difficult -- see the 
+   instructions below about compiling a new kernel.  
+
+   You can also try loading the device driver in the form of a kernel module.
+   There are drivers for nearly all the hardware supported by Linux in the
+   /modules directory on the CDROM, or in your /lib/modules directory if you've
+   installed the modules.tgz package.  Take a look at your /etc/rc.d/rc.modules
+   file for examples of how to load these.
+
+-----
+
+Q: Why can't Linux install on my EIDE hard drive?
+
+A: If you are using any of the various "Disk Manager" programs included with 
+   many EIDE drives, you won't be able to use the drive for Linux until you
+   remove it.  These programs are a hack to let DOS use more than 512MB, and
+   render the drive unusable for any other OS.  (Not just Linux... even OS/2
+   has trouble with these)
+
+   The usual method for fixing the problem is to back up everything on the
+   drive, wipe the boot record (FDISK /MBR), reformat, and then reinstall
+   everything.
+
+   NOTE:  Some of the newer 1.3.x kernels claim to be able to work around some
+   of these programs, so you might want to give one of those a try to see if
+   they work.
+
+-----
+
+Q: When I installed Slackware, the system could see my CD-ROM just fine.  But,
+   when I try to boot using LILO or the bootdisk the system doesn't find the
+   CD-ROM drive anymore!  How can I fix this?
+
+A: The problem is probably that you used a bootkernel disk with support for your
+   CD-ROM drive, but didn't install a kernel with support.  
+ 
+   If you're ready to try compiling a kernel, you can easily solve this problem
+   by compiling a custom kernel (see the section about compiling a Linux kernel)
+   or, you can load the CDROM driver in the form of a kernel module.  You can
+   do this by editing the /etc/rc.d/rc.modules file to load the module for your
+   CDROM drive the next time you boot.  
+
+   Here's the section of the file that loads CDROM drive modules:
+
+# These modules add CD-ROM drive support.  Most of these drivers will probe
+# for the I/O address and IRQ of the drive automatically if the parameters
+# to configure them are omitted. Typically the I/O address will be specified
+# in hexadecimal, e.g.: cm206=0x300,11
+#
+#/sbin/modprobe aztcd aztcd=<I/O address>
+#/sbin/modprobe cdu31a cdu31a_port=<I/O address> cdu31a_irq=<interrupt>
+#/sbin/modprobe cm206 cm206=<I/O address>,<IRQ>
+#/sbin/modprobe gscd gscd=<I/O address>
+#/sbin/modprobe mcd mcd=<I/O address>,<IRQ>
+#/sbin/modprobe mcdx mcdx=<I/O address>,<IRQ>
+#/sbin/modprobe optcd optcd=<I/O address>
+# Below, this last number is "1" for SoundBlaster Pro card, or "0" for a clone.
+#/sbin/modprobe sbpcd sbpcd=<I/O address>,1
+#/sbin/modprobe sonycd535 sonycd535=<I/O address>
+#/sbin/modprobe sjcd sjcd=<I/O address>
+
+   To use one of these, edit out the '#' in front of the line for your CDROM
+   drive.  If you know the I/O address and/or IRQ for your board, fill it in on
+   the line.  For example, you might change the sbpcd line to look like this if
+   you've got a SoundBlaster CDROM at 0x300:
+
+/sbin/modprobe sbpcd sbpcd=0x300,1
+
+   If you need to access your CDROM drive so that you can get the modules
+   package installed, use the same bootkernel disk you installed the system 
+   with to get into your machine.  Use a command like this on the LILO prompt,
+   but replace the root device name with the one you used on your machine:
+ 
+   mount root=/dev/hda1
+
+   Once you're logged in, install the modules package:
+
+   installpkg /cdrom/slakware/a*/modules.tgz
+
+-----
+
+Q: Why isn't my Sony CDU-31/33a detected by Linux anymore?  It used to work!
+
+A: From the source code:
+
++ * WARNING -   All autoprobes have been removed from the driver.
++ *             You MUST configure the CDU31A via a LILO config
++ *             at boot time or in lilo.conf.  I have the
++ *             following in my lilo.conf:
++ *
++ *                append="cdu31a=0x1f88,0,PAS"
++ *
++ *             The first number is the I/O base address of the
++ *             card.  The second is the interrupt (0 means none).
++ *             The third should be "PAS" if on a Pro-Audio
++ *             spectrum, or nothing if on something else.
+
+You can also use this option with Loadlin:
+
+C:\LOADLIN\LOADLIN C:\LINUX\VMLINUZ root=/dev/hda1 cdu31a=0x1f88,0,PAS
+
+Or, on the bootkernel LILO: prompt.  Examples:
+
+LILO: ramdisk cdu31a=0x1f88,0,PAS
+
+LILO: mount root=/dev/sda1 cdu31a=0x1f88,0,PAS ro
+
+-----
+
+Q: I can't get the kernel to see a CDROM connected to a Soundblaster 16 IDE!
+
+A: First, be sure you're using the proper kernel -- the one needed in this
+   case is the IDE/ATAPI CDROM type, not the SBPCD type.  Then, if you still
+   have problems, use the secondary IDE channel (IRQ 15 0x170), and make sure
+   the drive is set as master (jumper in the back) and not as slave (a common
+   default).
+
+-----
+
+Q: I can't get the disks made by RAWRITE to boot!
+
+A: First, check that you're using the right size image.  If you use an image
+   meant for a 1.44 MB floppy on a 1.2 MB floppy (or vice-versa) you'll likely
+   see the message "LI" and the boot process will hang.
+
+   Another possibility is a BIOS problem -- a user has reported to me that
+   RAWRITE fails on his machine unless he first does "dir a:" on an MS-DOS
+   floppy.  Apparently this is caused by the BIOS improperly initializing
+   address 0000:0526 (number of sectors) to 11h instead of 12h.  Using "dir"
+   on the device fixes that value.  The affected machine in this case was using
+   "Mr. BIOS" from Unicore Software. 
+
+-----
+
+Q: I was able to install fine, but the installed system won't boot!
+
+A: Slackware uses stripped down kernels to do the actual installation -- in
+   other words, the kernels don't have any more drivers than needed to control
+   only the device needed to complete the installation.  The kernels that are
+   installed to the system are more full featured, with more ethernet, mouse,
+   filesystem, and other drivers.  Sometimes this can lead to hangs at boot
+   time when the kernel misidentifies an piece of hardware that's unusual or
+   at a non-standard port/IRQ.
+
+   When this happens, you need to try a different kernel.  First, use the
+   bootdisk that worked during installation to get your system started.  To
+   do this, boot the disk and enter something like this at the LILO prompt:
+
+   mount root=/dev/sda2
+
+   (if /dev/sda2 is your root Linux partition, otherwise use the appropriate
+   device name for your system)
+
+   Once you've got the system running, install or compile a different kernel.
+   Try to include only the device drivers you need for your hardware.  
+
+   Instructions on compiling the kernel can be found in your kernel source
+   directory (if you installed the kernel source, that is).  The kernel
+   source is usually found in /usr/src/linux.
+
+   Briefly, this is the method for building a new kernel:
+
+   cd /usr/src/linux
+   make config   (then answer the questions about what you need)
+   make dep ; make clean ; make zImage
+
+   If the zImage is successfully built, see an answer below which explains
+   how to install it with LILO or Loadlin, or make a new bootdisk from it.
+   Once you've done that, you might want to clean up /usr/src/linux by cd'ing
+   into it and doing another 'make clean'.
+
+   Good luck!  If you can handle this, you're well on your way to becoming a
+   Linux guru.
+
+-----
+
+Q: Why do I get "network unreachable" under Slackware?
+
+A: There are a couple of possibilities. For most users, things work right out
+   of the box. However, if you're running into this problem here are two
+   workarounds you can try:
+
+   1. Reverse the broadcast and netmask arguments (and their variables)
+      in the call to ifconfig in /etc/rc.d/rc.inet1. Make sure you are
+      not trying to route your own IP address - you shouldn't have to.
+
+   2. Make sure /etc/networks is properly configured.
+
+   3. You may want to try the 'netconfig' script (in the package netcfg.tgz).
+      It's not perfect, but does a pretty good job. 
+
+   4. Make sure the kernel you're using supports your hardware.  Most of the
+      kernels provided with Slackware include a /boot/config.in file where you
+      can look up the compilation options.
+
+-----
+
+Q: Why the $%#@! isn't my UltraStor SCSI detected? It works under DOS!
+
+A: Set the I/O address to 0x340 instead to 0x330.
+ 
+   For any hardware that doesn't work, a good rule is to try playing around
+   with the IRQ and I/O settings on it to see what happens. If your system
+   is up and running and you're having problems with a CD-ROM or tape or
+   something like this, you can always look around for the driver source in
+   /usr/src/linux/drivers... really, it won't bite!  Often, the source 
+   contains important documentation, such as the default IRQ settings for
+   that type of device, and the major number for the entry in /dev. Also,
+   try other bootkernels and see if that helps.
+
+-----
+
+Q: If the setup menus for NFS installation don't work, how can I setup the
+   network manually before starting setup?
+
+A: Once your Linux machine is listed in the hosts /etc/exports (if the whole
+   network is not already), you might need to do these things before running
+   setup.  This is usually only needed if the NFS server is on a different
+   subnet than your Linux machine:
+
+# Setup the loopback device:
+ifconfig lo 127.0.0.1
+route add -net 127.0.0.0
+
+# Setup the network:
+ifconfig eth0 1.2.3.4        # 1.2.3.4 is the ip number of my machine.
+route add -net 1.2.3.0
+route add default gw 1.2.3.1 # in this example, the ip address of our NFS 
+                             # server is 1.2.31.4 and belongs to a different
+                             # network.
+
+-----
+
+Q: My IBM Thinkpad won't load the rootdisk into a ramdisk correctly, so I 
+   can't install Linux.  What can I do?
+
+A: The disk-changed sensor on some Thinkpads works a little differently.  This
+   can be worked around -- just specify "floppy=thinkpad" when booting:
+
+   boot:  ramdisk floppy=thinkpad
+
+   ... on the bootdisk's LILO prompt.
+ 
+-----
+
+Q: My large (> 1/2 gig) IDE drive reports more than 16 heads, and as a 
+   result Linux won't install on it. What can I do?
+
+A: See the file /docs/mini/Large-IDE for instructions on how to make it work.
+   (Thanks to Bob DiMarco for forwarding this to me, and Patrick LoPresti for
+   compiling the information in the first place)
+
+   Note that newer kernels (> 1.1.40) will do this translation for you 
+   automatically, and thus make the workaround unnecessary.
+
+-----
+
+Q: How do I make a Slackware bootkernel disk with this new kernel I made?
+
+A: OK, well you grab an existing one like the "bare.gz", put it on a floppy,
+   and do this:
+
+   mount /dev/fd0 /mnt (this mounts it)
+   cat zImage > /mnt/vmlinuz (put the new kernel in place)
+   rdev -R /mnt/vmlinuz 0    (mount read-write)
+   rdev /mnt/vmlinuz /dev/fd0H1440   (use that drive, or /dev/fd0h1200)
+   rdev -r /mnt/vmlinuz 1440 (set the ramdisk size, or use 1200 with 1.2 meg)
+   lilo -r /mnt  (reinstall lilo)
+   umount /mnt   (that's it! you're done! :^)
+
+   If you want it to stop and give the message to switch disks, you'll need the
+   ramdisk.c patch in /pub/linux/slackware/kernels on ftp.cdrom.com. I have no
+   idea if this will still patch into the newest kernels. Otherwise, you don't
+   really need it if you're brave enough to just switch the new disk in as soon
+   as you see the "Uncompressing Linux..." message. It's always worked for me.
+
+-----
+
+Q: My backspace is acting strangely under X?  How can I fix it?
+
+A: Well, I've never noticed a real problem, but I occasionally hear 
+   about this.  You might want to try adding this to your .Xmodmap in
+   /usr/X11/lib/X11/xinit or $HOME:
+
+keycode 22 = BackSpace
+
+-----
+
+Q: I just built a new kernel. Now how to I go about replacing my existing
+   kernel with this new zImage file?
+
+A: First, you must prepare the new kernel. If you're using UMSDOS, you'll want 
+   your system to boot read-write. Otherwise, you'll want it to boot read-only
+   so your filesystems can be safely checked. So, do this:
+
+   For UMSDOS:
+      rdev -R zImage 0
+   For any other filesystem type:
+      rdev -R zImage 1
+
+   Then, you'll need to set the root partition. For example, if your root 
+   Linux partition is /dev/hda2, you'd do this:
+ 
+      rdev zImage /dev/hda2
+
+   Then, you can set a video mode if you like. As an example, this sets normal
+   80x25 console mode:
+
+      rdev -v zImage -1
+
+   Other modes include:  -3 = Prompt, -2 = Extended VGA. You might need to 
+   remove a line in your /etc/lilo.conf that forces normal video if you use
+   LILO and wish to try an extended video mode.
+
+   Next, you need to install the kernel. If you boot from a floppy disk, you
+   can simply stick a formatted floppy into your drive and write the zImage
+   to it like this:
+
+   cat zImage > /dev/fd0
+
+   If you use lilo, you should copy the zImage to where your lilo.conf expects
+   it to be and then reinstall lilo. This should work if you used Slackware's
+   liloconfig script to set up LILO. (this is the script setup uses)
+
+   cp zImage /vmlinuz ; lilo
+  
+   You may wish to back up your existing /vmlinuz first.
+
+   If you use Loadlin, copy the kernel to your DOS partition where Loadlin can
+   see it (if you use UMSDOS, you won't need to do this).  Then, start Linux
+   from DOS like this:  
+
+     c:\loadlin\loadlin.exe c:\linux\vmlinuz root=/dev/hda2
+
+   That should do it.
+   
+-----
+
+Q: Why can't I cut and paste from elvis (vi) in an xterm?
+
+A: Later versions of elvis use the mouse for cursor positioning instead. If
+   you want to cut and paste, hold the left shift key down while you use the
+   mouse.
+
+-----
+
+Q: Why doesn't my bus mouse work? The kernel, selection, the
+   X server and test-mouse all say "no such device."
+
+A: The kernels distributed with Slackware don't have the drivers for
+   busmice compiled in. Last time I tried to include all of them there
+   were horrible driver conflicts -- better to leave them out if they
+   can't coexist.  Obviously, it's not feasible for me to provide 
+   versions of every precompiled kernel for each type of busmouse. I 
+   only have a 386. ;^)
+
+   The solution is to get the kernel sources, configure the kernel to 
+   support the your type of mouse and no other mouse devices, and rebuild
+   it. Documentation on how to do this is included in the kernel
+   source, i.e. the kernel.tgz package found in the D series. You will
+   also need at least the gcc.tgz, include.tgz, libc.tgz, and binutils.tgz
+   packages from the D series to rebuild the kernel.
+
+-----
+
+Q: I see my SoundBlaster/Panasonic CD-ROM detected at boot, but I can't
+   install from it or mount it. What's going on?
+
+A. Try setting to drive's ID to 0. This is expected by the install disks.
+   There should be a jumper on the back of the drive that selects this --
+   just move it to the leftmost position.
+
+-----
+
+Q: I'm using UMSDOS and would like to use the same swapspace under Windows
+   and Linux. Can this be done?
+
+A: If you want to share a Linux-UMSDOS swapfile with MS-Windows, you can
+   do the following:
+
+   1. Create PERMANENT(!) swap file in MS-Windows with size NNNN kbytes.
+   2. In /etc/rc.d/rc.local add the following lines:
+
+   rm -f /DOS/windows/spart.par  <--- Needed in order to suppress
+                                      Windows complain on next start!
+   mkswap /DOS/386spart.par NNNN
+   sync
+   swapon /DOS/386spart.par
+
+   3.In /etc/rc.d/rc.0 add "swapoff" for this file.
+
+-----
+
+Q: What's the password for root on the install disk?
+
+A: There isn't one. If you're asked for one, it usually means that you
+   don't have enough memory to install.
+
+   To help work around this, look in your CMOS settings and make sure you don't
+   have any ROM shadowing enabled. ROM shadowing wastes memory and won't
+   improve the performance of Linux. Also, make sure you're using the smallest
+   bootkernel disk you can. For example, you don't need to use "scsinet" if
+   you're not installing to a SCSI drive via NFS. Use something small -- the
+   "bare" disk if you can get away with it. Some people mistakenly think they
+   need to use a bootkernel disk with network drivers if they plan to use
+   networking after installation. Not so! The drivers on the bootkernel disk
+   have no impact on what you can use *after* installation -- in almost all
+   cases you won't be running the same kernel on your installed system as
+   you used to install it.
+
+-----
+
+Q: How can I install and remove software now that the Slackware Linux 
+   distribution is installed on my machine?
+
+A: To remove packages, type "pkgtool" and follow the prompts. Pkgtool will
+   also allow you to add packages that are in the current directory.
+
+   The preferred way to install software is with the "setup" script.
+   When you do your initial installation, setup puts a copy of itself in your 
+   /sbin for future use. You can also add software to your machine using the 
+   boot/install disk, if you really want to. 
+
+   When adding software to a running system via NFS, it is preferable to
+   mount the partition yourself and then use the 'install from a mounted
+   directory' feature of setup.
+
+   There are also command line utilities that allow you to create, install,
+   and remove packages. For these, you should refer to the manpages:
+   installpkg(8), removepkg(8), makepkg(8), explodepkg(8). A simple example
+   of how you would install a package with installpkg:
+
+   installpkg package.tgz
+
+-----
+
+Q.  How do I know what files setup/pkgtool/installpkg is putting where ?
+
+A.  Look around in /var/adm/packages.
+    Similarly, you can find installation scripts for each package in 
+    /var/adm/scripts.
+
+-----
+
+Q: I set my partitions to "Linux native" but Slackware still won't detect
+   them! What can I do?
+
+A: This problem is rare and I still don't know what causes it.
+
+   [ Note that this is not the same problem that usually affects the IBM PS/1,
+   Thinkpad, and similar machines that do not detect the harddrive. If you've
+   got one of these machines, and fdisk is giving you problems, your answer is
+   still ahead :^) ]
+
+   Here's a workaround you can use to install anyway:
+
+   1. Start tty12 or tty144 using one of the bootkernel disks.
+   2. Make and format partitions for Linux.
+   3. Mount the target partitions under /mnt.
+   4. Type "setup -target_mounted"
+   5. Follow the rest of the instructions to install.
+   6. Type "vi /mnt/etc/fstab" and enter an appropriate fstab.
+      As an example, here's what mine contains:
+
+/dev/hdb2   swap    swap   defaults 
+/dev/hda2   /       ext2   defaults
+/dev/hda3   /usr    xiafs  defaults 
+/dev/hda1   /dos    msdos  defaults 
+/dev/hdb1   /os2    msdos  defaults 
+none        /proc   proc   defaults
+
+   To give you some more info about this file, the first field is the
+   partition to be mounted, the second is where it should be mounted, the
+   third is the filesystem type, and the last field is the options to use.
+   Unless you're a Linux wizard, just set this to "defaults".
+
+   Other things to remember about this file:
+      - Make sure that you list the root partition before any other partitions
+        that are mounted beneath it.
+      - Add the /proc line, or "ps", "w", etc, won't work.
+      - It's a good idea to put a blank line at the end of the file, as I've
+        had reports that partitions listed on the last line might not be 
+        mounted.
+
+   7. Once you've made and saved this file you can reboot with ctrl-alt-delete.
+
+-----
+
+Q: I have a (PS/1 || Valuepoint || Thinkpad), and can't install because fdisk
+   can't see my hard drive. How can I get around this?
+
+A: You'll need to enter your drive parameters at the bootkernel prompt. You
+   can even specify the geometry for your second IDE drive by supplying a
+   second  hd= parameter right after the first one. 
+
+   When you boot the bootkernel disk, you'll see more information about the
+   format used to pass your drive parameters to the kernel at the LILO prompt
+   and allow your drive to be recognized.
+
+   You'll have to edit your lilo.conf file to add a similar hd= flag if you
+   want LILO to work. Add this as the TOP line in the file:
+
+   append="hd=cyl,hds,secs"
+
+   Where "cyl", "hds", and "secs" are the number of cylinders, sectors,
+   and heads on the drive.
+
+   If you have two IDE drives, specify both drives (like this):
+
+   append="hd=967,13,31 hd=944,14,40"
+
+-----
+
+Q: Why do my /etc/issue and /etc/motd keep resetting themselves at boot time?
+
+A: The /etc/rc.d/rc.S resets them out every time you boot after figuring out
+   which kernel you're running -- otherwise the kernel version printed at login
+   might not stay current.
+
+   If you want to write your own /etc/issue and /etc/motd, you need to comment
+   out that part of /etc/rc.d/rc.S.
+
+-----
+
+Q: Emacs dumps core, complains of a missing library, or lacks X11 support! Why?
+
+A: The GNU Emacs series includes your choice of a version with X11 support, or
+   one without. Make sure you have the right binary for your machine. 
+
+   The binary supporting X11 is installed as part of a package on the first 
+   disk that you'll need to install whether you want X11 support or not. If
+   you DO NOT want X11 support, install the package 'emac_nox.tgz' on the last
+   disk of the Emacs series.
+
+   If you just install all of the disks, you don't get X11 support. It had to
+   be one way or the other, so if you're not paying attention when you install
+   at least this way it will run no matter what.
+
+-----
+
+Q: Why do my compiles sometimes die with 'signal 11: internal compiler error'?
+
+A: This indicates a hardware problem in about 99% of the cases. It can usually
+   be fixed by increasing the number of wait states in the CMOS settings. It
+   can almost always be fixed by turning off the RAM cache, but this should be
+   your last resort since it will cause a noticeable slowdown.
+
+-----
+
+Q: How can I change (or get rid of) the color ls?
+
+A: Read the man page, and check out the file /etc/DIR_COLORS. You can
+   configure the colors any way you like, or shut them off entirely. Also, you
+   can copy /etc/DIR_COLORS into your home directory as '.dir_colors' to 
+   override the global defaults on a user by user basis.
+
+-----
+
+Q: I start X with "openwin" and it works OK, but I can't switch virtual
+   consoles. Why?
+
+A: On a Linux text screen, you switch virtual consoles with Alt-F1 through 
+   Alt-F8. Under XFree-86, you must use Ctrl-Alt-F1 through Ctrl-Alt-F8. 
+   Another useful 'secret' key combination is RightShift-PgUp/PgDown for
+   scrollback. (a random amount ranging from none to a few pages, depending
+   on the state of your video text buffer memory)
+
+-----
+
+Q: Why can't I use the new ghostscript with X?
+
+A: Make sure you have gs_x11.tgz from disk XAP1 installed.
+
+-----
+
+Q: I can't get anything to work at all! What's the deal?
+
+A: If you seem to suffer catastrophic failure (!), then check the file FILE_LIST
+   on ftp.cdrom.com in /pub/linux/slackware against the contents of your disks
+   and make sure you're not missing any files. 
+
+   Also, I've noticed that most of the reports of kernel panics and system 
+   hangs have come from people with 4MB. If you're running into these types
+   of problems I'd suggest forking over the $$$ for 4 more meg. I have 8 MB of
+   RAM and never have crashes. (well, only when I really push my luck)
+   If you don't want to do that, then go through your /etc/rc.d/rc.* files and
+   get rid of any daemons you don't use, like crond, lpd, or selection.
+
+   If you've got 4 MB and you're getting 'virtual memory exceeded in new'
+   warnings, make sure you set up and activate a swap partition before running
+   setup. If you're really hard up on memory, you can boot a rootdisk using
+   'editroot' instead of one of the usual boot kernels. This will mount the 
+   floppy in the root drive, and you'll have to install from the other drive
+   or from the hard drive. You will also not be able to create any kind of boot
+   disk, so you'll have to install LILO and take your chances. I only suggest
+   using this approach if a swapfile will not work.
+
+-----
+
+Q: How do I make a bootkernel disk that uses a custom kernel?
+
+A: Look in the ./kernels subdirectory. You'll find complete instructions
+   on how to make them in there.
+
+-----
+
+Also - at ftp.gwdg.de:/pub/linux/install-mount/slack-info are some more
+networking hints.
+
+In addition, the LDP people have put out an excellent set of manuals that I
+may include in a future Slackware release. These are available on
+sunsite.unc.edu in /pub/Linux/docs/LDP.
+
+---
+Patrick Volkerding
+volkerdi@mhd1.moorhead.msus.edu
+volkerdi@ftp.cdrom.com

@@ -1,0 +1,23 @@
+CONTENTS: libaout linuxinc       
+libaout:  Libraries for the old a.out binary format. (libc-4.7.6)
+libaout:
+libaout:  These libraries are needed if you plan to compile programs in the
+libaout:  a.out binary format.
+libaout:
+libaout:
+libaout:
+libaout:
+libaout:
+libaout:
+libaout:
+linuxinc: Linux 2.0.0 kernel include files
+linuxinc:
+linuxinc: These are the include files from the 2.0.0 Linux kernel, patched for
+linuxinc: the ELF binary format.  You'll need these to compile most system
+linuxinc: software for Linux.  These header files are matched to the current C
+linuxinc: library header files, so you might want to keep using these for your 
+linuxinc: compiles even if you switch to a new Linux kernel.
+linuxinc:
+linuxinc:
+linuxinc:
+linuxinc:

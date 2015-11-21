@@ -1,0 +1,34 @@
+CONTENTS: x312slib x312pex xd_lkit3    
+x312slib: Static versions of the X libraries.
+x312slib:
+x312slib: These are needed to compile static X programs, or to debug X programs
+x312slib: (as with '-g').
+x312slib:
+x312slib:
+x312slib:
+x312slib:
+x312slib:
+x312slib:
+x312slib:
+x312pex:  XFree86 3.1.2 PEX distribution
+x312pex:
+x312pex:  If you would like to use and build PEX programs you will need this
+x312pex:  package in addition to a server that supports PEX.  The distributed
+x312pex:  servers do *not* include PEX support by default - you will have to
+x312pex:  build one using the link kit.
+x312pex:
+x312pex:
+x312pex:
+x312pex:
+x312pex:
+xd_lkit3: XFree86 3.1.2 server linkkit, part three.
+xd_lkit3: 
+xd_lkit3: If you want or need to rebuild an XFree86 3.1.2 server you need this
+xd_lkit3: package in addition to the base configuration and the programmers kit.
+xd_lkit3: It is not needed for other X program development.
+xd_lkit3:
+xd_lkit3: When rebuilding all the servers (including PEX) you will typically
+xd_lkit3: need an additional 10MB of disk space.  If you are building just a
+xd_lkit3: single server you will need 2MB (2.5MB with PEX) of space.
+xd_lkit3: 
+xd_lkit3: 

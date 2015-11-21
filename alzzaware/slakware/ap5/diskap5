@@ -1,0 +1,34 @@
+CONTENTS: texinfo vim zsh       
+texinfo:  GNU texinfo-3.6
+texinfo:
+texinfo:  'Texinfo' is a documentation system that uses a single source file to
+texinfo:  produce both on-line information and printed output.  Using Texinfo,
+texinfo:  you can create a printed document with the normal features of a book,
+texinfo:  including chapters, sections, cross references, and indices.  From the
+texinfo:  same Texinfo source file, you can create a menu-driven, on-line Info
+texinfo:  file with nodes, menus, cross references, and indices.
+texinfo:
+texinfo:  This package is needed to read the documentation files in /usr/info.
+texinfo:
+vim:      Version 3.0 of Vim: Vi IMproved
+vim:
+vim:      Vim is an almost compatible version of the UNIX editor vi. Only the
+vim:      'Q' command is missing (you don't need it). Many new features have
+vim:      been added: multi level undo, command line history, filename 
+vim:      completion, block operations, etc.
+vim:
+vim:
+vim:
+vim:
+vim:
+zsh:      zsh version 2.6.10
+zsh:
+zsh:      Zsh is a UNIX command interpreter (shell) which of the standard shells
+zsh:      most resembles the Korn shell (ksh), although it is not completely
+zsh:      compatible.  It includes enhancements of many types, notably in the
+zsh:      command-line editor, options for customizing its behavior, filename
+zsh:      globbing, features to make C-shell (csh) users feel more at home and
+zsh:      extra features drawn from tcsh (another 'custom' shell).  Zsh was 
+zsh:      written by Paul Falstad.
+zsh:
+zsh:

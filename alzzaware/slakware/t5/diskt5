@@ -1,0 +1,89 @@
+CONTENTS: ntb-mf ntb-utl2 ntb-utl3 ntb-xfig ntm-amst ntm-arab ntm-germ ntm-pict       
+ntb-mf:   ntb-mf 1.2
+ntb-mf:
+ntb-mf:   This package contains the binaries for MetaFont, the bases mf.base
+ntb-mf:   (plain.base) and cmmf.base (cmplain.base) and the basic setup for the
+ntb-mf:   font directories. The current version of MetaFont is 2.71 (C version 
+ntb-mf:   6.1).
+ntb-mf:
+ntb-mf:
+ntb-mf:
+ntb-mf:
+ntb-mf:
+ntb-utl2: ntb-utl2 1.1 
+ntb-utl2:
+ntb-utl2: This package contains the binaries for the utilities gftodvi, gftopk,
+ntb-utl2: gftype, mft, pktogf, and pktype.
+ntb-utl2:
+ntb-utl2:
+ntb-utl2:
+ntb-utl2:
+ntb-utl2:
+ntb-utl2:
+ntb-utl2:
+ntb-utl3: ntb-utl3 1.1
+ntb-utl3:
+ntb-utl3: This package contains the binaries for the utilities pltotf, tftopl,
+ntb-utl3: vftovp and vptovf.
+ntb-utl3:
+ntb-utl3:
+ntb-utl3:
+ntb-utl3:
+ntb-utl3:
+ntb-utl3:
+ntb-utl3:
+ntb-xfig: ntb-xfig 1.1
+ntb-xfig:
+ntb-xfig: This package contains the binaries for xfig, an interactive drawing
+ntb-xfig: tool under X. xfig can create fig, epsf and LaTeX files with various
+ntb-xfig: options.  You also have to install ntb-traf so that xfig can export
+ntb-xfig: fig files as epsf and LaTeX files. This package also contains a set
+ntb-xfig: of basic examples of fig files (see /usr/lib/texmf/xfig/examples).
+ntb-xfig:
+ntb-xfig:
+ntb-xfig:
+ntb-xfig:
+ntm-amst: ntm-amst 1.1
+ntm-amst:
+ntm-amst: This package contains the macros for AMSTeX. AMSTeX is used to typeset
+ntm-amst: mathematical articles and books and developed by the American
+ntm-amst: Mathematical Society.
+ntm-amst:
+ntm-amst:
+ntm-amst:
+ntm-amst:
+ntm-amst:
+ntm-amst:
+ntm-arab: ntm-arab 1.2
+ntm-arab:
+ntm-arab: This package includes the ArabTeX macros and fonts to typeset Arabian
+ntm-arab: texts.
+ntm-arab:
+ntm-arab:
+ntm-arab:
+ntm-arab:
+ntm-arab:
+ntm-arab:
+ntm-arab:
+ntm-germ: ntm-germ 1.0
+ntm-germ:
+ntm-germ: This package contains some stylefiles for German typesetting.
+ntm-germ:
+ntm-germ:
+ntm-germ:
+ntm-germ:
+ntm-germ:
+ntm-germ:
+ntm-germ:
+ntm-germ:
+ntm-pict: ntm-pict 1.0
+ntm-pict:
+ntm-pict: This package contains the PicTeX macros.
+ntm-pict:
+ntm-pict:
+ntm-pict:
+ntm-pict:
+ntm-pict:
+ntm-pict:
+ntm-pict:
+ntm-pict:

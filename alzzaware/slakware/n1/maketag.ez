@@ -1,0 +1,57 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING PACKAGES FROM SERIES N (NETWORK/NEWS/MAIL/UUCP)" \
+       --checklist "Please select the packages you wish to install \
+from series N. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the packages you wish to install. Recommended packages have \
+already been selected for you, but you may unselect them if you wish. \
+Press ENTER when you are \
+done." 22 70 11 \
+"apache" "Apache WWW (HTTP) server" "off" \
+"httpd" "NCSA httpd 1.5.2 server" "off" \
+"procmail" "Mail delivery/filtering utility" "off" \
+"dip" "Handles SLIP/CSLIP connections" "off" \
+"ppp" "Point-to-point protocol" "off" \
+"mailx" "The mailx mailer" "on" \
+"tcpip" "TCP/IP networking programs" "on" \
+"bind" "Berkeley Internet Name Domain server" "on" \
+"rdist" "Remote file distribution utility" "off" \
+"lynx" "Text-based World Wide Web browser" "off" \
+"uucp" "Taylor UUCP 1.06.1 with HDB && Taylor configs" "off" \
+"elm" "Menu-driven user mail program" "off" \
+"pine" "Pine menu-driven mail program" "off" \
+"sendmail" "The sendmail mail transport agent" "on" \
+"metamail" "Metamail multimedia mail extensions" "on" \
+"smailcfg" "Extra configuration files for sendmail" "off" \
+"cnews" "Spools and transmits Usenet news" "off" \
+"inn" "InterNetNews news transport system" "off" \
+"tin" "The 'tin' news reader (local or NNTP)" "off" \
+"trn" "'trn' for /var/spool/news" "off" \
+"trn-nntp" "'trn' for NNTP (install 1 'trn' maximum)" "off" \
+"nn-spool" "'nn' for /var/spool/news" "off" \
+"nn-nntp" "'nn' for NNTP (install 1 'nn' maximum)" "off" \
+"netpipes" "Network pipe utilities" "off" \
+"fetchpop" "POP3 mail retrieval client" "off" \
+"ztelnet" "Zmodem-enabled Telnet" "off" \
+"ncftp" "NcFTP : easy-to-use ftp" "off" \
+"llnlxftp" "X-based interface to FTP" "off" \
+"llnlxdir" "X-based network filemanager" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in procmail ppp mailx tcpip uucp apache \
+dip inn elm pine sendmail metamail smailcfg cnews tin \
+rdist bind trn trn-nntp nn-nntp nn-spool lynx netpipes \
+httpd fetchpop ztelnet ncftp llnlxftp llnlxdir ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

@@ -1,0 +1,104 @@
+#!/bin/sh
+add() {
+  for package in $* ; do
+    echo "$package: ADD" >> /tmp/SeTnewtag
+  done
+}
+skip() {
+  for package in $* ; do
+    echo "$package: SKP" >> /tmp/SeTnewtag
+  done
+}
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING X SERVER FROM SERIES X (XFree86 3.1.2)" \
+       --checklist "Please select the X server you wish to install \
+from series X. \
+In most cases, you'll only want to \
+install the X server needed for your video card, but if you plan to \
+export your /usr partition via NFS, you may need other servers as well. \
+Press ENTER when you are \
+done." 22 70 11 \
+"x3128514" "X server for cards using IBM8514 chips" "off" \
+"x312agx" "X server for cards using AGX chips" "off" \
+"x312ma8" "X server for cards using Mach8 chips" "off" \
+"x312ma32" "X server for cards using Mach32 chips" "off" \
+"x312ma64" "X server for cards using Mach64 chips" "off" \
+"x312mono" "A Monochrome X server" "off" \
+"x312p9k" "X server for cards using P9000 chips" "off" \
+"x312s3" "X server for cards using S3 chips" "off" \
+"x312svga" "X server for SuperVGA cards" "off" \
+"x312vga" "A 16-color generic X server" "off" \
+"x312w32" "X server for cards using the ET4000/W32 chipset" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in x3128514 x312agx x312ma8 x312ma32 x312ma64 x312mono x312p9k \
+x312s3 x312svga x312vga x312w32 ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+dialog --title "SELECTING SOFTWARE FROM SERIES X (XFree86 3.1.2)" \
+       --checklist "Please select the software you wish to install \
+from series X. \
+Recommended items have already been selected. \
+Press ENTER when you are \
+done." 21 70 12 \
+"oldlibs" "Support for a.out X programs like DOOM" "on" \
+"x312doc" "Documentation for XFree86 3.1.2" "off" \
+"fvwmicns" "Color icons from xpm3icons.tar.Z" "off" \
+"x312ubin" "Daemon needed for rstart" "off" \
+"x312man" "Man pages for XFree86 3.1.2" "on" \
+"x312xtra" "Two experimental X servers" "off" \
+"x312f75" "75 dpi fonts" "on" \
+"fnt100" "100 dpi fonts" "off" \
+"fntbig" "Big fonts" "off" \
+"x312fcyr" "Cyrillic fonts" "off" \
+"x312fscl" "Scalable Speedo/Type1 fonts" "off" \
+"xlock" "A screensaver/locker for X" "on" \
+"newfn100" "R6.1 added fonts 100 dpi" "off" \
+"newfn75"  "R6.1 added fonts 75 dpi" "off" \
+"hkodic" "Hanyang Gothic Fonts" "off" \
+"hmeyong" "Hanyang Myeongjo Fonts" "off" \
+"3dicn256" "256 color 3D icons" "off" \
+"3dicons" "TrueColor 3D icons" "off" \
+"xforms" "XForm Library" "off" \
+"hanx" "HanX 2.10.7 ELF - at your own risk" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+add x312cfg x312bin x312lib xpm x312fnt x312ctrb x312inc
+add johabfnt
+if fgrep \"oldlibs\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+ add oldlibs5 oldlibs6
+else
+ skip oldlibs5 oldlibs6
+fi
+if fgrep \"fnt100\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+ add fnt100_1 fnt100_2
+else
+ skip fnt100_1 fnt100_2
+fi
+if fgrep \"fntbig\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+ add fntbig1 fntbig2 fntbig3
+else
+ skip fntbig1 fntbig2 fntbig3
+fi
+for PACKAGE in x312doc fvwmicns x312ubin x312man x312xtra x312f75 \
+x312fscl x312fcyr xlock newfn100 newfn75 hkodic hmeyong 3dicn256 \
+3dicons xforms hanx ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

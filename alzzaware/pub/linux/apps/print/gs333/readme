@@ -1,0 +1,25 @@
+
+	ghostscript-3.33.tar.gz
+
+ 고스트스크립트 3.33 소스입니다. 밑에 있는 ghostscript-3.33jpeg.tar.gz 도 같이
+있어야 합니다.
+
+	ghostscript-3.33jpeg.tar.gz
+
+ 고스트스크립트 3.33 컴파일에 필용한 jpeg 지원 소스입니다.
+
+	ghostscript-3.33pc.tar.gz
+
+ 도스/윈도우 3.1 용 바이너리들입니다.
+
+	ghostscript-fonts-std-3.33.tar.gz
+
+ 고스트스크립트 3.33 기본 폰트입니다.
+
+	ghostscript-fonts-other-3.33.tar.gz
+
+ 고스트스크립트 3.33 나머지 폰트입니다.
+
+
+						- 알짜웨어 제작팀 -
+

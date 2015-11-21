@@ -1,0 +1,46 @@
+These are root-install disks for Slackware96 (version 3.1.0)
+
+You will need one of these disks to install Linux. The disk is created by 
+writing the image out with RAWRITE.EXE under DOS.  For example, to make the
+color.gz rootdisk, you'd put a formatted floppy in your floppy drive, and then
+run this command:
+
+C:\> RAWRITE COLOR.GZ A:
+
+Normally you do not need to decompress these disks -- the kernel will do that as
+it loads them.  These disks may be written to 1.44MB or 1.2MB floppies.  Note
+that if you plan to mount the rootdisk instead of loading it into a ramdisk 
+(using the method outlined in LOWMEM.TXT for machines with only 4MB) then you
+must decompress the image with GZIP.EXE before writing it out to a floppy.
+
+
+Here's a description of the choices:
+
+--------------------------------------------------------------------------------
+
+color.gz: A root-install disk using an easy-to-use new full-screen color
+install program. NOTE: This version of the install system is not forgiving of
+extra keystrokes entered between screens, so type carefully.
+
+umsdos.gz: A version of the color install disk using UMSDOS - a filesystem
+that allows you to install Linux into a directory on an existing MS-DOS
+partition. Not as fast as ext2 or xiafs, but it works, and you don't have to
+repartition your drive. See README.UMS for more information.
+
+text.gz: A root-install that uses text-based install scripts.  This is actually
+preferred by some people since you can back up to look at error messages using
+Shift-PageUp.  In addition, all of the new keymaps should be supported.
+
+tape.gz: A semi-experimental disk designed to support installation from tape.
+See the file README_T.APE for more information about this disk.
+
+pcmcia.gz: A version of the text install disk designed for installing via NFS
+to a laptop with a PCMCIA ethernet card.
+
+Also:
+
+rescue.gz:  This is a rootdisk with an editor (vi), lilo, e2fsck, and other 
+utilities.  It's useful for getting into your machine if you ever get locked
+out due to improper lilo installation or some other misconfiguration.
+
+--------------------------------------------------------------------------------

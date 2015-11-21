@@ -1,0 +1,61 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING PACKAGES FROM SERIES XAP (X APPLICATIONS)" \
+       --checklist "Please select the packages you wish to install \
+from series XAP. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the packages you wish to install. Recommended packages have \
+already been selected for you, but you may unselect them if you wish. \
+Press ENTER when you are \
+done." 21 70 10 \
+"arena" "A graphical browser for the World Wide Web" "off" \
+"fvwm95" "A manager like Win95 (non-Hangul)" "off" \
+"gs_x11" "Adds X11 driver to Ghostscript" "on" \
+"libgr" "Shared libraries with GIF, TIFF, JPEG support" "on" \
+"seyon" "A complete telecommunications package" "on" \
+"gnuplot" "Gnuplot function plotting utility" "off" \
+"xv" "XV GIF/TIFF/JPEG/PostScript Image Viewer" "on" \
+"gchess" "GNU chess and xboard" "off" \
+"xfm" "xfm, an X windows filemanager" "off" \
+"xfileman" "another X filemanager" "off" \
+"ghstview" "Ghostview 1.5" "on" \
+"x3270" "x3270 3.0.1.3 - IBM host access tool" "off" \
+"xgames" "A collection of X windows games" "off" \
+"xfract" "Fractint for X" "off" \
+"xpaint" "A color painting/image editing program" "off" \
+"xspread" "An X windows spreadsheet" "off" \
+"xxgdb" "xxgdb-1.12" "off" \
+"geomview"      "Geomview 3D Object Presentation Tool"       "off" \
+"xmgr"          "XMgr v3.01pl7 - Drawing Graphs"         "off" \
+"mosaic"        "NCSA Mosaic 2.6 (only 8bpp)" "off" \
+"emiclock"      "Very cute clock, EmiClock"                "off" \
+"neko"          "X Neko"          "off" \
+"xfig21"        "xfig, X11 Object Drawing Tool! -RECOMMENDED"     "on" \
+"xfish20"       "X11 aquarium (TrueColor version)"      "off" \
+"xmailbox"      "Mail Checker - XMailBox 2.4"         "off" \
+"coolmail"      "Mail Checker -Coolmail 3D effect"           "off" \
+"xpostit"       "XPostit+ 2.2"               "on" \
+"xanim"         "XAnim 2.70.6.2, Multimedia Viewer"          "on" \
+"raplayer"      "RealAudio Player( WWW Plugin )"    "off" \
+"executor"      "X Mac Emulator : Executor"             "off" \
+"plan"          "X Day Planner V1.5"  "off" \
+"xmixer"	"X11 Audio Mixers" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in gchess xfm ghstview x3270 xgames xspread xxgdb \
+arena xfileman gnuplot gs_x11 libgr seyon xv \
+fvwm95 xfract xpaint xfig21 emiclock neko xfish20 xpostit \
+xmailbox geomview mosaic xmgr xanim raplayer executor coolmail plan \
+xmixer ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

@@ -1,0 +1,40 @@
+Updated Sept. 1995, for new email address and BASH bug--- D.Jeff Dionne
+
+The maintainer of this port has changed email addresses to
+Jeff@RyeHam.EE.Ryerson.Ca  OR
+VE3DJF@BBS.VE3RPI.ampr.org  (for Amateur radio people).
+
+There is a bug in BASH 1.14.4 that causes spice3f4 not to build correctly.
+If you have a problem building the package, check this first.  The affected
+version of BASH came with at least one widely distributed Slackware releases,
+so this problem is common.
+
+Original file from here down......
+
+This is my port of Spice3f4 to Linux.  It required a few more changes
+than the porting document indicated would be necessary, mostly to do
+with supported/unsupported functions in Linux libc & libm.
+
+I've tried to make these changes in as as portable a way as possible,
+so it should build cleanly on other Unicies, however I've removed the 
+MS-DOS support so the tarred and gziped source fits on one disk.
+
+To build spice3, first have a look in the file readme, but you should
+be able to just do...
+
+./util/build linux
+./util/build install linux
+
+Note that there is a modifyer "gcc" you can try if you have trouble, but
+it claims to work around some obscure bug in gcc that I'm positive got 
+fixed eons ago.  To use it anyway, do ./util/build linux gcc.
+
+I found this source through archie, (look for spice3f3.tar.Z, and then
+patched it to 3f4 with patches from ic.berkeley.edu), I assume that the
+ftp site I got it from has read thier license from Berkeley, which if
+it's the same as the 3e2 license states that the holder can distribute 
+copies free of charge provided it does not fall into hands unfriendly 
+to the U.S.  So... I guess if that's you, please destroy all copies of this
+you might have!
+
+Jeff@EE.Ryerson.Ca

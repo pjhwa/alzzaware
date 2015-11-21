@@ -1,0 +1,23 @@
+CONTENTS: x312s3 x312svga       
+x312s3:   An accelerated server for cards using S3 chips.
+x312s3:
+x312s3:   The current S3 Server supports all available S3 chipsets: 911, 924,
+x312s3:   801/805, 928, 732 (Trio32), 764 (Trio64), 864, 868, 964, and 968.  
+x312s3:   However, this does not mean that all S3 boards will work -- see the
+x312s3:   XFree86 docs for complete information.
+x312s3:
+x312s3:   Installing this package will create a link in /usr/X11R6/bin from
+x312s3:   XF86_S3 to X, setting this server as the default.
+x312s3:
+x312s3:
+x312svga: A server for SuperVGA video cards.
+x312svga:
+x312svga: Installing this package will create a link in /usr/X11R6/bin from
+x312svga: XF86_SVGA to X, setting this server as the default.
+x312svga:
+x312svga:
+x312svga:
+x312svga:
+x312svga:
+x312svga:
+x312svga:

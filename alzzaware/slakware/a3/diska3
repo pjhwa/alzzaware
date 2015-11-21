@@ -1,0 +1,56 @@
+CONTENTS: elflibs find getty gpm hdsetup       
+elflibs:  ELF shared libraries.
+elflibs:
+elflibs:  This is a collection of shared libraries needed to run Linux code in
+elflibs:  the ELF binary format. ELF (Executable and Linking Format) is fast
+elflibs:  becoming the standard Linux binary format, replacing the older a.out
+elflibs:  format. One of the main advantages of ELF over a.out is the ease of
+elflibs:  building and maintaining shared libraries.
+elflibs:
+elflibs:
+elflibs:
+elflibs:
+find:     GNU findutils-4.1
+find:
+find:     This package contains the GNU find, xargs, and locate programs.
+find:     find and xargs comply with POSIX 1003.2, as far as I know.  They
+find:     also support some additional options, some borrowed from Unix and
+find:     some unique to GNU.
+find:
+find:
+find:
+find:
+find:
+getty:    getty_ps 2.0.7i
+getty:
+getty:    /sbin/getty and /sbin/uugetty. 
+getty:    These control the process of logging into your system, and may be used
+getty:    instead of 'agetty', which is the default getty included with the
+getty:    util-linux package. getty_ps supports a number of enhancements such as
+getty:    ringback support.
+getty:
+getty:
+getty:
+getty:
+gpm:      General purpose mouse support v1.09
+gpm:
+gpm:      This program is based on the 'selection' package, and allows you to
+gpm:      use the mouse to cut and paste text from the screen.  It also acts as
+gpm:      a mouse server for applications running on the Linux console, such as 
+gpm:      the Midnight Commander file manager and dialog. 
+gpm:
+gpm:      NOTE:  This program may cause problems when you start X on systems 
+gpm:      that do not use a serial mouse.  If you get an 'unable to open mouse 
+gpm:      device' error from X, remove gpm from /etc/rc.d/rc.local.
+gpm:
+hdsetup:  The Slackware setup/package maintenance system v. 3.1.0
+hdsetup:
+hdsetup:  The full screen and tty versions of setup and pkgtool, two utilities
+hdsetup:  included with Slackware that allow you to easily install software 
+hdsetup:  packages, remove software packages, and review the installed software
+hdsetup:  packages.
+hdsetup:
+hdsetup:  Also contains the command line utilities 'installpkg', 'removepkg',
+hdsetup:  'makepkg', and 'explodepkg' that install, remove, build, and examine
+hdsetup:  software packages. Man pages are included for all of these utilities.
+hdsetup:

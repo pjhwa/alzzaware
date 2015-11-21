@@ -1,0 +1,23 @@
+CONTENTS: x312vga x312w32       
+x312vga:  A server for 16 color EGA/VGA graphics modes.
+x312vga:
+x312vga:  This is a server that uses standard generic video modes -- it works
+x312vga:  with nearly all video hardware (but with only 16 colors).  Installing
+x312vga:  this package will create a link in /usr/X11R6/bin from XF86_VGA16 to
+x312vga:  X, setting this server as the default.
+x312vga:
+x312vga:
+x312vga:
+x312vga:
+x312vga:
+x312w32:  A server for chipsets in the ET4000/W32 series.
+x312w32:
+x312w32:  This server currently supports the w32, w32i, and w32p chips. 
+x312w32:  Installing this package will create a link in /usr/X11R6/bin from
+x312w32:  XF86_W32 to X, setting this server as the default.
+x312w32:
+x312w32:
+x312w32:
+x312w32:
+x312w32:
+x312w32:

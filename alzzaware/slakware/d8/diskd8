@@ -1,0 +1,34 @@
+CONTENTS: libc rcs terminfo       
+libc:     Development libraries for the C compiler.
+libc:
+libc:     These libraries are needed to compile C code in the ELF format.    
+libc:
+libc:     Includes the 5.3.12 Linux C libraries, libcurses 1.0.0, 
+libc:     GNU libgdbm 1.7.3, libtermcap 2.0.8, and BSD db 1.85.4.
+libc:
+libc:
+libc:
+libc:
+libc:
+rcs:      GNU revision control system.  (v. 5.7)
+rcs:
+rcs:      RCS, the Revision Control System, manages multiple revisions of files.
+rcs:
+rcs:      RCS can store, retrieve, log, identify, and merge revisions. It is
+rcs:      useful for files that are revised frequently, e.g. programs,
+rcs:      documentation, graphics, and papers.
+rcs:
+rcs:
+rcs:
+rcs:
+terminfo: Complete /usr/lib/terminfo database.
+terminfo:
+terminfo: This is the the master terminfo database maintained by Eric Raymond.
+terminfo: This database is the official descendant of the 4.4BSD termcap file,
+terminfo: and includes information about virtually every terminal known. The
+terminfo: ncurses libraries use this database to adjust screen output for the
+terminfo: terminal type in use.  Unless you're allowing logins from terminal
+terminfo: types other than the Linux console, xterms, or vt100 terminals, you
+terminfo: probably won't need this database - a minimal /usr/lib/terminfo with
+terminfo: support for those types is included in the ncurses package.
+terminfo:

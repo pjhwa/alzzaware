@@ -1,0 +1,34 @@
+CONTENTS: x312bin x312inc xpm       
+x312bin:  Basic client binaries required for XFree86 3.1.2.
+x312bin:
+x312bin:  Installs these programs in /usr/X11R6/bin: SuperProbe Xmark appres
+x312bin:  atobm bdftopcf beforelight bitmap bmtoa color_xterm editres fsinfo
+x312bin:  fslsfonts fstobdf iceauth imake lbxproxy lndir makedepend mergelib
+x312bin:  mkdirhier mkfontdir oclock reconfig resize rstart rxvt sessreg showrgb
+x312bin:  startx twm x11perf x11perfcomp xauth xclipboard xclock xcmsdb xconsole
+x312bin:  xcutsel xdm xdpyinfo xfd xfs xhost xieperf xinit xkill xlogo xlsatoms
+x312bin:  xlsclients xlsfonts xmag xmh xmkmf xmodmap xon xprop xrdb xrefresh
+x312bin:  xset xsetroot xsm xsmclient xstdcmap xterm xwd xwininfo xwud
+x312bin:
+x312inc:  Header files for X11 programming.
+x312inc:
+x312inc:
+x312inc:
+x312inc:
+x312inc:
+x312inc:
+x312inc:
+x312inc:
+x312inc:
+x312inc:
+xpm:      The Xpm shared and static libraries, v. 3.4c (with libXpm.so.4.3)
+xpm:
+xpm:      These libraries provide a means for X programs to store and retrieve
+xpm:      bitmaps.  The shared libraries are needed to run programs compiled
+xpm:      with Xpm, such as fvwm.
+xpm:
+xpm:
+xpm:
+xpm:
+xpm:
+xpm:

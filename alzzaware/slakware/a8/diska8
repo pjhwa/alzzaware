@@ -1,0 +1,34 @@
+CONTENTS: txtutils util zoneinfo       
+txtutils: GNU textutils-1.13
+txtutils:
+txtutils: These are the GNU text file (actually, file contents) processing
+txtutils: utilities.  Most of these programs have significant advantages over
+txtutils: their Unix counterparts, such as greater speed, additional options,
+txtutils: and fewer arbitrary limits.
+txtutils:
+txtutils: The programs in this package are: cat, cksum, comm, csplit, cut, 
+txtutils: expand, fold, head, join, md5sum, nl, od, paste, pr, sort, split,
+txtutils: sum, tac, tail, tr, unexpand, uniq, and wc.
+txtutils:
+util:     util-linux 2.5
+util:
+util:     Utilities compiled from Rik Faith's huge utility collection:
+util:     agetty arch banner bdflush cal cfdisk chroot clear clock col colcrt
+util:     colrm column ctrlaltdel ddate dmesg dsplit fdformat fdisk fsck.minix
+util:     getoptprog hexdump hostid hostname ipcrm ipcs kbdrate kill last logger
+util:     login look mcookie mesg mkfs mkfs.minix mkswap more namei rdev
+util:     readprofile renice reset rev script selection setfdprm setserial
+util:     setsid setterm sln strings swapon sync test-mouse tsort tunelp ul vipw
+util:     wall whereis write
+util:
+zoneinfo: Time zone utilities
+zoneinfo:
+zoneinfo: Allows you to configure your time zone.
+zoneinfo:
+zoneinfo: Includes zic, zdump, yearistype, and the time zone database in
+zoneinfo: /usr/lib/zoneinfo.  Use the timeconfig utility to set your local time
+zoneinfo: zone.
+zoneinfo:
+zoneinfo:
+zoneinfo:
+zoneinfo:

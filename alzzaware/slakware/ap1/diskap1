@@ -1,0 +1,111 @@
+CONTENTS: ash bc diff ghostscr gp9600 gsfonts1 joe mt_st quota sudo       
+ash:      Kenneth Almquist's ash shell.
+ash:
+ash:      A lightweight (62K) Bourne compatible shell. Great for machines with
+ash:      low memory, but does not provide all the extras of shells like bash,
+ash:      tcsh, and zsh. Runs most shell scripts compatible with the Bourne
+ash:      shell. Note that under Linux, most scripts seem to use at least some
+ash:      bash-specific syntax. The Slackware setup scripts are a notable
+ash:      exception, since ash is the shell used on the install disks. NetBSD
+ash:      uses ash as its /bin/sh.
+ash:
+ash:
+bc:       GNU bc 1.03 - An arbitrary precision calculator language.
+bc:
+bc:       bc is a language that supports arbitrary precision numbers with 
+bc:       interactive execution of statements.  There are some similarities in
+bc:       the syntax to the C programming language.
+bc:
+bc:
+bc:
+bc:
+bc:
+bc:
+diff:     GNU diffutils-2.7
+diff:
+diff:     The GNU diff utilities - finds differences between files. (to make
+diff:     source code patches, for instance)
+diff:
+diff:
+diff:
+diff:
+diff:
+diff:
+diff:
+ghostscr: Ghostscript version 2.6.2
+ghostscr: Preview, print and process PostScript documents on both PostScript and
+ghostscr: non-PostScript devices. This version supports all SVGAlib video modes
+ghostscr: for output directly to the screen. See the man page for 'gs' for more
+ghostscr: information. [NOTE]: The /usr/bin/gs binary included with this package
+ghostscr: does not support X11; support was left out so that Slackware users 
+ghostscr: without X could use SVGAlib output and not need to install the X 
+ghostscr: shared libraries. If you need X11 support, you should also install the
+ghostscr: package 'gs_x11' found on the XAP series. It contains a /usr/bin/gs
+ghostscr: with support for X11 (as well as full SVGAlib support).
+ghostscr:
+gp9600:   Change the default modem speed from 9600 baud.
+gp9600:
+gp9600:   By default, your baud rate will be set to 9600. If you install this
+gp9600:   package, a menu will be presented later which allows you to select any
+gp9600:   of the following baud rates:
+gp9600:
+gp9600:   300, 1200, 2400, 4800, 9600, 19200, 38400.
+gp9600:
+gp9600:   If you need something faster than this, you should set the baud to
+gp9600:   38400, which can be changed to mean a faster rate with setserial.
+gp9600:
+gsfonts1: Fonts for the Ghostscript interpreter/previewer, part one.
+gsfonts1:
+gsfonts1:
+gsfonts1:
+gsfonts1:
+gsfonts1:
+gsfonts1:
+gsfonts1:
+gsfonts1:
+gsfonts1:
+gsfonts1:
+joe:      Joe text editor, 2.2.
+joe:
+joe:      Joseph H. Allen's easy to use text editor, similar to WordStar[tm].
+joe:
+joe:
+joe:
+joe:
+joe:
+joe:
+joe:
+joe:
+mt_st:    mt-st-0.4 - controls magnetic tape drive operation
+mt_st:
+mt_st:    This mt originates from BSD NET-2. Some Linux SCSI tape-specific
+mt_st:    ioctls have been added to the original source and the man page has
+mt_st:    been updated. Although this mt program is tailored for SCSI tape, it
+mt_st:    can also be used with the QIC-02 driver and hopefully with other Linux
+mt_st:    tape drivers using the same ioctls (some of the commands may not work
+mt_st:    with all drivers).
+mt_st:
+mt_st:
+mt_st:
+quota:    Linux disk quota utilities (1.51)
+quota:
+quota:    An implementation of the diskquota system for the Linux operating
+quota:    system -- keeps those greedy users from gobbling up 100% of the hard
+quota:    drive space. Should work for all filesystems because of integration 
+quota:    into the VFS layer of the operating system. This system is a heavily
+quota:    modified version of the Melbourne quota system by Robert Elz, which
+quota:    uses both user and group quota files. Edvard Tuinder <ed@ow.org> and
+quota:    Marco van Wieringen <mvw@planets.ow.org> are responsible for the 
+quota:    additional code and porting effort to make quotas work on Linux.
+quota:
+sudo:     sudo 1.2
+sudo:
+sudo:     'sudo' is a command that allows users to execute some commands as 
+sudo:     root. The /etc/sudoers file (edited with 'visudo') specifies which
+sudo:     users have access to sudo and which commands they can run. 'sudo' logs
+sudo:     all its activities to /var/adm/sudo, so the system administrator can
+sudo:     can keep an eye on things.
+sudo:
+sudo:
+sudo:
+sudo:

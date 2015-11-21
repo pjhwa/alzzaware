@@ -1,0 +1,205 @@
+
+The Linux kernel is Copyright 1991, 1992, 1993, 1994 Linus Torvalds (others
+hold copyrights on some of the drivers, filesystems, and other parts of the
+kernel) and is licensed under the terms of the GNU General Public License.
+
+(see COPYING in /usr/src/linux)
+
+---------------
+
+Many other software packages included in Slackware are licensed under the GNU
+General Public License, which is included in the file COPYING.
+
+----------------
+
+ This product includes software developed by the University of
+ California, Berkeley and its contributors:
+
+ Copyright (c) 1980,1983,1986,1988,1990,1991 The Regents of the University
+ of California.  All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. All advertising materials mentioning features or use of this software
+    must display the following acknowledgement:
+    This product includes software developed by the University of
+    California, Berkeley and its contributors.
+ 4. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+-----------------
+
+Copyright notice for the Arena Web browser:
+
+Copyright 1995 by: MIT, INRIA, CERN, Norwegian Telecom, Hewlett-Packard
+
+   This W3C software is being provided by the copyright holders under the
+   following license. By obtaining, using and/or copying this software, you
+   agree that you have read, understood, and will comply with the following
+   terms and conditions:
+
+   Permission to use, copy, modify, and distribute this software and its
+   documentation for any purpose and without fee or royalty is hereby granted,
+   provided that the full text of this NOTICE appears on ALL copies of the
+   software and documentation or portions thereof, including modifications,
+   that you make.
+
+   THIS SOFTWARE IS PROVIDED "AS IS," AND COPYRIGHT HOLDERS MAKE NO
+   REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED.  BY WAY OF EXAMPLE, BUT
+   NOT LIMITATION, COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES OF
+   MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE
+   SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS,
+   COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS. COPYRIGHT HOLDERS WILL BEAR NO
+   LIABILITY FOR ANY USE OF THIS SOFTWARE OR DOCUMENTATION.
+
+   The name and trademarks of copyright holders may NOT be used in advertising
+   or publicity pertaining to the software without specific, written prior
+   permission.  Title to copyright in this software and any associated
+   documentation will at all times remain with copyright holders.
+
+-----------------
+
+Another acknowledgement for software included in the Arena Web browser:
+
+   "This product includes computer software created and made available by CERN.
+    This acknowledgment shall be mentioned in full in any product which
+    includes the CERN computer software included herein or parts thereof."
+
+-----------------
+
+The Slackware distribution contains Info-ZIP's compression utilities. 
+Info-ZIP's software (Zip, UnZip and related utilities) is free and can be 
+obtained as source code or executables from various anonymous-ftp sites,
+including ftp.uu.net:/pub/archiving/zip/*. This software is provided free -
+there are no extra or hidden charges resulting from the use of this 
+compression code. Thanks Info-ZIP! :^)
+
+Zip/Unzip source can also be found in the slackware_source/a/base directory.
+
+-----------------
+
+The Slackware Installation scripts are Copyright 1993, 1994 Patrick Volkerding,
+Moorhead, Minnesota, USA. All rights reserved.
+
+ Redistribution and use of this software, with or without modification, is
+ permitted provided that the following conditions are met:
+
+ 1. Redistributions of this software must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+  EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+  OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-----
+
+Slackware is a trademark of Patrick Volkerding and Walnut Creek CDROM.
+Permission to use the Slackware trademark to refer to the Slackware distribution
+of Linux is hereby granted if the following conditions are met:
+
+1.  In order to be called "Slackware", the distribution may not be altered
+    from the way it appears on the central FTP site (ftp.cdrom.com).  This
+    is to protect the integrity, reliability, and reputation of the Slackware
+    distribution.  Anyone wishing to distribute an altered version must have
+    the changes approved by volkerdi@ftp.cdrom.com (i.e. certified to be
+    reasonably bug-free).  If the changed distribution meets the required
+    standards for quality, then written permission to use the Slackware
+    trademark will be provided.
+
+2.  All related source code must be included.  (This is also required by the
+    GNU General Public License)
+
+3.  Except by written permission from Walnut Creek CDROM, the Slackware
+    trademark may not be used as (or as part of) a product name or company name.
+
+Note that you can still redistribute a distribution that doesn't meet these
+criteria, you just can't call it "Slackware".  Personally, I hate restricting
+things in any way, but these restrictions are not designed to make life
+difficult for anyone.  I just want to make sure that bugs are not added to
+commercial redistributions of Slackware.  They have been in the past, and
+the resulting requests for help have flooded my mailbox!  I'm just trying to
+make sure that I have some recourse when something like that happens.
+
+Any questions about this policy should be directed to:
+    Patrick Volkerding <volkerdi@ftp.cdrom.com>
+
+-----------------
+
+Copyright notice for XView3.2-X11R6:
+
+        (c) Copyright 1989, 1990, 1991 Sun Microsystems, Inc. Sun design
+        patents pending in the U.S. and foreign countries. OPEN LOOK is a
+        trademark of USL. Used by written permission of the owners.
+
+
+        (c) Copyright Bigelow & Holmes 1986, 1985. Lucida is a registered
+        trademark of Bigelow & Holmes. Permission to use the Lucida
+        trademark is hereby granted only in association with the images
+        and fonts described in this file.
+
+
+        SUN MICROSYSTEMS, INC., USL, AND BIGELOW & HOLMES
+        MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY OF
+        THIS SOURCE CODE FOR ANY PURPOSE. IT IS PROVIDED "AS IS"
+        WITHOUT EXPRESS OR IMPLIED WARRANTY OF ANY KIND.
+        SUN  MICROSYSTEMS, INC., USL AND BIGELOW  & HOLMES,
+        SEVERALLY AND INDIVIDUALLY, DISCLAIM ALL WARRANTIES
+        WITH REGARD TO THIS SOURCE CODE, INCLUDING ALL IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+        PARTICULAR PURPOSE. IN NO EVENT SHALL SUN MICROSYSTEMS,
+        INC., USL OR BIGELOW & HOLMES BE LIABLE FOR ANY
+        SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES,
+        OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA
+        OR PROFITS, WHETHER IN AN ACTION OF  CONTRACT, NEGLIGENCE
+        OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION
+        WITH THE USE OR PERFORMANCE OF THIS SOURCE CODE.
+
+-----------------
+
+*** Various other copyrights apply. See the documentation accompanying the
+software packages for full details.
+
+-----------------
+
+Although every effort has been made to provide a complete source tree for this
+project, it's possible that something may have been forgotten. If you discover
+anything is missing, we will provide copies - just ask!
+
+   NOTE: We are required to provide any missing source to GPLed software for
+   3 years, per this section of the GNU General Public License:
+
+    b) Accompany it with a written offer, valid for at least three
+    years, to give any third party, for a charge no more than your
+    cost of physically performing source distribution, a complete
+    machine-readable copy of the corresponding source code, to be
+    distributed under the terms of Sections 1 and 2 above on a medium
+    customarily used for software interchange; or,
+
+If you find something is missing (even if you don't need a copy), please point
+it out to volkerdi@ftp.cdrom.com so it can be fixed.

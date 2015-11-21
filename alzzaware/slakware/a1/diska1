@@ -1,0 +1,89 @@
+CONTENTS: aaa_base aoutlibs bash comms cpio devs etc grep       
+aaa_base: Basic Linux filesystem package.
+aaa_base:
+aaa_base: Sets up the basic directory structure and adds a few important
+aaa_base: binaries such as GNU mtools 3.0, fdutils-4.3, zip21, and unzip52.
+aaa_base:
+aaa_base:
+aaa_base:
+aaa_base:
+aaa_base:
+aaa_base:
+aaa_base:
+aoutlibs: a.out shared libraries:
+aoutlibs:
+aoutlibs: These shared libraries provide support for running older Linux 
+aoutlibs: programs compiled in the a.out binary format.
+aoutlibs:
+aoutlibs: /lib/libc.so.4.7.6
+aoutlibs: /lib/libcurses.so.0.1.2
+aoutlibs: /lib/libm.so.4.6.27
+aoutlibs: /usr/i486-linuxaout/lib/libdb.so.1.85.1
+aoutlibs: /usr/i486-linuxaout/lib/libvga.so.1.2.9
+aoutlibs:
+bash:     GNU bash-1.14.6 ( replaced with Hangul bash )
+bash:
+bash:     The GNU Bourne-Again SHell.  Bash is a sh-compatible command language
+bash:     interpreter that executes commands read from the standard input or 
+bash:     from a file.  Bash also incorporates useful features from the Korn
+bash:     and C shells (ksh and csh).  Bash is ultimately intended to be a 
+bash:     conformant implementation of the IEEE Posix Shell and Tools
+bash:     specification (IEEE Working Group 1003.2).
+bash:
+bash:     Bash must be present for the system to boot properly.
+bash:
+comms:    Serial file-transfer and communication packages.
+comms:   
+comms:    Includes these programs:
+comms:    
+comms:    Minicom - a full featured menu-driven communications package similar
+comms:    to the DOS program 'Telix'.
+comms:
+comms:    sz/rz - utilities used to upload and download files using the Zmodem
+comms:    protocol.
+comms:
+comms:
+cpio:     The GNU cpio backup and archiving utility v. 2.3
+cpio:
+cpio:     This is GNU cpio, a program to manage archives of files. This package
+cpio:     also includes mt, a tape drive control program. cpio copies files into
+cpio:     or out of a cpio or tar archive, which is a file that contains other
+cpio:     files plus information about them, such as their pathname, owner,
+cpio:     timestamps, and access permissions. The archive can be another file on
+cpio:     the disk, a magnetic tape, or a pipe.
+cpio:
+cpio:
+cpio:
+devs:     Device files.
+devs:
+devs:     This package creates special files in the /dev directory that 
+devs:     represent your system's hardware.
+devs:
+devs:     Please check permission of your devices!
+devs:
+devs:
+devs:
+devs:
+devs:
+etc:      System configuration files that go into the /etc directory.
+etc:
+etc:      The /etc directory is traditionally the location where configuration
+etc:      files and administration binaries are found. Under Linux, the binaries
+etc:      have been moved out of the /etc directory and into the /sbin 
+etc:      directory; the /etc directory is now reserved for configuration files
+etc:      only. 
+etc:
+etc:      Added hangul settings...
+etc:
+etc:
+grep:     GNU grep 2.0
+grep:
+grep:     Grep searches the named input files (or standard input if no files are
+grep:     named, or the file name - is given) for lines containing a match to
+grep:     the given pattern.  This is the 'fastest grep in the west' (we hope).
+grep:
+grep:
+grep:
+grep:
+grep:
+grep:

@@ -1,0 +1,59 @@
+Official Slackware96 Linux Release 3.1 ELF CDROM.
+
+This is it, the *Official* Slackware(TM) Linux CDROM, created by the author
+of Slackware.  Linux is a unix-like 32bit multi-user, multi-tasking
+operating system for your PC compatible computers.  It supports a wide
+range of softwares, including C compilers, programming libraries, X
+windows, Emacs, TCP/IP networking (including SLIP/PPP).
+
+This FOUR disc CDROM set contains a huge collection of utilities and 
+documentation for Linux, including significant enhancements
+to the Linux Slackware distribution with many features added to the previous
+release.  This set is a carefully selected collection of files on the sunsite
+and tsx-11 ftp sites-- almost everything ported to linux that exists!  If
+you want the best version of Linux, Slackware96 Linux, this is the product
+for you.  This disc set was made in July 1996.  The price is $39.95.
+
+The Slackware Linux disc is available by subscription.  We update the
+Slackware Linux disc ABOUT every six months.  When we have a new version we
+ship them to our subscribers.  We bill your credit card when we ship.  The
+cost is only $24.95 for Slackware Linux.  The standard shipping charge
+applies.
+
+Shipping is $5 in the USA, Canada, and Mexico for First Class.  Overseas is
+$9 PER ORDER.  There is an additional $3 COD charge (USA Only).  UPS Blue
+Label (2nd day) [USA Only] is $10 PER ORDER, UPS Red Label (next day) [USA
+Only] is $15 PER ORDER.  Federal Express (next day) [USA Only] is $20 PER
+ORDER.  For overseas courier rates, please email us.
+
+Ordering Information:
+
+You can order by sending a check or money order to
+
+    Walnut Creek CDROM
+    Suite D-899
+    4041 Pike Lane
+    Concord  CA  94520
+    USA
+
+     1 800 786-9907 (24 hour toll free Sales)
+    +1 510 674-0783 (24 hour sales)
+    +1 510 603-1234 (9-5 M-F tech support)
+    +1 510 674-0821 (FAX)
+
+    orders@cdrom.com  (For placing an order)
+    info@cdrom.com    (For requesting more information or
+                      for customer service questions)
+    support@cdrom.com (For technical questions and technical support)
+
+
+We accept Mastercard, Visa, Discover, Diner's Club, Carte Blanche,
+and American Express.  ALL credit card orders must include a phone or
+fax number.  If you do not trust email with your credit card number,
+please give us a call or fax us your order.
+
+============================================================================
+
+The most current version of our catalog is available via anonymous
+ftp from ftp.cdrom.com:/pub/cdrom/catalog, or by fingering
+info@cdrom.com.

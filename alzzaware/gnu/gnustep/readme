@@ -1,0 +1,15 @@
+
+ GNU 에서는 현재  NeXTStep 에서 사용하고 있는 인터페이스 기술을 구현하려고 하
+고 있습니다. 
+
+	OpenStepSpec.ps.gz
+
+ 오픈 스텝 스펙 문서입니다.
+
+	libobjects-0.1.19.tar.gz
+	objcX-0.87.tar.gz
+
+ X 윈도우에서 GNUStep 개발에 필요한 라이브러리들입니다.
+
+
+						- 알짜웨어 제작팀 -

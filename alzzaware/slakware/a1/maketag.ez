@@ -1,0 +1,45 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING SOFTWARE FROM SERIES A (BASE LINUX SYSTEM)" \
+       --checklist "Please select the optional components you wish to install \
+from series A. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the items you wish to install. \
+(NOTE: The more important system packages are not listed here and will be installed \
+automatically) \
+Press ENTER when you are \
+done." 20 72 9 \
+"ide"  "Linux 2.0.0 no SCSI (YOU NEED 1 KERNEL)" "on" \
+"scsi"  "Linux 2.0.0 with SCSI (YOU NEED 1 KERNEL)" "off" \
+"loadlin" "Boots Linux (UMSDOS too!) from MS-DOS" "on" \
+"ibcs2" "Runs SCO/SysVr4 binaries" "off" \
+"pcmcia" "PCMCIA card services support" "off" \
+"getty" "Getty_ps 2.0.7e - OPTIONAL" "off" \
+"aoutlibs" "a.out shared libraries - RECOMMENDED" "on" \
+"comms" "Serial transfer and modem comm packages" "on" \
+"cpio" "The GNU cpio backup/archiving utility" "on" \
+"keytbls" "Change keyboard mappings and console fonts" "on" \
+"gpm" "Cut and paste text with your mouse" "on" \
+"zoneinfo" "Configures your time zone" "on" \
+"ksh" "PD-ksh 5.2.3, Korn Shell" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in aaa_base bash devs etc hdsetup lilo umsprogs sysvinit \
+bin ldso less gzip ps elflibs util e2fsbn find grep sh_utils sysklogd \
+modules tar txtutils tcsh han ; do
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+done
+for PACKAGE in ide scsi getty aoutlibs comms cpio keytbls \
+gpm zoneinfo ibcs2 loadlin pcmcia ksh ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

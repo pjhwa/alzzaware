@@ -1,0 +1,6 @@
+lx200_1: REC
+lx200_2: REC
+lx200_3: REC
+lx200_4: REC
+lx200_5: REC
+lx200_6: REC

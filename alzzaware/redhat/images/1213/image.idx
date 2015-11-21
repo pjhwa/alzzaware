@@ -1,0 +1,72 @@
+0000; None; None; IDE/ATAPI or SCSI
+0001; None; None; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0002; None; None; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0003; None; SMC; IDE/ATAPI or SCSI
+0004; None; SMC; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0005; None; SMC; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0006; None; Western Digital; IDE/ATAPI or SCSI
+0007; None; Western Digital; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0008; None; Western Digital; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0009; None; 3c503, 3c509, 3c579; IDE/ATAPI or SCSI
+0010; None; 3c503, 3c509, 3c579; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0011; None; 3c503, 3c509, 3c579; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0012; None; AMD LANCE and PCnet (AT1500 and NE2100); IDE/ATAPI or SCSI
+0013; None; AMD LANCE and PCnet (AT1500 and NE2100); Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0014; None; AMD LANCE and PCnet (AT1500 and NE2100); Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0015; None; Other; IDE/ATAPI or SCSI
+0016; None; Other; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0017; None; Other; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0018; Adaptec, Buslogic; None; IDE/ATAPI or SCSI
+0019; Adaptec, Buslogic; None; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0020; Adaptec, Buslogic; None; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0021; Adaptec, Buslogic; SMC; IDE/ATAPI or SCSI
+0022; Adaptec, Buslogic; SMC; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0023; Adaptec, Buslogic; SMC; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0024; Adaptec, Buslogic; Western Digital; IDE/ATAPI or SCSI
+0025; Adaptec, Buslogic; Western Digital; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0026; Adaptec, Buslogic; Western Digital; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0027; Adaptec, Buslogic; 3c503, 3c509, 3c579; IDE/ATAPI or SCSI
+0028; Adaptec, Buslogic; 3c503, 3c509, 3c579; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0029; Adaptec, Buslogic; 3c503, 3c509, 3c579; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0030; Adaptec, Buslogic; AMD LANCE and PCnet (AT1500 and NE2100); IDE/ATAPI or SCSI
+0031; Adaptec, Buslogic; AMD LANCE and PCnet (AT1500 and NE2100); Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0032; Adaptec, Buslogic; AMD LANCE and PCnet (AT1500 and NE2100); Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0033; Adaptec, Buslogic; Other; IDE/ATAPI or SCSI
+0034; Adaptec, Buslogic; Other; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0035; Adaptec, Buslogic; Other; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0036; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; None; IDE/ATAPI or SCSI
+0037; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; None; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0038; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; None; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0039; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; SMC; IDE/ATAPI or SCSI
+0040; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; SMC; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0041; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; SMC; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0042; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; Western Digital; IDE/ATAPI or SCSI
+0043; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; Western Digital; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0044; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; Western Digital; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0045; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; 3c503, 3c509, 3c579; IDE/ATAPI or SCSI
+0046; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; 3c503, 3c509, 3c579; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0047; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; 3c503, 3c509, 3c579; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0048; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; AMD LANCE and PCnet (AT1500 and NE2100); IDE/ATAPI or SCSI
+0049; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; AMD LANCE and PCnet (AT1500 and NE2100); Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0050; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; AMD LANCE and PCnet (AT1500 and NE2100); Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0051; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; Other; IDE/ATAPI or SCSI
+0052; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; Other; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0053; EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000; Other; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0054; Other; None; IDE/ATAPI or SCSI
+0055; Other; None; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0056; Other; None; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0057; Other; SMC; IDE/ATAPI or SCSI
+0058; Other; SMC; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0059; Other; SMC; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0060; Other; Western Digital; IDE/ATAPI or SCSI
+0061; Other; Western Digital; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0062; Other; Western Digital; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0063; Other; 3c503, 3c509, 3c579; IDE/ATAPI or SCSI
+0064; Other; 3c503, 3c509, 3c579; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0065; Other; 3c503, 3c509, 3c579; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0066; Other; AMD LANCE and PCnet (AT1500 and NE2100); IDE/ATAPI or SCSI
+0067; Other; AMD LANCE and PCnet (AT1500 and NE2100); Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0068; Other; AMD LANCE and PCnet (AT1500 and NE2100); Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+0069; Other; Other; IDE/ATAPI or SCSI
+0070; Other; Other; Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+0071; Other; Other; Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes

@@ -1,0 +1,360 @@
+image # 0000:
+  SCSI    : None
+  Ethernet: None
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0001:
+  SCSI    : None
+  Ethernet: None
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0002:
+  SCSI    : None
+  Ethernet: None
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0003:
+  SCSI    : None
+  Ethernet: SMC
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0004:
+  SCSI    : None
+  Ethernet: SMC
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0005:
+  SCSI    : None
+  Ethernet: SMC
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0006:
+  SCSI    : None
+  Ethernet: Western Digital
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0007:
+  SCSI    : None
+  Ethernet: Western Digital
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0008:
+  SCSI    : None
+  Ethernet: Western Digital
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0009:
+  SCSI    : None
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0010:
+  SCSI    : None
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0011:
+  SCSI    : None
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0012:
+  SCSI    : None
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0013:
+  SCSI    : None
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0014:
+  SCSI    : None
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0015:
+  SCSI    : None
+  Ethernet: Other
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0016:
+  SCSI    : None
+  Ethernet: Other
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0017:
+  SCSI    : None
+  Ethernet: Other
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0018:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: None
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0019:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: None
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0020:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: None
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0021:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: SMC
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0022:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: SMC
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0023:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: SMC
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0024:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: Western Digital
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0025:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: Western Digital
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0026:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: Western Digital
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0027:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0028:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0029:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0030:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0031:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0032:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0033:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: Other
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0034:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: Other
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0035:
+  SCSI    : Adaptec, Buslogic
+  Ethernet: Other
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0036:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: None
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0037:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: None
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0038:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: None
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0039:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: SMC
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0040:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: SMC
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0041:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: SMC
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0042:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: Western Digital
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0043:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: Western Digital
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0044:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: Western Digital
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0045:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0046:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0047:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0048:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0049:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0050:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0051:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: Other
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0052:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: Other
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0053:
+  SCSI    : EATA-DMA, UltraStor, Future Domain, NCR5380, NCR53c7,8xx, IN2000
+  Ethernet: Other
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0054:
+  SCSI    : Other
+  Ethernet: None
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0055:
+  SCSI    : Other
+  Ethernet: None
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0056:
+  SCSI    : Other
+  Ethernet: None
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0057:
+  SCSI    : Other
+  Ethernet: SMC
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0058:
+  SCSI    : Other
+  Ethernet: SMC
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0059:
+  SCSI    : Other
+  Ethernet: SMC
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0060:
+  SCSI    : Other
+  Ethernet: Western Digital
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0061:
+  SCSI    : Other
+  Ethernet: Western Digital
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0062:
+  SCSI    : Other
+  Ethernet: Western Digital
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0063:
+  SCSI    : Other
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0064:
+  SCSI    : Other
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0065:
+  SCSI    : Other
+  Ethernet: 3c503, 3c509, 3c579
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0066:
+  SCSI    : Other
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0067:
+  SCSI    : Other
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0068:
+  SCSI    : Other
+  Ethernet: AMD LANCE and PCnet (AT1500 and NE2100)
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+
+image # 0069:
+  SCSI    : Other
+  Ethernet: Other
+  CD-ROM  : IDE/ATAPI or SCSI
+
+image # 0070:
+  SCSI    : Other
+  Ethernet: Other
+  CD-ROM  : Mitsumi (not IDE/ATAPI), Sony CDU31A/CDU33A/CDU535
+
+image # 0071:
+  SCSI    : Other
+  Ethernet: Other
+  CD-ROM  : Matsushita/Panasonic, Sound Blaster, Aztech/Orchid/Okano/Wearnes
+

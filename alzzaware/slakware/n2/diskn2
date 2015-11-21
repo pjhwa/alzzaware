@@ -1,0 +1,45 @@
+CONTENTS: inn lynx nn-nntp rdist       
+inn:      INN 1.4
+inn:
+inn:      Rich Salz's InterNetNews news transport system. The Linux INN package
+inn:      was prepared by Andreas Klemm using the Newspak instructions by 
+inn:      Vince Skahan and Arjan de Vet.
+inn:
+inn:
+inn:
+inn:
+inn:
+inn:
+lynx:
+lynx:                    Text-based WWW browser lynx2-5FM
+lynx:
+lynx:              A general purpose distributed information browser
+lynx:                         for the World Wide Web
+lynx:
+lynx:          AUTHORS: Lou Montulli, Garrett Blythe, Craig Lavender,
+lynx:                   Michael Grobe, Charles Rezac, Foteos Macrides
+lynx:
+lynx:
+lynx:
+nn-nntp:  nn-6.4.18 compiled to use NNTP.
+nn-nntp:
+nn-nntp:  nn is an easy to use menu driven newsreader by Kim F. Storm.
+nn-nntp:
+nn-nntp:  This version of nn has been compiled to read news via NNTP. If you're
+nn-nntp:  planning to keep your own news spool in /var/spool/news, you should
+nn-nntp:  install the next version (nn-spool) instead.
+nn-nntp:
+nn-nntp:
+nn-nntp:
+nn-nntp:
+rdist:    Remote file distribution program.
+rdist:
+rdist:    Rdist is a program to maintain identical copies of files over multiple
+rdist:    hosts.  It preserves the owner, group, mode, and mtime of files if 
+rdist:    possible and can update programs that are executing.
+rdist:
+rdist:
+rdist:
+rdist:
+rdist:
+rdist:

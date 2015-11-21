@@ -1,0 +1,32 @@
+texbin.tgz : 텍 실행 화일.
+texdoc.tgz : 덱 문서 화일. 매뉴얼. 
+texdvips.tgz : dvips 설정화일
+texfont.tgz : 첨가 폰트
+texinfo.tgz : 텍인포 화일 (1)
+texinfo2.tgz : 텍인포 화일 (2)
+texmisc.tgz : Misc 화일
+setup.tgz : 셋업용 화일.
+bibtex.tgz bibtex 기본화일.
+dviljk.tgz : dvi용 lajer 출력용 화일.
+dvips.tgz : dvips 실행화일, 기본화일.
+gsftopkk.tgz : gsf to pkk 화일.
+hyphen.tgz : hyphenTeX 화일.
+kpathsea.tgz : kpathsea 화일.
+kpsetool.tgz : kpsetool 화일.
+latex.tgz : latex 화일.
+makeindx.tgz : make index 화일.
+plain.tgz : plain Tex 화일.
+script.tgz : 스크립트 화일.
+tmpfont.tgz : 임시 폰트
+web2c.tgz : web2c 텍
+xdvik.tgz : xdvi
+xtexshell 엑스용 엑 어디터.
+fontmaps.tg : fontmap 화일.
+metafont.tgz : 메타 폰트.
+adobfont.tgz 아도비 폰트
+amsfont.tgz ams 폰트
+bitfont.tgz : bitstream 폰트 화일.
+gothfont.tgz : 고딕 폰트 화일.
+hgulfont.tgz : 한글 폰트.
+hjafont.tgz : 한자 폰트.
+pubfont.tgz : public 폰트

@@ -1,0 +1,72 @@
+#!/bin/sh
+add() {
+  for package in $* ; do
+    echo "$package: ADD" >> /tmp/SeTnewtag
+  done
+}
+skip() {
+  for package in $* ; do
+    echo "$package: SKP" >> /tmp/SeTnewtag
+  done
+}
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING SOFTWARE FROM SERIES AP (APPLICATIONS)" \
+       --checklist "Please select the system components you wish to install \
+from series AP. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the items you wish to install. Recommended items have \
+already been selected for you, but you may unselect them if you wish. \
+Press ENTER when you are \
+done." 22 70 11 \
+"ispell" "The International version of ispell" "off" \
+"jove" "Jonathan's Own Version of Emacs text editor" "off" \
+"manpgs" "More man pages (online documentation)" "on" \
+"diff" "GNU diffutils" "on" \
+"sudo" "Allow special users limited root access" "on" \
+"ghostscr" "GNU Ghostscript version 2.6.2" "on" \
+"jed" "JED programmer's editor" "on" \
+"joe" "joe text editor, version 2.2" "on" \
+"jpeg" "JPEG image compression utilities" "off" \
+"bc" "GNU bc - arbitrary precision math language" "off" \
+"workbone" "a text-based audio CD player" "off" \
+"mc" "The Midnight Commander file manager" "off" \
+"mt_st" "mt ported from BSD - controls tape drive" "off" \
+"gp9600" "Changes the default modem speed" "off" \
+"groff" "GNU troff document formatting system" "on" \
+"quota" "User disk quota utilities" "off" \
+"rar"	"RAR archiver" "off" \
+"sc" "The 'sc' spreadsheet" "off" \
+"texinfo" "GNU texinfo documentation system" "on" \
+"vim" "Improved vi clone" "off" \
+"ash" "A small /bin/sh type shell - 62K" "off" \
+"zsh" "Zsh - a custom *nix shell" "off" \
+"rplay" "Network Audio Server, rplay 3.20b5" "off" \
+"setmixer" "A very simple and useful setmixer" "on" \
+"amiga" "Amiga players( s3m, mod )" "off" \
+"midiopl" "Playmidi 2.3 (mid) sbpro, sb16" "off" \
+"maplay"  "MPEG Audio player" "off" \
+"timidi"  "TIMIDITY - Cool MIDI Player" "off" \
+"apsfilt" " A P S F I L T E R   V 4.8" "on" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+if fgrep \"ghostscr\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  add ghostscr gsfonts1 gsfonts2
+else
+  skip ghostscr gsfonts1 gsfonts2
+fi
+for PACKAGE in ispell jove manpgs bc \
+gp9600 groff sc workbone joe \
+quota mc jpeg ash jed mt_st texinfo vim sudo diff zsh \
+rplay setmixer amiga midiopl maplay timidi apsfilt rar ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

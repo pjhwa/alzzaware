@@ -1,0 +1,23 @@
+CONTENTS: ntm-hier ntm-ltx2        
+ntm-hier: ntm-hier 1.2
+ntm-hier:
+ntm-hier: This package contains the fonts and macros for HieroTeX. HieroTeX
+ntm-hier: is used to typeset hieroglyphs with TeX.
+ntm-hier:
+ntm-hier:
+ntm-hier:
+ntm-hier:
+ntm-hier:
+ntm-hier:
+ntm-hier:
+ntm-ltx2: ntm-ltx2 1.2
+ntm-ltx2:
+ntm-ltx2: This package contains additional macros for LaTeX2e: AMSLaTeX, babel,
+ntm-ltx2: graphics, ipa, tools, mnnfss, psnfss.
+ntm-ltx2:
+ntm-ltx2:
+ntm-ltx2:
+ntm-ltx2:
+ntm-ltx2:
+ntm-ltx2:
+ntm-ltx2:

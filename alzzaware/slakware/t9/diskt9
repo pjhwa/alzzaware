@@ -1,0 +1,23 @@
+CONTENTS: ntm-tex ntm-ltx4        
+ntm-tex:  ntm-tex 1.1
+ntm-tex:
+ntm-tex:  This package contains the plain TeX format and some additional macros
+ntm-tex:  for plain TeX.
+ntm-tex:
+ntm-tex:
+ntm-tex:
+ntm-tex:
+ntm-tex:
+ntm-tex:
+ntm-tex:
+ntm-ltx4: ntm-ltx4 1.1
+ntm-ltx4:
+ntm-ltx4: This package contains some hyphenation tables used with LaTeX2e and
+ntm-ltx4: babel.  Currently tables for UK English, USA English, German, Swedish,
+ntm-ltx4: Dutch, Finnish, Czech, French, Polish, Portuguese, Spanish and Turkish
+ntm-ltx4: are included.
+ntm-ltx4:
+ntm-ltx4:
+ntm-ltx4:
+ntm-ltx4:
+ntm-ltx4:

@@ -1,0 +1,30 @@
+#!/bin/sh
+# 
+# This makes a bootkernel disk in /dev/fd0 from a kernel image.
+#
+# Run this in a directory containing the kernels you're gonna use, and a
+# subdirectory with a master image of the bootkernel disk.
+#
+# This is the command to use:
+#
+# makedisk kernel_image disk_size
+#          ^^           ^^^^^^^^^ This is 1440 or 1200
+#          ^^^^^ This is the name (and maybe path to) the kernel you're going
+#                to use, such as scsinet/zImage.
+#
+
+mkdisk() {
+ if [ -r $1/zImage ]; then
+   makedisk $1/zImage 1200
+ elif [ -r $1/bzImage ]; then
+   makedisk $1/bzImage 1200
+ elif [ -r $1/vmlinuz ]; then
+   makedisk $1/vmlinuz 1200
+ fi
+}
+
+for dir in * ; do
+ if [ -d $dir ]; then
+  mkdisk $dir
+ fi
+done

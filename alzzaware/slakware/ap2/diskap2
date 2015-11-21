@@ -1,0 +1,45 @@
+CONTENTS: groff ispell jpeg workbone       
+groff:    GNU troff 1.10 document formatting system.
+groff:
+groff:    The groff package provides versions of troff, nroff, eqn, tbl, and 
+groff:    other Unix text-formatting utilities. Groff is used to 'compile' man
+groff:    pages stored in groff/nroff format into a form which can be printed or
+groff:    displayed on the screen. These man pages are stored in compressed form
+groff:    in the /usr/man/man? directories.
+groff:
+groff:
+groff:
+groff:
+ispell:   ispell-3.1.20
+ispell:
+ispell:   Ispell is a fast screen-oriented spelling checker that shows you your
+ispell:   errors in the context of the original file, and suggests possible 
+ispell:   corrections when it can figure them out.  Compared to UNIX spell, it
+ispell:   is faster and much easier to use.  Ispell can also handle languages
+ispell:   other than English. Ispell has a long history, and many people have
+ispell:   contributed to the current version -- some of the major contributors
+ispell:   include R. E. Gorin, Pace Willisson, Walt Buehring, and Geoff 
+ispell:   Kuenning. 
+ispell:
+jpeg:     Independent JPEG Group's 6.0 JPEG software
+jpeg:
+jpeg:     Software to implement JPEG image compression and decompression. JPEG
+jpeg:     (pronounced 'jay-peg') is a standardized compression method for 
+jpeg:     full-color and gray-scale images.  JPEG is intended for compressing
+jpeg:     'real-world' scenes; cartoons and other non-realistic images are not
+jpeg:     its strong suit.  JPEG is lossy, however, on typical images of 
+jpeg:     real-world scenes, very good compression levels can be obtained with
+jpeg:     no visible change, and amazingly high compression levels are possible
+jpeg:     if you can tolerate a low-quality image.
+jpeg:
+workbone:                             Workbone 2.3
+workbone:
+workbone:                   Text-based audio CD player.
+workbone:
+workbone:
+workbone:
+workbone:
+workbone:
+workbone:
+workbone:
+workbone:

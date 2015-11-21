@@ -1,0 +1,61 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "한LaTeX 설치하기" \
+       --checklist "Use this menu to select the BINARY packages you \
+wish to install for series T (The NTeX distribution). Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to toggle packages \
+on or off. RECOMMENDED and REQUIRED packages have been preselected. REQUIRED \
+packages have also been marked with a [*]. \
+Press ENTER when you are \
+done." 21 70 9 \
+"texbin"	"TeX 실행 화일"		"on" \
+"texdoc"	"TeX 문서 화일"		"on" \
+"texdvips"	"TeX dvips 설정 화일"	"on" \
+"texfont"	"TeX 첨가 폰트"		"on" \
+"texinfo"	"TeX 인포 화일 (1/2)"	"on" \
+"texinfo2"	"TeX 인포 화일 (2/2)"	"on" \
+"texmisc"	"TeX Misc 화일"		"on" \
+"setup"		"TeX Setup 화일"	"on" \
+"bibtex"	"bibtex 기본 화일"	"on" \
+"dviljk"	"dvi 레이져 출력용 화일" "on" \
+"dvips"		"dvips 실행화일"	"on" \
+"gsftopkk"	"gsf --> pkk 변환 화일"	"on" \
+"hyphen"	"hyphenTeX 화일"	"on" \
+"kpathsea"	"kpathsea 화일"		"on" \
+"kpsetool"	"kpsetool 화일"		"on" \
+"latex"		"LaTeX 화일"		"on" \
+"makeindx"	"make index 화일"	"on" \
+"plain"		"plain TeX 화일"	"on" \
+"script"	"스크립트 화일"		"on" \
+"tmpfont"	"임시 폰트"		"on" \
+"web2c"		"web2c TeX"		"on" \
+"xdvik"		"xdvi (X용 뷰어)"	"on" \
+"xtexshel"	"X 용 TeX 에디터"	"on" \
+"fontmaps"	"TeX 폰트맵 화일"	"on" \
+"metafont"	"TeX 메타 폰트"		"on" \
+"adobfont"	"TeX 아도비 폰트"	"on" \
+"amsfont"	"TeX ams 폰트"		"on" \
+"bitfont"	"TeX 비트스트림 폰트"	"on" \
+"gothfont"	"TeX 고딕 폰트"		"on" \
+"hgulfont"	"한LaTeX 한글 폰트"	"on" \
+"hjafont"	"한LaTeX 한자 폰트"	"on" \
+"pubfont"	"TeX 퍼블릭 폰트"	"on" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in texbin texdoc texdvips texfont texinfo texinfo2 texmisc \
+setup bibtex dviljk dvips gsftopkk hyphen kpathsea kpsetool latex makeindx plain \
+script tmpfont web2c xdvik xtexshel fontmaps metafont adobfont amsfont \
+bitfont gothfont hgulfont hjafont pubfont \
+; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

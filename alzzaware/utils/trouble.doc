@@ -1,0 +1,205 @@
+Troubleshooting guide for Partition Resizer
+===========================================
+
+This document will help you to solve the most common problems you will face
+when you use Partition Resizer. It is divided in two sections, which contain 
+several topics on various subjects. I hope it will help you the most.
+
+1- Before you run Partition Resizer
+
+   1.1 Unmovable and system files
+   1.2 Defragmenting your partition
+
+2- While you run Partition Resizer
+
+   2.1 Abnormal program interrupt
+   2.2 False interrupt warning
+   2.3 Error and warning messages and what you can do about them
+   2.4 Cmos operation failed
+
+
+1- Before you run Partition Resizer
+
+   1.1 Unmovable and system files
+
+These files may sometimes need special care. This is how you should handle
+the most common system files:
+
+IO.SYS:         It doesn't have a problem with resizing or moving, but you 
+                should not move it with defragmentation programs, otherwise
+                the system won't boot.
+MSDOS.SYS:      This file can be moved or defragmented as any ordinary file.
+DBLSPACE.BIN:   This file can be moved or defragmented as any ordinary file.
+STACKVOL.*:     These files can be moved or defragmented as any ordinary file.
+386SPART.PAR:   This file will be damaged if resized or moved. You'd better
+                remove it before resizing or moving, and recreate it when
+                you've finished.
+MIRROR files:   These files can be moved or defragmented as any ordinary file.
+                But they will be invalid when you change the partition, so
+                you'll have to rerun mirror after Partition Resizer's 
+                finished.
+
+Most system files won't be damaged if they are moved. If the files have no
+special position in the disk, or they are fragmented, they can be moved or
+defragmented as any ordinary file.
+
+
+   1.2 Defragmenting your partition
+
+In order to use Partition Resizer to shrink a partition, you'll have to 
+defragment it first. This can be done with any defragmentation program that
+performs a full optimization of the drive, like DOS 6.00 or later Defrag.
+You will have to move ALL the files to the beginning of the partition 
+(including unmovable files). To move unmovable files, use ATTRIB to change
+their attributes (-s -h -r). See the previous section for details on system
+files. After you've finished with defrag, you may change the attributes back
+to normal.
+
+
+2- While you run Partition Resizer
+
+   2.1 Abnormal program interrupt
+
+If you have a power shutdown or any other abnormal termination of the program
+while Partition Resizer resizes or moves a partition, then you must rerun
+the program immediately after rebooting. This will continue the job from
+exactly where it stopped. The program output to the screen will show that
+the job started from the beginning, but nothing will be written on the disk 
+until the process reaches the step at which it was interrupted. Partition 
+Resizer will prompt you in this case, and you should answer yes when it asks 
+you to restore the interrupted work. 
+
+If the program hangs, and all you can do is reset your computer (most unlikely
+but you never know), rerun the program, and the job will finish normally.
+
+
+   2.2 False interrupt warning
+
+There might be some cases that Partition Resizer will ask you to restore an
+unfinished job, but you haven't had a program interrupt or anything like that.
+In that case, Partition Resizer has found an older RESQUE.DAT file in the
+current directory, which could not be deleted (for unknown reasons). You
+should delete this file, but ONLY if you are sure that Partition Resizer has
+finished its job successfully. 
+
+A possible reason for this false alarm, could be that you run the program from
+a partition which was resized or moved. Although you shouldn't have done this,
+and although this HAS caused damage to your data (it might have damaged the
+FAT or some files), you MUST NOT ALLOW THE PROGRAM TO CONTINUE THE WORK
+UNDER ANY CIRCUMSTANCES. This will PERMANENTLY destroy all the data in your
+partition.
+
+
+   2.3 Error and warning messages and what you can do about them
+
+Fatal error messages:
+
+When a fatal error message appears, you will not be able to continue running
+the program, unless the problem is fixed. The program will immediately exit
+on a fatal message.
+
+1:      Bad partition chain: This error will appear if your partition chain
+        is invalid, meaning that some sectors in the partition do not have
+        the 0xAA55 signature. This error is fatal, and the program will exit
+        immediately. If you are able to access all your disk partitions, then
+        try to fix this with a disk editor (see PRESIZER.DOC for more 
+        details). The program has to exit, since, if the partition chain is
+        really damaged, the program could hang.
+2:      Sector read failed: This error will appear when Partition Resizer is
+        unable to read a system sector. This can happen if Partition Resizer 
+        is incompatible with the disk (I don't know if this can happen), if
+        the specified sector is damaged, or if disk information is erroneous.
+        The error is fatal, which means that the program will immediatelly
+        exit. If you know which disk causes the problem, you should disable 
+        the disk to proceed.
+3:      Sector size other than 512 bytes: Partition Resizer is incompatible
+        with disks having sector size other than 512 bytes. If you want to
+        continue, disable this disk. This error message may sometimes be
+        false, since it depends on the value found in the boot sector of
+        a partition.
+4:      Cannot detect any drives: If Partition Resizer cannot detect any
+        hard drives through INT 0x13, it will exit. If you have a hard drive,
+        then you probably need a driver to access it, which is not loaded.
+
+Error messages:
+
+When an error message appears, you will be able to use the program, but you
+won't be able to resize or move the partitions which have the problem.
+
+1:      DOS partition damaged or not formated: This error will appear if 
+        you have any partitions that are described as DOS partitions but
+        are not formatted. It means that the program failed to find the
+        system signature (0xAA55) at the end of a DOS partition's boot sector.
+        If you're able to access all your partitions, then just add the
+        signature byte (0xAA55) to the end of the specific partition's boot
+        sector. If this error appears, you will be able to run the program
+        but the damaged partition will appear as incompatible (meaning that
+        you will not be able to resize it or move it). 
+2:      Incompatible disk found: If this error message appears, then you will
+        not be able to resize or move any partitions on this disk. Partition
+        Resizer will try to read the first and the last sector on every disk.
+        If it fails, it means that the drive is incompatible with the standard
+        INT 0x13 read routine, therefore it is not reliable to work with it.
+3:      Starting / Ending cylinder / sector / head value is invalid: These 
+        errors will cause the specified partition to appear as invalid. See 
+        the technical details in PRESIZER.DOC for more information.
+
+
+Warning messages:
+
+These warning messages appear when the partitions on your disk have some 
+erroneous or unexpected information, but it is safe to ignore them in most
+cases.
+
+1:      Bad filesystem id string / unknown filesystem type: This error will
+        appear when a partition is described as a DOS partition but it doesn't
+        have a valid FS signature. You may proceed if you find this warning.
+2:      Filesystem id incorrect: The FS signature is different from the 
+        expected. You can safely proceed if you find this warning.
+3:      False sectors per track / head value in boot sector: The boot sector
+        contains erroneous information for disk heads and sectors per track.
+        You can ignore this message.
+4:      FAT signature bad or missing: The FAT signature is bad (not 
+        0x[FF]FFFFF8). You should check this error, it could mean your FAT
+        is damaged. But Partition Resizer will allow you to continue, since
+        its working will not be affected by this.
+5:      Bad media descriptor (other than 0xF8): The media descriptor in the
+        boot sector is wrong (not 0xF8). You can ignore this message.
+6:      Total sectors in partition / Relative starting sector value incorrect:
+        This is an automatically fixed error. It will occur if the dword
+        entries for total sectors in partition or relative starting sector
+        values do not match the partition starting / ending data. You can
+        always ignore these warnings, since Partition Resizer won't use these
+        values.
+7:      Hidden sectors value incorrect: This warning means that the hidden
+        sectors value in the boot sector of a FAT partition is incorrect. If
+        you are able to access your partitions normally, you should ignore
+        this warning.
+                                                                      
+All these error messages will show you some more information, which might help
+you to correct the problem. The "drive" value is the number of the physical
+drive (80 for C:, 81 for d: and so on). The "sector" value is the absolute 
+sector number (first sector is sector 0) in the disk, where the erroneous 
+information appears. The "partition#" value, will tell you which partition
+of the four described in the above sector contains the error. The "FAT 
+partition serial no." value is the serial number of the FAT partition that
+has the error.
+
+All info about the technical details can be found in section 3 of 
+PRESIZER.DOC.
+
+If you can't find out what's wrong or if you cannot correct the problem by
+yourself, don't hesitate to send me a letter or mail.
+
+
+   2.4 Cmos operation failed
+
+If you get a message informing you that you cannot use cmos memory for the
+reset protection system, you will be able to run the program normally, but
+you won't be able to recover after an abnormal program interrupt. This
+means that the power goes down suddenly while the program is working, or if 
+it's interrupted in any other way, you will LOOSE ALL THE DATA IN THE WORKING 
+PARTITION! It's up to you then whether you will use the program or not. If
+you have a UPS, you won't have a problem with this.
+
+                                ------||------

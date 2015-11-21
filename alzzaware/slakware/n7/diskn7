@@ -1,0 +1,45 @@
+CONTENTS: fetchpop ztelnet ncftp llnlxftp
+fetchpop:
+fetchpop:                           fetchpop 1.9b3
+fetchpop:
+fetchpop:         Stable and feature-rich POP3 mail retrieval client
+fetchpop:
+fetchpop:          Author:      Seung-Hong Oh oh@cis.ohio-state.edu
+fetchpop:
+fetchpop:
+fetchpop:
+fetchpop:
+fetchpop:
+ztelnet:
+ztelnet:
+ztelnet:                         Zmodem-enabled Telnet
+ztelnet:
+ztelnet:
+ztelnet:  Thanks to 허준혁 jhheo@dangun.kaist.ac.kr and
+ztelnet:            박명석 pms@romance.kaist.ac.kr/mspark@chiak.kaist.ac.kr
+ztelnet:
+ztelnet:
+ztelnet:
+ztelnet:
+ncftp:
+ncftp:	               NcFTP - Internet file transfer program 
+ncftp:                              Version 2.3.0
+ncftp:
+ncftp:
+ncftp:
+ncftp:     NcFTP written by Mike Gleason, NCEMRSoft (mgleason@probe.net)
+ncftp:     NcFTP is copyrighted 1995 by NCEMRSoft. All rights reserved
+ncftp:
+ncftp:
+ncftp:
+llnlxftp:
+llnlxftp:             LLNL XFTP - an X-based interface to FTP
+llnlxftp:
+llnlxftp:
+llnlxftp:    statically linked binary for llnlXFtp (Motif interface)
+llnlxftp:    compiled with Metrolink Motif 1.2.4
+llnlxftp:
+llnlxftp:    rxr401@leonard.anu.edu.au
+llnlxftp:
+llnlxftp:
+llnlxftp:

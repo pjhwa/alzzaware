@@ -1,0 +1,45 @@
+CONTENTS: netpipes sendmail trn-nntp trn       
+netpipes: netpipes 3.1
+netpipes:
+netpipes: Robert Forsman's netpipes package makes TCP/IP streams usable in shell
+netpipes: scripts.  It can also simplify client/server code by allowing the 
+netpipes: programmer to skip all the tedious programming bits related to sockets
+netpipes: and concentrate on writing a filter/service.  Here's an example of
+netpipes: what you can do with 'faucet' and 'hose', two netpipes commands:
+netpipes: 
+netpipes: server$ faucet 3000 -out tar cf - .
+netpipes: client$ hose server 3000 -in tar xvf -
+netpipes:
+sendmail: BSD sendmail 8.6.12. ( Hangul support )
+sendmail:
+sendmail: Eric Allman's mail transport agent. The _Unix System Administration
+sendmail: Handbook_ calls sendmail 'The most complex and complete mail delivery
+sendmail: system in common use...'
+sendmail:
+sendmail: Ready-made configuration files are included for systems connected by
+sendmail: TCP/IP (with or without a nameserver) and for systems using UUCP.
+sendmail:
+sendmail: 'deliver' is included as a local mail agent.
+sendmail:
+trn-nntp: A threaded news reader for reading a remote NNTP server. (v. 3.5)
+trn-nntp:
+trn-nntp: Compiled to use Overviews or mthreads, and to read news remotely via
+trn-nntp: NNTP. Be sure to set NNTPSERVER in your /etc/profile or
+trn-nntp: /etc/csh.login. If you're planning to have your own local newspool
+trn-nntp: (i.e. use INN or Cnews) then you won't want to install this version.
+trn-nntp:
+trn-nntp:
+trn-nntp:
+trn-nntp:
+trn-nntp:
+trn:      A threaded news reader for the local news spool. (v. 3.5)
+trn:
+trn:      This version of trn is compiled to read a local news spool in 
+trn:      /var/spool/news for use with INN or Cnews.
+trn:
+trn:      If you plan to read news from an NNTP server, don't install this
+trn:      package -- instead, wait for the trn-nntp package coming next.
+trn:
+trn:
+trn:
+trn:

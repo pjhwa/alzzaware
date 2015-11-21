@@ -1,0 +1,45 @@
+CONTENTS: g77 gmake man2 pmake       
+g77:      GNU Fortran-77 compiler, version 0.5.18.
+g77:
+g77:      GNU Fortran, or g77, is designed as a free replacement for, or 
+g77:      alternative to, the UNIX f77 command.  (Similarly, gcc is designed as
+g77:      a replacement for the UNIX cc command.)
+g77:
+g77:      g77 also is designed to fit in well with the other fine GNU compilers
+g77:      and tools.
+g77:
+g77:
+g77:
+gmake:    GNU make utility 3.74.
+gmake:
+gmake:    This is the GNU implementation of make, which was written by Richard
+gmake:    Stallman and Roland McGrath.  The purpose of the make utility is to
+gmake:    determine automatically which pieces of a large program need to be 
+gmake:    recompiled, and issue the commands to recompile them.  
+gmake:
+gmake:    This is needed to compile just about any major C program, including
+gmake:    the Linux kernel.
+gmake:
+gmake:
+man2:     Man pages for Linux system calls. (from manpages-1.8)
+man2:
+man2:
+man2:
+man2:
+man2:
+man2:
+man2:
+man2:
+man2:
+man2:
+pmake:    BSD 4.4 make. 
+pmake:
+pmake:    This may be required if you're going to port software with Makefiles
+pmake:    designed for BSD. The binary is installed as /usr/bin/pmake. Man pages
+pmake:    are included.
+pmake:
+pmake:
+pmake:
+pmake:
+pmake:
+pmake:

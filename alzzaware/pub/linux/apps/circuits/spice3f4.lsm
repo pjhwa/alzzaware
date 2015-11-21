@@ -1,0 +1,16 @@
+Begin3
+Title:          Berkeley Spice
+Version:        3f4
+Entered-date:   Sept 12, 1995
+Description:    Analog circuit simulator
+Keywords:       spice, circuit, simulator
+Author:         U.C. Berkeley CAD group
+Maintained-by:  Jeff@RyeHam.EE.Ryerson.Ca (Jeff Dionne, VE3DJF)
+		ve3djf@bbs.ve3rpi.ampr.org
+Primary-site:   sunsite.unc.edu/pub/Linux/apps/circuits
+                  spice3f4.tar.gz
+Alternate-site: 
+Original-site:  ftp.ee.ualberta.ca
+Platform:       C
+Copying-policy: Free for people friendly to the U.S.A.
+End

@@ -1,0 +1,18 @@
+JPTUI v3.2    -     Description     -    Freeware
+-------------------------------------------------
+JPTUI  is   a   norton-like   visually-attractive
+object-oriented Textual-User-Interface for DJGPP.
+Designed for  C++, it  provides both a  simple to
+and a powerful application programming interface.
+-------------------------------------------------
+By Jeepy :                    jpdelprat@teaser.fr
+
+
+
+Files that come with JPTUI are :
+
+JPTUIE32.ZIP   English version of JPTUI 3.2
+JPTUIF32.ZIP   French version of JPTUI 3.2
+JPTUIG32.ZIP   German version of JPTUI 3.2
+JPDEMO32.ZIP   Demo of JPTUI 3.2 with sources
+JPDOC32.ZIP    Documentation of JPTUI 3.2

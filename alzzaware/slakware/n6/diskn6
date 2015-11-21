@@ -1,0 +1,23 @@
+CONTENTS: apache uucp       
+apache:   Apache WWW server v 1.0.0
+apache:
+apache:   Apache is an HTTP server designed as a plug-in replacement for the
+apache:   NCSA server version 1.3 (or 1.4). It fixes numerous bugs in the NCSA
+apache:   server and includes many frequently requested new features, and has an
+apache:   API which allows it to be extended to meet users' needs more easily.
+apache:
+apache:
+apache:
+apache:
+apache:
+uucp:     Taylor UUCP version 1.06.1
+uucp:
+uucp:     Ian Taylor's Unix to Unix copy: mail and news over modem lines. 
+uucp:     This is the standard UUCP package of the Free Software Foundation.
+uucp:
+uucp:     Configured to use HoneyDanBer and/or Taylor configuration files.
+uucp:
+uucp:
+uucp:
+uucp:
+uucp:

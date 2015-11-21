@@ -1,0 +1,23 @@
+CONTENTS: x312ma32 x312ma64       
+x312ma32: An accelerated server for cards using Mach32 chips.
+x312ma32:
+x312ma32: Installing this package will create a link in /usr/X11R6/bin from
+x312ma32: XF86_Mach32 to X, setting this server as the default.
+x312ma32:
+x312ma32:
+x312ma32:
+x312ma32:
+x312ma32:
+x312ma32:
+x312ma32:
+x312ma64: An accelerated server for cards using the Mach64 chipset.
+x312ma64:
+x312ma64: Installing this package will create a link in /usr/X11R6/bin from
+x312ma64: XF86_Mach64 to X, setting this server as the default.
+x312ma64:
+x312ma64:
+x312ma64:
+x312ma64:
+x312ma64:
+x312ma64:
+x312ma64:

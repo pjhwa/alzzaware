@@ -1,0 +1,61 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING PACKAGES FROM SERIES D (PROGRAM DEVELOPMENT)" \
+       --checklist "Please select the packages you wish to install \
+from series D. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the packages you wish to install. Recommended packages have \
+already been selected for you, but you may unselect them if you wish. \
+Press ENTER when you are \
+done." 22 70 11 \
+"binutils" "GNU C compiler utilities" "on" \
+"bison" "GNU bison parser generator 1.22" "on" \
+"byacc" "Berkeley Yacc" "off" \
+"g77" "GNU Fortran-77 compiler" "off" \
+"flex" "Fast lexical analyzer generator 2.5.3" "on" \
+"gcc272" "GNU C compiler and support files 2.7.2" "on" \
+"gxx272" "GNU C++ compiler and support files" "on" \
+"gccaout" "GNU C compiler for old a.out binformat" "off" \
+"gxxaout" "GNU C++ compiler for old a.out binformat" "off" \
+"gdb" "The GNU debugger" "on" \
+"gcl" "GNU Common LISP" "off" \
+"gmake" "GNU make" "on" \
+"libaout" "Libraries for developing a.out binaries" "on" \
+"libc" "Libraries for developing ELF binaries" "on" \
+"libgxx" "GNU C++ library" "on" \
+"libcinfo" "Info files for the C compiler" "off" \
+"linuxinc" "Linux kernel include files" "on" \
+"m4" "GNU m4 1.4" "on" \
+"man2" "Man pages for Linux system calls" "off" \
+"man3" "Man pages for C library functions" "off" \
+"ncurses" "A curses-compatible library" "on" \
+"objc272" "GNU Objective-C compiler" "off" \
+"objcaout" "GNU Objective-C compiler for a.out" "off" \
+"p2c" "A Pascal to C translator 1.19" "off" \
+"perl1" "Larry Wall's systems language, part 1" "on" \
+"perl2" "Larry Wall's systems language, part 2" "on" \
+"pmake" "BSD 4.4 make" "on" \
+"rcs" "GNU revision control system" "off" \
+"svgalib" "Svgalib Super-VGA Graphics Library" "off" \
+"strace" "Traces program execution" "on" \
+"terminfo" "Complete /usr/lib/terminfo database" "off" \
+"tools" "Tools for building a.out shared libs" "off" \
+"javajdk" "Java Development Kit v 1.0.1" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in gcc272 gxx272 objc272 gccaout gxxaout objcaout \
+libcinfo libgxx man2 p2c pmake flex byacc \
+gcl gdb bison g77 libc ncurses gmake strace svgalib libaout \
+linuxinc perl1 perl2 rcs binutils m4 man3 libaout terminfo tools javajdk ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

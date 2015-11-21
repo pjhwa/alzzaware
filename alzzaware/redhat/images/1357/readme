@@ -1,0 +1,24 @@
+
+These kernels are for experimental use and are unsupported by
+Red Hat Software.  Use at your own risk.
+
+To use a 1.3.57 kernel for install, you need to make a boot disk
+from the 1.2.13 boot disk directory.  Use rawrite or dd for this
+as specified in the Red Hat manual or the RedHat-HOWTO.  Then you
+can copy a kernel from the bare directory here to that disk using
+mcopy under Linux or copy under dos.  You should replace the "linux"
+file on your boot floppy with this kernel image.  
+
+You can now boot that floppy.  Also, you need to make a ramdisk image
+from the ramdisk.img file in this directory.  Again, use rawrite or
+dd for this.  This is the ONLY ramdisk you need.  
+
+When you boot your boot disk, you must enter some parameters.  Use:
+
+boot:  linux load_ramdisk=1 prompt_ramdisk=1
+
+
+NOTE:  PCMCIA Installs will NOT work with 1.3.57 kernels, only 1.2.13.
+You will have to provide the proper modules if you want to make them 
+work.
+

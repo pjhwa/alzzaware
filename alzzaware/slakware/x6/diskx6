@@ -1,0 +1,34 @@
+CONTENTS: x3128514 x312agx x312cfg       
+x3128514: An accelerated server for cards using IBM8514 chips.
+x3128514: 
+x3128514: Installing this package will create a link in /usr/X11R6/bin from
+x3128514: XF86_8514 to X, setting this server as the default.
+x3128514: 
+x3128514: 
+x3128514: 
+x3128514: 
+x3128514: 
+x3128514: 
+x3128514: 
+x312agx:  An accelerated server for IIT AGX-016, AGX-015, and AGX-014 chipsets.
+x312agx:
+x312agx:  Installing this package will create a link in /usr/X11R6/bin from
+x312agx:  XF86_AGX to X, setting this server as the default.
+x312agx:
+x312agx:
+x312agx:
+x312agx:
+x312agx:
+x312agx:
+x312agx:
+x312cfg:  Configuration files for XFree86 3.1.2.
+x312cfg:
+x312cfg:  Configuration files needed by X, xdm, and FVWM.
+x312cfg:
+x312cfg:  Hangul fvwm. 2.0.42 included! Enjoy!
+x312cfg:
+x312cfg:
+x312cfg:
+x312cfg:
+x312cfg:
+x312cfg:

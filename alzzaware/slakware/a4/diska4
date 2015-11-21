@@ -1,0 +1,56 @@
+CONTENTS: ibcs2 ide keytbls ldso sysklogd       
+ibcs2:    Intel Binary Compatibility Specification module
+ibcs2:     
+ibcs2:    The iBCS module allows many binaries from other OS's to run on Linux:
+ibcs2:     
+ibcs2:    i386 BSD (386BSD, FreeBSD, NetBSD, BSDI/386) - very alpha.
+ibcs2:    SVR4 (Interactive, Unixware, USL, Dell etc.)
+ibcs2:    SVR3 generic
+ibcs2:    SCO (SVR3 with extensions for symlinks and long filenames)
+ibcs2:    Wyse V/386 (SVR3 with extensions for symlinks)
+ibcs2:    Xenix V/386 (386 small model binaries only)
+ibcs2:
+ide:      Linux kernel version 2.0.0, without SCSI support.
+ide:  
+ide:      A Linux kernel for computers that do not need SCSI support. You MUST
+ide:      install a kernel image in order for your system to boot. This kernel
+ide:      supports IDE hard drives and IDE CD-ROM drives.  Other drivers (such
+ide:      as for CD-ROM drives on proprietary interfaces, or ethernet cards)
+ide:      may be loaded as modules.  See /etc/rc.d/rc.modules for examples.
+ide:
+ide:
+ide:
+ide:
+keytbls:  kbd 0.90
+keytbls:
+keytbls:  Load and save keyboard mappings. Needed if you are not using the US
+keytbls:  keyboard map. This package also contains utilities to change your
+keytbls:  console fonts - if you install it you'll get a menu later on that lets
+keytbls:  you select from many different fonts. If you like one, you can make it
+keytbls:  your default font. A new default font can be chosen at any time by
+keytbls:  typing 'fontconfig'. This package includes fonts from the 
+keytbls:  kbd_fonts.tar.gz package uploaded to SunSITE.
+keytbls:
+keytbls:
+ldso:     ld.so 1.7.14, the dynamic linker/loader.
+ldso:
+ldso:     ld.so completes the final process of linking all necessary references
+ldso:     to sharable objects and unreferenced symbols in an impure executable,
+ldso:     (usually a dynamically linked executable), to produce a runnable file.
+ldso:     Nearly all Linux binaries are 'incomplete' and require further linking
+ldso:     at run time. ld.so's job is thus to complete the linking process 
+ldso:     started at compilation. ld.so was written by David Engel, 
+ldso:     Eric Youngdale, Peter MacDonald, Hongjiu Lu, Linus Torvalds,
+ldso:     Lars Wirzenius and Mitch D'Souza.
+ldso:
+sysklogd: Sysklogd 1.2
+sysklogd:
+sysklogd: Dr. Greg Wettstein and Stephen Tweedie's syslogd/klogd.
+sysklogd:
+sysklogd: This package contains a modified version of syslogd for the Linux
+sysklogd: environment.  An additional utility, klogd, is included which allows
+sysklogd: kernel logging to be directed through the syslogd facility.
+sysklogd: Syslogd and klogd are started when your system boots.
+sysklogd:
+sysklogd:
+sysklogd:

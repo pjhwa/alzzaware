@@ -1,0 +1,69 @@
+
+Installation can be tricky on a machine with 4 megabytes of RAM or
+less. Here are a few tricks that can be helpful if you run into
+problems. (Symptoms might include: system hangs while booting the bootdisk;
+root password required on the rootdisk; inability to run "fdisk" or
+"mkswap"; and many more, I'm sure...)
+
+First, you'll need to use a 3.5" floppy for the rootdisk, and you *must*
+uncompress the rootdisk before writing it out.  This is since it will be 
+used directly from the floppy drive instead of loaded into a ramdisk.
+
+1. If you have a second 3.5" floppy drive, great -- you'll want to use that
+for the rootdisk. If not, you'll have to make due with the rootdisk in your
+boot drive. With the rootdisk in the boot drive you won't be able to
+install from floppy disks or make a bootdisk at the end of the installation
+process, since the disk will be "mounted" in the boot drive and cannot be
+removed (no matter what the screen tells you) until the machine is
+rebooted. Make a rootdisk using RAWRITE.EXE for the floppy drive you
+selected.
+
+2. Unzip lodlin16.zip (look in /kernels) in a directory on your DOS
+partition.
+
+3. Select an appropriate kernel from a subdirectory under /kernels. The
+/bootdsks.144/WHICH.ONE document might be helpful in selecting the proper
+one for your hardware. Copy it into the directory where you put loadlin.
+
+4. Put the rootdisk (NOT write protected) into the floppy drive, and use
+this command to boot it:
+
+   loadlin scsi.s root=/dev/fd0 ramdisk=0
+           ^^^^^^      ^^^^^^^^
+           ||||||      This should be the drive you put the disk in.
+           This is the name of the kernel you selected.
+
+
+Then, install Linux. If you're using the boot floppy drive for the
+rootdisk, you will not be able to install from floppy disks. DON'T take the
+rootdisk out of the floppy drive for any reason during the installation!
+Also, since scratch files may be written to the rootdisk, you'll want to
+start with a fresh copy if you need to start over for some reason.
+
+Once installed, you'll need to have a way to start your new system. If you
+were lucky enough to have a second floppy drive to use for your rootdisk,
+then you'll be able to make a bootdisk at the end of the installation
+process. This is highly recommended. If your boot drive is occupied by the
+rootdisk, then you've got two options: Loadlin (a method of booting from
+DOS) or LILO. And, if you're using the UMSDOS filesystem then Loadlin is
+your only choice.
+
+To boot the system with loadlin, you'll use a command similar to the one
+you used to start the rootdisk, but you'll replace /dev/fd0 or /dev/fd1 with 
+the name of the device you're using for your root Linux partition, like this:
+
+   loadlin scsi root=/dev/hda2 ramdisk=0
+
+Once your machine is up and running, you'll probably need to add additional
+driver support if you have extra hardware (such as an ethernet card) that's 
+not supported by the kernel you've used to install.  You can do this one of
+two ways:
+
+    1)   Recompile your kernel to include any additional support needed.
+or
+    2)   Load any extra kernel drivers you need from kernel modules.  To do
+         this, edit your /etc/rc.d/rc.modules file.  You can think of this
+         file as sort of the Linux equivalent of DOS's CONFIG.SYS file -- it
+         contains examples for all of the most commonly used modules.  
+
+Pat

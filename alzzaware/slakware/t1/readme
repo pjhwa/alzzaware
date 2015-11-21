@@ -1,0 +1,36 @@
+NTeX Release 1.2
+================
+
+NTeX is a TeX distribution for Linux. It is compiled with gcc 2.5.8. Please 
+read the file INSTALL for the installation procedure. A short description of
+the packages included in NTeX could be found in the file INFO. The contents 
+of the disks ntex01 to ntex13 can be found in the file DISKS. 
+
+If you have serious problems, comments, suggestions or bug reports, please
+contact me. I will try my best to answer your mail and/or remove the bugs.
+If you do not have any problems, but you are using this distribution it would
+be nice if you drop me an email message. This messages may keep me working
+on the NTeX distribution. If you have own programs, macros, fonts, etc. or
+you are using something like this which you would like to contribute to this 
+distribution, get in contact with me.
+
+Please do not directly contact the authors of the programs in this 
+distribution and bother them with problems that may be caused by me. I
+cannot guarantee that every package works fine. 
+
+THE NTeX DISTRIBUTION IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO
+EVENT SHALL I BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS DISTRIBUTION, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Frank Langbein,
+e94fla@student.tdb.uu.se (till November 1994),
+langbein@fermat.mathematik.uni-stuttgart.de
+

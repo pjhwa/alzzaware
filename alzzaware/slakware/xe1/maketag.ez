@@ -1,0 +1,50 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING SERVER FROM SERIES XE (XFree86 3.1.2E)" \
+       --checklist "Please select the X server you wish to install \
+from series X. \
+In most cases, you'll only want to \
+install the X server needed for your video card, but if you plan to \
+export your /usr partition via NFS, you may need other servers as well. \
+Press ENTER when you are \
+done." 22 70 11 \
+"x312ebin"      "XFree 3.1.2E Upgrade bin"     "off" \
+"x312elib"	"XFree 3.1.2E Upgrade lib"	"off" \
+"x312efnt"	"XFree 3.1.2E Upgrade font"	"off" \
+"x312eman"	"XFree 3.1.2E Upgrade man"	"off" \
+"x312eprg"	"XFree 3.1.2E Upgrade header"	"off" \
+"x312ecfg"	"XFree 3.1.2E Upgrade cfg"	"off" \
+"x312efs"	"XFree 3.1.2E Upgrade fs"	"off" \
+"x312edoc"      "XFree 3.1.2E Documentation"             "off" \
+"x312851e"      "XFree 3.1.2E IBM8514 chip"     "off" \
+"x312agxe"      "XFree 3.1.2E AGX chip"         "off" \
+"x312ma8e"      "XFree 3.1.2E Mach8 chip"       "off" \
+"x312m32e"      "XFree 3.1.2E Mach32 chip"      "off" \
+"x312m64e"      "XFree 3.1.2E Mach64 chip"      "off" \
+"x312mone"      "XFree 3.1.2E Mono "                "off" \
+"x312p9ke"      "XFree 3.1.2E P9000 chip"       "off" \
+"x312s3e"       "XFree 3.1.2E S3 chip"          "off" \
+"x312svge"      "XFree 3.1.2E SVGA 256 chip"           "off" \
+"x312vgae"      "XFree 3.1.2E VGA 16 chip"             "off" \
+"x312w32e"      "XFree 3.1.2E W32 256 chip"            "off" \
+"x312i128"      "XFree 3.1.2E I128 chip"        "off" \
+"x312xtre"      "XFree 3.1.2E Two Experimentals"         "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in x312ebin x312851e x312agxe x312ma8e x312m32e x312m64e \
+x312mone x312p9ke x312s3e x312svge x312vgae x312w32e x312i128 \
+x312xtre x312edoc  x312elib x312efnt x312eman x312eprg \
+x312ecfg x312efs ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs
+

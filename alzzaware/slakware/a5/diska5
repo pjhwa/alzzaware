@@ -1,0 +1,89 @@
+CONTENTS: less lilo loadlin pcmcia ps sh_utils sysvinit umsprogs       
+less:     less-290
+less:
+less:     Less is a paginator similar to more (1), but which allows backward
+less:     movement in the file as well as forward movement. Also, less does not
+less:     have to read the entire input file before starting, so with large
+less:     input files it starts up faster than text editors like vi (1). 
+less:
+less:     Less was written by Mark Nudelman.
+less:
+less:
+less:
+lilo:     LILO 19
+lilo:
+lilo:     Generic Boot Loader for Linux ('LInux LOader') by Werner Almesberger.
+lilo:     LILO boots Linux from your hard drive. It can also boot other
+lilo:     operating systems such as MS-DOS and OS/2, and can even boot DOS from
+lilo:     the second hard drive. LILO comes with utilities and documentation
+lilo:     that make it easier to install, such as 'liloconfig' and 'QuickStart'.
+lilo:     NOTE: Installing boot loaders is inherently dangerous. Be sure to have
+lilo:     some means to boot your system from a different media if you install
+lilo:     LILO on your hard disk.
+lilo:
+loadlin:  LOADLIN v1.6
+loadlin:
+loadlin:  LOADLIN.EXE, a loader (running under DOS) for LINUX kernel images
+loadlin:  fully supporting the kernel's command line feature. 
+loadlin:
+loadlin:  LOADLIN is the safest way to boot Linux from your hard disk, if you
+loadlin:  have a bootable DOS partition on your machine.
+loadlin:
+loadlin:  LOADLIN is (C) 1994...1995 Hans Lermen (lermen@elserv.ffm.fgan.de)
+loadlin:
+loadlin:
+pcmcia:   pcmcia-cs-2.8.17
+pcmcia:
+pcmcia:   Card Services for Linux is a complete PCMCIA support package.  It
+pcmcia:   includes a set of loadable kernel modules that implement a version of
+pcmcia:   the PCMCIA Card Services applications program interface, a set of
+pcmcia:   client drivers for specific cards, and a card manager daemon that can
+pcmcia:   respond to card insertion and removal events, loading and unloading
+pcmcia:   drivers on demand.  It supports ``hot swapping'' of PCMCIA cards, so
+pcmcia:   cards can be inserted and ejected at any time.
+pcmcia:
+pcmcia:
+ps:       procps 0.99a
+ps:
+ps:       Utilities for displaying process and memory information written by
+ps:       Michael K. Johnson, Werner Almesberger, Branko Lankester, Robert 
+ps:       Nation, David Engel, Larry Greenfield, Roger Binns, and Brian Edmonds.
+ps:
+ps:
+ps:
+ps:
+ps:
+ps:
+sh_utils: GNU sh-utils-1.12
+sh_utils:
+sh_utils: This is a package of small shell programming utilities.  They are
+sh_utils: mostly compliant with POSIX.2, where applicable.
+sh_utils:
+sh_utils: The programs in this package are:
+sh_utils:   basename date dirname echo env expr false logname nice hohup
+sh_utils:   pathchk printenv printf sleep stty tee test true tty uname
+sh_utils:   who whoami yes
+sh_utils:
+sh_utils:
+sysvinit: SysVinit v. 2.62
+sysvinit:
+sysvinit: System V style init programs by Miquel van Smoorenburg that control
+sysvinit: the booting and shutdown of your system. These support a number of
+sysvinit: system runlevels, each with a specific set of utilities spawned. For
+sysvinit: example, the normal system runlevel is 5, which starts agetty on 
+sysvinit: virtual consoles tty1 - tty6. Runlevel 4 starts xdm. Runlevel 0 shuts
+sysvinit: the system down. See the documentation in /usr/doc/sysvinit and the
+sysvinit: scripts in /etc/rc.d for more information.
+sysvinit:
+sysvinit:
+umsprogs: umsdos_progs 0.8
+umsprogs: 
+umsprogs: Various utilities needed by Jacques Gelinas' UMSDOS filesystem.
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 
+umsprogs: 

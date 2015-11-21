@@ -1,0 +1,34 @@
+CONTENTS: oldlibs5 oldlibs6 x312fnt       
+oldlibs5: Shared X libraries from XFree86 2.1.1 (X11R5).
+oldlibs5:
+oldlibs5: This package adds libX11.so.3.1.0, libXaw.so.3.1.0, and
+oldlibs5: libXt.so.3.1.0 to your /usr/i486-linuxaout/lib directory.  Although
+oldlibs5: most X software in Slackware has been recompiled to use the new X
+oldlibs5: libraries, there's still plenty of software out there that will
+oldlibs5: require these libraries for compatibility with XFree86 3.1.2.
+oldlibs5:
+oldlibs5: X DOOM requires these libraries.
+oldlibs5:
+oldlibs5:
+oldlibs6: a.out (DLL) format shared libraries for X11R6 binaries.
+oldlibs6:
+oldlibs6: These libraries go in /usr/i486-linuxaout/lib, where they will be used
+oldlibs6: to provide backwards compatibility for dynamically linked a.out format
+oldlibs6: X binaries.  Also includes shared stubs (.sa) for compiling a.out
+oldlibs6: X applications with 'gcc -b i486-linuxaout'.
+oldlibs6:
+oldlibs6:
+oldlibs6:
+oldlibs6:
+oldlibs6:
+x312fnt:  Fonts for the X window system.
+x312fnt:
+x312fnt:  This is the minimal set of fonts needed to run XFree86 3.1.2.
+x312fnt:
+x312fnt:  These fonts are compressed to reduce disk usage.
+x312fnt:
+x312fnt:
+x312fnt:
+x312fnt:
+x312fnt:
+x312fnt:

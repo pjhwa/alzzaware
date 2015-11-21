@@ -1,0 +1,47 @@
+#!/bin/sh
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "XFree86 3.1.2E 업그레이드하기 (XFree86 3.1.2)" \
+       --checklist "다음은 96년 9월 1일 Expired 되는 서버 E 버전입니다.\
+공식버전 3.1.2 에서 지원되지 않거나 문제가 있는 경우에만 사용하십시요.  \
+업그레드 기본 키드 설치 후, 원하시는 서버를 덮어쓰기 하게 됩니다. \
+계속적으로 업그레이드되고 있으므로 ftp.xfree86.org 나 나우누리 리눅스 \
+동호회 자료실에서 다운받아서 사용하시면 됩니다. \
+" 22 70 11 \
+"x312ebin"      "XFree 3.1.2E 업그레이드 바이너리"     "off" \
+"x312elib"	"XFree 3.1.2E 업그레이드 라이브러리"	"off" \
+"x312efnt"	"XFree 3.1.2E 업그레이드 폰트"		"off" \
+"x312eprg"	"XFree 3.1.2E 업그레이드 프로그래밍"	"off" \
+"x312ecfg"	"XFree 3.1.2E 업그레이드 셋팅"		"off" \
+"x312efs"	"XFree 3.1.2E 업그레이드 폰트서버"	"off" \
+"x312edoc"      "XFree 3.1.2E 문서 화일들"              "off" \
+"x312851e"      "XFree 3.1.2E IBM8514 칩 사용 서버"     "off" \
+"x312agxe"      "XFree 3.1.2E AGX 칩 사용 서버"         "off" \
+"x312ma8e"      "XFree 3.1.2E Mach8 칩 사용 서버"       "off" \
+"x312m32e"      "XFree 3.1.2E Mach32 칩 사용 서버"      "off" \
+"x312m64e"      "XFree 3.1.2E Mach64 칩 사용 서버"      "off" \
+"x312mone"      "XFree 3.1.2E Mono 서버"                "off" \
+"x312p9ke"      "XFree 3.1.2E P9000 칩 사용 서버"       "off" \
+"x312s3e"       "XFree 3.1.2E S3 칩 사용 서버"          "off" \
+"x312svge"      "XFree 3.1.2E SVGA 256 서버"            "off" \
+"x312vgae"      "XFree 3.1.2E VGA 16 서버"              "off" \
+"x312w32e"      "XFree 3.1.2E W32 256 서버"             "off" \
+"x312i128"      "XFree 3.1.2E I128 칩 사용 서버"        "off" \
+"x312xtre"      "XFree 3.1.2E 기타 실험 서버"           "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+for PACKAGE in x312ebin x312851e x312agxe x312ma8e x312m32e x312m64e \
+x312mone x312p9ke x312s3e x312svge x312vgae x312w32e x312i128 \
+x312xtre x312edoc x312elib x312efnt x312eman x312eprg \
+x312ecfg x312efs ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

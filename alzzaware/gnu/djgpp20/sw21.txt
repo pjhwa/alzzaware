@@ -1,0 +1,74 @@
+   Project S.W.O.R.D
+   V2.10
+
+   SubSystem : Documentation
+   File      : SW210.TXT
+   Author    : Eric NICOLAS
+   Overview  : Informations and installation of SWORD package
+   UpDate    : Apr 14, 1996
+
+** Copyright (C) 1993-1996 The SWORD Group
+**
+** This file is distributed under the terms listed in the document
+** "copying.en". A copy of "copying.en" should accompany this file.
+** if not, a copy should be available from where this file was obtained.
+** This file may not be distributed without a verbatim copy of "copying.en".
+**
+** This file is distributed WITHOUT ANY WARRANTY; without even the implied
+** warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+   1. What is S.W.O.R.D ?
+   ----------------------
+
+         SWORD means System of Windows for the ORganisation of the Desktop.
+         It is a Graphic User Interface (GUI) made with C++ objects, and
+    it is accessible with Turbo C++ and GNU C++ (djgpp V1 or V2).
+         It provides to the programmer all objects that are necessary to
+    implement a nice and intuitive GUI. With Sword, all your programs will
+    look as nice as NeXT interface. Thanks to object oriented programming,
+    this interface is very easy to program.
+         The basic concepts behind the objects in SWORD are :
+         -> Linked lists (or in fact linked trees)
+         -> Events mecanism
+         -> Efficient way of managing overlapping windows
+
+   2. What's new since 2.00A ?
+   ---------------------------
+
+         There have been a lot of improvements since versions 2.00a. 
+    Some are not visibles (optimization of the overlapping system, ...), 
+    some are visibles. The main obvious new things are : Much more sample 
+    programs, and much more documentation.
+         Also, the toolboxes have been more tested and completed.
+    Particularly the Image toolbox has been greatly improved.
+
+   3. Installation
+   ---------------
+
+         You must have the files :
+                PART1.ZIP
+                PART2.ZIP
+                DOCS.ZIP
+                SW210.TXT (this file)
+         and one of the files :
+                BIN_TC.ZIP
+                BIN_DJ1.ZIP
+                BIN_DJ2.ZIP
+         and the PKUNZIP (or equivalent) unarchiver.
+
+         If you installed previous version V2.00A, it is better to
+    destroy those files before installing the new one, in order to
+    avoid a strange mix between the two version (or to install them
+    in two different directories).
+
+         Create a directory for SWORD on your hard disk (let say C: for
+    example) :
+                MKDIR C:\SWORD
+         Extract all the files from archives :
+                PKUNZIP -d PATH1.ZIP C:\SWORD
+                PKUNZIP -d PATH2.ZIP C:\SWORD
+                ...
+
+         Read the C:\SWORD\DOCS\README.1ST file for more informations.
+

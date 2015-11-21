@@ -1,0 +1,18 @@
+# tagfile for the X applications series
+arena:    OPT
+fvwm95:   OPT
+gs_x11:   REC
+libgr:    REC
+seyon:    OPT
+xv:       OPT
+gchess:   OPT
+xfm:      OPT
+xfileman: OPT
+ghstview: OPT
+x3270:    OPT
+xgames:   OPT
+xspread:  OPT
+xxgdb:    OPT
+gnuplot:  OPT
+xpaint:   OPT
+xfract:   OPT

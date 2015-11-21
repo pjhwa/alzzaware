@@ -1,0 +1,23 @@
+CONTENTS: ncurses svgalib       
+ncurses:  A curses-compatible screen management library with color. (v. 1.9.9e)
+ncurses:
+ncurses:  Documentation and sample programs are included.
+ncurses:
+ncurses:
+ncurses:
+ncurses:
+ncurses:
+ncurses:
+ncurses:
+ncurses:
+svgalib:  Svgalib Super-VGA Graphics Library 1.2.10
+svgalib: 
+svgalib:  A video hardware graphics library, based on VGAlib 1.2. Supports most
+svgalib:  standard and non-standard VGA modes, and Super-VGA modes for Tseng
+svgalib:  ET4000, Cirrus 542x (including 15/16/24 bit modes), Mach32, Trident
+svgalib:  8900c/9000, and other cards. (see the docs in /usr/doc/svgalib)
+svgalib:
+svgalib:
+svgalib:
+svgalib:
+svgalib:

@@ -1,0 +1,23 @@
+CONTENTS: gxxaout objc272       
+gxxaout:  The GNU C++ compiler and support files for the a.out format.
+gxxaout:
+gxxaout:  Compiled with 486 optimizations, but works fine with 386.
+gxxaout:
+gxxaout:  NOTE: Be sure to install at least the following packages besides this
+gxxaout:  one, or you won't be able to compile:  gcc272, binutils, gccaout,
+gxxaout:  libaout, and linuxinc.
+gxxaout:
+gxxaout:
+gxxaout:
+gxxaout:
+objc272:  GNU compiler for the Objective-C language (v. 2.7.2) 
+objc272:
+objc272:  This compiler produces ELF format executables.
+objc272:
+objc272:
+objc272:
+objc272:
+objc272:
+objc272:
+objc272:
+objc272:

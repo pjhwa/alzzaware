@@ -1,0 +1,34 @@
+CONTENTS: bin e2fsbn gzip       
+bin:      Binaries that go in /bin and /usr/bin.
+bin:
+bin:      System utilities and programs, such as GNU fileutils 3.12,
+bin:      (h)elvis 1.8pl3, at-2.9, Dillon's crond 3.0p1, file-3.14c,
+bin:      GNU gawk 3.0, man-1.4d, modules-2.0.0, GNU patch 2.1, GNU sed 2.05, 
+bin:      sharutils-4.1, time-1.6, splitvt-1.6.3, tput-1.0, unarj-230,
+bin:      color-ls-3.12.0.3, and zoo-2.10.
+bin:
+bin:
+bin:
+bin:
+e2fsbn:   Utilities for the second extended file system v. 1.04
+e2fsbn:
+e2fsbn:   Utilities needed to create and maintain ext2 filesystems under Linux.
+e2fsbn:   Included in this package are: chattr, lsattr, mke2fs, mklost+found,
+e2fsbn:   tune2fs, e2fsck, and badblocks. 
+e2fsbn:
+e2fsbn:   These utilities were written by Remy Card (the developer and
+e2fsbn:   maintainer of the ext2 fs) and Theodore T'so.
+e2fsbn:
+e2fsbn:
+e2fsbn:
+gzip:     GNU zip compression utilities. (v. 1.2.4)
+gzip:
+gzip:     Gzip reduces the size of the named files using Lempel-Ziv coding
+gzip:     (LZ77).  Whenever possible, each file is replaced by one with the
+gzip:     extension .gz, while keeping the same ownership modes, access and
+gzip:     modification times.
+gzip:
+gzip:
+gzip:
+gzip:
+gzip:

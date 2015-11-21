@@ -1,0 +1,56 @@
+CONTENTS: xv32_a xvinc32 xvmenus xv32exmp workman  
+xv32_a:   Static libraries for xview3.2p1-X11R6.LinuxELF.2
+xv32_a:
+xv32_a:   Libraries for compiling statically linked Xview applications. Only
+xv32_a:   needed if you are planning to debug Xview applications, or compile
+xv32_a:   them with the -g or -static flags.
+xv32_a:
+xv32_a:
+xv32_a:
+xv32_a:
+xv32_a:
+xv32_a:
+xvinc32:  Include files for xview3.2p1-X11R6.LinuxELF.2
+xvinc32:
+xvinc32:  Include files needed for Xview programming.
+xvinc32:
+xvinc32:
+xvinc32:
+xvinc32:
+xvinc32:
+xvinc32:
+xvinc32:
+xvinc32:
+xvmenus:  Menus and help files for the OpenLook Window Manager.
+xvmenus:
+xvmenus:
+xvmenus:
+xvmenus:
+xvmenus:
+xvmenus:
+xvmenus:
+xvmenus:
+xvmenus:
+xvmenus:
+workman:  WorkMan-1.2.2a
+workman:
+workman:  A graphical tool for playing audio compact discs in a CD-ROM drive.
+workman:  It has most of the features available on standalone CD players, such
+workman:  as a shuffle mode, programmable  playlists, and elapsed/remaining 
+workman:  timers.  Extra features include the ability to store information about
+workman:  CDs in a database and then automatically extract that information when
+workman:  the CD is inserted later.
+workman:
+workman:
+workman:
+xv32exmp: Sample code for XView
+xv32exmp:
+xv32exmp: Sample code that comes with the XView distribution.  Useful as 
+xv32exmp: examples to learn XView programming from, but probably won't
+xv32exmp: compile under Linux without some porting work.
+xv32exmp:
+xv32exmp:
+xv32exmp:
+xv32exmp:
+xv32exmp:
+xv32exmp:

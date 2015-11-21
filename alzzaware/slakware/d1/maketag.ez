@@ -1,0 +1,79 @@
+#!/bin/sh
+add() {
+  for package in $* ; do
+    echo "$package: ADD" >> /tmp/SeTnewtag
+  done
+}
+skip() {
+  for package in $* ; do
+    echo "$package: SKP" >> /tmp/SeTnewtag
+  done
+}
+#item   ####description                                      ###on off ###
+rm -f /tmp/SeTnewtag # empty the return file
+dialog --title "SELECTING SOFTWARE FROM SERIES D (PROGRAM DEVELOPMENT)" \
+       --checklist "Please select the components you wish to install \
+from series D. Use the \
+UP/DOWN keys to scroll through the list, and the SPACE key to select \
+the items you wish to install. Recommended components have \
+already been selected for you, but you may unselect them if you wish. \
+Press ENTER when you are \
+done." 22 70 11 \
+"c" "GNU C/C++ compiler and support utilities" "on" \
+"objc272" "GNU Objective-C compiler (needs 'c')" "off" \
+"caout" "GNU C/C++ for the old a.out format" "off" \
+"objcaout" "GNU Objective-C for old a.out format" "off" \
+"lexyacc" "Parser generator/Lexical analyzer utilities" "on" \
+"g77" "GNU Fortran-77 compiler" "off" \
+"gdb" "The GNU debugger" "on" \
+"gcl" "GNU Common LISP" "off" \
+"m4" "GNU m4 1.4 (used by sendmail)" "on" \
+"man" "Programming-related man pages (man2 and man3)" "off" \
+"ncurses" "A curses-compatible library" "on" \
+"p2c" "A Pascal to C translator 1.19" "off" \
+"perl" "Larry Wall's interpreted systems language" "on" \
+"rcs" "GNU revision control system" "on" \
+"svgalib" "Svgalib Super-VGA Graphics Library" "on" \
+"strace" "Traces program execution" "on" \
+"terminfo" "Complete /usr/lib/terminfo database" "off" \
+"javajdk"  "Java Development Kit v 1.0.1" "off" \
+2> /tmp/SeTpkgs
+if [ $? = 1 -o $? = 255 ]; then
+ rm -f /tmp/SeTpkgs
+ exit
+fi
+cat /dev/null > /tmp/SeTnewtag
+if fgrep \"c\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null; then
+  add binutils gcc272 gxx272 gmake libc libgxx libcinfo linuxinc pmake
+else
+  skip binutils gcc272 gxx272 gmake libc libgxx libcinfo linuxinc pmake
+fi
+if fgrep \"caout\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null; then
+  add gccaout gxxaout libaout tools
+else
+  skip gccaout gxxaout libaout tools
+fi
+if fgrep \"perl\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null; then
+ add perl1 perl2
+else
+ skip perl1 perl2
+fi
+if fgrep \"lexyacc\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null; then
+ add bison byacc flex
+else
+ skip bison byacc flex
+fi
+if fgrep \"man\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null; then
+  add man2 man3
+else
+  skip man2 man3
+fi
+for PACKAGE in objc272 objcaout p2c gcl gdb g77 ncurses strace svgalib \
+rcs m4 terminfo javajdk ; do
+ if fgrep \"$PACKAGE\" /tmp/SeTpkgs 1> /dev/null 2> /dev/null ; then
+  echo "$PACKAGE: ADD" >> /tmp/SeTnewtag
+ else
+  echo "$PACKAGE: SKP" >> /tmp/SeTnewtag
+ fi
+done
+rm -f /tmp/SeTpkgs

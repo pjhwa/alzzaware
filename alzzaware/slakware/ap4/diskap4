@@ -1,0 +1,45 @@
+CONTENTS: jed manpgs mc sc       
+jed:      John E. Davis's JED 0.97-14 editor.
+jed:
+jed:      JED is an extremely powerful but small emacs programmer's editor that
+jed:      is extensible in a C-like macro language and is able to perform color
+jed:      syntax highlighting. Among the many features:
+jed:      Emacs, wordstar, EDT emulation;
+jed:      C, Fortran, TeX, text editing modes;  Full undo;
+jed:      GNU Emacs compatible info reader, and lots more.
+jed:
+jed:      8 bit clean, so you can even edit binary files!  
+jed:
+manpgs:   Man-pages 1.11 (on-line Linux documentation)
+manpgs:
+manpgs:   Contributors to man-pages 1.11 include:  
+manpgs:   Alain Knaff, Alan Cox, Andries E. Brouwer, Arnt Gulbrandsen, 
+manpgs:   Bjorn Ekwall, Christopher Oliver, Dan Miner, Daniel Quinlan, 
+manpgs:   Darren Senn, David Metcalfe, Drew Eckhardt, Giorgio Ciucci, 
+manpgs:   Graeme W. Wilford, Ian Jackson, Jens Schweikhardt, Jim Van Zandt, 
+manpgs:   Jochen Hein, Luigi P. Bai, Mark D. Roth, Michael Elizabeth Chastain,
+manpgs:   Michael Haardt, Michael Shields, Mike Battersby, Mitchum DSouza, 
+manpgs:   Nicolai Langfeldt, Niel Charley, Rik Faith, Robert K. Nichols,
+manpgs:   Steven Greenland, Thomas Koenig, Ulrich Drepper, Urs Thuermann
+mc:       Midnight Commander version 3.2.1.
+mc:
+mc:       The Midnight Commander is a Norton Commander clone, a program that
+mc:       manipulates and manages files and directories. Useful, fast, and has
+mc:       color displays on the Linux console.  Mouse support is provided if
+mc:       you run the gpm mouse server.  This program requires the terminal
+mc:       description files in /usr/lib/terminfo, which can be found in
+mc:       ncurses.tgz or hdsetup.tgz (the Slackware setup script package).
+mc:       mc was written by Miguel de Icaza and Mauricio Plaza.
+mc:
+mc:
+sc:       The 'sc' spreadsheet. (v. 6.21)
+sc:
+sc:       This is a simple spreadsheet program.
+sc:
+sc:
+sc:
+sc:
+sc:
+sc:
+sc:
+sc:

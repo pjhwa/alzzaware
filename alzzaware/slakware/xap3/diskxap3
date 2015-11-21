@@ -1,0 +1,56 @@
+CONTENTS: fvwm95 xgames xfileman xspread xfract      
+fvwm95:   fvwm95-2.0.41f
+fvwm95:
+fvwm95:   This is fvwm-2.0.41 (with the pixmap cache patch) hacked for a look
+fvwm95:   and feel similar to Windows95.  For more information see the Fvwm-95
+fvwm95:   home page at this location: http://ltiwww.epfl.ch/~barth/fvwm95.html
+fvwm95:
+fvwm95:   NOTE : If you wanna use this, do it like below yourself!
+fvwm95:
+fvwm95:    cd /var/X11R6/lib/xinit ; ln -sf xinitrc.fvwm95-2 xinitrc
+fvwm95:
+fvwm95:
+xgames:   A collection of games for X:
+xgames:
+xgames:   maze spider xhextris xlander xmahjongg xmenu xroach xtetris xvier
+xgames:
+xgames:
+xgames:
+xgames:
+xgames:
+xgames:
+xgames:
+xgames:
+xspread:  A spreadsheet for the X window system, version 2.1.
+xspread:
+xspread:
+xspread:
+xspread:
+xspread:
+xspread:
+xspread:
+xspread:
+xspread:
+xspread:
+xfract:   xfractint-3.00
+xfract:
+xfract:   Xfractint draws a wide variety of fractals. Xfractint is a port of
+xfract:   the DOS program Fractint.  The primary original authors of Fractint
+xfract:   are Bert Tyler, Timothy Wegner, Mark Peterson, and Pieter 
+xfract:   Branderhorst.  The Xfractint port is by Ken Shirriff.
+xfract:
+xfract:
+xfract:
+xfract:
+xfract:
+xfileman: xfilemanager 0.5
+xfileman:
+xfileman: Ove Kalkan's xfilemanager - one of the file managers for X included
+xfileman: with the Slackware release. xfilemanager is an X11 based Unix
+xfileman: file manager with Drag'n Drop abilities, full color displays, and a
+xfileman: slackful logo.
+xfileman:
+xfileman:
+xfileman:
+xfileman:
+xfileman:
