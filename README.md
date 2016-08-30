@@ -18,3 +18,5 @@ ALZZAWARE is the first Korean Linux Distribution based on Slackware 3.1.0 in Sep
 - JaeHwa Park
 - KyungHo Ryu
 - JeongHoon Lee 
+
+#### Special Thanks to Byeongchan Kim <redhands@> who was dedicated to build the AlzzaLinux with ManYong Lee for many years since 1997.
